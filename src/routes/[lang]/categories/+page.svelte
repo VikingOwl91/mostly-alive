@@ -17,7 +17,12 @@
 		Clock
 	} from '@lucide/svelte';
 
+	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { buildCategoriesIndexSeo } from '$lib/seo';
+
 	let { data } = $props();
+
+	const seo = $derived(buildCategoriesIndexSeo(data.lang));
 
 	const iconMap: Record<string, any> = {
 		CloudLightning,
@@ -42,9 +47,7 @@
 	);
 </script>
 
-<svelte:head>
-	<title>{data.lang === 'de' ? 'Kategorien — Mostly Alive' : 'Categories — Mostly Alive'}</title>
-</svelte:head>
+<SeoHead {seo} />
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
 	<!-- Page Header -->

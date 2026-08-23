@@ -13,23 +13,15 @@
 		BookOpen
 	} from '@lucide/svelte';
 	import EmergencyNumbersWidget from '$lib/components/EmergencyNumbersWidget.svelte';
+	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { buildEmergencySeo } from '$lib/seo';
 
 	let { data } = $props();
+
+	const seo = $derived(buildEmergencySeo(data.lang));
 </script>
 
-<svelte:head>
-	<title
-		>{data.lang === 'de'
-			? 'NOTFALL-SCHNELLHILFE — Mostly Alive'
-			: 'EMERGENCY FAST SCAN — Mostly Alive'}</title
-	>
-	<meta
-		name="description"
-		content={data.lang === 'de'
-			? 'Kompakte, schnörkellose Sofortmaßnahmen für akute Lebensgefahr.'
-			: 'Ultra-fast, zero-fluff immediate actions for life-threatening emergencies.'}
-	/>
-</svelte:head>
+<SeoHead {seo} />
 
 <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 space-y-10">
 	<!-- High Alert Header -->

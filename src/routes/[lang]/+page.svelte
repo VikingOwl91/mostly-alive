@@ -20,8 +20,12 @@
 		BatteryWarning
 	} from '@lucide/svelte';
 	import ThreatGauge from '$lib/components/ThreatGauge.svelte';
+	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { buildHomepageSeo } from '$lib/seo';
 
 	let { data } = $props();
+
+	const seo = $derived(buildHomepageSeo(data.lang));
 
 	const iconMap: Record<string, any> = {
 		CloudLightning,
@@ -39,19 +43,7 @@
 	};
 </script>
 
-<svelte:head>
-	<title
-		>{data.lang === 'de'
-			? 'Mostly Alive — Praktischer Überlebensleitfaden'
-			: 'Mostly Alive — A practical guide to remaining so'}</title
-	>
-	<meta
-		name="description"
-		content={data.lang === 'de'
-			? 'Ein quellenbasiertes, trocken humorvolles Sicherheitskompendium für seltene, aber lebenswichtige Alltagssituationen.'
-			: 'An open-source, source-backed safety knowledge base teaching rare-but-important survival knowledge through dry, memorable humor.'}
-	/>
-</svelte:head>
+<SeoHead {seo} />
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 space-y-16">
 	<!-- Hero Section: LEARN Focus -->

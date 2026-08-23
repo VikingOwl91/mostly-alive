@@ -2,9 +2,13 @@
 	import { Dices, ArrowRight, RefreshCw, Sparkles, ShieldAlert, Brain } from '@lucide/svelte';
 	import ThreatGauge from '$lib/components/ThreatGauge.svelte';
 	import MemoryHook from '$lib/components/MemoryHook.svelte';
+	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { buildRandomSeo } from '$lib/seo';
 	import { invalidateAll } from '$app/navigation';
 
 	let { data } = $props();
+
+	const seo = $derived(buildRandomSeo(data.lang));
 
 	let isRolling = $state(false);
 
@@ -17,14 +21,7 @@
 	}
 </script>
 
-<svelte:head>
-	<title
-		>{data.lang === 'de'
-			? 'Zufallseintrag — Einprägsames Überlebenswissen — Mostly Alive'
-			: 'Random Entry — Potentially Life-Saving Knowledge — Mostly Alive'}</title
-	>
-	<meta name="robots" content="noindex, follow" />
-</svelte:head>
+<SeoHead {seo} />
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16 space-y-8">
 	<!-- Hero / Randomizer controls -->

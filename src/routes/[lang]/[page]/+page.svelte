@@ -1,8 +1,11 @@
 <script lang="ts">
 	import { ArrowLeft, BookOpen, Calendar, ShieldCheck } from '@lucide/svelte';
+	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { buildStaticPageSeo } from '$lib/seo';
 
 	let { data } = $props();
 	let page = $derived(data.page);
+	const seo = $derived(buildStaticPageSeo(page, data.lang));
 
 	const trustCenterLinks = [
 		{ slug: 'methodology', label: { en: 'Methodology', de: 'Methodik' } },
@@ -13,12 +16,7 @@
 	];
 </script>
 
-<svelte:head>
-	<title>{page.title} — Mostly Alive</title>
-	{#if page.description}
-		<meta name="description" content={page.description} />
-	{/if}
-</svelte:head>
+<SeoHead {seo} />
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16 space-y-8">
 	<!-- Navigation -->

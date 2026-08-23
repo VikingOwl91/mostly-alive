@@ -17,9 +17,12 @@
 	import SourceInspector from '$lib/components/SourceInspector.svelte';
 	import EmergencyNumbersWidget from '$lib/components/EmergencyNumbersWidget.svelte';
 	import RegionalVariationNote from '$lib/components/RegionalVariationNote.svelte';
+	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { buildGuideSeo } from '$lib/seo';
 
 	let { data } = $props();
 	let article = $derived(data.article);
+	const seo = $derived(buildGuideSeo(article, data.lang));
 
 	let copied = $state(false);
 
@@ -38,10 +41,7 @@
 	}
 </script>
 
-<svelte:head>
-	<title>{article.title} — Mostly Alive</title>
-	<meta name="description" content={article.subtitle || article.memory_hook} />
-</svelte:head>
+<SeoHead {seo} />
 
 <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 space-y-8">
 	<!-- Navigation & Tools Bar -->

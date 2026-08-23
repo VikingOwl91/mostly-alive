@@ -1,9 +1,13 @@
 <script lang="ts">
 	import { BookOpen, Filter, ArrowRight, ShieldCheck, AlertTriangle } from '@lucide/svelte';
 	import ThreatGauge from '$lib/components/ThreatGauge.svelte';
+	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { buildHandbookSeo } from '$lib/seo';
 	import type { Category } from '$lib/types/content';
 
 	let { data } = $props();
+
+	const seo = $derived(buildHandbookSeo(data.lang));
 
 	let selectedCategory: string = $state('all');
 	let selectedThreat: string = $state('all');
@@ -20,11 +24,7 @@
 	);
 </script>
 
-<svelte:head>
-	<title
-		>{data.lang === 'de' ? 'Alle Einträge — Mostly Alive' : 'Guide Directory — Mostly Alive'}</title
-	>
-</svelte:head>
+<SeoHead {seo} />
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
 	<!-- Page Header -->

@@ -1,13 +1,15 @@
 <script lang="ts">
 	import { ArrowLeft, ArrowRight, ShieldCheck, AlertTriangle } from '@lucide/svelte';
 	import ThreatGauge from '$lib/components/ThreatGauge.svelte';
+	import SeoHead from '$lib/components/SeoHead.svelte';
+	import { buildCategorySeo } from '$lib/seo';
 
 	let { data } = $props();
+
+	const seo = $derived(buildCategorySeo(data.category, data.lang));
 </script>
 
-<svelte:head>
-	<title>{data.categoryInfo.title[data.lang]} — Mostly Alive</title>
-</svelte:head>
+<SeoHead {seo} />
 
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
 	<!-- Navigation -->

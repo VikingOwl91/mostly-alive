@@ -66,7 +66,7 @@
 							? 'authoritative source'
 							: 'authoritative sources'}
 					{#if reviewedAt}
-						• {lang === 'de' ? 'Geprüft:' : 'Reviewed:'} {reviewedAt}
+						• {lang === 'de' ? 'Geprüft:' : 'Reviewed:'} <time datetime={reviewedAt}>{reviewedAt}</time>
 					{/if}
 				</p>
 			</div>
@@ -90,11 +90,25 @@
 			>
 				<div class="flex items-center gap-2">
 					<Calendar class="w-3.5 h-3.5 text-slate-400" />
-					<span>{lang === 'de' ? 'Stand:' : 'Reviewed:'} {reviewedAt || 'N/A'}</span>
+					<span
+						>{lang === 'de' ? 'Stand:' : 'Reviewed:'}
+						{#if reviewedAt}
+							<time datetime={reviewedAt}>{reviewedAt}</time>
+						{:else}
+							N/A
+						{/if}</span
+					>
 				</div>
 				<div class="flex items-center gap-2">
 					<Calendar class="w-3.5 h-3.5 text-slate-400" />
-					<span>{lang === 'de' ? 'Fällig:' : 'Due:'} {reviewDue || 'N/A'}</span>
+					<span
+						>{lang === 'de' ? 'Fällig:' : 'Due:'}
+						{#if reviewDue}
+							<time datetime={reviewDue}>{reviewDue}</time>
+						{:else}
+							N/A
+						{/if}</span
+					>
 				</div>
 				<div class="flex items-center gap-2">
 					<UserCheck class="w-3.5 h-3.5 text-slate-400" />
