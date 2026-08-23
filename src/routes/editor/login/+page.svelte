@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>Restricted Access — Mostly Alive Web Studio</title>
+	<meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
 <div

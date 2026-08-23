@@ -23,6 +23,7 @@
 			? 'Zufallseintrag — Einprägsames Überlebenswissen — Mostly Alive'
 			: 'Random Entry — Potentially Life-Saving Knowledge — Mostly Alive'}</title
 	>
+	<meta name="robots" content="noindex, follow" />
 </svelte:head>
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16 space-y-8">

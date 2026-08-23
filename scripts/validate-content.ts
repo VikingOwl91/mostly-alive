@@ -4,8 +4,10 @@ import matter from 'gray-matter';
 import {
 	ArticleFrontmatterSchema,
 	PageFrontmatterSchema,
+	CATEGORIES,
 	type ArticleFrontmatter
 } from '../src/lib/types/content.js';
+import { SITE_URL } from '../src/lib/seo.js';
 
 const CONTENT_DIR = path.resolve('content');
 
@@ -14,6 +16,7 @@ interface ValidationReport {
 	pageCount: number;
 	reviewedCount: number;
 	draftCount: number;
+	sitemapUrlsCount: number;
 	errors: string[];
 	warnings: string[];
 }
@@ -24,6 +27,7 @@ function runValidation(): ValidationReport {
 		pageCount: 0,
 		reviewedCount: 0,
 		draftCount: 0,
+		sitemapUrlsCount: 0,
 		errors: [],
 		warnings: []
 	};
@@ -34,7 +38,7 @@ function runValidation(): ValidationReport {
 		de: new Map()
 	};
 
-	console.log('🔍 Starting Mostly Alive Content, Provenance & Action-Hierarchy Validation...\n');
+	console.log('🔍 Starting Mostly Alive Content, Provenance & Technical SEO Validation...\n');
 
 	// 1. Validate Articles
 	for (const lang of langs) {
@@ -174,6 +178,11 @@ function runValidation(): ValidationReport {
 	}
 
 	// 2. Validate Static Pages
+	const staticPagesByLang: Record<'en' | 'de', Set<string>> = {
+		en: new Set(),
+		de: new Set()
+	};
+
 	for (const lang of langs) {
 		const pagesDir = path.join(CONTENT_DIR, 'pages', lang);
 		if (!fs.existsSync(pagesDir)) continue;
@@ -185,6 +194,9 @@ function runValidation(): ValidationReport {
 			const content = fs.readFileSync(filePath, 'utf-8');
 			const parsed = matter(content);
 
+			const fileSlug = file.replace(/\.md$/, '');
+			staticPagesByLang[lang].add(fileSlug);
+
 			const result = PageFrontmatterSchema.safeParse(parsed.data);
 			if (!result.success) {
 				report.errors.push(
@@ -192,6 +204,63 @@ function runValidation(): ValidationReport {
 						JSON.stringify(result.error.format(), null, 2)
 				);
 			}
+		}
+	}
+
+	// 3. Validate Robots.txt & Technical SEO Invariants
+	const robotsPath = path.resolve('static/robots.txt');
+	if (!fs.existsSync(robotsPath)) {
+		report.errors.push('Missing static/robots.txt file.');
+	} else {
+		const robotsContent = fs.readFileSync(robotsPath, 'utf-8');
+		if (!robotsContent.includes('User-agent: *')) {
+			report.errors.push('robots.txt missing "User-agent: *" directive.');
+		}
+		if (!robotsContent.includes('Disallow: /editor/')) {
+			report.errors.push('robots.txt missing "Disallow: /editor/" directive.');
+		}
+		if (!robotsContent.includes('Disallow: /api/')) {
+			report.errors.push('robots.txt missing "Disallow: /api/" directive.');
+		}
+		if (!robotsContent.includes('Sitemap:')) {
+			report.errors.push('robots.txt missing "Sitemap:" reference.');
+		}
+	}
+
+	// 4. Validate Sitemap Coverage & Consistency
+	const sitemapUrls = new Set<string>();
+
+	// Add homepages, guides, categories, emergency
+	for (const lang of langs) {
+		sitemapUrls.add(`${SITE_URL}/${lang}`);
+		sitemapUrls.add(`${SITE_URL}/${lang}/guide`);
+		sitemapUrls.add(`${SITE_URL}/${lang}/categories`);
+		sitemapUrls.add(`${SITE_URL}/${lang}/emergency`);
+
+		for (const cat of Object.values(CATEGORIES)) {
+			sitemapUrls.add(`${SITE_URL}/${lang}/categories/${cat.id}`);
+		}
+
+		for (const slug of articlesByLang[lang].keys()) {
+			sitemapUrls.add(`${SITE_URL}/${lang}/guide/${slug}`);
+		}
+
+		for (const pageSlug of staticPagesByLang[lang]) {
+			sitemapUrls.add(`${SITE_URL}/${lang}/${pageSlug}`);
+		}
+	}
+
+	report.sitemapUrlsCount = sitemapUrls.size;
+
+	// Ensure no illegal routes are in sitemap
+	for (const url of sitemapUrls) {
+		const pathname = new URL(url).pathname;
+		if (
+			pathname.startsWith('/editor') ||
+			pathname.startsWith('/api') ||
+			pathname.includes('/random')
+		) {
+			report.errors.push(`Illegal route detected in sitemap index calculation: ${url}`);
 		}
 	}
 
@@ -207,6 +276,7 @@ console.log(`- Total Articles Scanned: ${result.articleCount}`);
 console.log(`  • Reviewed & Sourced:   ${result.reviewedCount}`);
 console.log(`  • Draft / In Review:    ${result.draftCount}`);
 console.log(`- Total Static Pages:     ${result.pageCount}`);
+console.log(`- Total Indexable URLs:   ${result.sitemapUrlsCount}`);
 console.log(`- Warnings:               ${result.warnings.length}`);
 console.log(`- Errors:                 ${result.errors.length}`);
 console.log('--------------------------------------------------\n');
@@ -223,5 +293,5 @@ if (result.errors.length > 0) {
 	console.log('');
 	process.exit(1);
 } else {
-	console.log('✅ Content & Provenance validation passed successfully!\n');
+	console.log('✅ Content, Provenance & SEO validation passed successfully!\n');
 }

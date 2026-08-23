@@ -3,6 +3,12 @@ import { verifySession, isUserAuthorized, getSecret } from '$lib/server/auth';
 
 export const handle: Handle = async ({ event, resolve }) => {
 	const pathname = event.url.pathname;
+	const lang = pathname.startsWith('/de') ? 'de' : 'en';
+
+	const resolveWithLang = () =>
+		resolve(event, {
+			transformPageChunk: ({ html }) => html.replace('%lang%', lang)
+		});
 
 	// Enforce authentication & authorization on all editor routes
 	if (pathname.startsWith('/editor')) {
@@ -13,7 +19,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 			pathname === '/editor/login';
 
 		if (isAuthRoute) {
-			return resolve(event);
+			return resolveWithLang();
 		}
 
 		const sessionSecret =
@@ -60,5 +66,5 @@ export const handle: Handle = async ({ event, resolve }) => {
 		event.locals.user = authorizedSession;
 	}
 
-	return resolve(event);
+	return resolveWithLang();
 };

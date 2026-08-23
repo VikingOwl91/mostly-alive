@@ -404,6 +404,7 @@
 
 <svelte:head>
 	<title>Web Studio Editor — Mostly Alive</title>
+	<meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
 <div class="min-h-screen bg-[#07090e] text-slate-100 flex flex-col font-sans">
