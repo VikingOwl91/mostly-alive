@@ -7,8 +7,8 @@ describe('SEO Pass 2C — Related Guides & Internal Linkage', () => {
 
 	describe('Related Guides Ranking & Link Invariants', () => {
 		it('should generate exactly 3 deterministic related guides for all 100 articles without self-links', () => {
-			expect(enArticles.length).toBe(50);
-			expect(deArticles.length).toBe(50);
+			expect(enArticles.length).toBe(51);
+			expect(deArticles.length).toBe(51);
 
 			for (const article of enArticles) {
 				const related = getRelatedArticles(article, 'en', 3);

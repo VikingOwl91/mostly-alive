@@ -3,9 +3,9 @@ import { loadAllArticles, getArticle } from '../src/lib/server/content';
 import { ArticleFrontmatterSchema, type ImmediateActionStep } from '../src/lib/types/content';
 
 describe('Content Schema & Action Hierarchy Integrity', () => {
-	it('should load all 50 survival guides in English', () => {
+	it('should load all 51 survival guides in English', () => {
 		const articles = loadAllArticles('en');
-		expect(articles.length).toBe(50);
+		expect(articles.length).toBe(51);
 		for (const article of articles) {
 			const parsed = ArticleFrontmatterSchema.safeParse(article);
 			expect(parsed.success).toBe(true);
@@ -15,9 +15,9 @@ describe('Content Schema & Action Hierarchy Integrity', () => {
 		}
 	});
 
-	it('should load all 50 survival guides in German', () => {
+	it('should load all 51 survival guides in German', () => {
 		const articles = loadAllArticles('de');
-		expect(articles.length).toBe(50);
+		expect(articles.length).toBe(51);
 		for (const article of articles) {
 			const parsed = ArticleFrontmatterSchema.safeParse(article);
 			expect(parsed.success).toBe(true);
@@ -34,8 +34,8 @@ describe('Content Schema & Action Hierarchy Integrity', () => {
 		const enMap = new Map(enArticles.map((a) => [a.slug, a]));
 		const deMap = new Map(deArticles.map((a) => [a.slug, a]));
 
-		expect(enMap.size).toBe(50);
-		expect(deMap.size).toBe(50);
+		expect(enMap.size).toBe(51);
+		expect(deMap.size).toBe(51);
 
 		for (const [slug, enArticle] of enMap) {
 			const deArticle = deMap.get(slug);

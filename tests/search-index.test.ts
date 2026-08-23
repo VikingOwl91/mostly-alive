@@ -99,7 +99,13 @@ describe('Search Index Engine Regression Suite', () => {
 			{
 				query: 'heat exhaustion electrolytes',
 				expectedSlug: 'heat-cramps-and-exhaustion-escalating'
-			}
+			},
+			{ query: 'crocodile', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'alligator', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'crocodile attack', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'alligator attack', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'crocodile bite', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'zigzag crocodile', expectedSlug: 'large-reptile-has-decided-you-are-relevant' }
 		];
 
 		for (const { query, expectedSlug } of requiredQueries) {
@@ -192,7 +198,12 @@ describe('Search Index Engine Regression Suite', () => {
 			{ query: 'rolltreppe not aus', expectedSlug: 'escalator-currently-eating-something' },
 			{ query: 'offener pneumothorax', expectedSlug: 'open-chest-wound-sucking-sound' },
 			{ query: 'erfrierung wasserbad', expectedSlug: 'frostbite-turning-fingers-waxy-and-solid' },
-			{ query: 'hitzeerschoepfung', expectedSlug: 'heat-cramps-and-exhaustion-escalating' }
+			{ query: 'hitzeerschoepfung', expectedSlug: 'heat-cramps-and-exhaustion-escalating' },
+			{ query: 'krokodil', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'alligator', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'krokodilangriff', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'krokodilbiss', expectedSlug: 'large-reptile-has-decided-you-are-relevant' },
+			{ query: 'zickzack krokodil', expectedSlug: 'large-reptile-has-decided-you-are-relevant' }
 		];
 
 		for (const { query, expectedSlug } of requiredQueries) {

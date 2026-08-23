@@ -9,10 +9,11 @@ import {
 } from '../src/lib/server/content';
 
 describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
-	it('should contain all 50 EN articles without filesystem access', () => {
+	it('should contain all 51 EN articles without filesystem access', () => {
 		const articles = loadAllArticles('en');
-		expect(articles.length).toBe(50);
+		expect(articles.length).toBe(51);
 		const slugs = articles.map((a) => a.slug);
+		expect(slugs).toContain('large-reptile-has-decided-you-are-relevant');
 		expect(slugs).toContain('person-currently-choking');
 		expect(slugs).toContain('hair-suddenly-vertical');
 		expect(slugs).toContain('oil-currently-on-fire');
@@ -55,10 +56,11 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(slugs).toContain('heat-cramps-and-exhaustion-escalating');
 	});
 
-	it('should contain all 50 DE articles without filesystem access', () => {
+	it('should contain all 51 DE articles without filesystem access', () => {
 		const articles = loadAllArticles('de');
-		expect(articles.length).toBe(50);
+		expect(articles.length).toBe(51);
 		const slugs = articles.map((a) => a.slug);
+		expect(slugs).toContain('large-reptile-has-decided-you-are-relevant');
 		expect(slugs).toContain('person-currently-choking');
 		expect(slugs).toContain('hair-suddenly-vertical');
 		expect(slugs).toContain('oil-currently-on-fire');

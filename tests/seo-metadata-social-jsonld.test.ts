@@ -50,9 +50,9 @@ describe('SEO Pass 2B — Metadata, Social Discovery & Structured Trust Data', (
 	});
 
 	describe('Guide Articles Metadata & Article JSON-LD', () => {
-		it('should generate Article JSON-LD with truthful dateModified and citations for all 100 articles', () => {
-			expect(enArticles.length).toBe(50);
-			expect(deArticles.length).toBe(50);
+		it('should generate Article JSON-LD with truthful dateModified and citations for all 102 articles', () => {
+			expect(enArticles.length).toBe(51);
+			expect(deArticles.length).toBe(51);
 
 			for (const article of [...enArticles, ...deArticles]) {
 				const seo = buildGuideSeo(article, article.lang);

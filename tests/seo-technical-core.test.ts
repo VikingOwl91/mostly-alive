@@ -102,8 +102,8 @@ describe('SEO Technical Core — Pass 2A', () => {
 		it('should cover all published guide articles in both EN and DE', () => {
 			const enArticles = loadAllArticles('en');
 			const deArticles = loadAllArticles('de');
-			expect(enArticles.length).toBe(50);
-			expect(deArticles.length).toBe(50);
+			expect(enArticles.length).toBe(51);
+			expect(deArticles.length).toBe(51);
 		});
 
 		it('should include all populated categories and static Trust Center pages', () => {
