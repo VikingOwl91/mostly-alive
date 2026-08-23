@@ -1,70 +1,108 @@
 ---
-slug: 'tooth-violently-evicted-from-mouth'
-title: 'Tooth Violently Evicted from Mouth'
-subtitle: 'Permanent tooth avulsion protocol, periodontal ligament preservation, and the 60-minute replantation window'
-category: 'medical'
+slug: tooth-violently-evicted-from-mouth
+title: Tooth Violently Evicted from Mouth
+subtitle: >-
+  Permanent tooth avulsion protocol, periodontal ligament preservation, and the
+  60-minute replantation window
+category: medical
 tags:
-  - 'dental'
-  - 'tooth'
-  - 'trauma'
-  - 'avulsion'
-  - 'first-aid'
-  - 'medical'
+  - dental
+  - tooth
+  - trauma
+  - avulsion
+  - first-aid
+  - medical
 aliases:
-  - 'knocked out tooth'
-  - 'tooth knocked out'
-  - 'tooth fell out after hit'
-  - 'how to save knocked out tooth'
-  - 'tooth in milk'
-  - 'dental trauma avulsion'
-severity: 'serious'
-urgency: 'immediate'
+  - knocked out tooth
+  - tooth knocked out
+  - tooth fell out after hit
+  - how to save knocked out tooth
+  - tooth in milk
+  - dental trauma avulsion
+severity: serious
+urgency: immediate
 threat_level: 3
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Touch only the white crown, rinse gently without scrubbing, store in cold milk, and see a dentist in under 60 minutes.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Touch only the white crown, rinse gently without scrubbing, store in cold
+  milk, and see a dentist in under 60 minutes.
 memorable_facts:
-  - 'THE 60-MINUTE PERIODONTAL CLOCK: The root of an avulsed tooth is coated with microscopic living periodontal ligament (PDL) cells. If allowed to dry out in air, PDL cells die within 30 to 60 minutes, leading to permanent root resorption and tooth loss. Submerged in cold milk or saline, cells remain viable for hours.'
-  - 'NEVER SCRUB THE ROOT: The microscopic tissue strands clinging to the yellowish root are living cells, not dirt. Scrubbing, scraping, or disinfecting the root with alcohol strips away the periodontal ligament, guaranteeing that the tooth cannot reattach to the jawbone.'
+  - >-
+    THE 60-MINUTE PERIODONTAL CLOCK: The root of an avulsed tooth is coated with
+    microscopic living periodontal ligament (PDL) cells. If allowed to dry out
+    in air, PDL cells die within 30 to 60 minutes, leading to permanent root
+    resorption and tooth loss. Submerged in cold milk or saline, cells remain
+    viable for hours.
+  - >-
+    NEVER SCRUB THE ROOT: The microscopic tissue strands clinging to the
+    yellowish root are living cells, not dirt. Scrubbing, scraping, or
+    disinfecting the root with alcohol strips away the periodontal ligament,
+    guaranteeing that the tooth cannot reattach to the jawbone.
 immediate_action:
-  - '1. VERIFY IT IS A PERMANENT (ADULT) TOOTH: Never attempt to replant a primary (baby) tooth; replanting baby teeth damages the developing permanent tooth bud beneath the gumline.'
-  - '2. HANDLE ONLY BY THE WHITE ENAMEL CROWN: Never touch the yellowish root or scrape the tissue clinging to it. The root is coated with fragile living periodontal ligament (PDL) cells.'
-  - '3. RINSE GENTLY UNDER COLD WATER FOR 10 SECONDS IF DIRTY: If the tooth is visibly dirty, rinse it very briefly under cold running water or saline without scrubbing or brushing.'
-  - '4. BEST OPTION: REPLANT IMMEDIATELY INTO THE SOCKET: Gently guide the tooth back into its bleeding socket in the correct orientation. Have the person bite down gently on a clean gauze pad, handkerchief, or tea bag to keep it stabilized.'
-  - '5. SECOND BEST OPTION: STORE IN COLD MILK OR TOOTH PRESERVATION FLUID: If replantation is impossible, immediately submerge the tooth in cold cow’s milk, sterile saline, or a specialized tooth rescue box (Dentosafe / Hanks Balanced Salt Solution). In adults with zero choking risk, storing in the cheek pouch against saliva is acceptable.'
-  - '6. SEE A DENTIST OR ORAL SURGEON WITHIN 60 MINUTES: Replantation success plummets dramatically if the tooth remains out of the socket beyond 60 minutes.'
+  - title: HANDLE TOOTH BY CROWN ONLY (NEVER TOUCH ROOT)
+    instruction: >-
+      Touch only the enamel chewing surface. The root is lined with living
+      periodontal ligament cells essential for replantation.
+  - title: GENTLE COLD MILK / SALINE RINSE IF SOILED
+    instruction: >-
+      Rinse max 10 seconds in cold milk or sterile saline; never scrub, soap,
+      dry, or wrap in tissue paper.
+  - title: RE-IMPLANT IMMEDIATELY OR STORE IN DENTOSAFE / COLD MILK
+    instruction: >-
+      Push back into empty tooth socket and bite gently on gauze, or store in
+      cell-culture Dentosafe rescue box or cold whole milk.
+  - title: RUSH TO DENTIST WITHIN 30 TO 60 MINUTES
+    instruction: >-
+      Periodontal root cells die rapidly; replantation success drops sharply
+      after 60 minutes of dry time.
 do_not:
-  - 'Never touch, scrub, scrape, or brush the root of the tooth (scraped roots destroy PDL cells and cause total graft failure).'
-  - 'Never store the knocked-out tooth dry in a tissue, napkin, or pocket (air exposure kills periodontal ligament cells in minutes).'
-  - 'Never store the tooth in plain tap water for extended periods (hypotonic water lyses cell membranes via osmotic rupture).'
-  - 'Never attempt to replant a baby (milk) tooth in children under 6–7 years old.'
+  - >-
+    Never touch, scrub, scrape, or brush the root of the tooth (scraped roots
+    destroy PDL cells and cause total graft failure).
+  - >-
+    Never store the knocked-out tooth dry in a tissue, napkin, or pocket (air
+    exposure kills periodontal ligament cells in minutes).
+  - >-
+    Never store the tooth in plain tap water for extended periods (hypotonic
+    water lyses cell membranes via osmotic rupture).
+  - >-
+    Never attempt to replant a baby (milk) tooth in children under 6–7 years
+    old.
 sources:
-  - name: 'International Association of Dental Traumatology (IADT)'
+  - name: International Association of Dental Traumatology (IADT)
     url: 'https://www.iadt-dentaltrauma.org/'
     authoritative: true
-    guideline_version: 'Guidelines for the Management of Traumatic Dental Injuries: 2. Avulsion of Permanent Teeth (2020)'
-    jurisdiction: 'Global'
-    notes: 'Immediate replantation standards, storage media hierarchy (milk/HBSS), and 60-minute threshold.'
-  - name: 'American Association of Endodontists (AAE)'
+    guideline_version: >-
+      Guidelines for the Management of Traumatic Dental Injuries: 2. Avulsion of
+      Permanent Teeth (2020)
+    jurisdiction: Global
+    notes: >-
+      Immediate replantation standards, storage media hierarchy (milk/HBSS), and
+      60-minute threshold.
+  - name: American Association of Endodontists (AAE)
     url: 'https://www.aae.org/'
     authoritative: true
-    guideline_version: 'Treatment of Avulsed Permanent Teeth'
-    jurisdiction: 'US / Global'
-    notes: 'PDL cell viability timelines, splinting parameters, and primary vs permanent distinction.'
+    guideline_version: Treatment of Avulsed Permanent Teeth
+    jurisdiction: US / Global
+    notes: >-
+      PDL cell viability timelines, splinting parameters, and primary vs
+      permanent distinction.
   - name: 'Deutsche Gesellschaft für Zahn-, Mund- und Kieferheilkunde (DGZMK)'
     url: 'https://www.dgzmk.de/'
     authoritative: true
     guideline_version: 'S2k-Leitlinie: Therapie des dentalen Traumas permanenter Zähne'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Zahnrettungsbox (Dentosafe), Milch-Lagerung und Ausschluss von Milchzahn-Replantationen.'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Zahnrettungsbox (Dentosafe), Milch-Lagerung und Ausschluss von
+      Milchzahn-Replantationen.
 ---
-
 A traumatic blow to the face—from a bicycle crash, sports impact, or accidental collision—can cleanly dislodge a permanent tooth from its alveolar socket in the jawbone.
 
 An avulsed permanent tooth is not a dead piece of bone: it is a living organ surrounded by a delicate biological anchor called the **periodontal ligament (PDL)**.

@@ -1,70 +1,106 @@
 ---
-slug: 'tick-currently-attached-and-dining'
-title: 'Tick Currently Attached and Dining'
-subtitle: 'Mechanical tick extraction, Lyme disease transmission dynamics, and dangerous folklore home-remedy myths'
-category: 'animals'
+slug: tick-currently-attached-and-dining
+title: Tick Currently Attached and Dining
+subtitle: >-
+  Mechanical tick extraction, Lyme disease transmission dynamics, and dangerous
+  folklore home-remedy myths
+category: animals
 tags:
-  - 'tick'
-  - 'lyme-disease'
-  - 'tbe'
-  - 'borrelia'
-  - 'first-aid'
-  - 'outdoors'
+  - tick
+  - lyme-disease
+  - tbe
+  - borrelia
+  - first-aid
+  - outdoors
 aliases:
-  - 'tick bite'
-  - 'how to remove a tick'
-  - 'tick stuck in skin'
-  - 'tick removal butter oil myth'
-  - 'bullseye rash'
-  - 'erythema migrans'
-  - 'fsme lyme'
-severity: 'caution'
-urgency: 'medium'
+  - tick bite
+  - how to remove a tick
+  - tick stuck in skin
+  - tick removal butter oil myth
+  - bullseye rash
+  - erythema migrans
+  - fsme lyme
+severity: caution
+urgency: medium
 threat_level: 2
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'not_required'
-status: 'reviewed'
+emergency_services: not_required
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Pull straight out with fine-tipped tweezers close to the skin; never smother with oil, butter, or fire.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Pull straight out with fine-tipped tweezers close to the skin; never smother
+  with oil, butter, or fire.
 memorable_facts:
-  - 'THE 24-HOUR LYME MIGRATION WINDOW: Borrelia burgdorferi spirochetes reside in the tick’s midgut and must undergo morphological changes to migrate to its salivary glands during feeding, typically requiring 24 to 48 hours of attachment. Removing a tick within the first 24 hours drastically reduces Lyme disease transmission risk.'
-  - 'THE STRESS REGURGITATION DANGER: Smothering an attached tick with butter, oil, alcohol, or nail polish slowly suffocates the parasite, causing it to regurgitate infectious gut contents and saliva directly into your bloodstream. Always extract mechanically with clean tweezers.'
+  - >-
+    THE 24-HOUR LYME MIGRATION WINDOW: Borrelia burgdorferi spirochetes reside
+    in the tick’s midgut and must undergo morphological changes to migrate to
+    its salivary glands during feeding, typically requiring 24 to 48 hours of
+    attachment. Removing a tick within the first 24 hours drastically reduces
+    Lyme disease transmission risk.
+  - >-
+    THE STRESS REGURGITATION DANGER: Smothering an attached tick with butter,
+    oil, alcohol, or nail polish slowly suffocates the parasite, causing it to
+    regurgitate infectious gut contents and saliva directly into your
+    bloodstream. Always extract mechanically with clean tweezers.
 immediate_action:
-  - '1. USE FINE-TIPPED TWEEZERS OR A TICK CARD: Grasp the tick as close to the skin surface as possible, right at the mouthparts (hypostome). Avoid squeezing the swollen rear abdomen (body).'
-  - '2. PULL STRAIGHT UPWARD WITH STEADY, EVEN PRESSURE: Pull directly away from the skin without twisting, jerking, or rotating. Steady traction allows the microscopic barbs on the hypostome to release cleanly from the skin.'
-  - '3. DISINFECT THE BITE SITE AND YOUR HANDS: After removal, thoroughly clean the bite area with rubbing alcohol, povidone-iodine, or soap and warm water.'
-  - '4. RETAINED MOUTHPARTS: If microscopic mouthparts break off in the skin, leave them alone to work their way out like a wooden splinter, or remove gently with tweezers. Do not gouge into flesh with needles.'
-  - '5. MONITOR THE SKIN FOR 30 DAYS: Watch for an expanding annular red rash (Erythema migrans / "bullseye" rash > 5 cm), fever, joint pain, or flu-like symptoms. If a rash expands, see a doctor promptly for antibiotic treatment.'
+  - title: GRASP TICK CLOSE TO SKIN WITH FINE-TIPPED TWEEZERS
+    instruction: >-
+      Grip tick head and mouthparts as close to the skin surface as possible
+      without squeezing the swollen abdomen.
+  - title: PULL STRAIGHT UPWARD WITH STEADY EVEN FORCE
+    instruction: >-
+      Pull slowly and straight out without twisting, jerking, or applying
+      butter, oil, glue, or nail polish.
+  - title: DISINFECT BITE SITE & NOTE DATE ON CALENDAR
+    instruction: >-
+      Clean with alcohol or povidone-iodine; monitor for expanding circular red
+      rash (Erythema migrans) over next 30 days.
 do_not:
-  - 'Never smother the tick with butter, cooking oil, petroleum jelly, nail polish, or glue (suffocation causes the tick to vomit infectious gut fluids into your bloodstream).'
-  - 'Never burn the tick with a match, lighter, or hot needle (heat induces panic-regurgitation and causes local skin burns).'
-  - 'Never squeeze, crush, or puncture the tick’s swollen abdomen while it is attached.'
-  - 'Never twist or yank violently (twisting tears the mouthparts and leaves foreign material in the dermis).'
+  - >-
+    Never smother the tick with butter, cooking oil, petroleum jelly, nail
+    polish, or glue (suffocation causes the tick to vomit infectious gut fluids
+    into your bloodstream).
+  - >-
+    Never burn the tick with a match, lighter, or hot needle (heat induces
+    panic-regurgitation and causes local skin burns).
+  - >-
+    Never squeeze, crush, or puncture the tick’s swollen abdomen while it is
+    attached.
+  - >-
+    Never twist or yank violently (twisting tears the mouthparts and leaves
+    foreign material in the dermis).
 sources:
-  - name: 'Centers for Disease Control and Prevention (CDC)'
+  - name: Centers for Disease Control and Prevention (CDC)
     url: 'https://www.cdc.gov/'
     authoritative: true
-    guideline_version: 'Tick Removal and Lyme Disease Clinical Guidance'
-    jurisdiction: 'US / Global'
-    notes: 'Straight-pull tweezer technique, contraindication of chemical/heat methods, and 24h transmission window.'
-  - name: 'Infectious Diseases Society of America (IDSA)'
+    guideline_version: Tick Removal and Lyme Disease Clinical Guidance
+    jurisdiction: US / Global
+    notes: >-
+      Straight-pull tweezer technique, contraindication of chemical/heat
+      methods, and 24h transmission window.
+  - name: Infectious Diseases Society of America (IDSA)
     url: 'https://www.idsociety.org/'
     authoritative: true
-    guideline_version: 'Clinical Practice Guidelines for the Prevention, Diagnosis, and Treatment of Lyme Disease'
-    jurisdiction: 'US / Global'
-    notes: 'Erythema migrans diagnostic criteria (>5cm) and post-exposure antibiotic prophylaxis indications.'
-  - name: 'Robert Koch-Institut (RKI)'
+    guideline_version: >-
+      Clinical Practice Guidelines for the Prevention, Diagnosis, and Treatment
+      of Lyme Disease
+    jurisdiction: US / Global
+    notes: >-
+      Erythema migrans diagnostic criteria (>5cm) and post-exposure antibiotic
+      prophylaxis indications.
+  - name: Robert Koch-Institut (RKI)
     url: 'https://www.rki.de/'
     authoritative: true
     guideline_version: 'RKI-Ratgeber: Borreliose und FSME'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Mechanische Entfernung ohne Öl/Klebstoff, FSME-Endemiegebiete und Wanderröte-Monitoring.'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Mechanische Entfernung ohne Öl/Klebstoff, FSME-Endemiegebiete und
+      Wanderröte-Monitoring.
 ---
-
 Ticks (_Ixodida_) are obligate blood-feeding arachnids that have spent millions of years optimizing silent parasitic attachment. Their specialized feeding apparatus (_hypostome_) is covered in backward-facing microscopic barbs and secretes an anesthetic, anticoagulant, and immunosuppressive saliva that prevents the host from feeling the bite.
 
 While the bite itself is harmless, ticks serve as vectors for serious systemic pathogens:

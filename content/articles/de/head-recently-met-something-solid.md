@@ -1,82 +1,119 @@
 ---
-slug: 'head-recently-met-something-solid'
-title: 'Kopf hatte unvorhergesehenen Festkörperkontakt'
-subtitle: 'Schädel-Hirn-Trauma-Erkennung, HWS-Stabilisierung und die goldene Atemwegs-Vorrangregel'
-category: 'medical'
+slug: head-recently-met-something-solid
+title: Kopf hatte unvorhergesehenen Festkörperkontakt
+subtitle: >-
+  Schädel-Hirn-Trauma-Erkennung, HWS-Stabilisierung und die goldene
+  Atemwegs-Vorrangregel
+category: medical
 tags:
-  - 'kopfverletzung'
-  - 'gehirnerschuetterung'
-  - 'hws'
-  - 'trauma'
-  - 'erste-hilfe'
-  - 'medizin'
-  - 'notfall'
+  - kopfverletzung
+  - gehirnerschuetterung
+  - hws
+  - trauma
+  - erste-hilfe
+  - medizin
+  - notfall
 aliases:
-  - 'kopfverletzung'
-  - 'gehirnerschütterung'
-  - 'schädel-hirn-trauma'
-  - 'gehirnerschütterung symptome'
-  - 'halswirbelsäule stabilisieren'
-  - 'schädelbasisbruch anzeichen'
-  - 'pupillendifferenz nach sturz'
-  - 'kopf gestoßen übelkeit'
-severity: 'critical'
-urgency: 'immediate'
+  - kopfverletzung
+  - gehirnerschütterung
+  - schädel-hirn-trauma
+  - gehirnerschütterung symptome
+  - halswirbelsäule stabilisieren
+  - schädelbasisbruch anzeichen
+  - pupillendifferenz nach sturz
+  - kopf gestoßen übelkeit
+severity: critical
+urgency: immediate
 threat_level: 4
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Kopf in neutraler Position ruhig halten, auf Warnsignale (Erbrechen, Pupillendifferenz) achten und Atemwege immer vor Wirbelsäulenruhe priorisieren.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Kopf in neutraler Position ruhig halten, auf Warnsignale (Erbrechen,
+  Pupillendifferenz) achten und Atemwege immer vor Wirbelsäulenruhe
+  priorisieren.
 memorable_facts:
-  - 'FREIE ATEMWEGE HABEN VORRANG VOR HWS-SCHUTZ: Sauerstoffmangel zerstört Hirngewebe in 3 Minuten. Wenn ein Traumapatient mit Verdacht auf Wirbelsäulenverletzung bewusstlos wird und erbricht, MUSS er sofort in die stabile Seitenlage gedreht werden. Ein toter Patient hat keinen Nutzen von einer geschonten Wirbelsäule!'
-  - 'LIQUORRHOE NIEMALS MIT WATTE VERSTOPFEN: Wenn nach einem Sturz klare, wässrige Flüssigkeit aus Ohr oder Nase tropft, ist die Schädelbasis gebrochen (Hirnwasser tritt aus). Das Zudrücken mit Verbandsmull staut den Druck im Schädel und schwemmt Bakterien direkt in die Hirnhäute (tödliche Meningitis).'
+  - >-
+    FREIE ATEMWEGE HABEN VORRANG VOR HWS-SCHUTZ: Sauerstoffmangel zerstört
+    Hirngewebe in 3 Minuten. Wenn ein Traumapatient mit Verdacht auf
+    Wirbelsäulenverletzung bewusstlos wird und erbricht, MUSS er sofort in die
+    stabile Seitenlage gedreht werden. Ein toter Patient hat keinen Nutzen von
+    einer geschonten Wirbelsäule!
+  - >-
+    LIQUORRHOE NIEMALS MIT WATTE VERSTOPFEN: Wenn nach einem Sturz klare,
+    wässrige Flüssigkeit aus Ohr oder Nase tropft, ist die Schädelbasis
+    gebrochen (Hirnwasser tritt aus). Das Zudrücken mit Verbandsmull staut den
+    Druck im Schädel und schwemmt Bakterien direkt in die Hirnhäute (tödliche
+    Meningitis).
 immediate_action:
-  - '1. KOPF UND HWS MANUELL STABILISIEREN: Hinter den Kopf des Patienten knien, beide Hände seitlich an den Kopf anlegen und diesen ohne Zug vorsichtig in der vorgefundenen neutralen Position fixieren. Den Patienten anweisen: „Kopf absolut ruhig halten, nicht nicken oder drehen!“'
-  - '2. BEWUSSTSEIN UND ATEMWEGE PRÜFEN (DIE GOLDENE REGEL):'
-  - '   • ATEMWEG HAT VORRANG VOR HWS-SCHUTZ: Ist die Person bewusstlos und erbricht oder droht zu ersticken, unverzüglich unter achsengerechtem Mitführen von Kopf und Rumpf in die stabile Seitenlage drehen, um eine tödliche Erstickung zu verhindern.'
-  - '   • Bei fehlender normaler Atmung: Flach auf den Rücken legen, Atemwege vorsichtig öffnen (Esmarch-Handgriff / leichtes Kinnanheben) und sofort mit der Herzdruckmassage (30:2) beginnen.'
-  - '3. SOFORT NOTRUF 112 WÄHLEN BEI FOLGENDEN ALARMSIGNALEN:'
-  - '   • Jede auch nur sekundenlange Bewusstlosigkeit oder Ohnmacht.'
-  - '   • Mehrmaliges Erbrechen nach dem Stoß/Sturz.'
-  - '   • Ungleiche Pupillengröße (eine Pupille weit und lichtstarr, eine eng) oder Sehstörungen.'
-  - '   • Austritt von klarer wässriger Flüssigkeit (Liquor) oder Blut aus Ohren oder Nase (Verdacht auf Schädelbasisbruch).'
-  - '   • Blutergüsse hinter den Ohren (Battle-Zeichen) oder beidseitige Brillenhämatome um die Augen.'
-  - '   • Erinnerungslücken (retrograde/anterograde Amnesie bezüglich des Unfallhergangs).'
-  - '   • Verwaschene Sprache, zunehmende Apathie, Krampfanfälle oder Lähmungserscheinungen.'
-  - '   • Einnahme von Blutverdünnern (Antikoagulanzien), die das Risiko lebensbedrohlicher Hirnblutungen massiv steigern.'
-  - '4. KOPFPLATZWUNDEN NUR SANFT VERBINDEN: Eine keimfreie Wundauflage mit einer Mullbinde locker fixieren. Bei tastbaren Dellen oder Knochenstufen im Schädelknochen keinen Druck ausüben!'
+  - title: HALSWIRBELSÄULE RUHIGSTELLEN & BEWEGUNG STOPPEN
+    instruction: >-
+      Kopf, Nacken und Wirbelsäule in neutraler Achse halten. Unnötiges Drehen
+      oder Bewegen des Kopfes verhindern.
+  - title: AUF NEUROLOGISCHE ALARMZEICHEN PRÜFEN
+    instruction: 'Auf lebensgefährliche Warnzeichen einer Hirnblutung achten:'
+    substeps:
+      - Jede Bewusstlosigkeit oder Gedächtnislücke um das Unfallereignis.
+      - >-
+        Ungleich große Pupillen, wiederholtes Erbrechen oder rapide stärker
+        werdende Kopfschmerzen.
+      - >-
+        Austritt von klarer Flüssigkeit (Hirnwasser) oder Blut aus Nase oder
+        Ohren.
+  - title: NOTRUF 112 WÄHLEN & RUHE DURCHSETZEN
+    instruction: >-
+      Bei Vorliegen von Alarmzeichen sofort Notruf wählen. Person ruhig lagern,
+      nicht alleine lassen und keine Schmerzmittel/Alkohol geben.
 do_not:
-  - 'Einen Patienten mit Verdacht auf Kopf- oder Wirbelsäulentrauma niemals unnötig bewegen, aufsetzen oder laufen lassen (Gefahr sekundärer Querschnittlähmungen).'
-  - 'Einen Motorradhelm bei ansprechbaren, normal atmenden Personen niemals unbedacht abziehen (Helmabnahme nur bei Bewusstlosigkeit/Atemstillstand oder Erbrechen unter achsengerechter HWS-Stabilisierung durch zwei Helfer).'
-  - 'Niemals Ohren oder Nase mit Verbandsmull oder Watte zustopfen, wenn Blut oder Hirnwasser austritt (der Rückstau erhöht den Hirndruck und schwemmt tödliche Hirnhautentzündungs-Keime direkt in die Liquorgefäße).'
-  - 'Keinen direkten Druck auf eingedrückte Schädelknochenfragmente ausüben (Knochensplitter würden direkt in das Hirngewebe gepresst).'
-  - 'Einen Sportler oder Arbeiter mit Verdacht auf Gehirnerschütterung niemals am selben Tag weiterspielen oder arbeiten lassen.'
+  - >-
+    Einen Patienten mit Verdacht auf Kopf- oder Wirbelsäulentrauma niemals
+    unnötig bewegen, aufsetzen oder laufen lassen (Gefahr sekundärer
+    Querschnittlähmungen).
+  - >-
+    Einen Motorradhelm bei ansprechbaren, normal atmenden Personen niemals
+    unbedacht abziehen (Helmabnahme nur bei Bewusstlosigkeit/Atemstillstand oder
+    Erbrechen unter achsengerechter HWS-Stabilisierung durch zwei Helfer).
+  - >-
+    Niemals Ohren oder Nase mit Verbandsmull oder Watte zustopfen, wenn Blut
+    oder Hirnwasser austritt (der Rückstau erhöht den Hirndruck und schwemmt
+    tödliche Hirnhautentzündungs-Keime direkt in die Liquorgefäße).
+  - >-
+    Keinen direkten Druck auf eingedrückte Schädelknochenfragmente ausüben
+    (Knochensplitter würden direkt in das Hirngewebe gepresst).
+  - >-
+    Einen Sportler oder Arbeiter mit Verdacht auf Gehirnerschütterung niemals am
+    selben Tag weiterspielen oder arbeiten lassen.
 sources:
-  - name: 'Deutsche Gesellschaft für Unfallchirurgie (DGU) / AWMF'
+  - name: Deutsche Gesellschaft für Unfallchirurgie (DGU) / AWMF
     url: 'https://www.dgu-online.de/'
     authoritative: true
-    guideline_version: 'S3-Leitlinie Schädel-Hirn-Trauma im Erwachsenenalter'
-    jurisdiction: 'Deutschland / DACH'
-    notes: 'Klinische Kriterien für Notfall-CCT, HWS-Immobilisation und Prioritätensetzung beim Polytrauma.'
-  - name: 'National Institute for Health and Care Excellence (NICE)'
+    guideline_version: S3-Leitlinie Schädel-Hirn-Trauma im Erwachsenenalter
+    jurisdiction: Deutschland / DACH
+    notes: >-
+      Klinische Kriterien für Notfall-CCT, HWS-Immobilisation und
+      Prioritätensetzung beim Polytrauma.
+  - name: National Institute for Health and Care Excellence (NICE)
     url: 'https://www.nice.org.uk/'
     authoritative: true
     guideline_version: 'Head Injury: Assessment and Early Management (NICE Guideline NG232)'
-    jurisdiction: 'UK / Global'
-    notes: 'Evidenzbasierte Red-Flag-Symptome, Antikoagulanzien-Risiko und Liquorrhoe-Management.'
-  - name: 'European Resuscitation Council (ERC)'
+    jurisdiction: UK / Global
+    notes: >-
+      Evidenzbasierte Red-Flag-Symptome, Antikoagulanzien-Risiko und
+      Liquorrhoe-Management.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Head and Spinal Trauma'
-    jurisdiction: 'EU / Global'
-    notes: 'Standard für manuelle In-Line-Stabilisierung und Atemwegs-Vorrangregel vor Wirbelsäulenruhe.'
+    jurisdiction: EU / Global
+    notes: >-
+      Standard für manuelle In-Line-Stabilisierung und Atemwegs-Vorrangregel vor
+      Wirbelsäulenruhe.
 ---
-
 Das menschliche Gehirn ist ein hochsensibles, gallertartiges Organ mit einem Gewicht von etwa 1,4 Kilogramm, das schwimmend in einer schockabsorbierenden Hülle aus Gehirn-Rückenmarks-Flüssigkeit (Liquor) im starren knöchernen Schädel (Cranium) gelagert ist.
 
 Wirkt eine plötzliche kinetische Wucht – etwa durch einen Sturz, Verkehrsunfall, Sportzusammenprall oder Schlag – auf den Kopf ein, prallt das Gehirn zunächst gegen die innere Knochenwand der Aufprallseite (_Coup_-Verletzung), federt zurück gegen die gegenüberliegende Schädelinnenseite (_Contrecoup_-Verletzung) und erleidet massive Scherkräfte, die mikroskopische Nervenfasern (Axone) im gesamten Hirngewebe überdehnen oder zerreißen.

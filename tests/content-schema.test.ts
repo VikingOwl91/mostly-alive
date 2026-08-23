@@ -1,44 +1,75 @@
 import { describe, it, expect } from 'vitest';
-import { loadAllArticles, getArticle, getStaticPage } from '../src/lib/server/content';
-import { ArticleFrontmatterSchema } from '../src/lib/types/content';
+import { loadAllArticles, getArticle } from '../src/lib/server/content';
+import { ArticleFrontmatterSchema, type ImmediateActionStep } from '../src/lib/types/content';
 
-describe('Content Schema & Integrity', () => {
-	it('should load all 15 Priority 0 articles in English', () => {
+describe('Content Schema & Action Hierarchy Integrity', () => {
+	it('should load all 50 survival guides in English', () => {
 		const articles = loadAllArticles('en');
-		expect(articles.length).toBeGreaterThanOrEqual(15);
+		expect(articles.length).toBe(50);
 		for (const article of articles) {
 			const parsed = ArticleFrontmatterSchema.safeParse(article);
 			expect(parsed.success).toBe(true);
-			expect(article.immediate_action.length).toBeGreaterThan(0);
+			expect(article.immediate_action.length).toBeGreaterThanOrEqual(2);
+			expect(article.immediate_action.length).toBeLessThanOrEqual(5);
 			expect(article.sources.length).toBeGreaterThan(0);
 		}
 	});
 
-	it('should load all 15 Priority 0 articles in German', () => {
+	it('should load all 50 survival guides in German', () => {
 		const articles = loadAllArticles('de');
-		expect(articles.length).toBeGreaterThanOrEqual(15);
+		expect(articles.length).toBe(50);
 		for (const article of articles) {
 			const parsed = ArticleFrontmatterSchema.safeParse(article);
 			expect(parsed.success).toBe(true);
-			expect(article.immediate_action.length).toBeGreaterThan(0);
+			expect(article.immediate_action.length).toBeGreaterThanOrEqual(2);
+			expect(article.immediate_action.length).toBeLessThanOrEqual(5);
 			expect(article.sources.length).toBeGreaterThan(0);
 		}
 	});
 
-	it('should have complete slug parity between EN and DE', () => {
+	it('should have 100% slug and structural action parity between EN and DE', () => {
 		const enArticles = loadAllArticles('en');
 		const deArticles = loadAllArticles('de');
 
-		const enSlugs = new Set(enArticles.map((a) => a.slug));
-		const deSlugs = new Set(deArticles.map((a) => a.slug));
+		const enMap = new Map(enArticles.map((a) => [a.slug, a]));
+		const deMap = new Map(deArticles.map((a) => [a.slug, a]));
 
-		expect(enSlugs.size).toBe(deSlugs.size);
-		for (const slug of enSlugs) {
-			expect(deSlugs.has(slug)).toBe(true);
+		expect(enMap.size).toBe(50);
+		expect(deMap.size).toBe(50);
+
+		for (const [slug, enArticle] of enMap) {
+			const deArticle = deMap.get(slug);
+			expect(deArticle).toBeDefined();
+
+			// Exact primary action count parity
+			expect(enArticle.immediate_action.length).toBe(deArticle!.immediate_action.length);
+
+			// All items must be structured objects
+			for (let i = 0; i < enArticle.immediate_action.length; i++) {
+				const enStep = enArticle.immediate_action[i] as ImmediateActionStep;
+				const deStep = deArticle!.immediate_action[i] as ImmediateActionStep;
+
+				expect(typeof enStep).toBe('object');
+				expect(typeof deStep).toBe('object');
+				expect(enStep.title.length).toBeGreaterThan(0);
+				expect(deStep.title.length).toBeGreaterThan(0);
+				expect(enStep.instruction.length).toBeGreaterThan(0);
+				expect(deStep.instruction.length).toBeGreaterThan(0);
+
+				if (enStep.substeps) {
+					expect(deStep.substeps).toBeDefined();
+					expect(enStep.substeps.length).toBe(deStep.substeps!.length);
+				}
+
+				if (enStep.variants) {
+					expect(deStep.variants).toBeDefined();
+					expect(enStep.variants.length).toBe(deStep.variants!.length);
+				}
+			}
 		}
 	});
 
-	it('should enforce authoritative sources on reviewed articles', () => {
+	it('should enforce authoritative sources on all reviewed articles', () => {
 		const all = loadAllArticles();
 		for (const article of all) {
 			if (article.status === 'reviewed') {
@@ -50,32 +81,16 @@ describe('Content Schema & Integrity', () => {
 		}
 	});
 
-	it('should retrieve individual articles by slug', () => {
+	it('should retrieve structured individual articles by slug', () => {
 		const article = getArticle('hair-suddenly-vertical', 'en');
 		expect(article).not.toBeNull();
 		expect(article?.slug).toBe('hair-suddenly-vertical');
 		expect(article?.category).toBe('weather');
 		expect(article?.threat_level).toBe(5);
-	});
+		expect(article?.immediate_action.length).toBe(3);
 
-	it('should validate structured immediate action steps with substeps and variants', () => {
-		const anaphylaxisEn = getArticle('allergy-escalating-rather-quickly', 'en');
-		expect(anaphylaxisEn).not.toBeNull();
-		expect(anaphylaxisEn?.immediate_action.length).toBe(4);
-
-		// First step has substeps
-		const step1 = anaphylaxisEn?.immediate_action[0] as any;
-		expect(typeof step1).toBe('object');
-		expect(step1.title).toBe('INJECT EPINEPHRINE (ADRENALINE) IMMEDIATELY');
-		expect(step1.substeps).toBeDefined();
-		expect(step1.substeps.length).toBeGreaterThan(0);
-
-		// Third step has variants
-		const step3 = anaphylaxisEn?.immediate_action[2] as any;
-		expect(typeof step3).toBe('object');
-		expect(step3.variants).toBeDefined();
-		expect(step3.variants.length).toBe(4);
-		expect(step3.variants[0].condition).toBe('Faint / Pale / Shock');
+		const step1 = article?.immediate_action[0] as ImmediateActionStep;
+		expect(step1.title).toBe('LEAVE EXPOSED TERRAIN IMMEDIATELY');
+		expect(step1.substeps?.length).toBe(2);
 	});
 });
-

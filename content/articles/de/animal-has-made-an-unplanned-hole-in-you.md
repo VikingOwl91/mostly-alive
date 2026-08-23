@@ -1,70 +1,99 @@
 ---
-slug: 'animal-has-made-an-unplanned-hole-in-you'
-title: 'Ein Tier hat ein ungeplantes Loch in dich gemacht'
-subtitle: 'Säugetier-Bisswunden, die 15-Minuten-Seifenspülung gegen Tollwut und das extreme Infektionsrisiko von Katzenbissen'
-category: 'animals'
+slug: animal-has-made-an-unplanned-hole-in-you
+title: Ein Tier hat ein ungeplantes Loch in dich gemacht
+subtitle: >-
+  Säugetier-Bisswunden, die 15-Minuten-Seifenspülung gegen Tollwut und das
+  extreme Infektionsrisiko von Katzenbissen
+category: animals
 tags:
-  - 'tierbiss'
-  - 'hundebiss'
-  - 'katzenbiss'
-  - 'tollwut'
-  - 'infektion'
-  - 'erste-hilfe'
+  - tierbiss
+  - hundebiss
+  - katzenbiss
+  - tollwut
+  - infektion
+  - erste-hilfe
 aliases:
-  - 'hundebiss was tun'
-  - 'katzenbiss entzuendung'
-  - 'tollwut nach tierbiss'
-  - 'tierbiss seife spuelen'
-  - 'tollwut pep impfung'
-  - 'katzenbiss sehnenscheidenentzuendung'
-severity: 'serious'
-urgency: 'high'
+  - hundebiss was tun
+  - katzenbiss entzuendung
+  - tollwut nach tierbiss
+  - tierbiss seife spuelen
+  - tollwut pep impfung
+  - katzenbiss sehnenscheidenentzuendung
+severity: serious
+urgency: high
 threat_level: 3
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Wunde volle 15 Minuten lang mit Seife und Wasser auswaschen, desinfizieren und sofort zum Arzt (Tollwut-PEP / Antibiotika).'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Wunde volle 15 Minuten lang mit Seife und Wasser auswaschen, desinfizieren und
+  sofort zum Arzt (Tollwut-PEP / Antibiotika).
 memorable_facts:
-  - 'DIE 15-MINUTEN-SEIFENWASCH-REGEL: Das Tollwutvirus (*Lyssavirus*) besitzt eine empfindliche Lipidhülle (Fetthülle), die durch normale Haushaltsseife chemisch zerstört und inaktiviert wird. Ein 15-minütiges, gründliches Auswaschen der Bisswunde mit Seifenwasser senkt die Erregerlast um über 90 %, bevor das Virus in periphere Nervenbahnen eindringen kann.'
-  - 'DIE 100-%-TÖDLICHKEITS-GRENZE: Tollwut verläuft nach Ausbruch der ersten neurologischen Symptome (Wasserscheu, Halluzinationen, Lähmungen) zu nahezu 100 % tödlich. Durch eine rechtzeitige Postexpositionsprophylaxe (PEP-Impfung + Immunglobuline) unmittelbar nach dem Biss ist die Infektion jedoch zu 100 % verhinderbar.'
+  - >-
+    DIE 15-MINUTEN-SEIFENWASCH-REGEL: Das Tollwutvirus (*Lyssavirus*) besitzt
+    eine empfindliche Lipidhülle (Fetthülle), die durch normale Haushaltsseife
+    chemisch zerstört und inaktiviert wird. Ein 15-minütiges, gründliches
+    Auswaschen der Bisswunde mit Seifenwasser senkt die Erregerlast um über 90
+    %, bevor das Virus in periphere Nervenbahnen eindringen kann.
+  - >-
+    DIE 100-%-TÖDLICHKEITS-GRENZE: Tollwut verläuft nach Ausbruch der ersten
+    neurologischen Symptome (Wasserscheu, Halluzinationen, Lähmungen) zu nahezu
+    100 % tödlich. Durch eine rechtzeitige Postexpositionsprophylaxe
+    (PEP-Impfung + Immunglobuline) unmittelbar nach dem Biss ist die Infektion
+    jedoch zu 100 % verhinderbar.
 immediate_action:
-  - '1. BISSWUNDE SOFORT 15 MINUTEN LANG MIT SEIFE WASCHEN: Die Wunde unverzüglich unter warmem, fließendem Wasser mit reichlich Seife volle 15 Minuten lang mechanisch auswaschen, um Speichelreste und Viren auszuspülen.'
-  - '2. GRÜNDLICH MIT ANTISEPTIKUM DESINFIZIEREN: Die Wunde mit einem alkoholbasierten Desinfektionsmittel (70 % Alkohol) oder Octenidin/Jodlösung desinfizieren und an der Luft trocknen lassen.'
-  - '3. STARKE BLUTUNGEN STILLEN: Bei spritzenden oder stark sickernden Wunden mit einer sterilen Kompresse manuellen Druck ausüben.'
-  - '4. SOFORT ZUM ARZT ODER IN DIE NOTAUFNAHME ZUR TOLLWUT-EVALUATION: Bei Bissen auf Auslandsreisen (Tollwut-Endemiegebiete) oder durch Fledermäuse, Marderhunde oder streunende Hunde/Katzen muss unverzüglich eine Postexpositionsprophylaxe (PEP: Tollwut-Impfserie + Tollwut-Immunglobulin) eingeleitet werden.'
-  - '5. TETANUS-STATUS PRÜFEN UND ANTIBIOTIKA REZEPTIEREN LASSEN: Katzen- und Hundebisse übertragen aggressive Keime (*Pasteurella multocida*, *Capnocytophaga*). Insbesondere Katzenbisse erfordern wegen drohender Sehnenscheiden-Phlegmone innerhalb weniger Stunden eine prophylaktische Antibiotikatherapie (z.B. Amoxicillin/Clavulansäure).'
-  - '6. TIER UND HALTER DOKUMENTIEREN (FALLS GEFAHRLOS MÖGLICH): Rasse, Halterkontakt, Impfstatus und Standort für das Veterinäramt festhalten, ohne sich selbst in Gefahr zu bringen.'
+  - title: WUNDE 15 MINUTEN LANG MIT SEIFE & WASSER AUSWASCHEN
+    instruction: >-
+      Gründliches mechanisches Spülen mit Seifenwasser zerstört die Fetthülle
+      von Tollwutviren und schwemmt Erreger aus.
+  - title: MIT POVIDON-IOD ODER ALKOHOL DESINFIZIEREN
+    instruction: >-
+      Wunddesinfektionsmittel auftragen und mit sterilem Verband locker
+      abdecken.
+  - title: SOFORT ARZT AUFSUCHEN (TOLLWUT-PEP & ANTIBIOTIKA)
+    instruction: >-
+      Tollwut-Postexpositionsprophylaxe muss vor Symptombeginn erfolgen.
+      Tetanusschutz prüfen und Katzenbisse wegen Pasteurellen antibiotisch
+      behandeln lassen.
 do_not:
-  - 'Niemals die 15-minütige Seifenwaschung auslassen oder verkürzen (sie ist der wirksamste Schutz vor Tollwut und Wundstarrkrampf).'
-  - 'Niemals versuchen, aggressive, tollwutverdächtige oder wilde Tiere mit bloßen Händen einzufangen.'
-  - 'Keine ätzenden Chemikalien wie reine Bleiche in die Bisswunde kippen.'
-  - 'Einen Katzenbiss niemals als „kleinen Kratzer“ abtun (die spitzen Zähne wirken wie Kanülen und spritzen Pasteurellen direkt in Sehnenscheiden und Knochenhaut).'
+  - >-
+    Niemals die 15-minütige Seifenwaschung auslassen oder verkürzen (sie ist der
+    wirksamste Schutz vor Tollwut und Wundstarrkrampf).
+  - >-
+    Niemals versuchen, aggressive, tollwutverdächtige oder wilde Tiere mit
+    bloßen Händen einzufangen.
+  - Keine ätzenden Chemikalien wie reine Bleiche in die Bisswunde kippen.
+  - >-
+    Einen Katzenbiss niemals als „kleinen Kratzer“ abtun (die spitzen Zähne
+    wirken wie Kanülen und spritzen Pasteurellen direkt in Sehnenscheiden und
+    Knochenhaut).
 sources:
-  - name: 'World Health Organization (WHO)'
+  - name: World Health Organization (WHO)
     url: 'https://www.who.int/'
     authoritative: true
     guideline_version: 'WHO Expert Consultation on Rabies: Third Report & PEP Guidelines'
-    jurisdiction: 'Global'
-    notes: '15-Minuten-Wundreinigung mit Seife, Kategorie-III-Bisse und Immunglobulin-Infiltration.'
-  - name: 'Robert Koch-Institut (RKI)'
+    jurisdiction: Global
+    notes: >-
+      15-Minuten-Wundreinigung mit Seife, Kategorie-III-Bisse und
+      Immunglobulin-Infiltration.
+  - name: Robert Koch-Institut (RKI)
     url: 'https://www.rki.de/'
     authoritative: true
     guideline_version: 'RKI-Ratgeber: Tollwut (Rabies) und Tierbissverletzungen'
-    jurisdiction: 'Germany / DACH'
+    jurisdiction: Germany / DACH
     notes: 'Tollwutprophylaxe bei Reisebissen, Tetanusauffrischung und Wundversorgung.'
-  - name: 'Centers for Disease Control and Prevention (CDC)'
+  - name: Centers for Disease Control and Prevention (CDC)
     url: 'https://www.cdc.gov/'
     authoritative: true
-    guideline_version: 'Animal Bites & Rabies Prevention Guidelines'
-    jurisdiction: 'US / Global'
-    notes: 'Pasteurella antimicrobial therapy and bat exposure criteria.'
+    guideline_version: Animal Bites & Rabies Prevention Guidelines
+    jurisdiction: US / Global
+    notes: Pasteurella antimicrobial therapy and bat exposure criteria.
 ---
-
 Der Kontakt mit Haustieren und Wildtieren gehört zum Alltag. Doch ein überraschender Biss—beim Spielen mit einem Hund, durch eine fremde Katze, beim Trennen beißender Tiere oder beim Kontakt mit einer Fledermaus—stellt ein schweres medizinisches Risiko dar.
 
 Das Maul eines Säugetiers ist kein steriler Raum, sondern ein feucht-warmes Reservoir aggressiver aerober und anaerober Bakterien sowie in vielen Teilen der Welt des gefürchteten neurotropen **Tollwutvirus (_Rabies_)**.

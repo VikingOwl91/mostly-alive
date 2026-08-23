@@ -1,78 +1,120 @@
 ---
-slug: 'person-has-inhaled-more-water-than-recommended'
-title: 'Person hat mehr Wasser als empfohlen inhaliert'
-subtitle: 'Wasserrettung, hypoxische Reanimation mit 5 Initialbeatmungen und klinische Lungenüberwachung'
-category: 'water'
+slug: person-has-inhaled-more-water-than-recommended
+title: Person hat mehr Wasser als empfohlen inhaliert
+subtitle: >-
+  Wasserrettung, hypoxische Reanimation mit 5 Initialbeatmungen und klinische
+  Lungenüberwachung
+category: water
 tags:
-  - 'ertrinken'
-  - 'wasser'
-  - 'reanimation'
-  - 'beatmung'
-  - 'erste-hilfe'
-  - 'medizin'
-  - 'notfall'
+  - ertrinken
+  - wasser
+  - reanimation
+  - beatmung
+  - erste-hilfe
+  - medizin
+  - notfall
 aliases:
-  - 'ertrinken'
-  - 'ertrinkungsunfall'
-  - 'wasserunfall'
-  - '5 initialbeatmungen ertrinken'
-  - 'sekundäres ertrinken symptome'
-  - 'reanimation wasserunfall'
-  - 'beinahe ertrinken'
-  - 'wasser geschluckt lunge'
-severity: 'immediate'
-urgency: 'immediate'
+  - ertrinken
+  - ertrinkungsunfall
+  - wasserunfall
+  - 5 initialbeatmungen ertrinken
+  - sekundäres ertrinken symptome
+  - reanimation wasserunfall
+  - beinahe ertrinken
+  - wasser geschluckt lunge
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Notruf 112 wählen, Reanimation zwingend mit 5 Initialbeatmungen starten, im Rhythmus 30:2 drücken und jede gerettete Person in die Klinik bringen.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Notruf 112 wählen, Reanimation zwingend mit 5 Initialbeatmungen starten, im
+  Rhythmus 30:2 drücken und jede gerettete Person in die Klinik bringen.
 memorable_facts:
-  - 'PRIMÄR HYPOXISCHER HERZSTILLSTAND (5 INITIALBEATMUNGEN): Bei normalem Herzstillstand an Land enthalten Lunge und Blut noch Restsauerstoff, weshalb die Herzdruckmassage Vorrang hat. Beim Ertrinken steht das Herz still, weil alle Sauerstoffreserven restlos verbraucht sind. Reine Herzdruckmassage pumpt nur sauerstofffreies Blut – daher MUSS die Reanimation mit 5 Initialbeatmungen starten.'
-  - 'SURFACTANT-AUSWASCHUNG: Inhaliertes Wasser wäscht das Surfactant (den schützenden Schutzfilm der Lungenbläschen) aus. Selbst wenn ein Ertrinkungsopfer am Strand wach und ansprechbar wirkt, können die Lungenbläschen noch 24 bis 72 Stunden später zusammenfallen und ein tödliches Lungenödem auslösen.'
+  - >-
+    PRIMÄR HYPOXISCHER HERZSTILLSTAND (5 INITIALBEATMUNGEN): Bei normalem
+    Herzstillstand an Land enthalten Lunge und Blut noch Restsauerstoff, weshalb
+    die Herzdruckmassage Vorrang hat. Beim Ertrinken steht das Herz still, weil
+    alle Sauerstoffreserven restlos verbraucht sind. Reine Herzdruckmassage
+    pumpt nur sauerstofffreies Blut – daher MUSS die Reanimation mit 5
+    Initialbeatmungen starten.
+  - >-
+    SURFACTANT-AUSWASCHUNG: Inhaliertes Wasser wäscht das Surfactant (den
+    schützenden Schutzfilm der Lungenbläschen) aus. Selbst wenn ein
+    Ertrinkungsopfer am Strand wach und ansprechbar wirkt, können die
+    Lungenbläschen noch 24 bis 72 Stunden später zusammenfallen und ein
+    tödliches Lungenödem auslösen.
 immediate_action:
-  - '1. EIGENSCHUTZ DES RETTERS HAT VORRANG: Reichen (Ast, Stange), Werfen (Rettungsring, Leine) oder Fahren (Boot). Niemals ohne Schwimmhilfen oder bei gefährlicher Strömung selbst ins Wasser springen.'
-  - '2. MÖGLICHST WAAGERECHT AN LAND BRINGEN: Den Ertrinkenden nach Möglichkeit in horizontaler Körperlage aus dem Wasser retten, um einen plötzlichen Blutdruckabfall durch den Wegfall des hydrostatischen Wasserdrucks zu vermeiden.'
-  - '3. ATMUNG PRÜFEN (MAX. 10 SEKUNDEN): Atemwege durch Überstrecken des Kopfes frei machen. Ist die Person bewusstlos und atmet nicht normal:'
-  - '4. ZWINGEND MIT 5 INITIALBEATMUNGEN BEGINNEN (HYPOXISCHES PROTOKOLL):'
-  - '   • Ertrinken führt zu einem primär hypoxischen Herzstillstand (Sauerstoffmangel im gesamten Körper).'
-  - '   • Nase zuhalten, Mund umschließen (oder Mund-zu-Nase) und 5 kräftige, langsame Beatmungen (je ca. 1 Sekunde) geben, bis sich der Brustkorb hebt.'
-  - '5. HERZDRUCKMASSAGE UND BEATMUNG IM RHYTHMUS 30:2:'
-  - '   • Sofort 30 Herzdruckmassagen (5–6 cm tief, 100–120/min) und 2 Beatmungen im ständigen Wechsel durchführen.'
-  - '   • Die Reanimation ohne Unterbrechung fortsetzen, bis der Rettungsdienst übernimmt oder die Person eindeutige Lebenszeichen zeigt.'
-  - '6. AED-EINSATZ: Wenn ein Defibrillator verfügbar ist, den nassen Brustkorb vor dem Aufkleben der Elektroden schnell mit einem Handtuch oder Kleidungsstück abtrocknen.'
-  - '7. JEDE GERETTETE PERSON MUSS IN DIE NOTAUFNAHME: Auch ansprechbare Personen, die Wasser geschluckt oder aspiriert haben, müssen zwingend notärztlich überwacht werden.'
+  - title: EIGENSCHUTZ BEI WASSERRETTUNG BEACHTEN
+    instruction: >-
+      Rettungsring oder Stange reichen; Person schnell und mit freiem Mund aus
+      dem Wasser bergen.
+  - title: ATMUNG ÜBERPRÜFEN (MAX 10 SEKUNDEN)
+    instruction: >-
+      Kopf überstrecken und Kinn anheben. Bei fehlender oder unregelmäßiger
+      Atmung sofort Notruf 112 absetzen.
+  - title: ERTRINKUNGS-CPR MIT 5 INITIALEN BEATMUNGEN STARTEN
+    instruction: 'Ertrinkungsunfälle führen zu hypoxischem Herzstillstand:'
+    substeps:
+      - '5 initiale Beatmungshübe geben, um Sauerstoff in die Lungen zu bringen.'
+      - >-
+        Anschließend im Standardrhythmus 30 Herzdruckmassagen : 2 Beatmungen
+        fortfahren.
+  - title: STABILE SEITENLAGE & KLINIKTRANSPORT BEI ATMUNG
+    instruction: >-
+      Atmende Personen in stabile Seitenlage bringen, nasses Zeug ausziehen,
+      wärmen und immer ins Krankenhaus einliefern (Gefahr des sekundären
+      Lungenödems).
 do_not:
-  - 'Niemals versuchen, Wasser mit dem Heimlich-Handgriff (Bauchkompressionen) oder durch Kopfüber-Halten „aus der Lunge zu pumpen“ (Wasser in den Alveolen wird resorbiert; Bauchkompressionen führen zu massivem Erbrechen und tödlicher Magensaftaspiration).'
-  - 'Die 5 Initialbeatmungen keinesfalls auslassen (beim Ertrinken sind die Sauerstoffreserven der Lunge vollständig erschöpft; reine Herzdruckmassage zirkuliert nur sauerstofffreies Blut).'
-  - 'Eine gerettete Person niemals ohne Kliniküberwachung nach Hause gehen lassen (eingeatmetes Wasser zerstört das Surfactant der Lunge; noch Stunden später kann ein lebensbedrohliches Lungenödem / ARDS auftreten).'
-  - 'Niemals ohne Rettungsgerät zu einer in Panik ertrinkenden Person schwimmen (Ertrinkende entwickeln panische Bärenkräfte und drücken Retter unter Wasser).'
+  - >-
+    Niemals versuchen, Wasser mit dem Heimlich-Handgriff (Bauchkompressionen)
+    oder durch Kopfüber-Halten „aus der Lunge zu pumpen“ (Wasser in den Alveolen
+    wird resorbiert; Bauchkompressionen führen zu massivem Erbrechen und
+    tödlicher Magensaftaspiration).
+  - >-
+    Die 5 Initialbeatmungen keinesfalls auslassen (beim Ertrinken sind die
+    Sauerstoffreserven der Lunge vollständig erschöpft; reine Herzdruckmassage
+    zirkuliert nur sauerstofffreies Blut).
+  - >-
+    Eine gerettete Person niemals ohne Kliniküberwachung nach Hause gehen lassen
+    (eingeatmetes Wasser zerstört das Surfactant der Lunge; noch Stunden später
+    kann ein lebensbedrohliches Lungenödem / ARDS auftreten).
+  - >-
+    Niemals ohne Rettungsgerät zu einer in Panik ertrinkenden Person schwimmen
+    (Ertrinkende entwickeln panische Bärenkräfte und drücken Retter unter
+    Wasser).
 sources:
-  - name: 'European Resuscitation Council (ERC)'
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: Cardiac Arrest in Special Circumstances - Drowning'
-    jurisdiction: 'EU / Global'
-    notes: 'Standard für 5 Initialbeatmungen, 30:2 Reanimationszyklus, waagerechte Rettung und AED-Trocknung.'
-  - name: 'Deutsche Lebens-Rettungs-Gesellschaft (DLRG)'
+    jurisdiction: EU / Global
+    notes: >-
+      Standard für 5 Initialbeatmungen, 30:2 Reanimationszyklus, waagerechte
+      Rettung und AED-Trocknung.
+  - name: Deutsche Lebens-Rettungs-Gesellschaft (DLRG)
     url: 'https://www.dlrg.de/'
     authoritative: true
-    guideline_version: 'Medizinische Leitlinien Wasserrettung und Ertrinkungsunfall'
-    jurisdiction: 'Deutschland / DACH'
-    notes: 'Präklinische Versorgung bei Ertrinkungsnotfällen, Eigenschutz und obligate Nachüberwachung.'
-  - name: 'International Liaison Committee on Resuscitation (ILCOR)'
+    guideline_version: Medizinische Leitlinien Wasserrettung und Ertrinkungsunfall
+    jurisdiction: Deutschland / DACH
+    notes: >-
+      Präklinische Versorgung bei Ertrinkungsnotfällen, Eigenschutz und obligate
+      Nachüberwachung.
+  - name: International Liaison Committee on Resuscitation (ILCOR)
     url: 'https://www.ilcor.org/'
     authoritative: true
-    guideline_version: 'Drowning Task Force Resuscitation Science Statement'
-    jurisdiction: 'Global'
-    notes: 'Pathophysiologie des hypoxischen Stillstands, Kontraindikation von Bauchkompressionen zur Wasserentleerung.'
+    guideline_version: Drowning Task Force Resuscitation Science Statement
+    jurisdiction: Global
+    notes: >-
+      Pathophysiologie des hypoxischen Stillstands, Kontraindikation von
+      Bauchkompressionen zur Wasserentleerung.
 ---
-
 Der menschliche Gasaustausch erfordert trockene Alveolarmembranen, durch die atmosphärischer Sauerstoff über eine mikroskopisch dünne Epithelschicht in die Lungenkapillaren diffundieren kann. Gelangt flüssiges Wasser in die Atemwege, zerstört dies die funktionelle Lungenarchitektur schlagartig.
 
 Gerät eine Person unter Wasser, verhindert ein reflektorischer Stimmritzenkrampf (Laryngospasmus) kurzzeitig das Eindringen von Flüssigkeit. Der rasch ansteigende Sauerstoffmangel (Hypoxie) und Kohlendioxidgehalt (Hyperkapnie) im Blut lösen jedoch unweigerlich einen massiven unwillkürlichen Einatemreflex aus. Das inhalierte Wasser wäscht das körpereigene _Surfactant_ (einen Phospholipidfilm, der das Zusammenfallen der Lungenbläschen verhindert) aus, flutet das Lungengewebe und führt zur akuten Erstickung.

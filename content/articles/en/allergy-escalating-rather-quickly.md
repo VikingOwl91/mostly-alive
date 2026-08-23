@@ -1,89 +1,135 @@
 ---
-slug: 'allergy-escalating-rather-quickly'
-title: 'Allergy Escalating Rather Quickly'
-subtitle: 'Anaphylaxis recognition, emergency adrenaline auto-injector administration, and circulatory management'
-category: 'medical'
+slug: allergy-escalating-rather-quickly
+title: Allergy Escalating Rather Quickly
+subtitle: >-
+  Anaphylaxis recognition, emergency adrenaline auto-injector administration,
+  and circulatory management
+category: medical
 tags:
-  - 'anaphylaxis'
-  - 'allergy'
-  - 'epinephrine'
-  - 'epipen'
-  - 'first-aid'
-  - 'medical'
-  - 'emergency'
+  - anaphylaxis
+  - allergy
+  - epinephrine
+  - epipen
+  - first-aid
+  - medical
+  - emergency
 aliases:
-  - 'anaphylaxis'
-  - 'allergic reaction'
-  - 'epipen'
-  - 'severe allergic reaction'
-  - 'anaphylactic shock'
-  - 'how to use epipen'
-  - 'throat swelling allergy'
-  - 'bee sting shock'
-severity: 'immediate'
-urgency: 'immediate'
+  - anaphylaxis
+  - allergic reaction
+  - epipen
+  - severe allergic reaction
+  - anaphylactic shock
+  - how to use epipen
+  - throat swelling allergy
+  - bee sting shock
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Inject epinephrine into the outer thigh immediately, call 911/112, keep the person lying flat, and never let them stand up.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Inject epinephrine into the outer thigh immediately, call 911/112, keep the
+  person lying flat, and never let them stand up.
 memorable_facts:
-  - 'THE EMPTY VENTRICLE DISASTER: Massive histamine release dilates peripheral blood vessels throughout the body. If an anaphylactic person stands up or walks, blood pools in their legs, instantly starving the heart of venous return. The heart pumps on empty chambers, causing sudden pulseless cardiac arrest. Keep them lying flat with legs elevated!'
-  - 'EPINEPHRINE VS ANTIHISTAMINES: Intramuscular adrenaline into the mid-outer thigh reverses airway swelling and vascular collapse in 3 to 5 minutes. Oral antihistamines and cortisone take 30 to 120 minutes to absorb—waiting for pills during an airway emergency is fatal.'
+  - >-
+    THE EMPTY VENTRICLE DISASTER: Massive histamine release dilates peripheral
+    blood vessels throughout the body. If an anaphylactic person stands up or
+    walks, blood pools in their legs, instantly starving the heart of venous
+    return. The heart pumps on empty chambers, causing sudden pulseless cardiac
+    arrest. Keep them lying flat with legs elevated!
+  - >-
+    EPINEPHRINE VS ANTIHISTAMINES: Intramuscular adrenaline into the mid-outer
+    thigh reverses airway swelling and vascular collapse in 3 to 5 minutes. Oral
+    antihistamines and cortisone take 30 to 120 minutes to absorb—waiting for
+    pills during an airway emergency is fatal.
 immediate_action:
-  - title: 'INJECT EPINEPHRINE (ADRENALINE) IMMEDIATELY'
-    instruction: 'If the person has a prescribed auto-injector (EpiPen, Jext, Auvi-Q), use it immediately at the first sign of airway swelling, breathing difficulty, or dizziness.'
+  - title: INJECT EPINEPHRINE (ADRENALINE) IMMEDIATELY
+    instruction: >-
+      If the person has a prescribed auto-injector (EpiPen, Jext, Auvi-Q), use
+      it immediately at the first sign of airway swelling, breathing difficulty,
+      or dizziness.
     substeps:
-      - 'Grasp the auto-injector with a fist (never place thumb over needle end) and pull off the safety cap.'
-      - 'Push needle tip firmly into the outer mid-thigh at a 90-degree angle (can be given through clothing).'
-      - 'Hold firmly in place for 3 to 5 seconds (or per device manual) until the dose is delivered.'
-      - 'Remove injector and gently massage injection site for 10 seconds.'
-  - title: 'CALL 911 / 112 IMMEDIATELY'
-    instruction: 'State clearly to emergency dispatch: "Anaphylaxis / severe allergic shock, adrenaline auto-injector administered."'
-  - title: 'PROPER POSITIONING (CRITICAL)'
+      - >-
+        Grasp the auto-injector with a fist (never place thumb over needle end)
+        and pull off the safety cap.
+      - >-
+        Push needle tip firmly into the outer mid-thigh at a 90-degree angle
+        (can be given through clothing).
+      - >-
+        Hold firmly in place for 3 to 5 seconds (or per device manual) until the
+        dose is delivered.
+      - Remove injector and gently massage injection site for 10 seconds.
+  - title: CALL 911 / 112 IMMEDIATELY
+    instruction: >-
+      State clearly to emergency dispatch: "Anaphylaxis / severe allergic shock,
+      adrenaline auto-injector administered."
+  - title: PROPER POSITIONING (CRITICAL)
     instruction: 'Support circulation and breathing according to the person’s symptoms:'
     variants:
-      - condition: 'Faint / Pale / Shock'
-        action: 'Lay flat on back and elevate legs (increases venous return to the heart).'
-      - condition: 'Breathing Difficulty'
-        action: 'Allow to sit up slightly in a supported position to ease respiration.'
-      - condition: 'Unconscious + Breathing'
-        action: 'Place in the recovery position.'
-      - condition: 'Pregnant'
-        action: 'Lay on left side to relieve vena cava compression.'
-  - title: 'SECOND DOSE IF NO IMPROVEMENT'
-    instruction: 'If symptoms fail to improve or worsen after 5 to 15 minutes and emergency services have not arrived, administer a second auto-injector into the opposite thigh.'
+      - condition: Faint / Pale / Shock
+        action: >-
+          Lay flat on back and elevate legs (increases venous return to the
+          heart).
+      - condition: Breathing Difficulty
+        action: Allow to sit up slightly in a supported position to ease respiration.
+      - condition: Unconscious + Breathing
+        action: Place in the recovery position.
+      - condition: Pregnant
+        action: Lay on left side to relieve vena cava compression.
+  - title: SECOND DOSE IF NO IMPROVEMENT
+    instruction: >-
+      If symptoms fail to improve or worsen after 5 to 15 minutes and emergency
+      services have not arrived, administer a second auto-injector into the
+      opposite thigh.
 do_not:
-  - 'Do not delay epinephrine administration to give oral antihistamines or asthma inhalers (antihistamines take 30 to 60 minutes to absorb and cannot reverse laryngeal edema or vascular collapse).'
-  - 'Do not allow the person to stand up, walk, or sit up abruptly, even if they claim they feel better (standing drains venous blood into dilated peripheral vessels, causing catastrophic "empty ventricle syndrome" and sudden cardiac arrest).'
-  - 'Do not inject epinephrine into veins, buttocks, hands, or feet (the anterolateral mid-outer thigh is the only clinically approved site ensuring rapid systemic intramuscular absorption).'
-  - 'Do not discard the used auto-injector (keep it in a safe container and hand it directly to the paramedics to confirm dose, concentration, and timing).'
+  - >-
+    Do not delay epinephrine administration to give oral antihistamines or
+    asthma inhalers (antihistamines take 30 to 60 minutes to absorb and cannot
+    reverse laryngeal edema or vascular collapse).
+  - >-
+    Do not allow the person to stand up, walk, or sit up abruptly, even if they
+    claim they feel better (standing drains venous blood into dilated peripheral
+    vessels, causing catastrophic "empty ventricle syndrome" and sudden cardiac
+    arrest).
+  - >-
+    Do not inject epinephrine into veins, buttocks, hands, or feet (the
+    anterolateral mid-outer thigh is the only clinically approved site ensuring
+    rapid systemic intramuscular absorption).
+  - >-
+    Do not discard the used auto-injector (keep it in a safe container and hand
+    it directly to the paramedics to confirm dose, concentration, and timing).
 sources:
-  - name: 'European Academy of Allergy and Clinical Immunology (EAACI)'
+  - name: European Academy of Allergy and Clinical Immunology (EAACI)
     url: 'https://eaaci.org/'
     authoritative: true
     guideline_version: 'EAACI Guidelines: Anaphylaxis (2021 Update)'
-    jurisdiction: 'EU / Global'
-    notes: 'Clinical definition, first-line adrenaline indication, mid-outer thigh injection site, and 5-15 min second-dose criteria.'
-  - name: 'Resuscitation Council UK'
+    jurisdiction: EU / Global
+    notes: >-
+      Clinical definition, first-line adrenaline indication, mid-outer thigh
+      injection site, and 5-15 min second-dose criteria.
+  - name: Resuscitation Council UK
     url: 'https://www.resus.org.uk/'
     authoritative: true
-    guideline_version: 'Emergency Treatment of Anaphylactic Reactions (2021)'
-    jurisdiction: 'UK / Europe'
-    notes: 'Positioning rules, avoidance of sudden upright posture, and lay-responder auto-injector administration.'
-  - name: 'World Allergy Organization (WAO)'
+    guideline_version: Emergency Treatment of Anaphylactic Reactions (2021)
+    jurisdiction: UK / Europe
+    notes: >-
+      Positioning rules, avoidance of sudden upright posture, and lay-responder
+      auto-injector administration.
+  - name: World Allergy Organization (WAO)
     url: 'https://www.worldallergy.org/'
     authoritative: true
-    guideline_version: 'WAO Anaphylaxis Guidance 2020'
-    jurisdiction: 'Global'
-    notes: 'Standardized diagnosis and pre-hospital intramuscular epinephrine dosing protocols.'
+    guideline_version: WAO Anaphylaxis Guidance 2020
+    jurisdiction: Global
+    notes: >-
+      Standardized diagnosis and pre-hospital intramuscular epinephrine dosing
+      protocols.
 ---
-
 The human immune system is an intricate biological defense network programmed to neutralize microbial invaders. Occasionally, however, the immune apparatus misclassifies an innocuous protein—such as peanut antigen, wasp venom, or penicillin—as an existential threat.
 
 In anaphylaxis, sensitized mast cells and basophils detonate simultaneously throughout the vascular system, releasing massive waves of histamine, leukotrienes, and prostaglandins. This biochemical deluge causes systemic vascular dilation (causing blood pressure to collapse) and triggers acute smooth muscle constriction and capillary leakage (causing the airway and vocal cords to swell shut).

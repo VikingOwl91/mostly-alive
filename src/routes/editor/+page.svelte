@@ -10,10 +10,19 @@
 		ArrowLeft,
 		FileText,
 		CheckCircle2,
-		Download
+		Download,
+		ChevronUp,
+		ChevronDown,
+		CornerDownRight,
+		Sliders
 	} from '@lucide/svelte';
 	import { marked } from 'marked';
-	import { ArticleFrontmatterSchema, CATEGORIES, type Category } from '$lib/types/content';
+	import {
+		ArticleFrontmatterSchema,
+		CATEGORIES,
+		type Category,
+		type ImmediateActionStep
+	} from '$lib/types/content';
 	import ThreatGauge from '$lib/components/ThreatGauge.svelte';
 	import ImmediateActionBanner from '$lib/components/ImmediateActionBanner.svelte';
 	import DoNotCard from '$lib/components/DoNotCard.svelte';
@@ -40,8 +49,30 @@
 	let threat_level = $state(4);
 	let status = $state<'draft' | 'needs-review' | 'reviewed' | 'outdated'>('draft');
 	let memory_hook = $state('One memorable sentence that saves lives.');
-	let immediate_action = $state<string[]>(['Step 1: Stop immediately.', 'Step 2: Seek shelter.']);
-	let do_not = $state<string[]>(['Do not record a video on your phone.']);
+
+	// Structured Immediate Actions
+	let immediate_actions = $state<ImmediateActionStep[]>([
+		{
+			title: 'SEEK IMMEDIATE SHELTER',
+			instruction: 'Enter a substantial enclosed building or hard-topped vehicle.',
+			substeps: ['Move off ridges and open ground.', 'Avoid tall isolated trees and metal fences.'],
+			variants: [
+				{
+					condition: 'No Shelter Available',
+					action: 'Adopt lightning crouch on balls of feet with heels touching.'
+				}
+			]
+		},
+		{
+			title: 'CALL EMERGENCY DISPATCH',
+			instruction: 'Call 911 / 112 if anyone is injured or structure is damaged.'
+		}
+	]);
+
+	let do_not = $state<string[]>([
+		'Do not stand near isolated trees or open gazebos (triggers lethal side-flash strikes).'
+	]);
+
 	let sources = $state<
 		Array<{
 			name: string;
@@ -60,28 +91,124 @@
 			jurisdiction: 'US / Global'
 		}
 	]);
+
 	let bodyMarkdown = $state(
 		`Humans are remarkably confident organisms.\n\nOccasionally the physical universe reminds us of our statistical frailty.\n\n### Why This Occurs\n\nThe phenomenon is driven by charge separation in convective storm cells.\n\n### When To Call Dispatch\n\nCall immediately if anyone is injured or structure is damaged.`
 	);
 
-	let newAction = $state('');
 	let newDoNot = $state('');
 	let validationErrors = $state<string[]>([]);
 	let exportSuccess = $state(false);
 
 	let renderedHtml = $derived(marked.parse(bodyMarkdown) as string);
 
-	function addAction() {
-		if (newAction.trim()) {
-			immediate_action = [...immediate_action, newAction.trim()];
-			newAction = '';
-		}
+	// Action Step Management
+	function addPrimaryAction() {
+		immediate_actions = [
+			...immediate_actions,
+			{
+				title: 'NEW PRIMARY ACTION',
+				instruction: 'Concise, safety-critical instruction description.',
+				substeps: [],
+				variants: []
+			}
+		];
 	}
 
-	function removeAction(index: number) {
-		immediate_action = immediate_action.filter((_, i) => i !== index);
+	function removePrimaryAction(index: number) {
+		immediate_actions = immediate_actions.filter((_, i) => i !== index);
 	}
 
+	function moveActionUp(index: number) {
+		if (index <= 0) return;
+		const next = [...immediate_actions];
+		const temp = next[index];
+		next[index] = next[index - 1];
+		next[index - 1] = temp;
+		immediate_actions = next;
+	}
+
+	function moveActionDown(index: number) {
+		if (index >= immediate_actions.length - 1) return;
+		const next = [...immediate_actions];
+		const temp = next[index];
+		next[index] = next[index + 1];
+		next[index + 1] = temp;
+		immediate_actions = next;
+	}
+
+	// Substep Management
+	function addSubstep(actionIndex: number) {
+		const action = immediate_actions[actionIndex];
+		const currentSubsteps = action.substeps || [];
+		const updated = [...immediate_actions];
+		updated[actionIndex] = {
+			...action,
+			substeps: [...currentSubsteps, '']
+		};
+		immediate_actions = updated;
+	}
+
+	function removeSubstep(actionIndex: number, subIndex: number) {
+		const action = immediate_actions[actionIndex];
+		if (!action.substeps) return;
+		const updated = [...immediate_actions];
+		updated[actionIndex] = {
+			...action,
+			substeps: action.substeps.filter((_, i) => i !== subIndex)
+		};
+		immediate_actions = updated;
+	}
+
+	function moveSubstepUp(actionIndex: number, subIndex: number) {
+		if (subIndex <= 0) return;
+		const action = immediate_actions[actionIndex];
+		if (!action.substeps) return;
+		const nextSubs = [...action.substeps];
+		const temp = nextSubs[subIndex];
+		nextSubs[subIndex] = nextSubs[subIndex - 1];
+		nextSubs[subIndex - 1] = temp;
+		const updated = [...immediate_actions];
+		updated[actionIndex] = { ...action, substeps: nextSubs };
+		immediate_actions = updated;
+	}
+
+	function moveSubstepDown(actionIndex: number, subIndex: number) {
+		const action = immediate_actions[actionIndex];
+		if (!action.substeps || subIndex >= action.substeps.length - 1) return;
+		const nextSubs = [...action.substeps];
+		const temp = nextSubs[subIndex];
+		nextSubs[subIndex] = nextSubs[subIndex + 1];
+		nextSubs[subIndex + 1] = temp;
+		const updated = [...immediate_actions];
+		updated[actionIndex] = { ...action, substeps: nextSubs };
+		immediate_actions = updated;
+	}
+
+	// Variant / Condition Management
+	function addVariant(actionIndex: number) {
+		const action = immediate_actions[actionIndex];
+		const currentVariants = action.variants || [];
+		const updated = [...immediate_actions];
+		updated[actionIndex] = {
+			...action,
+			variants: [...currentVariants, { condition: '', action: '' }]
+		};
+		immediate_actions = updated;
+	}
+
+	function removeVariant(actionIndex: number, varIndex: number) {
+		const action = immediate_actions[actionIndex];
+		if (!action.variants) return;
+		const updated = [...immediate_actions];
+		updated[actionIndex] = {
+			...action,
+			variants: action.variants.filter((_, i) => i !== varIndex)
+		};
+		immediate_actions = updated;
+	}
+
+	// Do Not Management
 	function addDoNot() {
 		if (newDoNot.trim()) {
 			do_not = [...do_not, newDoNot.trim()];
@@ -93,6 +220,7 @@
 		do_not = do_not.filter((_, i) => i !== index);
 	}
 
+	// Source Management
 	function addSource() {
 		sources = [
 			...sources,
@@ -111,6 +239,17 @@
 	}
 
 	function validate() {
+		// Clean up empty substeps / variants
+		const cleanedActions = immediate_actions.map((act) => ({
+			title: act.title.trim(),
+			instruction: act.instruction.trim(),
+			substeps: act.substeps?.map((s) => s.trim()).filter(Boolean),
+			variants: act.variants
+				?.map((v) => ({ condition: v.condition.trim(), action: v.action.trim() }))
+				.filter((v) => v.condition && v.action),
+			note: act.note?.trim() || undefined
+		}));
+
 		const payload = {
 			slug,
 			title,
@@ -123,7 +262,7 @@
 			threat_level,
 			status,
 			memory_hook,
-			immediate_action,
+			immediate_action: cleanedActions,
 			do_not,
 			sources,
 			reviewed_at: status === 'reviewed' ? new Date().toISOString().split('T')[0] : undefined,
@@ -160,26 +299,56 @@
 			`threat_level: ${threat_level}`,
 			`status: ${JSON.stringify(status)}`,
 			`memory_hook: ${JSON.stringify(memory_hook)}`,
-			'immediate_action:',
-			...immediate_action.map((a) => `  - ${JSON.stringify(a)}`),
-			'do_not:',
-			...do_not.map((d) => `  - ${JSON.stringify(d)}`),
-			'sources:',
-			...sources
-				.flatMap((s) => [
-					`  - name: ${JSON.stringify(s.name)}`,
-					`    url: ${JSON.stringify(s.url)}`,
-					`    authoritative: ${s.authoritative}`,
-					s.guideline_version
-						? `    guideline_version: ${JSON.stringify(s.guideline_version)}`
-						: '',
-					s.jurisdiction ? `    jurisdiction: ${JSON.stringify(s.jurisdiction)}` : ''
-				])
-				.filter(Boolean),
-			'---',
-			'',
-			bodyMarkdown
+			'immediate_action:'
 		];
+
+		for (const act of immediate_actions) {
+			yamlLines.push(`  - title: ${JSON.stringify(act.title.trim())}`);
+			yamlLines.push(`    instruction: ${JSON.stringify(act.instruction.trim())}`);
+			const validSubs = (act.substeps || []).map((s) => s.trim()).filter(Boolean);
+			if (validSubs.length > 0) {
+				yamlLines.push('    substeps:');
+				for (const s of validSubs) {
+					yamlLines.push(`      - ${JSON.stringify(s)}`);
+				}
+			}
+			const validVariants = (act.variants || []).filter(
+				(v) => v.condition.trim() && v.action.trim()
+			);
+			if (validVariants.length > 0) {
+				yamlLines.push('    variants:');
+				for (const v of validVariants) {
+					yamlLines.push(`      - condition: ${JSON.stringify(v.condition.trim())}`);
+					yamlLines.push(`        action: ${JSON.stringify(v.action.trim())}`);
+				}
+			}
+			if (act.note && act.note.trim()) {
+				yamlLines.push(`    note: ${JSON.stringify(act.note.trim())}`);
+			}
+		}
+
+		yamlLines.push('do_not:');
+		for (const d of do_not) {
+			yamlLines.push(`  - ${JSON.stringify(d)}`);
+		}
+
+		yamlLines.push('sources:');
+		for (const s of sources) {
+			yamlLines.push(`  - name: ${JSON.stringify(s.name)}`);
+			yamlLines.push(`    url: ${JSON.stringify(s.url)}`);
+			yamlLines.push(`    authoritative: ${s.authoritative}`);
+			if (s.guideline_version) {
+				yamlLines.push(`    guideline_version: ${JSON.stringify(s.guideline_version)}`);
+			}
+			if (s.jurisdiction) {
+				yamlLines.push(`    jurisdiction: ${JSON.stringify(s.jurisdiction)}`);
+			}
+		}
+
+		yamlLines.push('---');
+		yamlLines.push('');
+		yamlLines.push(bodyMarkdown);
+
 		return yamlLines.join('\n');
 	}
 
@@ -196,6 +365,7 @@
 		exportSuccess = true;
 		setTimeout(() => (exportSuccess = false), 3000);
 	}
+
 	async function commitArticle() {
 		if (!validate()) return;
 		isCommitting = true;
@@ -212,7 +382,7 @@
 					filename: `${slug}.md`,
 					content,
 					lang: activeLang,
-					commitMessage: `content(${activeLang}): update ${slug}`
+					commitMessage: `content(${activeLang}): update structured actions for ${slug}`
 				})
 			});
 
@@ -252,7 +422,7 @@
 				<div class="font-mono text-xs font-bold uppercase tracking-wider text-amber-400">
 					MOSTLY ALIVE // WEB STUDIO
 				</div>
-				<div class="text-xs text-slate-400">
+				<div class="text-xs text-slate-400 font-mono">
 					{slug ? `${slug}.md` : 'Untitled Entry'}
 				</div>
 			</div>
@@ -335,7 +505,16 @@
 	>
 		<!-- Left: Form & Markdown Source -->
 		<div class="overflow-y-auto p-6 space-y-6 {activeTab === 'preview' ? 'hidden md:block' : ''}">
-			<!-- Validation Errors Notice -->
+			<!-- Validation Status / Feedback -->
+			{#if commitStatusMsg}
+				<div
+					class="p-4 rounded-xl bg-emerald-950/50 border border-emerald-500/50 text-emerald-200 text-xs font-mono flex items-center gap-2"
+				>
+					<CheckCircle2 class="w-4 h-4 text-emerald-400 shrink-0" />
+					<span>{commitStatusMsg}</span>
+				</div>
+			{/if}
+
 			{#if validationErrors.length > 0}
 				<div
 					class="p-4 rounded-xl bg-red-950/40 border border-red-500/50 text-red-200 text-xs font-mono space-y-1"
@@ -446,25 +625,236 @@
 				</div>
 			</div>
 
-			<!-- Immediate Actions List -->
+			<!-- Hierarchical Immediate Actions Authoring -->
+			<div class="space-y-4 p-5 rounded-2xl bg-slate-900/50 border border-slate-800">
+				<div class="flex items-center justify-between">
+					<div>
+						<h3 class="font-mono text-xs font-bold uppercase tracking-wider text-red-400">
+							Semantic Immediate Actions Hierarchy
+						</h3>
+						<p class="text-[11px] text-slate-400 mt-0.5">
+							Primary decisions receive top-level numbering. Procedural details belong in substeps.
+						</p>
+					</div>
+					<button
+						type="button"
+						onclick={addPrimaryAction}
+						class="px-2.5 py-1 rounded-lg bg-red-950 border border-red-500/40 text-red-300 text-xs font-mono hover:bg-red-900/60 transition-colors flex items-center gap-1"
+					>
+						<Plus class="w-3.5 h-3.5" />
+						<span>Add Action</span>
+					</button>
+				</div>
+
+				<div class="space-y-4">
+					{#each immediate_actions as action, actIdx}
+						<div
+							class="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-3 font-mono text-xs"
+						>
+							<!-- Action Header Bar -->
+							<div class="flex items-center justify-between gap-2 border-b border-slate-800/80 pb-2">
+								<div class="flex items-center gap-2">
+									<span
+										class="px-2 py-0.5 rounded bg-red-950 border border-red-500/40 text-red-300 font-bold"
+									>
+										{String(actIdx + 1).padStart(2, '0')}
+									</span>
+									<span class="text-slate-400 font-semibold uppercase">Primary Action</span>
+								</div>
+
+								<div class="flex items-center gap-1">
+									<button
+										type="button"
+										onclick={() => moveActionUp(actIdx)}
+										disabled={actIdx === 0}
+										class="p-1 rounded text-slate-400 hover:text-white disabled:opacity-30"
+										title="Move action up"
+									>
+										<ChevronUp class="w-4 h-4" />
+									</button>
+									<button
+										type="button"
+										onclick={() => moveActionDown(actIdx)}
+										disabled={actIdx === immediate_actions.length - 1}
+										class="p-1 rounded text-slate-400 hover:text-white disabled:opacity-30"
+										title="Move action down"
+									>
+										<ChevronDown class="w-4 h-4" />
+									</button>
+									<button
+										type="button"
+										onclick={() => removePrimaryAction(actIdx)}
+										class="p-1 rounded text-slate-500 hover:text-red-400 ml-1"
+										title="Delete primary action"
+									>
+										<Trash2 class="w-4 h-4" />
+									</button>
+								</div>
+							</div>
+
+							<!-- Title & Main Instruction -->
+							<div class="space-y-2">
+								<div>
+									<label for={`action-title-${actIdx}`} class="block text-[11px] text-slate-400 mb-1">
+										Action Title (Short, Uppercase)
+									</label>
+									<input
+										id={`action-title-${actIdx}`}
+										type="text"
+										bind:value={action.title}
+										placeholder="e.g. INJECT EPINEPHRINE (ADRENALINE) IMMEDIATELY"
+										class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white uppercase focus:outline-none focus:border-red-500"
+									/>
+								</div>
+
+								<div>
+									<label for={`action-inst-${actIdx}`} class="block text-[11px] text-slate-400 mb-1">
+										Primary Instruction (Concise)
+									</label>
+									<textarea
+										id={`action-inst-${actIdx}`}
+										bind:value={action.instruction}
+										rows="2"
+										placeholder="Use prescribed auto-injector at the first sign of severe anaphylaxis..."
+										class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white focus:outline-none focus:border-red-500"
+									></textarea>
+								</div>
+							</div>
+
+							<!-- Substeps (Procedural details) -->
+							<div class="space-y-2 pt-2 border-t border-slate-900">
+								<div class="flex items-center justify-between text-[11px]">
+									<span class="text-slate-400">Procedural Substeps (How to execute):</span>
+									<button
+										type="button"
+										onclick={() => addSubstep(actIdx)}
+										class="text-amber-400 hover:text-amber-300 flex items-center gap-1"
+									>
+										<Plus class="w-3 h-3" />
+										<span>Add Substep</span>
+									</button>
+								</div>
+
+								{#if action.substeps && action.substeps.length > 0}
+									<div class="space-y-1.5 pl-2 border-l-2 border-slate-800">
+										{#each action.substeps as substep, subIdx}
+											<div class="flex items-center gap-1.5">
+												<span class="text-slate-600 select-none">├─</span>
+												<input
+													type="text"
+													bind:value={action.substeps[subIdx]}
+													placeholder="e.g. Remove safety cap and hold outer thigh..."
+													class="flex-1 bg-slate-900 border border-slate-800 rounded px-2 py-1 text-xs text-slate-200 focus:outline-none focus:border-amber-500"
+												/>
+												<button
+													type="button"
+													onclick={() => moveSubstepUp(actIdx, subIdx)}
+													disabled={subIdx === 0}
+													class="p-1 text-slate-500 hover:text-white disabled:opacity-30"
+												>
+													<ChevronUp class="w-3.5 h-3.5" />
+												</button>
+												<button
+													type="button"
+													onclick={() => moveSubstepDown(actIdx, subIdx)}
+													disabled={subIdx === (action.substeps?.length || 0) - 1}
+													class="p-1 text-slate-500 hover:text-white disabled:opacity-30"
+												>
+													<ChevronDown class="w-3.5 h-3.5" />
+												</button>
+												<button
+													type="button"
+													onclick={() => removeSubstep(actIdx, subIdx)}
+													class="p-1 text-slate-500 hover:text-red-400"
+												>
+													<Trash2 class="w-3.5 h-3.5" />
+												</button>
+											</div>
+										{/each}
+									</div>
+								{/if}
+							</div>
+
+							<!-- Conditional Variants -->
+							<div class="space-y-2 pt-2 border-t border-slate-900">
+								<div class="flex items-center justify-between text-[11px]">
+									<span class="text-slate-400">Condition Variants (Branching):</span>
+									<button
+										type="button"
+										onclick={() => addVariant(actIdx)}
+										class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1"
+									>
+										<Plus class="w-3 h-3" />
+										<span>Add Condition</span>
+									</button>
+								</div>
+
+								{#if action.variants && action.variants.length > 0}
+									<div class="space-y-2 pl-2 border-l-2 border-cyan-950">
+										{#each action.variants as variant, varIdx}
+											<div class="flex flex-col sm:flex-row gap-1.5 items-center">
+												<input
+													type="text"
+													bind:value={variant.condition}
+													placeholder="Condition (e.g. Faint / Shock)"
+													class="w-full sm:w-1/3 bg-slate-900 border border-slate-800 rounded px-2 py-1 text-xs text-amber-300"
+												/>
+												<input
+													type="text"
+													bind:value={variant.action}
+													placeholder="Action (e.g. Lay flat with elevated legs)"
+													class="w-full sm:flex-1 bg-slate-900 border border-slate-800 rounded px-2 py-1 text-xs text-slate-200"
+												/>
+												<button
+													type="button"
+													onclick={() => removeVariant(actIdx, varIdx)}
+													class="p-1 text-slate-500 hover:text-red-400"
+												>
+													<Trash2 class="w-3.5 h-3.5" />
+												</button>
+											</div>
+										{/each}
+									</div>
+								{/if}
+							</div>
+
+							<!-- Optional Note -->
+							<div class="pt-2 border-t border-slate-900">
+								<label for={`action-note-${actIdx}`} class="block text-[11px] text-slate-400 mb-1">
+									Context Note (Optional):
+								</label>
+								<input
+									id={`action-note-${actIdx}`}
+									type="text"
+									bind:value={action.note}
+									placeholder="e.g. Last resort mitigation only; does not guarantee safety."
+									class="w-full bg-slate-900 border border-slate-800 rounded px-2 py-1 text-xs text-slate-400"
+								/>
+							</div>
+						</div>
+					{/each}
+				</div>
+			</div>
+
+			<!-- Do Not Critical Mistakes -->
 			<div class="space-y-3 p-5 rounded-2xl bg-slate-900/50 border border-slate-800">
 				<h3 class="font-mono text-xs font-bold uppercase tracking-wider text-red-400">
-					Immediate Actions (Safety Layer)
+					Critical Mistakes (Do Not)
 				</h3>
 				<div class="space-y-2">
-					{#each immediate_action as action, idx}
+					{#each do_not as item, idx}
 						<div class="flex items-center gap-2">
-							<span class="font-mono text-xs text-slate-500 w-4">{idx + 1}.</span>
+							<span class="text-red-400 font-bold text-xs">✕</span>
 							<input
 								type="text"
-								bind:value={immediate_action[idx]}
+								bind:value={do_not[idx]}
 								class="flex-1 bg-slate-950 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white"
 							/>
 							<button
 								type="button"
-								onclick={() => removeAction(idx)}
+								onclick={() => removeDoNot(idx)}
 								class="p-1.5 rounded text-slate-500 hover:text-red-400"
-								aria-label="Remove action"
+								aria-label="Remove mistake"
 							>
 								<Trash2 class="w-4 h-4" />
 							</button>
@@ -474,14 +864,14 @@
 				<div class="flex items-center gap-2 pt-2">
 					<input
 						type="text"
-						placeholder="Add next immediate action..."
-						bind:value={newAction}
-						onkeydown={(e) => e.key === 'Enter' && addAction()}
+						placeholder="Add critical mistake with explanation in parentheses..."
+						bind:value={newDoNot}
+						onkeydown={(e) => e.key === 'Enter' && addDoNot()}
 						class="flex-1 bg-slate-950 border border-slate-700 rounded-lg px-3 py-1.5 text-xs text-white"
 					/>
 					<button
 						type="button"
-						onclick={addAction}
+						onclick={addDoNot}
 						class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-mono flex items-center gap-1"
 					>
 						<Plus class="w-3.5 h-3.5" />
@@ -558,7 +948,7 @@
 					for="ed-body"
 					class="block font-mono text-xs font-bold uppercase tracking-wider text-slate-400"
 				>
-					Article Body (Markdown / Explanations & Humor)
+					Article Body (Markdown / Explanations & Context)
 				</label>
 				<textarea
 					id="ed-body"
@@ -601,7 +991,7 @@
 				</div>
 
 				<!-- Safety Layer -->
-				<ImmediateActionBanner actions={immediate_action} lang={activeLang} {urgency} />
+				<ImmediateActionBanner actions={immediate_actions} lang={activeLang} {urgency} />
 				<DoNotCard items={do_not} lang={activeLang} />
 				{#if memory_hook}
 					<MemoryHook hook={memory_hook} lang={activeLang} />

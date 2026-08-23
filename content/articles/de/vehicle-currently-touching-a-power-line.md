@@ -1,70 +1,104 @@
 ---
-slug: 'vehicle-currently-touching-a-power-line'
-title: 'Fahrzeug berührt derzeit eine Hochspannungsleitung'
-subtitle: 'Abgerissene Stromleitungen auf PKW, Faradayscher Käfig und der lebensrettende Absprung ohne Doppelkontakt'
-category: 'electricity'
+slug: vehicle-currently-touching-a-power-line
+title: Fahrzeug berührt derzeit eine Hochspannungsleitung
+subtitle: >-
+  Abgerissene Stromleitungen auf PKW, Faradayscher Käfig und der lebensrettende
+  Absprung ohne Doppelkontakt
+category: electricity
 tags:
-  - 'strom'
-  - 'hochspannung'
-  - 'stromleitung'
-  - 'auto'
-  - 'schrittspannung'
-  - 'notfall'
+  - strom
+  - hochspannung
+  - stromleitung
+  - auto
+  - schrittspannung
+  - notfall
 aliases:
-  - 'stromleitung auf auto'
-  - 'hochspannungsleitung auf pkw'
-  - 'stromschlag auto aussteigen'
-  - 'hase hopser auto strom'
-  - 'schrittspannung auto'
-  - 'stromleitung auto brennt'
-severity: 'immediate'
-urgency: 'immediate'
+  - stromleitung auf auto
+  - hochspannungsleitung auf pkw
+  - stromschlag auto aussteigen
+  - hase hopser auto strom
+  - schrittspannung auto
+  - stromleitung auto brennt
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: false
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Technical Review Board'
-memory_hook: 'Im Auto sitzen bleiben; bei Brand mit geschlossenen Beinen frei abspringen und schlurfend 10 Meter entfernen, ohne Auto und Boden gleichzeitig zu berühren.'
+reviewer: Editorial Technical Review Board
+memory_hook: >-
+  Im Auto sitzen bleiben; bei Brand mit geschlossenen Beinen frei abspringen und
+  schlurfend 10 Meter entfernen, ohne Auto und Boden gleichzeitig zu berühren.
 memorable_facts:
-  - 'DIE GLEICHZEITIGE BERÜHRUNGSFALLE: Im Auto bist du dank des Faradayschen Käfigs in Sicherheit, weil dein ganzer Körper auf demselben elektrischen Potenzial liegt. Setzt du beim Aussteigen einen Fuß auf den Boden, während deine Hand noch die Autotür berührt, schließt dein Herz den 10.000-Volt-Stromkreis zur Erde. Der Absprung muss absolut berührungsfrei erfolgen.'
-  - 'DIE 10-METER-SCHLURF-EVAKUIERUNG: Der Strom, der vom Auto in den Boden fließt, erzeugt kreisförmige Spannungsabfälle (Schrittspannung). Wer normal mit weiten Schritten geht, erzeugt eine tödliche Spannungsdifferenz zwischen den Beinen. Nur mit eng aneinander gepressten Füßen schlurfen!'
+  - >-
+    DIE GLEICHZEITIGE BERÜHRUNGSFALLE: Im Auto bist du dank des Faradayschen
+    Käfigs in Sicherheit, weil dein ganzer Körper auf demselben elektrischen
+    Potenzial liegt. Setzt du beim Aussteigen einen Fuß auf den Boden, während
+    deine Hand noch die Autotür berührt, schließt dein Herz den
+    10.000-Volt-Stromkreis zur Erde. Der Absprung muss absolut berührungsfrei
+    erfolgen.
+  - >-
+    DIE 10-METER-SCHLURF-EVAKUIERUNG: Der Strom, der vom Auto in den Boden
+    fließt, erzeugt kreisförmige Spannungsabfälle (Schrittspannung). Wer normal
+    mit weiten Schritten geht, erzeugt eine tödliche Spannungsdifferenz zwischen
+    den Beinen. Nur mit eng aneinander gepressten Füßen schlurfen!
 immediate_action:
-  - '1. IM FAHRZEUG SITZEN BLEIBEN (SOLANGE KEIN FEUER AUSBRICHT): Ruhe bewahren und Hände in den Schoß legen. Die Metallkarosserie bildet einen Faradayschen Käfig, der den Strom um die Fahrgastzelle herumleitet. Im Inneren besteht keine Lebensgefahr.'
-  - '2. PASSIERENDE PERSONEN WARNEN (MINDESTENS 10 METER ABSTAND): Bei geöffnetem Fenster (ohne hinauszugreifen) Umstehenden zurufen, mindestens 10 Meter Abstand zu halten. Der Boden um das Auto steht unter unsichtbarer Schrittspannung.'
-  - '3. NOTRUF 112 WÄHLEN: Der Leitstelle mitteilen: „Stromleitung liegt auf besetztem Fahrzeug.“ Die Feuerwehr fordert beim Netzbetreiber die sofortige Spannungsfreischaltung der Leitung an.'
-  - '4. WENN DAS FAHRZEUG BRENNT (NOT-ABSPRUNG-PROTOKOLL): Tür weit aufstoßen, ohne metallene Außenflächen oder den Boden zu berühren.'
-  - '5. MIT GESCHLOSSENEN BEINEN FREI ABSPRINGEN: Auf den Einstiegsrahmen stellen, Arme vor der Brust verschränken und mit beiden Beinen gleichzeitig so weit wie möglich nach außen springen. In keinem Sekundenbruchteil dürfen Auto und Erdboden gleichzeitig berührt werden!'
-  - '6. MIT BEIDEN FÜSSEN GLEICHZEITIG LANDEN UND 10 METER SCHLURFEN: Auf beiden Füßen eng nebeneinander landen. Nicht gehen oder rennen! Die Füße lückenlos aneinandergepresst über den Boden schlurfen (Schrittlänge maximal Fersen-Zehen-Länge), bis ein Sicherheitsabstand von mindestens 10 Metern erreicht ist.'
+  - title: IM FAHRZEUG SITZEN BLEIBEN (FARADAYSCHER KÄFIG)
+    instruction: >-
+      Die Metallkarosserie bildet einen sicheren Faradayschen Käfig, solange man
+      vollständig im Inneren bleibt.
+  - title: HUPEN & PASSANTEN AUF 10 METER DISTANZ HALTEN
+    instruction: >-
+      Umstehende lautstark warnen, das Auto nicht zu berühren oder in den
+      Spannungsbereich zu treten.
+  - title: NUR BEI FAHRZEUGBRAND MIT BEIDBEINIGEM SPRUNG FLIEHEN
+    instruction: 'Nur wenn das Auto brennt, mit einem sauberen Sprung evakuieren:'
+    substeps:
+      - Mit beiden Füßen gleichzeitig abspringen und geschlossen landen.
+      - Keinesfalls Karosserie und Boden gleichzeitig berühren.
+      - Im engen Schlurfschritt mindestens 10 Meter vom Fahrzeug wegbewegen.
 do_not:
-  - 'Niemals wie gewohnt aussteigen, indem ein Fuß auf den Boden gesetzt wird, während die Hand noch die Tür berührt (tödlicher Stromschlag durch den Oberkörper).'
-  - 'Das Fahrzeug niemals ohne zwingenden Grund (wie einen echten Fahrzeugbrand) verlassen, bevor die Stromleitung nachweislich geerdet und abgeschaltet ist.'
-  - 'Niemals mit Ästen oder Stöcken versuchen, die Stromleitung vom Auto wegzudrücken.'
-  - 'Außerhalb des Autos niemals mit weiten Schritten gehen oder rennen (Schrittspannung).'
+  - >-
+    Niemals wie gewohnt aussteigen, indem ein Fuß auf den Boden gesetzt wird,
+    während die Hand noch die Tür berührt (tödlicher Stromschlag durch den
+    Oberkörper).
+  - >-
+    Das Fahrzeug niemals ohne zwingenden Grund (wie einen echten Fahrzeugbrand)
+    verlassen, bevor die Stromleitung nachweislich geerdet und abgeschaltet ist.
+  - >-
+    Niemals mit Ästen oder Stöcken versuchen, die Stromleitung vom Auto
+    wegzudrücken.
+  - >-
+    Außerhalb des Autos niemals mit weiten Schritten gehen oder rennen
+    (Schrittspannung).
 sources:
-  - name: 'Deutsche Gesetzliche Unfallversicherung (DGUV)'
+  - name: Deutsche Gesetzliche Unfallversicherung (DGUV)
     url: 'https://www.dguv.de/'
     authoritative: true
-    guideline_version: 'DGUV Information 203-004: Einsatz von Fahrzeugen in der Nähe von Freileitungen'
-    jurisdiction: 'Germany'
-    notes: 'Faradayscher Käfig im Kfz, Absprungtechnik bei Brand und Schrittspannungs-Vermeidung.'
-  - name: 'Electrical Safety Foundation International (ESFI)'
+    guideline_version: >-
+      DGUV Information 203-004: Einsatz von Fahrzeugen in der Nähe von
+      Freileitungen
+    jurisdiction: Germany
+    notes: >-
+      Faradayscher Käfig im Kfz, Absprungtechnik bei Brand und
+      Schrittspannungs-Vermeidung.
+  - name: Electrical Safety Foundation International (ESFI)
     url: 'https://www.esfi.org/'
     authoritative: true
-    guideline_version: 'Downed Power Lines and Vehicles'
-    jurisdiction: 'US / Global'
+    guideline_version: Downed Power Lines and Vehicles
+    jurisdiction: US / Global
     notes: 'Stay inside doctrine, clean-leap jump mechanics, and 10-meter perimeter.'
-  - name: 'Deutscher Feuerwehrverband (DFV)'
+  - name: Deutscher Feuerwehrverband (DFV)
     url: 'https://www.feuerwehrverband.de/'
     authoritative: true
     guideline_version: 'Fachempfehlung: Gefahren an elektrischen Anlagen'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Sicherheitsabstände bei Hochspannung (10m) und Notfallrettung.'
+    jurisdiction: Germany / DACH
+    notes: Sicherheitsabstände bei Hochspannung (10m) und Notfallrettung.
 ---
-
 Wenn durch einen Sturm, einen morschen Baum oder einen Unfall eine Hochspannungsleitung abreißt und direkt auf einem PKW landet, steht das gesamte Fahrzeug unter mehreren tausend Volt elektrischer Spannung.
 
 Für Insassen und Passanten wirkt das Bild dramatisch: Die Reifen können rauchen, Funken sprühen und die Elektrik summt bedrohlich.

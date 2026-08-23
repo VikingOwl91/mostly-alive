@@ -1,81 +1,111 @@
 ---
-slug: 'someone-ate-something-they-really-should-not-have'
-title: 'Someone Ate Something They Really Should Not Have'
-subtitle: 'Acute toxic ingestion protocols, poison control dispatch, and debunking dangerous emesis myths'
-category: 'home'
+slug: someone-ate-something-they-really-should-not-have
+title: Someone Ate Something They Really Should Not Have
+subtitle: >-
+  Acute toxic ingestion protocols, poison control dispatch, and debunking
+  dangerous emesis myths
+category: home
 tags:
-  - 'poisoning'
-  - 'toxicology'
-  - 'chemical'
-  - 'overdose'
-  - 'first-aid'
-  - 'medical'
-  - 'emergency'
+  - poisoning
+  - toxicology
+  - chemical
+  - overdose
+  - first-aid
+  - medical
+  - emergency
 aliases:
-  - 'poisoning'
-  - 'poison control'
-  - 'poison'
-  - 'swallowed chemical'
-  - 'toxic ingestion'
-  - 'overdose first aid'
-  - 'do not induce vomiting poison'
-  - 'accidental poisoning response'
-severity: 'critical'
-urgency: 'immediate'
+  - poisoning
+  - poison control
+  - poison
+  - swallowed chemical
+  - toxic ingestion
+  - overdose first aid
+  - do not induce vomiting poison
+  - accidental poisoning response
+severity: critical
+urgency: immediate
 threat_level: 4
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Secure the container, call Poison Control or 911/112 immediately, and never induce vomiting or give milk.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Secure the container, call Poison Control or 911/112 immediately, and never
+  induce vomiting or give milk.
 memorable_facts:
-  - 'THE DOUBLE-BURN & FOAM ASPIRATION DISASTERS: Forcing vomiting after swallowing corrosive acids or drain cleaners inflicts a second chemical burn on the esophagus on the way back up, risking rupture. Forcing vomiting after swallowing foaming detergents or lamp oils aerosolizes volatile hydrocarbons directly into the lungs, causing fatal chemical pneumonia.'
-  - 'MILK IS NOT AN ANTIDOTE: The lipid emulsion in milk acts as a lipophilic solvent in the gut, accelerating the rapid intestinal absorption of fat-soluble toxins (like organic pesticides and solvents). Never give milk to a poisoned person!'
+  - >-
+    THE DOUBLE-BURN & FOAM ASPIRATION DISASTERS: Forcing vomiting after
+    swallowing corrosive acids or drain cleaners inflicts a second chemical burn
+    on the esophagus on the way back up, risking rupture. Forcing vomiting after
+    swallowing foaming detergents or lamp oils aerosolizes volatile hydrocarbons
+    directly into the lungs, causing fatal chemical pneumonia.
+  - >-
+    MILK IS NOT AN ANTIDOTE: The lipid emulsion in milk acts as a lipophilic
+    solvent in the gut, accelerating the rapid intestinal absorption of
+    fat-soluble toxins (like organic pesticides and solvents). Never give milk
+    to a poisoned person!
 immediate_action:
-  - '1. SECURE THE SUBSTANCE AND PACKAGING: Immediately take away the chemical container, medication blister pack, plant, or mushroom sample. Keep the original packaging and label intact to identify the exact chemical compound.'
-  - '2. ASSESS CONSCIOUSNESS AND BREATHING:'
-  - '   • If unconscious but breathing normally: Place the person into the recovery position immediately to prevent airway obstruction.'
-  - '   • If not breathing: Call 911 / 112 and begin CPR immediately (use a face shield/barrier if toxic chemical residues are present around the mouth).'
-  - '3. CALL POISON CONTROL OR 911 / 112 IMMEDIATELY:'
-  - '   • US: Call Poison Help at 1-800-222-1222.'
-  - '   • UK: Call 111 / 999.'
-  - '   • Germany / Europe: Call the regional Giftnotruf or 112.'
-  - '   • State: WHO (age, weight), WHAT (exact product name/ingredients), HOW MUCH (estimated dose), WHEN (time elapsed), and CURRENT SYMPTOMS.'
-  - '4. IMMEDIATE DECONTAMINATION BY EXPOSURE ROUTE:'
-  - '   • Swallowed (Conscious): Wipe mouth clean and offer small sips of plain water (only if awake, able to swallow, and not directed otherwise by Poison Control).'
-  - '   • Skin Exposure: Remove contaminated clothing immediately and rinse skin thoroughly with running water for 15 minutes.'
-  - '   • Eye Exposure: Flush eyes continuously with lukewarm running water for 15 minutes, holding eyelids open.'
-  - '   • Inhaled Vapors: Move the person into fresh outdoor air immediately (ensure rescuer safety first).'
+  - title: SPIT OUT RESIDUE & RINSE MOUTH
+    instruction: >-
+      Spit out any remaining substance in mouth, rinse with a small sip of
+      water, and keep original packaging/container.
+  - title: CALL POISON CONTROL / 911 / 112 IMMEDIATELY
+    instruction: >-
+      State exact substance name, estimated swallowed quantity, patient weight,
+      and elapsed time.
+  - title: NEVER INDUCE VOMITING
+    instruction: >-
+      Vomiting re-burns the esophagus with caustic acids/alkalis or creates
+      lethal foaming chemical aspiration into lungs.
 do_not:
-  - 'Never induce vomiting under any circumstances (forcing emesis after swallowing corrosives like acids or lye causes double burns and tears the esophagus; vomiting foaming detergents or hydrocarbons causes fatal chemical pneumonia).'
-  - 'Do not give milk, raw eggs, or salted water (milk accelerates the intestinal absorption of fat-soluble toxins; salt water causes lethal hypernatremia and brain swelling in children).'
-  - 'Do not administer activated charcoal or home remedies unless explicitly instructed by a certified clinical toxicologist at a Poison Control Center.'
-  - 'Do not wait for symptoms to appear before calling Poison Control (many lethal toxins, such as acetaminophen/paracetamol or death cap mushrooms, cause zero early symptoms during their irreversible organ-destruction phase).'
+  - >-
+    Never induce vomiting under any circumstances (forcing emesis after
+    swallowing corrosives like acids or lye causes double burns and tears the
+    esophagus; vomiting foaming detergents or hydrocarbons causes fatal chemical
+    pneumonia).
+  - >-
+    Do not give milk, raw eggs, or salted water (milk accelerates the intestinal
+    absorption of fat-soluble toxins; salt water causes lethal hypernatremia and
+    brain swelling in children).
+  - >-
+    Do not administer activated charcoal or home remedies unless explicitly
+    instructed by a certified clinical toxicologist at a Poison Control Center.
+  - >-
+    Do not wait for symptoms to appear before calling Poison Control (many
+    lethal toxins, such as acetaminophen/paracetamol or death cap mushrooms,
+    cause zero early symptoms during their irreversible organ-destruction
+    phase).
 sources:
-  - name: "America's Poison Centers (AAPCC)"
+  - name: America's Poison Centers (AAPCC)
     url: 'https://poisonhelp.org/'
     authoritative: true
-    guideline_version: 'First Aid for Poisoning Protocol'
-    jurisdiction: 'US / Global'
-    notes: 'Emergency toxic exposure algorithms, contraindications of forced emesis/milk, and substance triage.'
-  - name: 'Bundesinstitut für Risikobewertung (BfR)'
+    guideline_version: First Aid for Poisoning Protocol
+    jurisdiction: US / Global
+    notes: >-
+      Emergency toxic exposure algorithms, contraindications of forced
+      emesis/milk, and substance triage.
+  - name: Bundesinstitut für Risikobewertung (BfR)
     url: 'https://www.bfr.bund.de/'
     authoritative: true
-    guideline_version: 'Ärztliche Mitteilungen bei Vergiftungen / Leitfaden Giftnotruf'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Standardisierte Notfallmaßnahmen bei Vergiftungsunfällen und Giftnotruf-Dokumentation.'
-  - name: 'World Health Organization (WHO)'
-    url: 'https://www.who.int/teams/environment-climate-change-and-health/chemical-safety-and-health/poisons-centres'
+    guideline_version: Ärztliche Mitteilungen bei Vergiftungen / Leitfaden Giftnotruf
+    jurisdiction: Germany / DACH
+    notes: >-
+      Standardisierte Notfallmaßnahmen bei Vergiftungsunfällen und
+      Giftnotruf-Dokumentation.
+  - name: World Health Organization (WHO)
+    url: >-
+      https://www.who.int/teams/environment-climate-change-and-health/chemical-safety-and-health/poisons-centres
     authoritative: true
-    guideline_version: 'Guidelines for the Management of Poisoning'
-    jurisdiction: 'Global'
-    notes: 'Universal decontamination protocols, charcoal limitations, and airway safety.'
+    guideline_version: Guidelines for the Management of Poisoning
+    jurisdiction: Global
+    notes: >-
+      Universal decontamination protocols, charcoal limitations, and airway
+      safety.
 ---
-
 The human gastrointestinal tract is an absorptive biological surface covering over thirty square meters of villous mucosa designed to extract water and nutrients into the bloodstream. When a toxic xenobiotic—whether a corrosive drain opener, prescription medication, household solvent, toxic plant, or mushroom—is swallowed, the stomach becomes a countdown timer.
 
 Different classes of toxins operate through distinct biochemical destruction mechanisms: corrosives destroy mucosal tissue through liquefactive or coagulative necrosis; organophosphates paralyze acetylcholinesterase enzymes; and hepatotoxins deplete mitochondrial glutathione reserves. Because physiological management is completely substance-specific, standardized "one-size-fits-all" amateur remedies are uniformly catastrophic.

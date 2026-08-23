@@ -1,71 +1,104 @@
 ---
-slug: 'cleaning-products-have-formed-an-alliance'
-title: 'Reinigungsmittel haben ein gefährliches Bündnis geschlossen'
-subtitle: 'Versehentliches Mischen von Haushaltschemikalien, Chlorgas- und Chloramin-Freisetzung und sofortige Raumräumung'
-category: 'home'
+slug: cleaning-products-have-formed-an-alliance
+title: Reinigungsmittel haben ein gefährliches Bündnis geschlossen
+subtitle: >-
+  Versehentliches Mischen von Haushaltschemikalien, Chlorgas- und
+  Chloramin-Freisetzung und sofortige Raumräumung
+category: home
 tags:
-  - 'chemie'
-  - 'reinigungsmittel'
-  - 'chlorgas'
-  - 'chloramin'
-  - 'haushalt'
-  - 'giftnotruf'
+  - chemie
+  - reinigungsmittel
+  - chlorgas
+  - chloramin
+  - haushalt
+  - giftnotruf
 aliases:
-  - 'reinigungsmittel gemischt'
-  - 'chlor und essig gemischt'
-  - 'chlor und ammoniak giftgas'
-  - 'chlorgas haushalt was tun'
-  - 'wc reiniger und bleiche'
-  - 'giftige daempfe putzen'
-severity: 'immediate'
-urgency: 'immediate'
+  - reinigungsmittel gemischt
+  - chlor und essig gemischt
+  - chlor und ammoniak giftgas
+  - chlorgas haushalt was tun
+  - wc reiniger und bleiche
+  - giftige daempfe putzen
+severity: immediate
+urgency: immediate
 threat_level: 4
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Technical Review Board'
-memory_hook: 'Sofort den Raum verlassen und an die frische Luft gehen, niemals Wasser in die kochende Mischung schütten und Giftnotruf / 112 rufen.'
+reviewer: Editorial Technical Review Board
+memory_hook: >-
+  Sofort den Raum verlassen und an die frische Luft gehen, niemals Wasser in die
+  kochende Mischung schütten und Giftnotruf / 112 rufen.
 memorable_facts:
-  - 'DIE CHLORAMIN-REAKTION: Das Mischen von chlorhaltiger Bleiche (Natriumhypochlorit) mit ammoniakhaltigen Reinigern setzt hochgiftiges Chloramin-Gas ($NH_2Cl$) frei. Beim Einatmen reagiert Chloramin mit dem Schleimhautwasser der Bronchien blitzartig zu Salzsäure und zellschädigenden Radikalen – es kommt zu schwersten Verätzungen und akutem Lungenödem.'
-  - 'NIEMALS WASSER IN DIE REAGIERENDE MISCHUNG KIPPEN: Wer Wasser in einen fischelnden Putzeimer mit chemischen Reaktionen kippt, erzeugt einen thermischen Hitzeschub. Kochende, ätzende Tropfen spritzen ins Gesicht und treiben Giftgase explosionsartig in den Raum. Eimer stehen lassen, Luft anhalten und sofort rausgehen.'
+  - >-
+    DIE CHLORAMIN-REAKTION: Das Mischen von chlorhaltiger Bleiche
+    (Natriumhypochlorit) mit ammoniakhaltigen Reinigern setzt hochgiftiges
+    Chloramin-Gas ($NH_2Cl$) frei. Beim Einatmen reagiert Chloramin mit dem
+    Schleimhautwasser der Bronchien blitzartig zu Salzsäure und zellschädigenden
+    Radikalen – es kommt zu schwersten Verätzungen und akutem Lungenödem.
+  - >-
+    NIEMALS WASSER IN DIE REAGIERENDE MISCHUNG KIPPEN: Wer Wasser in einen
+    fischelnden Putzeimer mit chemischen Reaktionen kippt, erzeugt einen
+    thermischen Hitzeschub. Kochende, ätzende Tropfen spritzen ins Gesicht und
+    treiben Giftgase explosionsartig in den Raum. Eimer stehen lassen, Luft
+    anhalten und sofort rausgehen.
 immediate_action:
-  - '1. SOFORT DEN RAUM VERLASSEN: Putzen sofort einstellen, Luft anhalten und unverzüglich ins Freie an die frische Luft gehen. Nicht im Raum bleiben, um nachzusehen!'
-  - '2. KEIN WASSER ODER ANDERE REINIGER IN DEN EIMER KIPPEN: Niemals versuchen, die Reaktion durch Zugabe von Wasser, Backpulver oder Seife zu „neutralisieren“ (exotherme Reaktionen lassen ätzende Tröpfchen spritzen).'
-  - '3. RAUM ISOLIEREN UND QUERLÜFTEN: Wenn gefahrlos von außen möglich, Fenster im betroffenen Raum weit öffnen und Zwischentüren zum restlichen Haus schließen, damit sich das Giftgas nicht über Flure oder Lüftungsrohre verteilt.'
-  - '4. GIFTNOTRUF ODER NOTRUF 112 WÄHLEN: In Deutschland/Österreich den regionalen Giftnotruf (z.B. Berlin 030-19240, Bonn 0228-19240, München 089-19240) oder bei Atemnot sofort 112 anrufen. Die exakten Produktnamen und Inhaltsstoffe von den Etiketten nennen.'
-  - '5. KONTAMINIERTE KLEIDUNG AUSZIEHEN UND HAUT/AUGEN SPÜLEN: Wurden Chemikalien verspritzt, Kleidung sofort ablegen und Hautpartien oder Augen 15 Minuten lang mit fließendem, kaltem Wasser gründlich spülen.'
-  - '6. BEI ATEMBESCHWERDEN SOFORT NOTARZT ALARMIEREN: Bei Hustenreiz, Brennen im Hals, pfeifender Atmung, Atemnot oder Engegefühl in der Brust ist eine sofortige notärztliche Behandlung zwingend erforderlich (Gefahr des toxischen Lungenödems).'
+  - title: RAUM SOFORT VERLASSEN & AN DIE FRISCHE LUFT GEHEN
+    instruction: >-
+      Mischen von Bleichmitteln mit Säuren/Ammoniak erzeugt tödliches Chlor-
+      oder Chloramingas. Dämpfe nicht einatmen.
+  - title: KEINESFALLS WASSER IN DIE CHEMISCHE REAKTION GIESSEN
+    instruction: >-
+      Wasserzugabe kann heftige Hitzeentwicklung und gefährliche
+      Verätzungs-Spritzer auslösen.
+  - title: GIFTNOTRUF / 112 WÄHLEN
+    instruction: >-
+      Gemischte Produkte nennen; bei Hustenreiz, Atemnot oder brennenden Augen
+      unverzüglich ärztlich untersuchen lassen.
 do_not:
-  - 'Niemals chlorhaltige Bleiche mit ammoniakhaltigen Reinigern mischen (erzeugt tödliches Chloramin-Gas).'
-  - 'Niemals Chlorbleiche mit sauren Reinigern wie Essigreiniger, Zitronensäure oder WC-Entkalkern mischen (setzt hochgiftiges Chlorgas frei).'
-  - 'Niemals Chlorbleiche mit Reinigungsalkohol / Isopropanol mischen (erzeugt giftiges Chloroform).'
-  - 'Niemals Wasserstoffperoxid und Essigsäure im selben Gefäß kombinieren (erzeugt ätzende Peressigsäure).'
-  - 'Nicht im kontaminierten Badezimmer bleiben, um den Eimer auszuspülen oder den Abfluss zu schrubben.'
+  - >-
+    Niemals chlorhaltige Bleiche mit ammoniakhaltigen Reinigern mischen (erzeugt
+    tödliches Chloramin-Gas).
+  - >-
+    Niemals Chlorbleiche mit sauren Reinigern wie Essigreiniger, Zitronensäure
+    oder WC-Entkalkern mischen (setzt hochgiftiges Chlorgas frei).
+  - >-
+    Niemals Chlorbleiche mit Reinigungsalkohol / Isopropanol mischen (erzeugt
+    giftiges Chloroform).
+  - >-
+    Niemals Wasserstoffperoxid und Essigsäure im selben Gefäß kombinieren
+    (erzeugt ätzende Peressigsäure).
+  - >-
+    Nicht im kontaminierten Badezimmer bleiben, um den Eimer auszuspülen oder
+    den Abfluss zu schrubben.
 sources:
-  - name: 'Bundesinstitut für Risikobewertung (BfR)'
+  - name: Bundesinstitut für Risikobewertung (BfR)
     url: 'https://www.bfr.bund.de/'
     authoritative: true
     guideline_version: 'Vergiftungsunfälle im Haushalt: Risiken beim Mischen von Sanitärreinigern'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Gefahren von Hypochlorit-Säure-Reaktionen, Chlorgas-Freisetzung und Giftnotruf-Verfahren.'
-  - name: 'American Association of Poison Control Centers (AAPCC)'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Gefahren von Hypochlorit-Säure-Reaktionen, Chlorgas-Freisetzung und
+      Giftnotruf-Verfahren.
+  - name: American Association of Poison Control Centers (AAPCC)
     url: 'https://www.poison.org/'
     authoritative: true
-    guideline_version: 'Household Chemical Mixtures: Chlorine and Chloramine Gas Inhalation Hazards'
-    jurisdiction: 'US / Global'
+    guideline_version: >-
+      Household Chemical Mixtures: Chlorine and Chloramine Gas Inhalation
+      Hazards
+    jurisdiction: US / Global
     notes: 'Evacuation guidelines, chloramine toxicity, and respiratory management.'
-  - name: 'Robert Koch-Institut (RKI)'
+  - name: Robert Koch-Institut (RKI)
     url: 'https://www.rki.de/'
     authoritative: true
     guideline_version: 'Gefahrstoffinformationen: Reiz- und Ätzgase im Haushalt'
-    jurisdiction: 'Germany'
-    notes: 'Lungenödem-Gefahr bei Inhalation von Chlorverbindungen.'
+    jurisdiction: Germany
+    notes: Lungenödem-Gefahr bei Inhalation von Chlorverbindungen.
 ---
-
 In dem gut gemeinten Versuch, hartnäckigen Schimmel in den Fliesenfugen zu beseitigen oder einen verstopften Abfluss freizubekommen, greifen Menschen häufig zu mehreren Reinigern gleichzeitig—in der fatalen Annahme: „Viel hilft viel.“
 
 In der chemischen Realität sind Haushaltsreiniger keine harmlosen Seifen, sondern aggressive Oxidationsmittel, hochkonzentrierte Säuren oder starke Laugen.

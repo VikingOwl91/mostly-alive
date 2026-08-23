@@ -1,69 +1,103 @@
 ---
-slug: 'sudden-crushing-headache-like-thunder'
-title: 'Sudden Crushing Headache Like Thunder'
-subtitle: 'Thunderclap headache recognition, subarachnoid hemorrhage warning signs, and emergency neurovascular protocol'
-category: 'medical'
+slug: sudden-crushing-headache-like-thunder
+title: Sudden Crushing Headache Like Thunder
+subtitle: >-
+  Thunderclap headache recognition, subarachnoid hemorrhage warning signs, and
+  emergency neurovascular protocol
+category: medical
 tags:
-  - 'headache'
-  - 'aneurysm'
-  - 'stroke'
-  - 'neurology'
-  - 'first-aid'
-  - 'medical'
+  - headache
+  - aneurysm
+  - stroke
+  - neurology
+  - first-aid
+  - medical
 aliases:
-  - 'thunderclap headache'
-  - 'worst headache of my life'
-  - 'sudden severe headache'
-  - 'ruptured aneurysm'
-  - 'subarachnoid hemorrhage'
-  - 'headache with stiff neck'
-severity: 'immediate'
-urgency: 'immediate'
+  - thunderclap headache
+  - worst headache of my life
+  - sudden severe headache
+  - ruptured aneurysm
+  - subarachnoid hemorrhage
+  - headache with stiff neck
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'A headache hitting maximum 10/10 agony within 60 seconds is a subarachnoid hemorrhage until proven otherwise: call 911/112 immediately.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  A headache hitting maximum 10/10 agony within 60 seconds is a subarachnoid
+  hemorrhage until proven otherwise: call 911/112 immediately.
 memorable_facts:
-  - 'THE 60-SECOND PEAK THRESHOLD: A clinical thunderclap headache reaches peak, maximum incapacitating intensity (10/10) in under 60 seconds. In roughly 20% to 25% of cases, this sudden explosion signifies a ruptured intracranial arterial aneurysm bleeding directly into the cerebrospinal fluid space.'
-  - 'THE SENTINEL HEADACHE WARNING: Minor aneurysm leaks ("sentinel leaks") cause temporary severe thunderclap headaches days or weeks before a catastrophic full rupture. Never ignore a sudden 10/10 headache even if the pain begins to subside after a few hours.'
+  - >-
+    THE 60-SECOND PEAK THRESHOLD: A clinical thunderclap headache reaches peak,
+    maximum incapacitating intensity (10/10) in under 60 seconds. In roughly 20%
+    to 25% of cases, this sudden explosion signifies a ruptured intracranial
+    arterial aneurysm bleeding directly into the cerebrospinal fluid space.
+  - >-
+    THE SENTINEL HEADACHE WARNING: Minor aneurysm leaks ("sentinel leaks") cause
+    temporary severe thunderclap headaches days or weeks before a catastrophic
+    full rupture. Never ignore a sudden 10/10 headache even if the pain begins
+    to subside after a few hours.
 immediate_action:
-  - '1. CALL 911 / 112 IMMEDIATELY: State clearly that the person has experienced an instantaneous "thunderclap headache reaching peak intensity in under one minute" and requires immediate emergency stroke/neurology evaluation.'
-  - '2. KEEP THE PERSON SITTING OR LYING DOWN IN A QUIET, DARK ROOM: Minimize physical exertion, sudden movements, coughing, or straining, which increase intracranial pressure and risk re-bleeding from an aneurysm.'
-  - '3. MONITOR AIRWAY AND CONSCIOUSNESS: Subarachnoid hemorrhages can rapidly cause nausea, projectile vomiting, seizures, or sudden coma. Be ready to roll the person into the recovery position to prevent vomit aspiration.'
-  - '4. DO NOT ADMINISTER ASPIRIN, IBUPROFEN, OR BLOOD THINNERS: Non-steroidal anti-inflammatory drugs (NSAIDs) and aspirin impair platelet aggregation and can drastically worsen active intracranial bleeding.'
-  - '5. RECORD EXACT ONSET TIME AND SYMPTOMS: Note the precise second the headache began, whether there was loss of consciousness, neck stiffness, vision changes, or limb weakness, and report this directly to the paramedic team.'
+  - title: CALL 911 / 112 IMMEDIATELY
+    instruction: >-
+      Report sudden onset thunderclap headache reaching maximum severity within
+      seconds (suspected subarachnoid hemorrhage).
+  - title: ENFORCE ABSOLUTE PHYSICAL REST
+    instruction: >-
+      Lay patient quietly with upper body slightly elevated in a dark, calm
+      room; strictly prohibit exertion.
+  - title: MONITOR CONSCIOUSNESS & PROHIBIT ASPIRIN
+    instruction: >-
+      Do not give aspirin or NSAIDs (which worsen intracranial bleeding).
+      Prepare recovery position if consciousness declines.
 do_not:
-  - 'Never take aspirin, ibuprofen, naproxen, or other blood-thinning pain medications for an explosive thunderclap headache (they inhibit clotting and worsen brain hemorrhages).'
-  - 'Never dismiss a sudden 10/10 headache because it "slowly gets a bit better" after an hour (sentinel bleeds temporarily stabilize before a fatal second rupture).'
-  - 'Never attempt to drive yourself to the hospital (sudden loss of consciousness or seizures can occur at any moment).'
-  - 'Never perform vigorous neck stretching or chiropractic manipulation if the neck feels stiff after sudden head pain.'
+  - >-
+    Never take aspirin, ibuprofen, naproxen, or other blood-thinning pain
+    medications for an explosive thunderclap headache (they inhibit clotting and
+    worsen brain hemorrhages).
+  - >-
+    Never dismiss a sudden 10/10 headache because it "slowly gets a bit better"
+    after an hour (sentinel bleeds temporarily stabilize before a fatal second
+    rupture).
+  - >-
+    Never attempt to drive yourself to the hospital (sudden loss of
+    consciousness or seizures can occur at any moment).
+  - >-
+    Never perform vigorous neck stretching or chiropractic manipulation if the
+    neck feels stiff after sudden head pain.
 sources:
-  - name: 'American Heart Association (AHA) / American Stroke Association (ASA)'
+  - name: American Heart Association (AHA) / American Stroke Association (ASA)
     url: 'https://www.stroke.org/'
     authoritative: true
-    guideline_version: 'Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage'
-    jurisdiction: 'US / Global'
-    notes: '60-second thunderclap criteria, non-contrast CT within 6 hours, and antiplatelet contraindications.'
-  - name: 'European Stroke Organisation (ESO)'
+    guideline_version: Guidelines for the Management of Aneurysmal Subarachnoid Hemorrhage
+    jurisdiction: US / Global
+    notes: >-
+      60-second thunderclap criteria, non-contrast CT within 6 hours, and
+      antiplatelet contraindications.
+  - name: European Stroke Organisation (ESO)
     url: 'https://eso-stroke.org/'
     authoritative: true
-    guideline_version: 'Guidelines for Management of Intracranial Aneurysms and SAH'
-    jurisdiction: 'EU / Global'
-    notes: 'Emergency triage, sentinel headache identification, and lumbar puncture protocols.'
-  - name: 'Deutsche Gesellschaft für Neurologie (DGN)'
+    guideline_version: Guidelines for Management of Intracranial Aneurysms and SAH
+    jurisdiction: EU / Global
+    notes: >-
+      Emergency triage, sentinel headache identification, and lumbar puncture
+      protocols.
+  - name: Deutsche Gesellschaft für Neurologie (DGN)
     url: 'https://dgn.org/'
     authoritative: true
     guideline_version: 'S2k-Leitlinie: Subarachnoidalblutung (SAB)'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Kopfschmerz-Charakteristik (Vernichtungskopfschmerz), Meningismus und Bildgebung.'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Kopfschmerz-Charakteristik (Vernichtungskopfschmerz), Meningismus und
+      Bildgebung.
 ---
-
 Almost everyone experiences tension headaches or occasional migraines that build gradually over hours.
 
 A **thunderclap headache** is fundamentally different: it is an explosive, blinding neurological event that detonates with zero warning, reaching maximum, incapacitating intensity (described uniformly as "the worst headache of my life") **in under 60 seconds**.

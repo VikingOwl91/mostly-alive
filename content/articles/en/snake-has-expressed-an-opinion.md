@@ -1,71 +1,107 @@
 ---
-slug: 'snake-has-expressed-an-opinion'
-title: 'Snake Has Expressed an Opinion'
-subtitle: 'Venomous snakebite protocol, lymphatic venom transport, and the dangerous myths of cutting, sucking, and tourniquets'
-category: 'animals'
+slug: snake-has-expressed-an-opinion
+title: Snake Has Expressed an Opinion
+subtitle: >-
+  Venomous snakebite protocol, lymphatic venom transport, and the dangerous
+  myths of cutting, sucking, and tourniquets
+category: animals
 tags:
-  - 'snake'
-  - 'venom'
-  - 'snakebite'
-  - 'outdoors'
-  - 'first-aid'
-  - 'animals'
+  - snake
+  - venom
+  - snakebite
+  - outdoors
+  - first-aid
+  - animals
 aliases:
-  - 'snake bite first aid'
-  - 'venomous snake bite'
-  - 'snake bite tourniquet myth'
-  - 'cut and suck snake venom myth'
-  - 'rattlesnake bite'
-  - 'viper bite first aid'
-severity: 'immediate'
-urgency: 'immediate'
+  - snake bite first aid
+  - venomous snake bite
+  - snake bite tourniquet myth
+  - cut and suck snake venom myth
+  - rattlesnake bite
+  - viper bite first aid
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Keep the limb still at heart level, remove constricting jewelry, mark advancing swelling, and call 911/112 for antivenom.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Keep the limb still at heart level, remove constricting jewelry, mark
+  advancing swelling, and call 911/112 for antivenom.
 memorable_facts:
-  - 'THE LYMPHATIC PUMP MECHANISM: High-molecular-weight snake venoms are transported primarily through slow-flowing lymphatic vessels, not directly into blood veins. Muscle contractions act as an active pump squeezing venom toward central organs. Keeping the patient physically motionless slows systemic venom spread by over 70%.'
-  - 'THE CUT-AND-SUCK DISASTER: Slicing across fang puncture marks severs critical tendons and nerves while recovering less than 0.1% of injected venom. Sucking introduces oral bacteria into deep tissue, and applying tourniquets concentrates cytotoxic venom locally, guaranteeing massive tissue necrosis and amputation.'
+  - >-
+    THE LYMPHATIC PUMP MECHANISM: High-molecular-weight snake venoms are
+    transported primarily through slow-flowing lymphatic vessels, not directly
+    into blood veins. Muscle contractions act as an active pump squeezing venom
+    toward central organs. Keeping the patient physically motionless slows
+    systemic venom spread by over 70%.
+  - >-
+    THE CUT-AND-SUCK DISASTER: Slicing across fang puncture marks severs
+    critical tendons and nerves while recovering less than 0.1% of injected
+    venom. Sucking introduces oral bacteria into deep tissue, and applying
+    tourniquets concentrates cytotoxic venom locally, guaranteeing massive
+    tissue necrosis and amputation.
 immediate_action:
-  - '1. MOVE AWAY SAFELY AND STAY CALM: Step at least 2 to 3 meters (6 to 10 feet) away from the snake to prevent secondary strikes. Do not attempt to catch, corner, or kill the snake. Take a photo of the snake from a safe distance if possible to assist antivenom selection.'
-  - '2. IMMOBILIZE THE BITTEN LIMB COMPLETELY: Keep the patient physically still and resting. Splint or support the affected arm or leg, positioning it at approximately heart level (not elevated above the head and not hanging down).'
-  - '3. REMOVE RINGS, WATCHES, AND TIGHT CLOTHING IMMEDIATELY: Venom-induced swelling can be rapid and severe; metal rings or tight bracelets quickly act as tourniquets, causing ischemic gangrene of fingers.'
-  - '4. CALL 911 / 112 IMMEDIATELY: Request emergency medical transport to the nearest hospital with intensive care and antivenom stocks.'
-  - '5. MARK ADVANCING EDGES OF SWELLING AND PAIN: Use a pen or marker to draw a line around the border of swelling every 15 to 30 minutes, writing the exact time next to the line to show medical teams how fast venom is spreading.'
-  - '6. REGIONAL AUSTRALIAN ELAPID PROTOCOL (PRESSURE IMMOBILIZATION): In Australia/Oceania for neurotoxic elapids (Taipan, Brown, Tiger snake), apply a broad elastic Pressure Immobilization Bandage (PIB) firmly around the entire limb from toes/fingers up to the groin/armpit, and splint rigidly.'
+  - title: MOVE OUT OF STRIKE RANGE & REMAIN COMPLETELY STILL
+    instruction: >-
+      Keep calm and motionless; physical activity accelerates lymphatic venom
+      spread throughout the bloodstream by over 70%.
+  - title: IMMOBILIZE BITTEN LIMB AT HEART LEVEL & REMOVE JEWELRY
+    instruction: >-
+      Splint the limb and remove rings, watches, and tight shoes immediately
+      before massive swelling begins.
+  - title: CALL 911 / 112 FOR ANTIVENOM EVALUATION
+    instruction: >-
+      Transport calmly to hospital emergency department. NEVER cut, suck, apply
+      ice, or use arterial tourniquets on snakebites.
 do_not:
-  - 'Never cut the bite wound with knives or razor blades (severs nerves and causes uncompressible hemorrhage).'
-  - 'Never attempt to suck venom out with your mouth or commercial suction extractors (suction extractors create tissue trauma and fail to remove venom).'
-  - 'Never apply a tourniquet or tight constriction band for pit viper/viper bites (concentrated cytotoxic venom destroys the limb).'
-  - 'Never apply ice packs or submerge the limb in freezing water (cryotherapy accelerates ischemic tissue necrosis).'
-  - 'Never administer alcohol, aspirin, or stimulants (alcohol dilates vessels and accelerates venom absorption).'
+  - >-
+    Never cut the bite wound with knives or razor blades (severs nerves and
+    causes uncompressible hemorrhage).
+  - >-
+    Never attempt to suck venom out with your mouth or commercial suction
+    extractors (suction extractors create tissue trauma and fail to remove
+    venom).
+  - >-
+    Never apply a tourniquet or tight constriction band for pit viper/viper
+    bites (concentrated cytotoxic venom destroys the limb).
+  - >-
+    Never apply ice packs or submerge the limb in freezing water (cryotherapy
+    accelerates ischemic tissue necrosis).
+  - >-
+    Never administer alcohol, aspirin, or stimulants (alcohol dilates vessels
+    and accelerates venom absorption).
 sources:
-  - name: 'World Health Organization (WHO)'
+  - name: World Health Organization (WHO)
     url: 'https://www.who.int/'
     authoritative: true
-    guideline_version: 'WHO Guidelines for the Management of Snakebites (2nd Edition)'
-    jurisdiction: 'Global'
-    notes: 'Immobilization standard, contraindication of incisions/suction/ice, and antivenom indications.'
-  - name: 'American College of Medical Toxicology (ACMT)'
+    guideline_version: WHO Guidelines for the Management of Snakebites (2nd Edition)
+    jurisdiction: Global
+    notes: >-
+      Immobilization standard, contraindication of incisions/suction/ice, and
+      antivenom indications.
+  - name: American College of Medical Toxicology (ACMT)
     url: 'https://www.acmt.net/'
     authoritative: true
-    guideline_version: 'Unified Treatment Algorithm for the Management of Cro bowels and Pit Viper Bites'
-    jurisdiction: 'US / Americas'
-    notes: 'Heart-level positioning, marking swelling boundaries, and antivenom dosing.'
-  - name: 'Australian Resuscitation Council (ARC)'
+    guideline_version: >-
+      Unified Treatment Algorithm for the Management of Cro bowels and Pit Viper
+      Bites
+    jurisdiction: US / Americas
+    notes: >-
+      Heart-level positioning, marking swelling boundaries, and antivenom
+      dosing.
+  - name: Australian Resuscitation Council (ARC)
     url: 'https://resus.org.au/'
     authoritative: true
     guideline_version: 'ANZCOR Guideline 9.4.8: Envenomation - Snake Bite'
-    jurisdiction: 'Australia / Oceania'
-    notes: 'Pressure Immobilization Technique (PIB) for Australian neurotoxic elapids.'
+    jurisdiction: Australia / Oceania
+    notes: Pressure Immobilization Technique (PIB) for Australian neurotoxic elapids.
 ---
-
 Encountering a venomous snake while hiking, gardening, or camping can result in an instantaneous defensive strike.
 
 Venomous snakes possess specialized hollow or grooved fangs designed to inject a complex biochemical cocktail of enzymes, metalloproteinases, neurotoxins, and cardiotoxins into subcutaneous tissue or muscle.

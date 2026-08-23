@@ -1,70 +1,112 @@
 ---
-slug: 'person-looking-alarmingly-pale-after-something-bad-happened'
-title: 'Person Looking Alarmingly Pale After Something Bad Happened'
-subtitle: 'Medical circulatory shock pathophysiology, hypovolemia recognition, and passive leg elevation vs thermoregulation'
-category: 'medical'
+slug: person-looking-alarmingly-pale-after-something-bad-happened
+title: Person Looking Alarmingly Pale After Something Bad Happened
+subtitle: >-
+  Medical circulatory shock pathophysiology, hypovolemia recognition, and
+  passive leg elevation vs thermoregulation
+category: medical
 tags:
-  - 'shock'
-  - 'hypovolemia'
-  - 'circulation'
-  - 'trauma'
-  - 'first-aid'
-  - 'medical'
+  - shock
+  - hypovolemia
+  - circulation
+  - trauma
+  - first-aid
+  - medical
 aliases:
-  - 'circulatory shock'
-  - 'medical shock symptoms'
-  - 'hypovolemic shock'
-  - 'pale and cold after accident'
-  - 'trendelenburg shock position'
-  - 'lethal triad trauma'
-severity: 'immediate'
-urgency: 'immediate'
+  - circulatory shock
+  - medical shock symptoms
+  - hypovolemic shock
+  - pale and cold after accident
+  - trendelenburg shock position
+  - lethal triad trauma
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Lay flat with legs raised 20–30 cm (if no head/spine trauma), wrap in warm blankets, give zero fluids, and call 911/112.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Lay flat with legs raised 20–30 cm (if no head/spine trauma), wrap in warm
+  blankets, give zero fluids, and call 911/112.
 memorable_facts:
-  - 'THE LETHAL TRIAD IN TRAUMA SHOCK: When acute blood loss drops core body temperature below 35°C, coagulation enzymes lose over 50% of their clotting activity, creating a fatal feedback loop (hypothermia, metabolic acidosis, and coagulopathy). Wrapping a shock patient in warm blankets and silver rescue foil is an active surgical life-support measure, not just comfort.'
-  - 'THE ZERO ORAL FLUID RULE: Shock triggers extreme sympathetic vasoconstriction, shunting blood completely away from the stomach and intestines (causing acute gastric paralysis). Giving a thirsty shock patient water guarantees vomiting and fatal pulmonary aspiration when emergency anesthesia is initiated.'
+  - >-
+    THE LETHAL TRIAD IN TRAUMA SHOCK: When acute blood loss drops core body
+    temperature below 35°C, coagulation enzymes lose over 50% of their clotting
+    activity, creating a fatal feedback loop (hypothermia, metabolic acidosis,
+    and coagulopathy). Wrapping a shock patient in warm blankets and silver
+    rescue foil is an active surgical life-support measure, not just comfort.
+  - >-
+    THE ZERO ORAL FLUID RULE: Shock triggers extreme sympathetic
+    vasoconstriction, shunting blood completely away from the stomach and
+    intestines (causing acute gastric paralysis). Giving a thirsty shock patient
+    water guarantees vomiting and fatal pulmonary aspiration when emergency
+    anesthesia is initiated.
 immediate_action:
-  - '1. CONTROL ANY VISIBLE EXTERNAL HEMORRHAGE IMMEDIATELY: Apply direct firm pressure, wound packing, or a tourniquet to stop active blood loss.'
-  - '2. CALL 911 / 112: Announce a critical medical emergency: "Patient in progressive circulatory shock with cold pallor, rapid weak pulse, and altered mental status."'
-  - '3. LAY THE PATIENT SUPINE AND ELEVATE LEGS (PASSIVE LEG RAISE): Place the patient flat on their back and elevate their legs approximately 20 to 30 cm (8 to 12 inches) using pillows or a bag (this autotransfuses ~300 to 500 mL of venous blood to core vital organs). *Exception: Do NOT elevate legs if you suspect head, neck, spinal trauma, pelvic fractures, or if breathing worsens.*'
-  - '4. THERMAL MANAGEMENT (PREVENT HYPOTHERMIA): Insulate the patient from the cold ground with blankets or jackets, and wrap them in a thermal emergency blanket (silver space blanket).'
-  - '5. KEEP STRICTLY FASTING (NO FOOD OR DRINK): Never give liquids or food, even if the patient complains of severe thirst.'
-  - '6. CONTINUOUSLY REASSESS AIRWAY AND CONSCIOUSNESS: If the patient becomes drowsy or begins vomiting, immediately turn them into the recovery position to protect the airway.'
+  - title: CALL 911 / 112 & IDENTIFY SHOCK CAUSE
+    instruction: >-
+      Report severe circulatory shock and immediately address triggers (e.g.
+      compress external bleeding, remove allergen).
+  - title: POSITION IN PASSIVE LEG RAISE (SHOCK POSITION)
+    instruction: >-
+      Elevate legs 20 to 30 cm (8 to 12 inches) to autotransfuse venous blood to
+      heart and brain:
+    variants:
+      - condition: Hypovolemic / Anaphylactic Shock
+        action: Flat on back with elevated legs.
+      - condition: Cardiogenic Shock / Chest Pain
+        action: Semi-seated with elevated upper body (do NOT raise legs).
+      - condition: Breathing Difficulty
+        action: Supported upright sitting.
+  - title: PREVENT HYPOTHERMIA & STRICTLY PROHIBIT ORAL INTAKE
+    instruction: >-
+      Wrap patient in a rescue blanket (gold side outward) and give zero liquids
+      or food due to gastric stasis and aspiration risk.
 do_not:
-  - 'Never give a person in medical shock water, coffee, alcohol, or food (gastric emptying is paralyzed; fluids cause fatal aspiration during surgery).'
-  - 'Do not elevate the legs if there is suspected head trauma, spinal injury, broken pelvis, or acute cardiogenic pulmonary edema (shortness of breath).'
-  - 'Do not confuse medical circulatory shock with psychological "emotional shock" (circulatory shock is an acute cellular oxygen delivery failure that kills within minutes).'
-  - 'Do not let the patient sit up or stand up (sudden postural drop in cardiac venous return causes immediate cardiac arrest).'
+  - >-
+    Never give a person in medical shock water, coffee, alcohol, or food
+    (gastric emptying is paralyzed; fluids cause fatal aspiration during
+    surgery).
+  - >-
+    Do not elevate the legs if there is suspected head trauma, spinal injury,
+    broken pelvis, or acute cardiogenic pulmonary edema (shortness of breath).
+  - >-
+    Do not confuse medical circulatory shock with psychological "emotional
+    shock" (circulatory shock is an acute cellular oxygen delivery failure that
+    kills within minutes).
+  - >-
+    Do not let the patient sit up or stand up (sudden postural drop in cardiac
+    venous return causes immediate cardiac arrest).
 sources:
-  - name: 'European Resuscitation Council (ERC)'
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Circulatory Shock'
-    jurisdiction: 'EU / Global'
-    notes: 'Passive leg raising parameters, thermal protection, and avoidance of oral fluids.'
-  - name: 'American Heart Association (AHA)'
+    jurisdiction: EU / Global
+    notes: >-
+      Passive leg raising parameters, thermal protection, and avoidance of oral
+      fluids.
+  - name: American Heart Association (AHA)
     url: 'https://cpr.heart.org/'
     authoritative: true
     guideline_version: 'AHA/ARC Guidelines for First Aid: Medical and Traumatic Shock'
-    jurisdiction: 'US / Global'
-    notes: 'Supine positioning, hemorrhage control, and contraindications for leg elevation.'
-  - name: 'Deutsche Gesellschaft für Unfallchirurgie (DGU)'
+    jurisdiction: US / Global
+    notes: >-
+      Supine positioning, hemorrhage control, and contraindications for leg
+      elevation.
+  - name: Deutsche Gesellschaft für Unfallchirurgie (DGU)
     url: 'https://www.dgu-online.de/'
     authoritative: true
     guideline_version: 'S3-Leitlinie Polytrauma / Schwerverletzten-Behandlung: Schockmanagement'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Schocklagerung, Wärmeerhalt (Prävention der Lethal Triad) und Nüchternheit.'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Schocklagerung, Wärmeerhalt (Prävention der Lethal Triad) und
+      Nüchternheit.
 ---
-
 In colloquial language, "shock" often refers to emotional distress or psychological surprise after hearing bad news.
 
 In clinical medicine, **circulatory shock** is an acute, life-threatening cardiovascular breakdown where systemic microcirculatory blood flow falls so low that oxygen delivery fails to meet cellular metabolic demands (_tissue hypoperfusion_).

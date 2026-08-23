@@ -1,70 +1,110 @@
 ---
-slug: 'person-looking-alarmingly-pale-after-something-bad-happened'
-title: 'Person sieht nach einem Zwischenfall beunruhigend blass aus'
-subtitle: 'Medizinischer Schockzustand (Volumenmangel / Hypovolämie), Schocklagerung und die lebensbedrohliche Lethale Triade'
-category: 'medical'
+slug: person-looking-alarmingly-pale-after-something-bad-happened
+title: Person sieht nach einem Zwischenfall beunruhigend blass aus
+subtitle: >-
+  Medizinischer Schockzustand (Volumenmangel / Hypovolämie), Schocklagerung und
+  die lebensbedrohliche Lethale Triade
+category: medical
 tags:
-  - 'schock'
-  - 'kreislauf'
-  - 'volumenmangel'
-  - 'blutverlust'
-  - 'erste-hilfe'
-  - 'notfall'
+  - schock
+  - kreislauf
+  - volumenmangel
+  - blutverlust
+  - erste-hilfe
+  - notfall
 aliases:
-  - 'schock erste hilfe'
-  - 'schocklagerung beine hoch'
-  - 'kreislaufschock symptome'
-  - 'blass und kalter schweiss unfall'
-  - 'hypovolaemischer schock'
-  - 'lethale triade'
-severity: 'immediate'
-urgency: 'immediate'
+  - schock erste hilfe
+  - schocklagerung beine hoch
+  - kreislaufschock symptome
+  - blass und kalter schweiss unfall
+  - hypovolaemischer schock
+  - lethale triade
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Flach lagern mit Beinen 20–30 cm hoch (außer bei Kopf-/Wirbelsäulentrauma), warm einpacken, null Flüssigkeit und sofort 112 rufen.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Flach lagern mit Beinen 20–30 cm hoch (außer bei Kopf-/Wirbelsäulentrauma),
+  warm einpacken, null Flüssigkeit und sofort 112 rufen.
 memorable_facts:
-  - 'DIE LETHALE TRIADE BEIM SCHOCK: Fällt die Körperkerntemperatur durch Blutverlust unter 35 °C, verlieren die körpereigenen Gerinnungsenzyme über 50 % ihrer Aktivität (Unterkühlung, Übersäuerung und Gerinnungsstörung). Einen Schockpatienten mit Decken und Rettungsfolie warmzuhalten, ist keine Komfortmaßnahme, sondern lebensrettende Gerinnungstherapie.'
-  - 'DAS STRIKTE TRINKVERBOT BEIM SCHOCK: Im Schock drosselt der Körper die Durchblutung des Verdauungstrakts vollständig (Magenatonie). Wer einem durstigen Schockpatienten Wasser zu trinken gibt, provoziert unweigerlich Erbrechen und tödliche Aspiration bei der anschließenden Narkoseeinleitung.'
+  - >-
+    DIE LETHALE TRIADE BEIM SCHOCK: Fällt die Körperkerntemperatur durch
+    Blutverlust unter 35 °C, verlieren die körpereigenen Gerinnungsenzyme über
+    50 % ihrer Aktivität (Unterkühlung, Übersäuerung und Gerinnungsstörung).
+    Einen Schockpatienten mit Decken und Rettungsfolie warmzuhalten, ist keine
+    Komfortmaßnahme, sondern lebensrettende Gerinnungstherapie.
+  - >-
+    DAS STRIKTE TRINKVERBOT BEIM SCHOCK: Im Schock drosselt der Körper die
+    Durchblutung des Verdauungstrakts vollständig (Magenatonie). Wer einem
+    durstigen Schockpatienten Wasser zu trinken gibt, provoziert unweigerlich
+    Erbrechen und tödliche Aspiration bei der anschließenden Narkoseeinleitung.
 immediate_action:
-  - '1. ÄUSSERE BLUTUNGEN SOFORT STILLEN: Massive Blutungen unverzüglich durch manuellen Druck, Druckverband oder Tourniquet stoppen.'
-  - '2. NOTRUF 112 WÄHLEN: Unbedingt melden: „Verdacht auf manifesten Kreislaufschock mit kalter Blässe, schnellem flachem Puls und Bewusstseinstrübung.“'
-  - '3. SCHOCKLAGERUNG (BEINE HOCHLAGERN): Den Patienten flach auf den Rücken legen und die Beine ca. 20 bis 30 cm erhöht lagern (z.B. auf einer Tasche oder Kissen). Dadurch strömen ca. 300 bis 500 ml venöses Blut aus den Beinen zu Herz und Gehirn (*Autotransfusion*). *Ausnahme: Keine Beinhochlagerung bei Verdacht auf Schädel-Hirn-Trauma, Wirbelsäulenverletzung, Beckenbruch oder schwerer Atemnot.*'
-  - '4. WÄRMEERHALT (UNTERKÜHLUNG VERHINDERN): Den Betroffenen vor Bodenkälte schützen (Decken/Jacken unterlegen) und vollständig in eine Rettungsdecke (Silberseite nach innen) einhüllen.'
-  - '5. STRIKTE NÜCHTERNHEIT EINHALTEN: Niemals Wasser, Tee, Kaffee oder feste Nahrung geben, selbst wenn der Verletzte über quälenden Durst klagt.'
-  - '6. BEWUSSTSEIN UND ATEMWEGE LAUFEND ÜBERWACHEN: Wird die Person schläfrig oder beginnt zu erbrechen, sofort in die Stabile Seitenlage drehen, um die Atemwege zu schützen.'
+  - title: NOTRUF 112 WÄHLEN & URSACHE BEKÄMPFEN
+    instruction: >-
+      Schockzustand melden und sofort die Schockursache stoppen (z. B. starke
+      Blutung abdrücken, Allergenzufuhr stoppen).
+  - title: SCHOCKLAGERUNG DURCHFÜHREN (BEINE HOCH)
+    instruction: >-
+      Beine um 20 bis 30 cm anheben, um ca. 300–500 ml venöses Blut zum
+      Körperkern zurückzuführen:
+    variants:
+      - condition: Volumenmangel- / Allergischer Schock
+        action: Flach auf dem Rücken mit erhöhten Beinen lagern.
+      - condition: Kardiogener Schock / Herzbeschwerden
+        action: Oberkörper erhöht lagern (Beine NICHT hochlagern).
+      - condition: Atemnot im Vordergrund
+        action: 'Sitzende, aufrechte Haltung unterstützen.'
+  - title: WÄRME ERHALTEN & ORALE AUFNAHME VERBIETEN
+    instruction: >-
+      Mit Rettungsdecke warm einpacken und strikt keine Getränke oder Nahrung
+      geben (Gefahr des Magenstillstands und der Aspiration).
 do_not:
-  - 'Niemals einem Schockpatienten zu trinken oder zu essen geben (Magenentleerung steht still; Flüssigkeit führt zur tödlichen Aspiration bei der Notoperation).'
-  - 'Keine Schocklagerung (Beine hoch) bei Verdacht auf Kopfverletzungen, Wirbelsäulentrauma, Beckenfrakturen oder akuter Atemnot (kardialem Lungenödem) durchführen.'
-  - 'Den medizinischen Schock nicht mit psychischem „Schreck“ verwechseln (der Kreislaufschock ist ein zellulärer Sauerstoffmangel, der unbehandelt binnen Minuten zum Herzstillstand führt).'
-  - 'Den Patienten nicht aufrichten oder aufstehen lassen (abrupter Blutdruckabfall führt zum sofortigen Kreislaufkollaps).'
+  - >-
+    Niemals einem Schockpatienten zu trinken oder zu essen geben
+    (Magenentleerung steht still; Flüssigkeit führt zur tödlichen Aspiration bei
+    der Notoperation).
+  - >-
+    Keine Schocklagerung (Beine hoch) bei Verdacht auf Kopfverletzungen,
+    Wirbelsäulentrauma, Beckenfrakturen oder akuter Atemnot (kardialem
+    Lungenödem) durchführen.
+  - >-
+    Den medizinischen Schock nicht mit psychischem „Schreck“ verwechseln (der
+    Kreislaufschock ist ein zellulärer Sauerstoffmangel, der unbehandelt binnen
+    Minuten zum Herzstillstand führt).
+  - >-
+    Den Patienten nicht aufrichten oder aufstehen lassen (abrupter
+    Blutdruckabfall führt zum sofortigen Kreislaufkollaps).
 sources:
-  - name: 'European Resuscitation Council (ERC)'
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Circulatory Shock'
-    jurisdiction: 'EU / Global'
-    notes: 'Passive Leg Raising (Schocklagerung), Wärmemanagement und Nüchternheitsgebot.'
-  - name: 'Deutsche Gesellschaft für Unfallchirurgie (DGU)'
+    jurisdiction: EU / Global
+    notes: >-
+      Passive Leg Raising (Schocklagerung), Wärmemanagement und
+      Nüchternheitsgebot.
+  - name: Deutsche Gesellschaft für Unfallchirurgie (DGU)
     url: 'https://www.dgu-online.de/'
     authoritative: true
     guideline_version: 'S3-Leitlinie Polytrauma / Schwerverletzten-Behandlung: Schocktherapie'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Prävention der Lethalen Triade (Hypothermie, Azidose, Koagulopathie) und Autotransfusion.'
-  - name: 'American Heart Association (AHA)'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Prävention der Lethalen Triade (Hypothermie, Azidose, Koagulopathie) und
+      Autotransfusion.
+  - name: American Heart Association (AHA)
     url: 'https://cpr.heart.org/'
     authoritative: true
     guideline_version: 'AHA/ARC First Aid Guidelines: Shock Management'
-    jurisdiction: 'US / Global'
-    notes: 'Shock positioning and contraindications for leg elevation.'
+    jurisdiction: US / Global
+    notes: Shock positioning and contraindications for leg elevation.
 ---
-
 Im alltäglichen Sprachgebrauch wird das Wort „Schock“ oft für einen emotionalen Schrecken oder eine seelische Erschütterung nach einer schlechten Nachricht verwendet.
 
 In der Notfallmedizin bezeichnet der **Kreislaufschock** einen akuten, lebensbedrohlichen Zustand, bei dem die Mikrozirkulation im gesamten Körper so weit zusammenbricht, dass die Sauerstoffversorgung lebenswichtiger Organe nicht mehr gewährleistet ist (_Gewebshypoperfusion_).

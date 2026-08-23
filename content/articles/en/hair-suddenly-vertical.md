@@ -1,68 +1,115 @@
 ---
-slug: 'hair-suddenly-vertical'
+slug: hair-suddenly-vertical
 title: 'Hair, Suddenly Vertical'
-subtitle: 'Atmospheric electrostatic buildup, imminent lightning streamers, and ground potential safety'
-category: 'weather'
+subtitle: >-
+  Atmospheric electrostatic buildup, imminent lightning streamers, and ground
+  potential safety
+category: weather
 tags:
-  - 'lightning'
-  - 'thunderstorm'
-  - 'weather'
-  - 'electricity'
-  - 'static'
-  - 'gewitter'
+  - lightning
+  - thunderstorm
+  - weather
+  - electricity
+  - static
+  - gewitter
 aliases:
-  - 'hair standing up'
-  - 'hair standing on end'
-  - 'static hair lightning'
-  - 'buzzing skin thunderstorm'
-  - 'lightning warning signs'
-  - 'hair vertical storm'
-severity: 'immediate'
-urgency: 'immediate'
+  - hair standing up
+  - hair standing on end
+  - static hair lightning
+  - buzzing skin thunderstorm
+  - lightning warning signs
+  - hair vertical storm
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: false
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Safety Core'
+reviewer: Editorial Safety Core
 memory_hook: 'The atmosphere is preparing to strike, not complimenting your volume.'
 memorable_facts:
-  - 'ELECTROSTATIC UPWARD STREAMER: If your hair starts auditioning for a static-electricity demonstration outdoors during a thunderstorm, the atmosphere is giving you a very bad hint. You are standing inside an active ionized upward streamer channel seconds before high-voltage cloud connection.'
-  - 'NEVER PAUSE FOR PHOTOS: Hair standing on end in a storm is an acute mortal emergency, not an amusing social media selfie opportunity.'
-  - 'NO GUARANTEE OF WARNING: Lightning frequently strikes without any prior electrostatic hair sensation. The absence of standing hair does NOT mean you are safe—if you hear thunder, you are already in striking distance.'
+  - >-
+    ELECTROSTATIC UPWARD STREAMER: If your hair starts auditioning for a
+    static-electricity demonstration outdoors during a thunderstorm, the
+    atmosphere is giving you a very bad hint. You are standing inside an active
+    ionized upward streamer channel seconds before high-voltage cloud
+    connection.
+  - >-
+    NEVER PAUSE FOR PHOTOS: Hair standing on end in a storm is an acute mortal
+    emergency, not an amusing social media selfie opportunity.
+  - >-
+    NO GUARANTEE OF WARNING: Lightning frequently strikes without any prior
+    electrostatic hair sensation. The absence of standing hair does NOT mean you
+    are safe—if you hear thunder, you are already in striking distance.
 immediate_action:
-  - '1. LEAVE EXPOSED TERRAIN IMMEDIATELY: Move off ridges, hilltops, open fields, golf courses, and water surfaces without a second of hesitation.'
-  - '2. MOVE AWAY FROM ISOLATED TALL OBJECTS: Never seek cover under lone trees, flagpoles, metal fences, or transmission towers.'
-  - '3. SEEK SUBSTANTIAL ENCLOSED SHELTER: Enter an enclosed substantial building with plumbing and electrical wiring, or a hard-topped fully enclosed metal vehicle with windows rolled up.'
-  - '4. LAST-RESORT LIGHTNING CROUCH (IF CAUGHT IN OPEN TERRAIN WITH NO SHELTER):'
-  - '   • Crouch down low on the balls of your feet with heels pressed firmly together.'
-  - '   • Tuck your head down and cover your ears with your hands.'
-  - '   • Minimize all contact with the ground (do not touch knees or hands to soil).'
-  - '   • Touching heels allows ground current to enter one foot and exit the other, keeping lethal current away from your cardiac core.'
-  - '5. DO NOT REMAIN IN PLACE TO TAKE PHOTOS OR VIDEOS.'
+  - title: LEAVE EXPOSED TERRAIN IMMEDIATELY
+    instruction: >-
+      Vertical hair indicates you are inside an active electrostatic streamer
+      channel:
+    substeps:
+      - >-
+        Move off ridges, hilltops, open fields, golf courses, and water surfaces
+        immediately.
+      - >-
+        Stay clear of lone trees, flagpoles, metal fences, and tall isolated
+        structures.
+  - title: SEEK SUBSTANTIAL ENCLOSED SHELTER
+    instruction: >-
+      Enter a substantial enclosed building with plumbing/wiring or a
+      hard-topped metal vehicle.
+    substeps:
+      - >-
+        Fully enclosed metal vehicles with windows rolled up act as a safe
+        Faraday cage.
+      - 'Avoid open shelters like gazebos, picnic pavilions, or tents.'
+  - title: EMERGENCY CROUCH (LAST RESORT IF STRANDED)
+    instruction: 'If caught in open terrain with no shelter reachable in time:'
+    substeps:
+      - >-
+        Crouch down low on the balls of your feet with heels pressed firmly
+        together.
+      - Tuck head between knees and cover ears with hands.
+      - >-
+        Minimize contact with soil; touching heels keeps ground current away
+        from your heart.
+    note: >-
+      The crouch is a desperate last-resort mitigation, not a substitute for
+      enclosed shelter.
 do_not:
-  - 'Do not seek shelter under isolated trees, open gazebos, picnic pavilions, or tent canopies (isolated tall structures trigger side-flashes).'
-  - 'Do not lie flat on the ground (lying down maximizes the surface area exposed to lethal ground step potential).'
-  - 'Do not hold long conductive objects (golf clubs, metal-tipped umbrellas, fishing rods).'
-  - 'Do not assume you are safe just because your hair stopped standing up (a nearby strike can occur at any moment).'
+  - >-
+    Do not seek shelter under isolated trees, open gazebos, picnic pavilions, or
+    tent canopies (isolated tall structures trigger side-flashes).
+  - >-
+    Do not lie flat on the ground (lying down maximizes the surface area exposed
+    to lethal ground step potential).
+  - >-
+    Do not hold long conductive objects (golf clubs, metal-tipped umbrellas,
+    fishing rods).
+  - >-
+    Do not assume you are safe just because your hair stopped standing up (a
+    nearby strike can occur at any moment).
 sources:
-  - name: 'National Oceanic and Atmospheric Administration (NOAA) / National Weather Service'
+  - name: >-
+      National Oceanic and Atmospheric Administration (NOAA) / National Weather
+      Service
     url: 'https://www.weather.gov/safety/lightning'
     authoritative: true
-    guideline_version: 'Lightning Safety Standards 2024'
-    jurisdiction: 'US / Global'
-    notes: 'Pre-strike electrostatic detection, safe enclosed shelters, and ground current minimization.'
-  - name: 'VDE Ausschuss für Blitzschutz und Blitzforschung (ABB)'
+    guideline_version: Lightning Safety Standards 2024
+    jurisdiction: US / Global
+    notes: >-
+      Pre-strike electrostatic detection, safe enclosed shelters, and ground
+      current minimization.
+  - name: VDE Ausschuss für Blitzschutz und Blitzforschung (ABB)
     url: 'https://www.vde.com/de/blitzschutz'
     authoritative: true
     guideline_version: 'VDE Schriftenreihe 44: Blitzschutz im Freien'
-    jurisdiction: 'Germany / EU'
+    jurisdiction: Germany / EU
     notes: 'Schrittspannung, Fangentladungen und Verhaltensregeln im Freien.'
 ---
-
 Humans spend substantial resources persuading their hair to achieve impressive volume. Occasionally, the atmosphere provides this service free of charge.
 
 There will, in fact, be considerable charge.

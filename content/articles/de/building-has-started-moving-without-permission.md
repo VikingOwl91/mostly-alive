@@ -1,71 +1,107 @@
 ---
-slug: 'building-has-started-moving-without-permission'
+slug: building-has-started-moving-without-permission
 title: 'Gebäude hat begonnen, sich ungefragt zu bewegen'
-subtitle: 'Erdbeben-Überlebensregeln, das „Hinlegen, Schützen, Festhalten“-Prinzip und die Mythen um Türrahmen und Lebensdreiecke'
-category: 'weather'
+subtitle: >-
+  Erdbeben-Überlebensregeln, das „Hinlegen, Schützen, Festhalten“-Prinzip und
+  die Mythen um Türrahmen und Lebensdreiecke
+category: weather
 tags:
-  - 'erdbeben'
-  - 'katastrophe'
-  - 'gebaeude'
-  - 'ueberleben'
-  - 'schutz'
+  - erdbeben
+  - katastrophe
+  - gebaeude
+  - ueberleben
+  - schutz
 aliases:
-  - 'erdbeben was tun'
-  - 'erdbeben verhalten'
-  - 'drop cover hold on deutsch'
-  - 'tuerrahmen erdbeben mythos'
-  - 'lebensdreieck mythos'
-  - 'erdbeben im bett oder auto'
-severity: 'immediate'
-urgency: 'immediate'
+  - erdbeben was tun
+  - erdbeben verhalten
+  - drop cover hold on deutsch
+  - tuerrahmen erdbeben mythos
+  - lebensdreieck mythos
+  - erdbeben im bett oder auto
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: false
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Technical Review Board'
-memory_hook: 'Auf die Knie gehen, Kopf unter einem stabilen Tisch schützen und festhalten; niemals in den Türrahmen stellen oder ins Freie rennen.'
+reviewer: Editorial Technical Review Board
+memory_hook: >-
+  Auf die Knie gehen, Kopf unter einem stabilen Tisch schützen und festhalten;
+  niemals in den Türrahmen stellen oder ins Freie rennen.
 memorable_facts:
-  - 'DER TÜRRAHMEN-MYTHOS: In modernen Gebäuden sind Türrahmen keine verstärkten Tragbögen, sondern einfache Trockenbau- oder Holzzargen. Wer im Türrahmen steht, ist herabfallenden Trümmern schutzlos ausgeliefert, und die unkontrolliert zuschlagende Holztür verursacht schwerste Schädel-Hirn-Traumata. Immer unter einen stabilen Tisch kriechen!'
-  - 'DIE FASSADEN-TODESZONE: Während der Erdstöße nach draußen zu rennen, führt direkt in die tödlichste Zone überhaupt: Berstende Glasfassaden, herabstürzende Dachziegel, Klimaanlagen und abgerissene Hochspannungskabel schlagen direkt vor dem Gebäude ein. Drinnen unter Schutz bleiben, bis das Beben vorbei ist.'
+  - >-
+    DER TÜRRAHMEN-MYTHOS: In modernen Gebäuden sind Türrahmen keine verstärkten
+    Tragbögen, sondern einfache Trockenbau- oder Holzzargen. Wer im Türrahmen
+    steht, ist herabfallenden Trümmern schutzlos ausgeliefert, und die
+    unkontrolliert zuschlagende Holztür verursacht schwerste
+    Schädel-Hirn-Traumata. Immer unter einen stabilen Tisch kriechen!
+  - >-
+    DIE FASSADEN-TODESZONE: Während der Erdstöße nach draußen zu rennen, führt
+    direkt in die tödlichste Zone überhaupt: Berstende Glasfassaden,
+    herabstürzende Dachziegel, Klimaanlagen und abgerissene Hochspannungskabel
+    schlagen direkt vor dem Gebäude ein. Drinnen unter Schutz bleiben, bis das
+    Beben vorbei ist.
 immediate_action:
-  - '1. HINLEGEN (DROP): Sofort auf Hände und Knie fallen lassen, bevor die seismische Schockwelle dich unkontrolliert zu Boden schleudert. Diese niedrige Position schützt vor dem Umstürzen und erlaubt kontrolliertes Krabbeln.'
-  - '2. SCHÜTZEN (COVER): Unter einen stabilen Tisch, Schreibtisch oder eine robuste Werkbank krabbeln und Kopf sowie Nacken mit beiden Armen schützen. Gibt es keinen Tisch, an einer tragenden Innenwand (fern von Fenstern) auf den Boden kauern und den Nacken schützen.'
-  - '3. FESTHALTEN (HOLD ON): Das Tischbein mit einer Hand fest umgreifen und sich darauf vorbereiten, dass der Tisch mit den Erdstößen wandert. Mit dem anderen Arm weiterhin den Nacken abschirmen.'
-  - '4. WENN DU IM BETT BIST: Im Bett liegen bleiben, auf den Bauch drehen und Kopf und Nacken mit einem dicken Kissen vollständig abdecken.'
-  - '5. WENN DU IM FREIEN BIST: Sofort weg von Gebäuden, Straßenlaternen, Hochspannungsleitungen und Schornsteinen auf eine freie Fläche (Parkplatz, Wiese) laufen und dort hinknien.'
-  - '6. WENN DU IM AUTO BIST: Sicher am Straßenrand anhalten (nicht auf Brücken, unter Überführungen oder Hochspannungsleitungen). Im Auto sitzen bleiben und die Handbremse anziehen.'
-  - '7. NACH DEM BEBEN ÜBER DAS TREPPENHAUS EVAKUIEREN: Auf Gasgeruch und Brandstellen achten. Niemals Aufzüge benutzen. In Küstennähe sofort landeinwärts auf Anhöhen flüchten (akute Tsunami-Gefahr).'
+  - title: 'DROP, COVER, AND HOLD ON (DUCKEN, SCHÜTZEN, FESTHALTEN)'
+    instruction: 'Bei Erdbebenstößen unverzüglich Schutz unter stabilem Mobiliar suchen:'
+    substeps:
+      - 'DROP: Auf Hände und Knie fallen, um nicht umgeworfen zu werden.'
+      - >-
+        COVER: Kopf und Nacken unter einem stabilen Tisch oder Schreibtisch
+        schützen.
+      - >-
+        HOLD ON: Den Tisch mit einer Hand festhalten und mitwandern, bis die
+        Erschütterung endet.
+  - title: IM GEBÄUDE BLEIBEN & FASSADEN MEIDEN
+    instruction: >-
+      Während des Bebens keinesfalls ins Freie rennen (herabstürzende
+      Dachziegel, Fassadenteile und Glassplitter bilden eine Todeszone).
+  - title: NACH DEM BEBEN ÜBER TREPPEN EVAKUIEREN
+    instruction: >-
+      Gebäude nach dem Beben zügig über Treppen (niemals Aufzüge!) verlassen,
+      Gas/Strom prüfen und Freiflächen aufsuchen.
 do_not:
-  - 'Niemals in einen Türrahmen stellen (bietet in modernen Gebäuden keinen Schutz und birgt schwere Verletzungsgefahr durch schlagende Türen).'
-  - 'Niemals während des Erdbebens in Panik aus dem Gebäude rennen (herabstürzende Fassadenteile und Glassplitter sind die Haupttodesursache).'
-  - 'Niemals Aufzüge benutzen (Gefahr von Stromausfall, Seilrissen und Verkeilung in den Führungsschienen).'
-  - 'Nicht auf den widerlegten „Triangle of Life“-Mythos vertrauen (neben Möbeln zu liegen bietet keinen Schutz vor herabstürzenden Deckenplatten).'
-  - 'Nach dem Beben niemals Streichhölzer, Feuerzeuge oder Kerzen anzünden (Explosionsgefahr durch geborstene Gasleitungen).'
+  - >-
+    Niemals in einen Türrahmen stellen (bietet in modernen Gebäuden keinen
+    Schutz und birgt schwere Verletzungsgefahr durch schlagende Türen).
+  - >-
+    Niemals während des Erdbebens in Panik aus dem Gebäude rennen
+    (herabstürzende Fassadenteile und Glassplitter sind die Haupttodesursache).
+  - >-
+    Niemals Aufzüge benutzen (Gefahr von Stromausfall, Seilrissen und Verkeilung
+    in den Führungsschienen).
+  - >-
+    Nicht auf den widerlegten „Triangle of Life“-Mythos vertrauen (neben Möbeln
+    zu liegen bietet keinen Schutz vor herabstürzenden Deckenplatten).
+  - >-
+    Nach dem Beben niemals Streichhölzer, Feuerzeuge oder Kerzen anzünden
+    (Explosionsgefahr durch geborstene Gasleitungen).
 sources:
-  - name: 'United States Geological Survey (USGS)'
+  - name: United States Geological Survey (USGS)
     url: 'https://www.usgs.gov/'
     authoritative: true
     guideline_version: 'Earthquake Hazards Program: Drop, Cover, and Hold On Protocol'
-    jurisdiction: 'US / Global'
-    notes: 'Widerlegung des Türrahmen-Mythos, Schutz unter Tischen und Verhaltensregeln im Freien.'
-  - name: 'Deutsches GeoForschungsZentrum (GFZ Potsdam)'
+    jurisdiction: US / Global
+    notes: >-
+      Widerlegung des Türrahmen-Mythos, Schutz unter Tischen und
+      Verhaltensregeln im Freien.
+  - name: Deutsches GeoForschungsZentrum (GFZ Potsdam)
     url: 'https://www.gfz-potsdam.de/'
     authoritative: true
     guideline_version: 'Merkblatt Erdbeben: Verhalten bei Erdbeben in Deutschland und weltweit'
-    jurisdiction: 'Germany / Global'
+    jurisdiction: Germany / Global
     notes: 'Verhalten in Gebäuden, Meidung von Glasfassaden und Nachbeben-Vorsorge.'
-  - name: 'Bundesamt für Bevölkerungsschutz und Katastrophenhilfe (BBK)'
+  - name: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe (BBK)
     url: 'https://www.bbk.bund.de/'
     authoritative: true
     guideline_version: 'Ratgeber für Notfallvorsorge: Erdbeben'
-    jurisdiction: 'Germany'
+    jurisdiction: Germany
     notes: 'Evakuierungswege, Gashahn-Absperrung und Treppennutzung.'
 ---
-
 Ein Erdbeben entsteht, wenn sich tektonische Spannungen entlang geologischer Verwerfungen im Erdinneren schlagartig entladen. Die freiwerdende Energie pflanzt sich als seismische Raum- und Oberflächenwellen mit mehreren Kilometern pro Sekunde durch das Gestein fort.
 
 In den ersten Sekunden eines schweren Bebens vibriert der Boden nicht bloß: Die Erdoberfläche wird durch massive horizontale und vertikale Beschleunigungskräfte ($g\text{-Kräfte} > 1{,}0\text{ g}$) buchstäblich unter den Füßen weggerissen.

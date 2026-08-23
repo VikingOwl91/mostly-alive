@@ -1,69 +1,84 @@
 ---
-slug: 'power-line-inconveniently-on-the-ground'
-title: 'Stromleitung liegt unpassend am Boden'
-subtitle: 'Hochspannungs-Spannungstrichter, Schrittspannungsphysik und Schlurfschritt-Evakuierung'
-category: 'electricity'
+slug: power-line-inconveniently-on-the-ground
+title: Stromleitung liegt unpassend am Boden
+subtitle: >-
+  Hochspannungs-Spannungstrichter, Schrittspannungsphysik und
+  Schlurfschritt-Evakuierung
+category: electricity
 tags:
-  - 'strom'
-  - 'hochspannung'
-  - 'stromleitung'
-  - 'gefahr'
-  - 'unwetter'
+  - strom
+  - hochspannung
+  - stromleitung
+  - gefahr
+  - unwetter
 aliases:
-  - 'abgerissene stromleitung'
-  - 'stromleitung am boden'
-  - 'schrittspannung'
-  - 'stromkabel auf auto gefallen'
-  - 'stromleitung auf der straße'
-  - 'hochspannungsleitung boden'
-severity: 'immediate'
-urgency: 'immediate'
+  - abgerissene stromleitung
+  - stromleitung am boden
+  - schrittspannung
+  - stromkabel auf auto gefallen
+  - stromleitung auf der straße
+  - hochspannungsleitung boden
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: false
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Safety Core'
-memory_hook: 'Mindestens 10 Meter Abstand halten; im Gefahrenbereich Füße fest zusammenpressen und nur schlurfen oder beidbeinig hüpfen.'
+reviewer: Editorial Safety Core
+memory_hook: >-
+  Mindestens 10 Meter Abstand halten; im Gefahrenbereich Füße fest
+  zusammenpressen und nur schlurfen oder beidbeinig hüpfen.
 memorable_facts:
-  - 'DER SCHRITTSPANNUNGSTRICHTER: Berührt ein gerissenes Hochspannungskabel die Erde, breitet sich der Strom kreisförmig im Boden aus. Ein normaler Schritt von einem Meter überbrückt zwei Kreise mit Tausenden Volt Unterschied – der Strom fließt durch ein Bein hinein, über das Becken und durch das andere Bein wieder hinaus.'
-  - 'NIEMALS AUS EINEM STROMFÜHRENDEN AUTO AUSSTEIGEN: Die Metallkarosserie schützt als Faradayscher Käfig. Wer mit einem Fuß den Boden berührt, während er noch das Auto anfasst, schließt den Stromkreis und wird sofort getötet.'
+  - >-
+    DER SCHRITTSPANNUNGSTRICHTER: Berührt ein gerissenes Hochspannungskabel die
+    Erde, breitet sich der Strom kreisförmig im Boden aus. Ein normaler Schritt
+    von einem Meter überbrückt zwei Kreise mit Tausenden Volt Unterschied – der
+    Strom fließt durch ein Bein hinein, über das Becken und durch das andere
+    Bein wieder hinaus.
+  - >-
+    NIEMALS AUS EINEM STROMFÜHRENDEN AUTO AUSSTEIGEN: Die Metallkarosserie
+    schützt als Faradayscher Käfig. Wer mit einem Fuß den Boden berührt, während
+    er noch das Auto anfasst, schließt den Stromkreis und wird sofort getötet.
 immediate_action:
-  - '1. MINDESTENS 10 METER ABSTAND HALTEN: Jede am Boden liegende Leitung ist potenziell unter tödlicher Hochspannung.'
-  - '2. IM GEFAHRENBEREICH NUR SCHLURFEN ODER BEIDBEINIG HÜPFEN:'
-  - '   • Die Füße eng aneinanderpressen und keinen Fuß vom Boden abheben.'
-  - '   • In winzigen Schlurfschritten langsam wegbewegen, sodass die Ferse die Spitze des anderen Schuhs nie verlässt.'
-  - '   • Alternativ mit beiden Füßen fest geschlossen hüpfen.'
-  - '3. WENN EINE LEITUNG AUF DAS AUTO FÄLLT:'
-  - '   • Im Fahrzeug sitzen bleiben (die Metallkarosserie wirkt als Faradayscher Käfig).'
-  - '   • Hupen und Notruf 112 vom Handy aus wählen.'
-  - '   • Umstehende lautstark warnen, sich dem Auto nicht zu nähern.'
-  - '4. NOTSPRUNG BEI FAHRZEUGBRAND:'
-  - '   • Mit geschlossenen Beinen abspringen, ohne Auto und Boden gleichzeitig zu berühren.'
-  - '   • Auf beiden Füßen gleichzeitig landen und mindestens 10 Meter weit wegschlurfen.'
+  - title: MINDESTENS 10 METER ABSTAND HALTEN
+    instruction: >-
+      Jede am Boden liegende Stromleitung als spannungsführend betrachten.
+      Zäune, Trümmer und nasse Böden meiden.
+  - title: IM SPANNUNGSBEREICH NUR IM SCHLURF-SCHRITT BEWEGEN
+    instruction: >-
+      Füße eng aneinanderstellen und schlurfend über den Boden gleiten, ohne die
+      Füße abzuheben (Schrittspannung verhindern).
+  - title: NOTRUF 112 WÄHLEN & UMSTEHENDE WARNEN
+    instruction: >-
+      Gefahrenbereich absichern und Energieversorger zur Abschaltung des Netzes
+      alarmieren.
 do_not:
-  - 'Niemals in normalen Schritten gehen oder wegrennen (ein Schritt überbrückt die tödliche Schrittspannung).'
-  - 'Keine Metallzäune, Leitplanken oder Bäume in der Nähe berühren (sie leiten Hochspannung Hunderte Meter weit).'
-  - 'Niemals über am Boden liegende Kabel fahren.'
+  - >-
+    Niemals in normalen Schritten gehen oder wegrennen (ein Schritt überbrückt
+    die tödliche Schrittspannung).
+  - >-
+    Keine Metallzäune, Leitplanken oder Bäume in der Nähe berühren (sie leiten
+    Hochspannung Hunderte Meter weit).
+  - Niemals über am Boden liegende Kabel fahren.
   - 'Keine Personen anfassen, die mit dem Stromkabel in Kontakt sind.'
 sources:
-  - name: 'VDE Ausschuss für Sicherheits- und Unfallforschung'
+  - name: VDE Ausschuss für Sicherheits- und Unfallforschung
     url: 'https://www.vde.com/'
     authoritative: true
     guideline_version: 'VDE-Schriftenreihe: Verhalten bei Unfällen an Hochspannungsfreileitungen'
-    jurisdiction: 'Deutschland / EU'
+    jurisdiction: Deutschland / EU
     notes: 'Schrittspannungstrichter, 10-Meter-Abstand und Fahrzeugschutz.'
-  - name: 'Deutsche Gesetzliche Unfallversicherung (DGUV)'
+  - name: Deutsche Gesetzliche Unfallversicherung (DGUV)
     url: 'https://publikationen.dguv.de/'
     authoritative: true
     guideline_version: 'DGUV Information 203-004: Einsatz an elektrischen Anlagen'
-    jurisdiction: 'Deutschland'
-    notes: 'Sicherheitsabstände und Rettungsausführung.'
+    jurisdiction: Deutschland
+    notes: Sicherheitsabstände und Rettungsausführung.
 ---
-
 Überland- und Mittelspannungsleitungen führen Spannungen von 10.000 bis 380.000 Volt. Stürzt ein solches Kabel durch Sturm oder Baumfall auf die Erde, leitet das Erdreich den Strom wie ein elektrischer Widerstand ab.
 
 ### Das Prinzip der Schrittspannung

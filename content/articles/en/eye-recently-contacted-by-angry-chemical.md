@@ -1,71 +1,102 @@
 ---
-slug: 'eye-recently-contacted-by-angry-chemical'
-title: 'Eye Recently Contacted by Angry Chemical'
-subtitle: 'Ocular chemical burn management, continuous copious irrigation, and alkaline vs acid injury dynamics'
-category: 'medical'
+slug: eye-recently-contacted-by-angry-chemical
+title: Eye Recently Contacted by Angry Chemical
+subtitle: >-
+  Ocular chemical burn management, continuous copious irrigation, and alkaline
+  vs acid injury dynamics
+category: medical
 tags:
-  - 'eye'
-  - 'chemical-burn'
-  - 'irrigation'
-  - 'first-aid'
-  - 'medical'
-  - 'emergency'
+  - eye
+  - chemical-burn
+  - irrigation
+  - first-aid
+  - medical
+  - emergency
 aliases:
-  - 'chemical in eye'
-  - 'eye chemical burn'
-  - 'acid in eye'
-  - 'bleach in eye'
-  - 'how to flush eye chemical'
-  - 'alkali eye injury'
-  - 'drain cleaner eye'
-severity: 'immediate'
-urgency: 'immediate'
+  - chemical in eye
+  - eye chemical burn
+  - acid in eye
+  - bleach in eye
+  - how to flush eye chemical
+  - alkali eye injury
+  - drain cleaner eye
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Flush with clean running water for 20 minutes with eyelids held wide open, never neutralize, and call 911/112.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Flush with clean running water for 20 minutes with eyelids held wide open,
+  never neutralize, and call 911/112.
 memorable_facts:
-  - 'ALKALIS PENETRATE DEEPER THAN ACIDS: Household alkalis (drain cleaner, ammonia, oven cleaner, wet cement) saponify membrane fatty acids and trigger liquefactive necrosis, melting through cornea layers into the anterior chamber in minutes. Acids coagulate surface proteins into a partial barrier. Both require 20 continuous minutes of water irrigation.'
-  - 'THE NEUTRALIZATION DISASTER: Pouring vinegar into an alkaline eye burn or baking soda into an acid burn creates an exothermic reaction right on the cornea, generating thermal heat that cooks eye tissue while neutralizing zero damage. Use pure, clean water only.'
+  - >-
+    ALKALIS PENETRATE DEEPER THAN ACIDS: Household alkalis (drain cleaner,
+    ammonia, oven cleaner, wet cement) saponify membrane fatty acids and trigger
+    liquefactive necrosis, melting through cornea layers into the anterior
+    chamber in minutes. Acids coagulate surface proteins into a partial barrier.
+    Both require 20 continuous minutes of water irrigation.
+  - >-
+    THE NEUTRALIZATION DISASTER: Pouring vinegar into an alkaline eye burn or
+    baking soda into an acid burn creates an exothermic reaction right on the
+    cornea, generating thermal heat that cooks eye tissue while neutralizing
+    zero damage. Use pure, clean water only.
 immediate_action:
-  - '1. BEGIN COPIOUS EYE IRRIGATION IMMEDIATELY: Start flushing the affected eye with clean, lukewarm or cold running tap water, saline, or an emergency eyewash station within seconds of exposure. Every second of delay causes deeper corneal necrosis.'
-  - '2. FLUSH CONTINUOUSLY FOR AT LEAST 15 TO 20 MINUTES: Do not stop early. Direct the water stream from the inner corner of the eye outward across the eyeball to prevent washing chemicals into the unaffected eye.'
-  - '3. PHYSICALLY HOLD EYELIDS OPEN: Chemical liquids and particulate matter pool under the upper and lower eyelid folds (fornices). Use your fingers to manually hold both upper and lower eyelids wide open while rolling the eye in all directions.'
-  - '4. REMOVE CONTACT LENSES: If contact lenses are worn, flush the eye vigorously; if the lens does not wash out immediately, carefully remove it once hands are rinsed to prevent chemicals being trapped against the cornea.'
-  - '5. CALL 911 / 112 OR EMERGENCY DISPATCH: Have someone call emergency services while you continue flushing without interruption.'
-  - '6. TRANSPORT TO OPHTHALMIC EMERGENCY ROOM: Continue flushing during transport if possible, or cover the eye loosely with a clean, moist sterile dressing.'
+  - title: FLUSH EYE IMMEDIATELY WITH RUNNING WATER (15–20 MIN)
+    instruction: >-
+      Every second counts. Hold eyelids open and flush eye under gently running
+      tap water or saline for 15 to 20 continuous minutes from inner corner
+      outwards.
+  - title: CALL 911 / 112 DURING IRRIGATION
+    instruction: >-
+      Alert emergency dispatch while continuing eye flush without stopping.
+      Identify chemical (alkali burns are especially dangerous).
+  - title: COVER EYE LOOSELY & TRANSPORT TO EYE CLINIC
+    instruction: >-
+      Cover both eyes loosely with sterile pads to minimize sympathetic eye
+      movements and rush to specialized ophthalmology care.
 do_not:
-  - 'Never attempt chemical neutralization (do not flush acids with baking soda or alkalis with vinegar/lemon juice; chemical neutralization generates intense exothermic heat that physically cooks corneal proteins).'
-  - 'Do not delay irrigation to search for specialized eye drops, neutralizers, or specific antidote solutions (running tap water is immediately effective).'
+  - >-
+    Never attempt chemical neutralization (do not flush acids with baking soda
+    or alkalis with vinegar/lemon juice; chemical neutralization generates
+    intense exothermic heat that physically cooks corneal proteins).
+  - >-
+    Do not delay irrigation to search for specialized eye drops, neutralizers,
+    or specific antidote solutions (running tap water is immediately effective).
   - 'Do not rub, press, or apply heavy bandages over the chemically injured eye.'
-  - 'Do not apply eye ointments, oil, or anesthetic drops before an ophthalmologist evaluates the eye (ointments trap residual chemical particles against deep corneal tissue).'
+  - >-
+    Do not apply eye ointments, oil, or anesthetic drops before an
+    ophthalmologist evaluates the eye (ointments trap residual chemical
+    particles against deep corneal tissue).
 sources:
-  - name: 'American Academy of Ophthalmology (AAO)'
+  - name: American Academy of Ophthalmology (AAO)
     url: 'https://www.aao.org/'
     authoritative: true
     guideline_version: 'Chemical Eye Burns: Clinical Management and Triage'
-    jurisdiction: 'US / Global'
-    notes: 'Immediate 15-20 min copious irrigation standard, fornix eversion, and alkaline vs acid pathophysiology.'
-  - name: 'European Resuscitation Council (ERC)'
+    jurisdiction: US / Global
+    notes: >-
+      Immediate 15-20 min copious irrigation standard, fornix eversion, and
+      alkaline vs acid pathophysiology.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Ocular Chemical Trauma'
-    jurisdiction: 'EU / Global'
-    notes: 'Tap water flushing protocols, rescuer safety, and contraindication of chemical neutralization.'
-  - name: 'Deutsche Ophthalmologische Gesellschaft (DOG)'
+    jurisdiction: EU / Global
+    notes: >-
+      Tap water flushing protocols, rescuer safety, and contraindication of
+      chemical neutralization.
+  - name: Deutsche Ophthalmologische Gesellschaft (DOG)
     url: 'https://www.dog.org/'
     authoritative: true
     guideline_version: 'Leitlinie Nr. 12: Verätzungen und Verbrennungen des Auges'
-    jurisdiction: 'Germany / DACH'
+    jurisdiction: Germany / DACH
     notes: 'Spülzeiten, Eversionsnotwendigkeit und klinische pH-Wert-Messung.'
 ---
-
 The human cornea is a transparent, highly organized optical lens composed of five distinct cellular layers measuring barely half a millimeter in total thickness. It contains the densest concentration of pain-sensing nerve endings anywhere in the human body.
 
 When a corrosive chemical—whether an industrial solvent, household bleach, oven cleaner, battery acid, or wet mortar dust—splashes onto the ocular surface, an aggressive biochemical clock starts ticking.

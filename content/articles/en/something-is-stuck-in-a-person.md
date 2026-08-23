@@ -1,70 +1,103 @@
 ---
-slug: 'something-is-stuck-in-a-person'
-title: 'Something Is Stuck in a Person'
-subtitle: 'Impaled and penetrating foreign object stabilization, the vascular tamponade effect, and ring bandage application'
-category: 'medical'
+slug: something-is-stuck-in-a-person
+title: Something Is Stuck in a Person
+subtitle: >-
+  Impaled and penetrating foreign object stabilization, the vascular tamponade
+  effect, and ring bandage application
+category: medical
 tags:
-  - 'impaled-object'
-  - 'penetrating-trauma'
-  - 'bleeding'
-  - 'first-aid'
-  - 'medical'
-  - 'trauma'
+  - impaled-object
+  - penetrating-trauma
+  - bleeding
+  - first-aid
+  - medical
+  - trauma
 aliases:
-  - 'impaled object first aid'
-  - 'object stuck in body'
-  - 'knife stuck in person'
-  - 'pull out impaled object myth'
-  - 'how to stabilize impaled object'
-  - 'donut bandage ring pad'
-severity: 'immediate'
-urgency: 'immediate'
+  - impaled object first aid
+  - object stuck in body
+  - knife stuck in person
+  - pull out impaled object myth
+  - how to stabilize impaled object
+  - donut bandage ring pad
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Never pull out an impaled object; build a bulky donut bandage around it to stabilize it in place, and call 911/112.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Never pull out an impaled object; build a bulky donut bandage around it to
+  stabilize it in place, and call 911/112.
 memorable_facts:
-  - 'THE VASCULAR TAMPONADE EFFECT: An impaled knife blade, steel rod, or glass shard acts as a physical biological cork plugging the exact lacerated arteries it created. Pulling the object out removes the plug, triggering immediate uncompressible, catastrophic internal hemorrhage.'
-  - 'THE MECHANICAL LEVERAGE THREAT: The external visible portion of an impaled object acts as a mechanical lever. Any jostling, bumping, or movement during transport causes the internal tip to slice back and forth like a scalpel through adjacent nerves, intestines, or vascular bundles. It must be stabilized completely rigid with ring pads.'
+  - >-
+    THE VASCULAR TAMPONADE EFFECT: An impaled knife blade, steel rod, or glass
+    shard acts as a physical biological cork plugging the exact lacerated
+    arteries it created. Pulling the object out removes the plug, triggering
+    immediate uncompressible, catastrophic internal hemorrhage.
+  - >-
+    THE MECHANICAL LEVERAGE THREAT: The external visible portion of an impaled
+    object acts as a mechanical lever. Any jostling, bumping, or movement during
+    transport causes the internal tip to slice back and forth like a scalpel
+    through adjacent nerves, intestines, or vascular bundles. It must be
+    stabilized completely rigid with ring pads.
 immediate_action:
-  - '1. DO NOT PULL THE OBJECT OUT: Leave the impaled object exactly where it is. It is currently acting as a mechanical plug preventing fatal internal and external hemorrhage.'
-  - '2. STABILIZE THE OBJECT MANUALLY: Carefully hold the object with your hands to keep it completely motionless relative to the patient’s body while preparing dressings.'
-  - '3. BUILD A BULKY DONUT / RING PAD OR FLANKING ROLLS: Place bulky rolled sterile gauze bandages or folded cloths on opposite sides around the base of the object to build up support around it without pressing directly on the object itself.'
-  - '4. SECURE WITH TAPE OR ROLLER BANDAGES: Wrap a roller bandage firmly around the bulky padding and the patient’s torso or limb, securing the padding so the object cannot wobble, shift, or vibrate during transport.'
-  - '5. CALL 911 / 112 IMMEDIATELY: State that you have an impaled/penetrating foreign object, state the anatomic location (e.g. chest, abdomen, eye, thigh), and report the patient’s vital status.'
-  - '6. CALM AND IMMOBILIZE THE PATIENT: Keep the patient completely still. Movement causes muscles to flex against the sharp internal edges of the foreign body.'
+  - title: NEVER REMOVE THE IMPALED OBJECT
+    instruction: >-
+      The object acts as an internal biological plug tamponading lacerated major
+      blood vessels. Removal causes fatal hemorrhage.
+  - title: STABILIZE OBJECT IN PLACE WITH BULKY PADDING
+    instruction: >-
+      Place donut-ring bandages, rolled towels, or sterile dressing rolls on
+      both sides of the object to prevent any movement.
+  - title: CALL 911 / 112 & CONTROL EXTERNAL BLEEDING
+    instruction: >-
+      Apply direct pressure around the object base without pushing or leveraging
+      the object inward.
 do_not:
-  - 'Never pull out, twist, wiggle, or adjust an impaled object (causes catastrophic internal arterial exsanguination).'
-  - 'Never apply direct pressure on top of the impaled object (this drives the tip deeper into vital organs).'
-  - 'Never attempt to shorten or cut the protruding object with power tools or saws (vibrations transmit destructive kinetic energy to internal organs, and heat can ignite clothing).'
-  - 'Never give the patient food or water (emergency exploratory surgery under general anesthesia is almost universally required).'
+  - >-
+    Never pull out, twist, wiggle, or adjust an impaled object (causes
+    catastrophic internal arterial exsanguination).
+  - >-
+    Never apply direct pressure on top of the impaled object (this drives the
+    tip deeper into vital organs).
+  - >-
+    Never attempt to shorten or cut the protruding object with power tools or
+    saws (vibrations transmit destructive kinetic energy to internal organs, and
+    heat can ignite clothing).
+  - >-
+    Never give the patient food or water (emergency exploratory surgery under
+    general anesthesia is almost universally required).
 sources:
-  - name: 'American College of Surgeons (ACS)'
+  - name: American College of Surgeons (ACS)
     url: 'https://www.facs.org/'
     authoritative: true
     guideline_version: 'Advanced Trauma Life Support (ATLS 10th Edition): Penetrating Trauma'
-    jurisdiction: 'Global'
-    notes: 'In situ stabilization doctrine, tamponade mechanics, and surgical extraction parameters.'
-  - name: 'European Resuscitation Council (ERC)'
+    jurisdiction: Global
+    notes: >-
+      In situ stabilization doctrine, tamponade mechanics, and surgical
+      extraction parameters.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Penetrating Injuries'
-    jurisdiction: 'EU / Global'
-    notes: 'Prohibition of object removal, bulky dressing stabilization, and airway exceptions.'
-  - name: 'Deutsche Gesellschaft für Unfallchirurgie (DGU)'
+    jurisdiction: EU / Global
+    notes: >-
+      Prohibition of object removal, bulky dressing stabilization, and airway
+      exceptions.
+  - name: Deutsche Gesellschaft für Unfallchirurgie (DGU)
     url: 'https://www.dgu-online.de/'
     authoritative: true
     guideline_version: 'S3-Leitlinie Polytrauma: Pfählungsverletzungen und Fremdkörper'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Pfählungstrauma-Versorgung, Polsterung (Kornährenverband/Ringpolster) und Transport.'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Pfählungstrauma-Versorgung, Polsterung (Kornährenverband/Ringpolster) und
+      Transport.
 ---
-
 A construction accident, high-speed vehicle crash, or violent altercation can drive a foreign object—a steel rebar, wooden stake, knife, or long glass shard—deep into human tissue (_impalement trauma_).
 
 The immediate human instinct, rooted in discomfort and panic, is to reach down and yank the foreign object out.

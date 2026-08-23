@@ -1,62 +1,89 @@
 ---
-slug: 'oil-currently-on-fire'
+slug: oil-currently-on-fire
 title: 'Oil, Currently on Fire'
-subtitle: 'Class K/F cooking oil fires, water-steam expansion mechanics, and oxygen starvation'
-category: 'fire'
+subtitle: >-
+  Class K/F cooking oil fires, water-steam expansion mechanics, and oxygen
+  starvation
+category: fire
 tags:
-  - 'fire'
-  - 'grease'
-  - 'kitchen'
-  - 'home'
-  - 'hazard'
+  - fire
+  - grease
+  - kitchen
+  - home
+  - hazard
 aliases:
-  - 'grease fire'
-  - 'cooking oil fire'
-  - 'oil on fire kitchen'
-  - 'pan on fire what to do'
-  - 'water on grease fire'
-  - 'kitchen fire extinguisher'
-severity: 'immediate'
-urgency: 'immediate'
+  - grease fire
+  - cooking oil fire
+  - oil on fire kitchen
+  - pan on fire what to do
+  - water on grease fire
+  - kitchen fire extinguisher
+severity: immediate
+urgency: immediate
 threat_level: 4
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: false
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Safety Core'
-memory_hook: 'Never pour water on burning oil: turn off the heat, slide a metal lid over the pan, and leave it covered.'
+reviewer: Editorial Safety Core
+memory_hook: >-
+  Never pour water on burning oil: turn off the heat, slide a metal lid over the
+  pan, and leave it covered.
 memorable_facts:
-  - 'THE 1,700X STEAM EXPLOSION: Water is heavier than cooking oil and boils at 100°C (212°F), while burning oil burns at over 300°C (572°F). When poured onto burning oil, water sinks to the bottom and flash-boils in milliseconds, expanding 1,700 times in volume into superheated steam and propelling a colossal aerosolized fireball to the ceiling.'
-  - 'SLIDE, DO NOT SLAM: When smothering a burning pan with a metal lid, slide it forward smoothly across the rim like a card on a table. Dropping or slamming the lid down splashes superheated oil onto your hands and countertops.'
+  - >-
+    THE 1,700X STEAM EXPLOSION: Water is heavier than cooking oil and boils at
+    100°C (212°F), while burning oil burns at over 300°C (572°F). When poured
+    onto burning oil, water sinks to the bottom and flash-boils in milliseconds,
+    expanding 1,700 times in volume into superheated steam and propelling a
+    colossal aerosolized fireball to the ceiling.
+  - >-
+    SLIDE, DO NOT SLAM: When smothering a burning pan with a metal lid, slide it
+    forward smoothly across the rim like a card on a table. Dropping or slamming
+    the lid down splashes superheated oil onto your hands and countertops.
 immediate_action:
-  - '1. NEVER THROW WATER ON BURNING OIL (UNDER ANY CIRCUMSTANCES).'
-  - '2. TURN OFF THE HEAT SOURCE: Switch off the stove burner or induction hob immediately if you can reach the dial safely without reaching through flames.'
-  - '3. SMOTHER WITH A METAL LID: Slide a metal pot lid or baking sheet smoothly across the pan from the front to starve the flames of oxygen.'
-  - '4. LEAVE THE LID IN PLACE: Keep the pan covered until it has cooled down completely to room temperature (removing the lid too soon allows fresh oxygen to instantly reignite the hot vapors).'
-  - '5. EVACUATE AND CALL 911 / 112 IF THE FIRE HAS SPREAD to the range hood, cabinets, or ceiling.'
+  - title: NEVER POUR WATER ON BURNING OIL
+    instruction: >-
+      Water boils instantly into steam, atomizing burning grease into a
+      catastrophic fireball explosion.
+  - title: SLIDE METAL LID OR FIRE BLANKET OVER PAN
+    instruction: >-
+      Slide a matching metal lid or fire blanket smoothly from the side over the
+      burning pan to cut off oxygen supply.
+  - title: TURN OFF STOVE & LEAVE PAN IN PLACE
+    instruction: >-
+      Switch off heat source immediately. Do NOT move or transport the hot pan
+      until completely cooled.
 do_not:
   - 'Never throw water, milk, beer, or any liquid onto burning oil.'
-  - 'Do not carry, pick up, or run with a burning pot or pan to the sink or outdoors (splashing burning oil guarantees severe third-degree burns and sets your exit route ablaze).'
-  - 'Do not throw flour, baking powder, or sugar onto the fire (flour aerosolizes into combustible dust and detonates; use baking soda only if the fire is very small).'
-  - 'Do not use a standard water or CO2 fire extinguisher with high-pressure nozzles directly into burning liquid (the blast blows liquid fire across the kitchen; use only Class F / Class K wet chemical extinguishers).'
+  - >-
+    Do not carry, pick up, or run with a burning pot or pan to the sink or
+    outdoors (splashing burning oil guarantees severe third-degree burns and
+    sets your exit route ablaze).
+  - >-
+    Do not throw flour, baking powder, or sugar onto the fire (flour aerosolizes
+    into combustible dust and detonates; use baking soda only if the fire is
+    very small).
+  - >-
+    Do not use a standard water or CO2 fire extinguisher with high-pressure
+    nozzles directly into burning liquid (the blast blows liquid fire across the
+    kitchen; use only Class F / Class K wet chemical extinguishers).
 sources:
-  - name: 'National Fire Protection Association (NFPA)'
+  - name: National Fire Protection Association (NFPA)
     url: 'https://www.nfpa.org/'
     authoritative: true
     guideline_version: 'NFPA Home Fire Safety: Cooking Fire Guidelines'
-    jurisdiction: 'US / Global'
+    jurisdiction: US / Global
     notes: 'Smothering mechanics, flashover prevention, and steam explosion physics.'
-  - name: 'Deutsche Gesetzliche Unfallversicherung (DGUV)'
+  - name: Deutsche Gesetzliche Unfallversicherung (DGUV)
     url: 'https://publikationen.dguv.de/'
     authoritative: true
     guideline_version: 'DGUV Information 205-001: Betrieblicher Brandschutz - Fettbrände'
-    jurisdiction: 'Germany / EU'
+    jurisdiction: Germany / EU
     notes: 'Fettbrandexplosion, Brandklasse F und Richtlinien für Fettbrandlöscher.'
 ---
-
 Vegetable cooking oils and animal fats have autoignition temperatures ranging between 300°C and 370°C (570°F to 700°F). When a pan is left unattended on a heated burner, the oil exceeds its flash point, releasing combustible hydrocarbon vapors that spontaneously ignite.
 
 ### The Catastrophic Physics of Water on a Grease Fire

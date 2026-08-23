@@ -1,70 +1,108 @@
 ---
-slug: 'something-important-is-no-longer-attached'
-title: 'Something Important Is No Longer Attached'
-subtitle: 'Traumatic amputation protocol, life-over-limb bleeding control, and proper dry-cold amputate preservation'
-category: 'medical'
+slug: something-important-is-no-longer-attached
+title: Something Important Is No Longer Attached
+subtitle: >-
+  Traumatic amputation protocol, life-over-limb bleeding control, and proper
+  dry-cold amputate preservation
+category: medical
 tags:
-  - 'amputation'
-  - 'trauma'
-  - 'bleeding'
-  - 'tourniquet'
-  - 'first-aid'
-  - 'medical'
+  - amputation
+  - trauma
+  - bleeding
+  - tourniquet
+  - first-aid
+  - medical
 aliases:
-  - 'severed finger'
-  - 'amputated limb'
-  - 'body part cut off'
-  - 'amputation on ice myth'
-  - 'how to preserve severed finger'
-  - 'traumatic amputation first aid'
-severity: 'immediate'
-urgency: 'immediate'
+  - severed finger
+  - amputated limb
+  - body part cut off
+  - amputation on ice myth
+  - how to preserve severed finger
+  - traumatic amputation first aid
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Stop catastrophic bleeding first with a tourniquet/pressure, wrap the amputated part dry, seal it in a bag, and place the bag in ice water.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Stop catastrophic bleeding first with a tourniquet/pressure, wrap the
+  amputated part dry, seal it in a bag, and place the bag in ice water.
 memorable_facts:
-  - 'NEVER PLACE AMPUTATED TISSUE DIRECTLY ON ICE: Direct contact with ice or sub-zero dry ice causes intracellular freezing, cell membrane rupture, and frostbite necrosis. Once frozen, microvascular surgeons cannot re-anastomose microscopic digital arteries. Keep it cold (~4°C), but strictly dry and unfrozen.'
-  - 'LIFE OVER LIMB HIERARCHY: Severing a major limb can sever the femoral or brachial artery, causing total circulatory collapse in under 3 minutes. Applying an immediate proximal arterial tourniquet to save the patient’s life completely supersedes looking for the missing body part.'
+  - >-
+    NEVER PLACE AMPUTATED TISSUE DIRECTLY ON ICE: Direct contact with ice or
+    sub-zero dry ice causes intracellular freezing, cell membrane rupture, and
+    frostbite necrosis. Once frozen, microvascular surgeons cannot re-anastomose
+    microscopic digital arteries. Keep it cold (~4°C), but strictly dry and
+    unfrozen.
+  - >-
+    LIFE OVER LIMB HIERARCHY: Severing a major limb can sever the femoral or
+    brachial artery, causing total circulatory collapse in under 3 minutes.
+    Applying an immediate proximal arterial tourniquet to save the patient’s
+    life completely supersedes looking for the missing body part.
 immediate_action:
-  - '1. CONTROL CATASTROPHIC BLEEDING FIRST (LIFE OVER LIMB): Apply direct, heavy pressure with a sterile trauma dressing to the stump. If arterial blood spurts from an arm or leg, immediately apply a commercial windlass tourniquet 5 to 7 cm (2 to 3 inches) above the amputation site (or high and tight) and tighten until bleeding ceases.'
-  - '2. CALL 911 / 112 IMMEDIATELY: Announce a traumatic amputation with major hemorrhage so dispatch can alert a specialized replantation trauma center with microvascular surgical capability.'
-  - '3. WRAP THE SEVERED PART IN DRY STERILE GAUZE: Gently clean off gross dirt with saline or clean water if heavily contaminated, but do not scrub or soak. Wrap the part in dry, clean, or sterile gauze.'
-  - '4. SEAL WRAPPED PART IN A WATERTIGHT PLASTIC BAG: Place the wrapped part inside a clean, watertight plastic zipper bag and seal it completely to protect it from moisture.'
-  - '5. PLACE SEALED BAG ONTO AN ICE WATER SLURRY: Place the sealed bag into a container containing a mixture of water and ice (about 50/50 ice and water, maintaining ~4°C / 39°F). Never allow the tissue to touch raw ice directly.'
-  - '6. DELIVER PATIENT AND PART TOGETHER TO THE PARAMEDICS: Ensure the preserved amputate stays with the patient and note the exact time of injury.'
+  - title: CONTROL LIFE-THREATENING BLEEDING FIRST
+    instruction: >-
+      Apply direct pressure, pack wound, or place a windlass tourniquet 5–7 cm
+      proximal on the stump.
+  - title: CALL 911 / 112 IMMEDIATELY
+    instruction: >-
+      Notify dispatch of traumatic amputation so a specialized replantation
+      center can be prepared.
+  - title: PACKAGE AMPUTATED PART (3-LAYER RULE)
+    instruction: 'Preserve tissue viability without causing irreversible frostbite necrosis:'
+    substeps:
+      - >-
+        Layer 1: Wrap severed part in clean, dry sterile gauze (never soak in
+        water).
+      - 'Layer 2: Place wrapped part into a watertight sealed plastic bag.'
+      - >-
+        Layer 3: Place sealed bag into an outer container with an ice-water
+        slurry at ~4°C (never put part directly on ice).
 do_not:
-  - 'Never place the amputated part directly in contact with ice or dry ice (tissue freezing destroys microscopic blood vessels).'
-  - 'Never submerge the unprotected amputated part directly into water, saline, or alcohol (causes severe cellular swelling and tissue maceration).'
-  - 'Never scrub, scrape, or disinfect the severed tissue with harsh chemicals (wipes out viable endothelial cells).'
-  - 'Never delay emergency transport of the hemorrhaging patient to search for small severed fragments in tall grass or machinery.'
+  - >-
+    Never place the amputated part directly in contact with ice or dry ice
+    (tissue freezing destroys microscopic blood vessels).
+  - >-
+    Never submerge the unprotected amputated part directly into water, saline,
+    or alcohol (causes severe cellular swelling and tissue maceration).
+  - >-
+    Never scrub, scrape, or disinfect the severed tissue with harsh chemicals
+    (wipes out viable endothelial cells).
+  - >-
+    Never delay emergency transport of the hemorrhaging patient to search for
+    small severed fragments in tall grass or machinery.
 sources:
-  - name: 'American College of Surgeons (ACS)'
+  - name: American College of Surgeons (ACS)
     url: 'https://www.facs.org/'
     authoritative: true
     guideline_version: 'Advanced Trauma Life Support (ATLS 10th Edition): Extremity Trauma'
-    jurisdiction: 'Global'
-    notes: 'Tourniquet application doctrine, life over limb hierarchy, and cold ischemia thresholds.'
-  - name: 'European Resuscitation Council (ERC)'
+    jurisdiction: Global
+    notes: >-
+      Tourniquet application doctrine, life over limb hierarchy, and cold
+      ischemia thresholds.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Traumatic Amputation'
-    jurisdiction: 'EU / Global'
-    notes: 'Packaging protocol (gauze + sealed bag + ice slurry) and contraindication of direct freezing.'
-  - name: 'Deutsche Gesellschaft für Unfallchirurgie (DGU)'
+    jurisdiction: EU / Global
+    notes: >-
+      Packaging protocol (gauze + sealed bag + ice slurry) and contraindication
+      of direct freezing.
+  - name: Deutsche Gesellschaft für Unfallchirurgie (DGU)
     url: 'https://www.dgu-online.de/'
     authoritative: true
-    guideline_version: 'S3-Leitlinie Polytrauma / Schwerverletzten-Behandlung'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Amputat-Versorgung, Tourniquet-Einsatz und Zuweisung an Replantationszentren.'
+    guideline_version: S3-Leitlinie Polytrauma / Schwerverletzten-Behandlung
+    jurisdiction: Germany / DACH
+    notes: >-
+      Amputat-Versorgung, Tourniquet-Einsatz und Zuweisung an
+      Replantationszentren.
 ---
-
 A high-energy industrial saw blade, agricultural machinery, severe crush injury, or vehicular collision can result in a traumatic amputation—the complete severance of a finger, hand, foot, or entire limb.
 
 In traumatic amputation, two distinct medical missions occur simultaneously:

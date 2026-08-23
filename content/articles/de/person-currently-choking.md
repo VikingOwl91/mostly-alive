@@ -1,73 +1,123 @@
 ---
-slug: 'person-currently-choking'
-title: 'Person verschluckt sich gerade lebensgefährlich'
-subtitle: 'Bolusaspiration, Schläge zwischen die Schulterblätter und der Heimlich-Handgriff'
-category: 'medical'
+slug: person-currently-choking
+title: Person verschluckt sich gerade lebensgefährlich
+subtitle: >-
+  Bolusaspiration, Schläge zwischen die Schulterblätter und der
+  Heimlich-Handgriff
+category: medical
 tags:
-  - 'ersticken'
-  - 'verschluckt'
-  - 'heimlich'
-  - 'atemwege'
-  - 'erste-hilfe'
-  - 'medizin'
-  - 'notfall'
+  - ersticken
+  - verschluckt
+  - heimlich
+  - atemwege
+  - erste-hilfe
+  - medizin
+  - notfall
 aliases:
-  - 'verschluckt'
-  - 'ersticken'
-  - 'heimlich griff'
-  - 'heimlich manöver'
-  - 'fremdkörper atemwege'
-  - 'ersticken erste hilfe'
-  - 'schläge auf den rücken'
-  - 'bolusaspiration'
-severity: 'immediate'
-urgency: 'immediate'
+  - verschluckt
+  - ersticken
+  - heimlich griff
+  - heimlich manöver
+  - fremdkörper atemwege
+  - ersticken erste hilfe
+  - schläge auf den rücken
+  - bolusaspiration
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Kann die Person noch husten: Husten lassen! Kann sie nicht mehr atmen: 5 Schläge auf den Rücken, dann 5 Oberbauchkompressionen im Wechsel.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Kann die Person noch husten: Husten lassen! Kann sie nicht mehr atmen: 5
+  Schläge auf den Rücken, dann 5 Oberbauchkompressionen im Wechsel.
 memorable_facts:
-  - 'DER 5:5-RETTUNGSZYKLUS: Leitlinien (ERC/GRC) schreiben den Wechsel von 5 kräftigen Schlägen zwischen die Schulterblätter und 5 ruckartigen Oberbauchkompressionen (Heimlich-Handgriff) vor. Das plötzliche Hochdrücken des Zwerchfells komprimiert die Restluft in den Lungen wie ein künstlicher Hustenstoß.'
-  - 'DIE REGEL DES EIGENEN HUSTENS: Solange die Person laut husten oder sprechen kann, ist der Atemweg nur teilweise verlegt. Ein natürlicher biologischer Hustenstoß erzeugt über 100 mmHg Druck – viel mehr als manuelle Handgriffe. Erst eingreifen, wenn der Husten stumm oder wirkungslos wird.'
+  - >-
+    DER 5:5-RETTUNGSZYKLUS: Leitlinien (ERC/GRC) schreiben den Wechsel von 5
+    kräftigen Schlägen zwischen die Schulterblätter und 5 ruckartigen
+    Oberbauchkompressionen (Heimlich-Handgriff) vor. Das plötzliche Hochdrücken
+    des Zwerchfells komprimiert die Restluft in den Lungen wie ein künstlicher
+    Hustenstoß.
+  - >-
+    DIE REGEL DES EIGENEN HUSTENS: Solange die Person laut husten oder sprechen
+    kann, ist der Atemweg nur teilweise verlegt. Ein natürlicher biologischer
+    Hustenstoß erzeugt über 100 mmHg Druck – viel mehr als manuelle Handgriffe.
+    Erst eingreifen, wenn der Husten stumm oder wirkungslos wird.
 immediate_action:
-  - '1. SCHWEREGRADE PRÜFEN: Fragen: „Ersticken Sie?“'
-  - '   • LEICHTE VERLEGUNG (KANN HUSTEN/SPRECHEN): Zum kräftigen Weiterhusten auffordern. Nicht mit Schlägen stören, solange der Husten wirksam ist!'
-  - '   • SCHWERE VERLEGUNG (KANN NICHT MEHR ATMEN/SPRECHEN, GREIFT AN DEN HALS): Sofort handeln.'
-  - '2. 5 KRÄFTIGE SCHLÄGE AUF DEN RÜCKEN:'
-  - '   • Seitlich hinter die Person stellen, ihren Brustkorb mit einer Hand abstützen und den Oberkörper weit nach vorne beugen.'
-  - '   • Bis zu 5 kräftige Schläge mit dem Handballen mittig zwischen die Schulterblätter geben.'
-  - '3. 5 OBERBAUCHKOMPRESSIONEN (HEIMLICH-HANDGRIFF):'
-  - '   • Haben die Rückenschläge keinen Erfolg: Hinter die Person treten und beide Arme um ihren Oberbauch schlingen.'
-  - '   • Eine Hand zur Faust ballen und die Daumenseite mittig zwischen Bauchnabel und Brustbeinende platzieren.'
-  - '   • Die Faust mit der anderen Hand greifen und kräftig ruckartig nach hinten-oben ziehen.'
-  - '4. WECHSEL 5 RÜCKENSCHLÄGE : 5 BAUCHKOMPRESSIONEN fortführen, bis der Fremdkörper herausspringt oder die Person das Bewusstsein verliert.'
-  - '5. BEI BEWUSSTLOSIGKEIT: Die Person vorsichtig auf den Boden legen, sofort Notruf 112 wählen und unverzüglich mit der Herzdruckmassage (30 Kompressionen) beginnen.'
+  - title: SCHWEREGRAD PRÜFEN & ZUM HUSTEN AUFFORDERN
+    instruction: 'Unterscheiden, ob eine milde oder schwere Atemwegsverlegung vorliegt:'
+    variants:
+      - condition: Milde Verlegung (Sprechen/Husten möglich)
+        action: >-
+          Zum kräftigen Weiterhusten auffordern; keine Schläge oder Manöver
+          durchführen.
+      - condition: Schwere Verlegung (Kein Sprechen/Husten)
+        action: Sofort mit Rückenschlägen und Oberbauchkompressionen beginnen.
+  - title: 5 KRÄFTIGE RÜCKENSCHLÄGE DURCHFÜHREN
+    instruction: 'Kräftige Schläge zwischen die Schulterblätter abgeben:'
+    substeps:
+      - Seitlich leicht hinter die Person treten.
+      - >-
+        Brustkorb mit einer Hand stützen und den Oberkörper weit nach vorne
+        beugen.
+      - >-
+        Mit dem Handballen der anderen Hand bis zu 5 kräftige Schläge zwischen
+        die Schulterblätter setzen.
+  - title: 5 OBERBAUCHKOMPRESSIONEN (HEIMLICH-HANDGRIFF)
+    instruction: 'Falls erfolglos, Oberbauchkompressionen durchführen:'
+    substeps:
+      - Hinter die Person treten und beide Arme um den oberen Bauch legen.
+      - >-
+        Eine Faust ballen und mit der Daumenseite mittig zwischen Bauchnabel und
+        Brustbein ansetzen.
+      - >-
+        Faust mit der anderen Hand fassen und bis zu 5-mal kräftig nach
+        hinten-oben ziehen.
+  - title: 5+5-ZYKLUS WIEDERHOLEN ODER CPR STARTEN
+    instruction: >-
+      Abwechselnd 5 Rückenschläge und 5 Oberbauchkompressionen wiederholen, bis
+      der Fremdkörper gelöst ist:
+    variants:
+      - condition: Bei Bewusstlosigkeit
+        action: >-
+          Sofort flach auf den Boden legen, Notruf 112 wählen und unverzüglich
+          CPR starten.
 do_not:
-  - 'Niemals auf den Rücken schlagen, während die Person aufrecht steht (die Schwerkraft zieht den Fremdkörper sonst noch tiefer in die Luftröhre).'
-  - 'Keine blinden Fingerwischversuche im Mund durchführen (Gefahr, den Fremdkörper noch tiefer hinter die Stimmritze zu rammen).'
-  - 'Den Heimlich-Handgriff niemals bei Säuglingen unter 1 Jahr anwenden (stattdessen abwechselnd Rückenschläge in Kopftieflage und 2-Finger-Brustkompressionen).'
-  - 'Nach erfolgreichem Heimlich-Handgriff niemals auf eine ärztliche Untersuchung verzichten (Bauchkompressionen können innere Organverletzungen an Milz oder Magen verursachen).'
+  - >-
+    Niemals auf den Rücken schlagen, während die Person aufrecht steht (die
+    Schwerkraft zieht den Fremdkörper sonst noch tiefer in die Luftröhre).
+  - >-
+    Keine blinden Fingerwischversuche im Mund durchführen (Gefahr, den
+    Fremdkörper noch tiefer hinter die Stimmritze zu rammen).
+  - >-
+    Den Heimlich-Handgriff niemals bei Säuglingen unter 1 Jahr anwenden
+    (stattdessen abwechselnd Rückenschläge in Kopftieflage und
+    2-Finger-Brustkompressionen).
+  - >-
+    Nach erfolgreichem Heimlich-Handgriff niemals auf eine ärztliche
+    Untersuchung verzichten (Bauchkompressionen können innere Organverletzungen
+    an Milz oder Magen verursachen).
 sources:
-  - name: 'German Resuscitation Council (GRC / Deutscher Rat für Wiederbelebung)'
+  - name: German Resuscitation Council (GRC / Deutscher Rat für Wiederbelebung)
     url: 'https://www.grc-org.de/'
     authoritative: true
     guideline_version: 'Leitlinien zur Wiederbelebung 2021: Fremdkörperaspiration'
-    jurisdiction: 'Deutschland / DACH'
-    notes: '5 Rückenschläge und 5 Oberbauchkompressionen im Wechsel, Indikationen und Warnhinweise.'
-  - name: 'European Resuscitation Council (ERC)'
+    jurisdiction: Deutschland / DACH
+    notes: >-
+      5 Rückenschläge und 5 Oberbauchkompressionen im Wechsel, Indikationen und
+      Warnhinweise.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: Basic Life Support - Foreign Body Airway Obstruction'
-    jurisdiction: 'EU / Global'
-    notes: 'Standardprotokoll zur Bolusentfernung bei Erwachsenen und Kindern.'
+    jurisdiction: EU / Global
+    notes: Standardprotokoll zur Bolusentfernung bei Erwachsenen und Kindern.
 ---
-
 Der menschliche Rachen (Pharynx) ist eine anatomische Kreuzung für Verdauungs- und Atemwege. Beim normalen Schluckvorgang klappt der Kehldeckel (Epiglottis) wie eine Falltür über den Kehlkopfeingang und leitet feste Nahrung und Flüssigkeiten sicher in die Speiseröhre.
 
 Bei einer Bolusaspiration geraten Speisebrocken oder Gegenstände durch unvollständigen Kehldeckelschluss direkt in die Luftröhre (Trachea).

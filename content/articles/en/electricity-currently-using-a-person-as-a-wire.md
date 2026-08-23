@@ -1,77 +1,112 @@
 ---
-slug: 'electricity-currently-using-a-person-as-a-wire'
-title: 'Electricity Currently Using a Person as a Wire'
-subtitle: 'Electrical circuit isolation, low vs high-voltage rescuer safety, and post-shock cardiac monitoring'
-category: 'electricity'
+slug: electricity-currently-using-a-person-as-a-wire
+title: Electricity Currently Using a Person as a Wire
+subtitle: >-
+  Electrical circuit isolation, low vs high-voltage rescuer safety, and
+  post-shock cardiac monitoring
+category: electricity
 tags:
-  - 'electric-shock'
-  - 'electrocution'
-  - 'high-voltage'
-  - 'cpr'
-  - 'first-aid'
-  - 'medical'
-  - 'emergency'
+  - electric-shock
+  - electrocution
+  - high-voltage
+  - cpr
+  - first-aid
+  - medical
+  - emergency
 aliases:
-  - 'electric shock'
-  - 'electrocution'
-  - 'electrocution first aid'
-  - 'person shocked by electricity'
-  - 'how to help electric shock victim'
-  - 'electric shock safety distance'
-  - 'electrical burn treatment'
-  - 'let go threshold'
-severity: 'immediate'
-urgency: 'immediate'
+  - electric shock
+  - electrocution
+  - electrocution first aid
+  - person shocked by electricity
+  - how to help electric shock victim
+  - electric shock safety distance
+  - electrical burn treatment
+  - let go threshold
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Never touch an energized person; kill the power at the breaker first, call 911/112, start CPR if pulseless, and hospitalize for ECG.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Never touch an energized person; kill the power at the breaker first, call
+  911/112, start CPR if pulseless, and hospitalize for ECG.
 memorable_facts:
-  - 'THE "CAN’T LET GO" TETANIC CLAMP: Household 50/60 Hz alternating current forces muscles to contract 50 to 60 times per second. Because the forearm muscles that close the fingers are much stronger than those that open them, contact with a live wire freezes the hand into an involuntary, unbreakable fist. Touching the victim clamps you into the exact same circuit.'
-  - 'STEP POTENTIAL SHUFFLE: High-voltage power lines touching the soil create concentric rings of diminishing voltage radiating outward. A normal walking stride places one foot in a higher voltage zone than the other, sending thousands of volts up one leg and down the other. Keep feet touching and shuffle without lifting them.'
+  - >-
+    THE "CAN’T LET GO" TETANIC CLAMP: Household 50/60 Hz alternating current
+    forces muscles to contract 50 to 60 times per second. Because the forearm
+    muscles that close the fingers are much stronger than those that open them,
+    contact with a live wire freezes the hand into an involuntary, unbreakable
+    fist. Touching the victim clamps you into the exact same circuit.
+  - >-
+    STEP POTENTIAL SHUFFLE: High-voltage power lines touching the soil create
+    concentric rings of diminishing voltage radiating outward. A normal walking
+    stride places one foot in a higher voltage zone than the other, sending
+    thousands of volts up one leg and down the other. Keep feet touching and
+    shuffle without lifting them.
 immediate_action:
-  - '1. DO NOT TOUCH THE PERSON DIRECTLY: If the victim is still in contact with the live electrical source, touching them conducts current through your body, causing involuntary muscle lock and double electrocution.'
-  - '2. SEVER THE ELECTRICAL CIRCUIT SAFELY (LOW VOLTAGE < 1,000V):'
-  - '   • Switch off the main breaker or remove the fuse immediately.'
-  - '   • Unplug the appliance by pulling the insulated cord/plug (do not touch damaged bare wires).'
-  - '   • If you cannot turn off power: Stand on dry non-conductive material (dry wooden board, rubber mat) and push the wire or person away using a dry, non-conductive object (dry wooden broom handle, dry plastic rod). Never use anything damp or metal.'
-  - '3. HIGH VOLTAGE (> 1,000V / POWER LINES): Keep a safety perimeter of at least 10 meters (33 feet). Do not approach until the power grid utility company confirms the line is grounded and de-energized.'
-  - '4. CALL 911 / 112 IMMEDIATELY: State clearly: "High-voltage / electric shock casualty, power status, CPR required if unresponsive."'
-  - '5. COMMENCE CPR AND AED IMMEDIATELY IF UNRESPONSIVE: Once power is disconnected, check breathing. If absent or agonal, begin chest compressions (30:2) and attach an AED immediately (AC current frequently induces ventricular fibrillation).'
-  - '6. COOL ELECTRICAL ENTRY AND EXIT BURNS: Cool surface burn wounds with clean water and cover loosely with sterile dressings.'
-  - '7. MANDATORY 12-LEAD ECG MONITORING: Every electric shock victim requires hospital admission for cardiac rhythm monitoring and rhabdomyolysis screening.'
+  - title: NEVER TOUCH VICTIM DIRECTLY WHILE IN CIRCUIT
+    instruction: >-
+      Current will pass through your body. Disconnect power at main circuit
+      breaker or unplug cord immediately.
+  - title: SEPARATE WITH DRY NON-CONDUCTIVE OBJECT (LOW VOLTAGE ONLY)
+    instruction: >-
+      For 120V/230V household current only: Use dry wooden broom handle or
+      plastic rod to dislodge wire/victim. High voltage: Stay 10m away.
+  - title: CALL 911 / 112 & PREPARE CPR / AED
+    instruction: >-
+      Electric shock frequently causes ventricular fibrillation. Check breathing
+      once freed and start CPR immediately if unresponsive.
 do_not:
-  - 'Never touch an energized victim with bare hands, wet objects, or metal tools (household alternating current causes tetanic muscle grip, preventing both victim and rescuer from letting go).'
-  - 'Do not approach within 10 meters (33 feet) of high-voltage industrial equipment or downed power lines (high voltage easily arcs across air gaps and electrifies the surrounding soil via step potential).'
-  - 'Do not assume a conscious victim who "feels fine" after an electric shock is safe (delayed lethal cardiac arrhythmias and acute renal failure from myoglobin breakdown can manifest hours after the event).'
-  - 'Do not move an electrocuted person abruptly if they fell from a height or were thrown across the room (violent involuntary muscle contractions frequently cause spinal fractures and joint dislocations).'
+  - >-
+    Never touch an energized victim with bare hands, wet objects, or metal tools
+    (household alternating current causes tetanic muscle grip, preventing both
+    victim and rescuer from letting go).
+  - >-
+    Do not approach within 10 meters (33 feet) of high-voltage industrial
+    equipment or downed power lines (high voltage easily arcs across air gaps
+    and electrifies the surrounding soil via step potential).
+  - >-
+    Do not assume a conscious victim who "feels fine" after an electric shock is
+    safe (delayed lethal cardiac arrhythmias and acute renal failure from
+    myoglobin breakdown can manifest hours after the event).
+  - >-
+    Do not move an electrocuted person abruptly if they fell from a height or
+    were thrown across the room (violent involuntary muscle contractions
+    frequently cause spinal fractures and joint dislocations).
 sources:
-  - name: 'European Resuscitation Council (ERC)'
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
-    guideline_version: 'ERC Guidelines 2021: Cardiac Arrest in Special Circumstances - Electrocution'
-    jurisdiction: 'EU / Global'
-    notes: 'Rescuer electrical isolation, ventricular fibrillation management, and mandatory hospital ECG monitoring.'
-  - name: 'Deutsche Gesetzliche Unfallversicherung (DGUV)'
+    guideline_version: >-
+      ERC Guidelines 2021: Cardiac Arrest in Special Circumstances -
+      Electrocution
+    jurisdiction: EU / Global
+    notes: >-
+      Rescuer electrical isolation, ventricular fibrillation management, and
+      mandatory hospital ECG monitoring.
+  - name: Deutsche Gesetzliche Unfallversicherung (DGUV)
     url: 'https://publikationen.dguv.de/'
     authoritative: true
     guideline_version: 'DGUV Information 204-007: Erste Hilfe bei Stromunfällen'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Niederspannungs- vs. Hochspannungssicherheitsabstände (10m) und Freischaltprotokolle.'
-  - name: 'Occupational Safety and Health Administration (OSHA)'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Niederspannungs- vs. Hochspannungssicherheitsabstände (10m) und
+      Freischaltprotokolle.
+  - name: Occupational Safety and Health Administration (OSHA)
     url: 'https://www.osha.gov/'
     authoritative: true
-    guideline_version: 'OSHA Electrical Safety Standards (29 CFR 1910.303)'
-    jurisdiction: 'US'
-    notes: 'Non-conductive rescue mechanics, arc flash perimeter rules, and electrical burn care.'
+    guideline_version: OSHA Electrical Safety Standards (29 CFR 1910.303)
+    jurisdiction: US
+    notes: >-
+      Non-conductive rescue mechanics, arc flash perimeter rules, and electrical
+      burn care.
 ---
-
 The human neuromuscular system operates on delicate endogenous electrical potentials measured in millivolts. When an external alternating current (AC) at standard utility voltages (120V to 230V, 50/60 Hz) enters human tissue, it completely overrides the nervous system's control loops.
 
 Because standard mains frequency aligns perfectly with the vulnerable period of the cardiac cycle, current traversing the thorax triggers instantaneous Ventricular Fibrillation (VF)—a chaotic quivering of the ventricles that halts systemic circulation in seconds.

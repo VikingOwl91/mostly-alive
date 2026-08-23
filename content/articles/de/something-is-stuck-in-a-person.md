@@ -1,70 +1,101 @@
 ---
-slug: 'something-is-stuck-in-a-person'
-title: 'Ein Gegenstand steckt unübersehbar in einer Person'
-subtitle: 'Pfählungs- und Fremdkörperverletzungen, die biologische Gefäßtamponade und die korrekte Anlage eines Ringpolsterverbandes'
-category: 'medical'
+slug: something-is-stuck-in-a-person
+title: Ein Gegenstand steckt unübersehbar in einer Person
+subtitle: >-
+  Pfählungs- und Fremdkörperverletzungen, die biologische Gefäßtamponade und die
+  korrekte Anlage eines Ringpolsterverbandes
+category: medical
 tags:
-  - 'fremdkoerper'
-  - 'pfaehlung'
-  - 'blutung'
-  - 'trauma'
-  - 'erste-hilfe'
-  - 'notfall'
+  - fremdkoerper
+  - pfaehlung
+  - blutung
+  - trauma
+  - erste-hilfe
+  - notfall
 aliases:
-  - 'gegenstand im koerper'
-  - 'messer steckt im koerper'
-  - 'pfaehlungstrauma'
-  - 'gegenstand herausziehen mythos'
-  - 'ringpolster verband anleitung'
-  - 'fremdkoerper fixieren unfall'
-severity: 'immediate'
-urgency: 'immediate'
+  - gegenstand im koerper
+  - messer steckt im koerper
+  - pfaehlungstrauma
+  - gegenstand herausziehen mythos
+  - ringpolster verband anleitung
+  - fremdkoerper fixieren unfall
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Eingespießte Gegenstände niemals herausziehen; mit einem Ringpolster rundherum fixieren und sofort 112 rufen.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Eingespießte Gegenstände niemals herausziehen; mit einem Ringpolster rundherum
+  fixieren und sofort 112 rufen.
 memorable_facts:
-  - 'DER TAMPONADEEFFEKT: Eine eingedrungene Messerklinge, Glasscherbe oder Baustahlstange wirkt wie ein biologischer Korken im verletzten Blutgefäß. Wer den Gegenstand vor Ort herauszieht, entfernt diesen Pfropfen und löst eine schlagartige, unstillbare innere Verblutung aus.'
-  - 'DIE HEBELWIRKUNG BEIM TRANSPORT: Der herausragende Teil eines Fremdkörpers wirkt wie ein Hebelarm. Jede Erschütterung oder Bewegung beim Transport lässt die innere Spitze wie ein Skalpell durch benachbarte Nerven, Organe oder Gefäße schneiden. Der Gegenstand muss mit Polstern absolut starr fixiert werden.'
+  - >-
+    DER TAMPONADEEFFEKT: Eine eingedrungene Messerklinge, Glasscherbe oder
+    Baustahlstange wirkt wie ein biologischer Korken im verletzten Blutgefäß.
+    Wer den Gegenstand vor Ort herauszieht, entfernt diesen Pfropfen und löst
+    eine schlagartige, unstillbare innere Verblutung aus.
+  - >-
+    DIE HEBELWIRKUNG BEIM TRANSPORT: Der herausragende Teil eines Fremdkörpers
+    wirkt wie ein Hebelarm. Jede Erschütterung oder Bewegung beim Transport
+    lässt die innere Spitze wie ein Skalpell durch benachbarte Nerven, Organe
+    oder Gefäße schneiden. Der Gegenstand muss mit Polstern absolut starr
+    fixiert werden.
 immediate_action:
-  - '1. DEN GEGENSTAND UNTER KEINEN UMSTÄNDEN HERAUSZIEHEN: Den eingedrungenen Gegenstand (Messer, Holzpfahl, Metallstange, Glas) exakt in der Position belassen, in der er steckt. Er dichtet verletzte Blutgefäße mechanisch ab.'
-  - '2. DEN GEGENSTAND MANUELL RUHIGSTELLEN: Den Gegenstand vorsichtig mit beiden Händen halten, damit er sich bei Atembewegungen oder Schmerzen des Patienten nicht millimeterweit verschiebt.'
-  - '3. EIN DICHTES RINGPOLSTER (KRAWATTE / VERBANDMÖGLICHKEIT) ANLEGEN: Zusammengerollte Mullbinden, sterile Kompressen oder gerollte Dreiecktücher links und rechts (oder kreisförmig als Ring/Donut) um den Fuß des Gegenstandes herum auf die Haut legen, um ein hohes Polster zu bauen.'
-  - '4. MIT BINDEN FIXIEREN, OHNE DRUCK AUF DEN GEGENSTAND AUSZUÜBEN: Das Polstermaterial mit einer Fixierbinde oder Klebeband stramm am Körper befestigen. Die Binde verläuft um das Polster herum—kein Druck direkt von oben auf den Fremdkörper!'
-  - '5. SOFORT NOTRUF 112 WÄHLEN: Der Leitstelle die Pfählungsverletzung, die betroffene Körperregion (z.B. Brustkorb, Bauch, Auge, Oberschenkel) und den Zustand des Patienten melden.'
-  - '6. PATIENTEN ABSOLUT RUHIGSTELLEN: Jede Muskelanspannung und Lageveränderung vermeiden, um innere Schnittverletzungen durch die Gegenstandsspitze zu verhindern.'
+  - title: DEN EINGESPIESSTEN GEGENSTAND NIEMALS HERAUSZIEHEN
+    instruction: >-
+      Der Gegenstand wirkt als Gefäßstopfen und dichtet verletzte Arterien ab.
+      Herausziehen führt zu massiver tödlicher Verblutung.
+  - title: GEGENSTAND MIT POLSTERMATERIAL BEIDSEITIG FIXIEREN
+    instruction: >-
+      Verbandstoffrollen, Handtücher oder Krawatten ringförmig um den Gegenstand
+      legen und fest anwickeln, um jede Hebelwirkung zu verhindern.
+  - title: NOTRUF 112 WÄHLEN & UM DIE WUNDE HERUM ABDRÜCKEN
+    instruction: >-
+      Druck um die Einstichstelle herum ausüben, ohne den Fremdkörper tiefer
+      hineinzudrücken.
 do_not:
-  - 'Niemals den Gegenstand herausziehen, drehen oder lockern (führt zur massiven inneren Verblutung).'
-  - 'Niemals Druck direkt von oben auf den Gegenstand ausüben (treibt ihn tiefer in lebenswichtige Organe).'
-  - 'Niemals versuchen, herausstehende Metall- oder Holzstangen mit Sägen oder Trennschleifern zu kürzen (Vibrationen und Hitze zerstören das innere Gewebe).'
-  - 'Dem Verletzten weder Essen noch Trinken geben (Notoperation in Vollnarkose unmittelbar nach Eintreffen im Schockraum erforderlich).'
+  - >-
+    Niemals den Gegenstand herausziehen, drehen oder lockern (führt zur massiven
+    inneren Verblutung).
+  - >-
+    Niemals Druck direkt von oben auf den Gegenstand ausüben (treibt ihn tiefer
+    in lebenswichtige Organe).
+  - >-
+    Niemals versuchen, herausstehende Metall- oder Holzstangen mit Sägen oder
+    Trennschleifern zu kürzen (Vibrationen und Hitze zerstören das innere
+    Gewebe).
+  - >-
+    Dem Verletzten weder Essen noch Trinken geben (Notoperation in Vollnarkose
+    unmittelbar nach Eintreffen im Schockraum erforderlich).
 sources:
-  - name: 'Deutsche Gesellschaft für Unfallchirurgie (DGU)'
+  - name: Deutsche Gesellschaft für Unfallchirurgie (DGU)
     url: 'https://www.dgu-online.de/'
     authoritative: true
     guideline_version: 'S3-Leitlinie Polytrauma / Schwerverletzten-Behandlung: Pfählungstrauma'
-    jurisdiction: 'Germany / DACH'
-    notes: 'In-situ-Fixierung von Fremdkörpern, Ringpolsterung und Verbot von Extraktionsversuchen.'
-  - name: 'European Resuscitation Council (ERC)'
+    jurisdiction: Germany / DACH
+    notes: >-
+      In-situ-Fixierung von Fremdkörpern, Ringpolsterung und Verbot von
+      Extraktionsversuchen.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Penetrating Trauma'
-    jurisdiction: 'EU / Global'
-    notes: 'Impalement stabilization, avoidance of direct pressure, and airway exceptions.'
-  - name: 'American College of Surgeons (ACS)'
+    jurisdiction: EU / Global
+    notes: >-
+      Impalement stabilization, avoidance of direct pressure, and airway
+      exceptions.
+  - name: American College of Surgeons (ACS)
     url: 'https://www.facs.org/'
     authoritative: true
     guideline_version: 'Advanced Trauma Life Support (ATLS): Penetrating Trauma Management'
-    jurisdiction: 'US / Global'
-    notes: 'Vascular tamponade principles and operating room extraction.'
+    jurisdiction: US / Global
+    notes: Vascular tamponade principles and operating room extraction.
 ---
-
 Ein Arbeitsunfall auf der Baustelle, ein schwerer Autounfall oder ein häuslicher Sturz in ein Geländer kann dazu führen, dass ein spitzer oder stumpfer Gegenstand—ein Baustahl, eine Astgabel, ein Messer oder eine dicke Glasscherbe—tief in den menschlichen Körper eindringt (_Pfählungstrauma / Penetrierende Verletzung_).
 
 Der unmittelbare Instinkt vieler Ersthelfer, getrieben von Entsetzen und Schmerz, ist es, nach dem Gegenstand zu greifen und ihn mit einem Ruck herauszuziehen.

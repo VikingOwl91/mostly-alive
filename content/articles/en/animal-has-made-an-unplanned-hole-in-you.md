@@ -1,70 +1,105 @@
 ---
-slug: 'animal-has-made-an-unplanned-hole-in-you'
-title: 'Animal Has Made an Unplanned Hole in You'
-subtitle: 'Mammalian bite wound hygiene, the 15-minute soap decontamination rule, and fatal rabies post-exposure prophylaxis'
-category: 'animals'
+slug: animal-has-made-an-unplanned-hole-in-you
+title: Animal Has Made an Unplanned Hole in You
+subtitle: >-
+  Mammalian bite wound hygiene, the 15-minute soap decontamination rule, and
+  fatal rabies post-exposure prophylaxis
+category: animals
 tags:
-  - 'bites'
-  - 'rabies'
-  - 'infection'
-  - 'animals'
-  - 'first-aid'
-  - 'medical'
+  - bites
+  - rabies
+  - infection
+  - animals
+  - first-aid
+  - medical
 aliases:
-  - 'dog bite first aid'
-  - 'cat bite infection'
-  - 'rabies bite protocol'
-  - 'animal bite washing soap'
-  - 'rabies pep timeline'
-  - 'cat scratch fever pasteurella'
-severity: 'serious'
-urgency: 'high'
+  - dog bite first aid
+  - cat bite infection
+  - rabies bite protocol
+  - animal bite washing soap
+  - rabies pep timeline
+  - cat scratch fever pasteurella
+severity: serious
+urgency: high
 threat_level: 3
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Wash vigorously with soap and water for 15 full minutes, apply antiseptic, and seek rabies PEP/antibiotics immediately.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Wash vigorously with soap and water for 15 full minutes, apply antiseptic, and
+  seek rabies PEP/antibiotics immediately.
 memorable_facts:
-  - 'THE 15-MINUTE SOAP DECONTAMINATION RULE: The rabies virus (*Lyssavirus*) possesses a fragile outer lipid envelope that is chemically dissolved and inactivated by common household soap surfactants. Copious mechanical washing with soap and running water for 15 full minutes reduces the viable viral load in the wound by over 90% before it can invade peripheral nerves.'
-  - 'THE 100% FATALITY THRESHOLD: Rabies is virtually 100% fatal once clinical neurological symptoms (hydrophobia, delirium, paralysis) begin, but 100% preventable if Post-Exposure Prophylaxis (PEP vaccine + immunoglobulin) is started promptly after the bite before symptoms develop.'
+  - >-
+    THE 15-MINUTE SOAP DECONTAMINATION RULE: The rabies virus (*Lyssavirus*)
+    possesses a fragile outer lipid envelope that is chemically dissolved and
+    inactivated by common household soap surfactants. Copious mechanical washing
+    with soap and running water for 15 full minutes reduces the viable viral
+    load in the wound by over 90% before it can invade peripheral nerves.
+  - >-
+    THE 100% FATALITY THRESHOLD: Rabies is virtually 100% fatal once clinical
+    neurological symptoms (hydrophobia, delirium, paralysis) begin, but 100%
+    preventable if Post-Exposure Prophylaxis (PEP vaccine + immunoglobulin) is
+    started promptly after the bite before symptoms develop.
 immediate_action:
-  - '1. WASH THE BITE WOUND VIGOROUSLY FOR 15 MINUTES: Immediately flush the puncture wounds and lacerations with copious warm running water and soap or detergent for a full 15 minutes. Use mechanical soap friction to wash away animal saliva.'
-  - '2. APPLY ALCOHOL-BASED OR IODINE ANTISEPTIC: Disinfect the wound thoroughly with 70% ethanol, isopropanol, or povidone-iodine solution and allow it to air dry.'
-  - '3. CONTROL HEAVY BLEEDING: Apply direct pressure with a clean sterile dressing if an artery or vein is bleeding actively.'
-  - '4. PROCEED IMMEDIATELY TO A HOSPITAL OR CLINIC FOR RABIES EVALUATION: If the bite occurred in a rabies-endemic country or involved a bat, raccoon, skunk, fox, or unvaccinated stray dog/cat, Post-Exposure Prophylaxis (PEP: rabies vaccine series + Rabies Immunoglobulin / RIG) must be initiated as soon as possible.'
-  - '5. CHECK TETANUS STATUS AND OBTAIN PRESCRIPTION ANTIBIOTICS: Cat and dog mouths carry virulent polymicrobial bacteria (*Pasteurella multocida*, *Capnocytophaga*). Cat bites frequently cause deep closed tendon sheath infections requiring prophylactic antibiotics (e.g. amoxicillin-clavulanate) within 8 hours.'
-  - '6. DOCUMENT AND IDENTIFY THE ANIMAL SAFELY: Note the animal breed, owner contact, vaccination history, or location for local public health quarantine without putting yourself at risk of further bites.'
+  - title: WASH VIGOROUSLY WITH SOAP & WATER FOR 15 MINUTES
+    instruction: >-
+      Copious mechanical washing with soap and running water immediately
+      destroys the lipid envelope of rabies virus and flushes bacteria.
+  - title: DISINFECT WITH POVIDONE-IODINE OR ALCOHOL
+    instruction: >-
+      Apply povidone-iodine antiseptic or 70% alcohol solution and dress loosely
+      with sterile gauze.
+  - title: SEEK URGENT MEDICAL EVALUATION (RABIES PEP & ANTIBIOTICS)
+    instruction: >-
+      Rabies Post-Exposure Prophylaxis is 100% effective when initiated promptly
+      before symptoms occur. Check tetanus status.
 do_not:
-  - 'Never skip or shorten the 15-minute soap-and-water washing step (it is the single most effective physical barrier against viral penetration).'
-  - 'Never attempt to capture, corner, or handle an aggressive, wild, or rabid animal.'
-  - 'Never cauterize, pour bleach, or pack corrosive chemicals into an animal bite wound.'
-  - 'Never dismiss a tiny cat puncture wound as "just a scratch" (cat teeth act as hypodermic needles injecting *Pasteurella* deep into periosteum and tendon sheaths).'
+  - >-
+    Never skip or shorten the 15-minute soap-and-water washing step (it is the
+    single most effective physical barrier against viral penetration).
+  - >-
+    Never attempt to capture, corner, or handle an aggressive, wild, or rabid
+    animal.
+  - >-
+    Never cauterize, pour bleach, or pack corrosive chemicals into an animal
+    bite wound.
+  - >-
+    Never dismiss a tiny cat puncture wound as "just a scratch" (cat teeth act
+    as hypodermic needles injecting *Pasteurella* deep into periosteum and
+    tendon sheaths).
 sources:
-  - name: 'World Health Organization (WHO)'
+  - name: World Health Organization (WHO)
     url: 'https://www.who.int/'
     authoritative: true
-    guideline_version: 'WHO Expert Consultation on Rabies: Third Report & Post-Exposure Prophylaxis Guidelines'
-    jurisdiction: 'Global'
-    notes: '15-minute wound cleansing standard, category III exposure protocols, and HRIG infiltration.'
-  - name: 'Centers for Disease Control and Prevention (CDC)'
+    guideline_version: >-
+      WHO Expert Consultation on Rabies: Third Report & Post-Exposure
+      Prophylaxis Guidelines
+    jurisdiction: Global
+    notes: >-
+      15-minute wound cleansing standard, category III exposure protocols, and
+      HRIG infiltration.
+  - name: Centers for Disease Control and Prevention (CDC)
     url: 'https://www.cdc.gov/'
     authoritative: true
-    guideline_version: 'Rabies Postexposure Prophylaxis (PEP) & Animal Bite Management'
-    jurisdiction: 'US / Global'
-    notes: 'Vaccination schedules, bat bite risk without visible marks, and Pasteurella antimicrobial coverage.'
-  - name: 'Robert Koch-Institut (RKI)'
+    guideline_version: Rabies Postexposure Prophylaxis (PEP) & Animal Bite Management
+    jurisdiction: US / Global
+    notes: >-
+      Vaccination schedules, bat bite risk without visible marks, and
+      Pasteurella antimicrobial coverage.
+  - name: Robert Koch-Institut (RKI)
     url: 'https://www.rki.de/'
     authoritative: true
     guideline_version: 'RKI-Ratgeber: Tollwut (Rabies) und Tierbissverletzungen'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Postexpositionelle Tollwutprophylaxe bei Auslandsreisen, Tetanus und Wundspülung.'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Postexpositionelle Tollwutprophylaxe bei Auslandsreisen, Tetanus und
+      Wundspülung.
 ---
-
 Human interaction with domestic pets and wild animals occasionally leads to bite injuries. Whether a playful nip from a puppy that punctured skin, an aggressive dog attack, a feral cat bite, or contact with a bat, mammalian bites carry severe biological threats.
 
 An animal's mouth is not a sterile environment: it is a warm biological incubator loaded with anaerobic and aerobic bacteria, and in many regions of the world, the neurotropic **Rabies virus**.

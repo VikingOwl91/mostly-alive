@@ -1,63 +1,93 @@
 ---
-slug: 'car-unexpectedly-becoming-a-boat'
-title: 'Car Unexpectedly Becoming a Boat'
-subtitle: 'Submerged vehicle escape sequence, hydrostatic pressure equalization, and window breach mechanics'
-category: 'vehicles'
+slug: car-unexpectedly-becoming-a-boat
+title: Car Unexpectedly Becoming a Boat
+subtitle: >-
+  Submerged vehicle escape sequence, hydrostatic pressure equalization, and
+  window breach mechanics
+category: vehicles
 tags:
-  - 'vehicles'
-  - 'water'
-  - 'drowning'
-  - 'car'
-  - 'escape'
+  - vehicles
+  - water
+  - drowning
+  - car
+  - escape
 aliases:
-  - 'car in water'
-  - 'sinking car escape'
-  - 'car submerged in water'
-  - 'how to escape sinking car'
-  - 'car door water pressure'
-  - 'car window break underwater'
-severity: 'immediate'
-urgency: 'immediate'
+  - car in water
+  - sinking car escape
+  - car submerged in water
+  - how to escape sinking car
+  - car door water pressure
+  - car window break underwater
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'hard'
-region_scope: 'global'
+difficulty: hard
+region_scope: global
 medical: false
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Safety Core'
-memory_hook: 'Seatbelt OFF, Window OPEN, Children OUT, Escape (SWOC) before the car sinks below the surface.'
+reviewer: Editorial Safety Core
+memory_hook: >-
+  Seatbelt OFF, Window OPEN, Children OUT, Escape (SWOC) before the car sinks
+  below the surface.
 memorable_facts:
-  - 'THE 60-SECOND ESCAPE WINDOW: A vehicle entering deep water floats for approximately 30 to 120 seconds before the engine bay submerges. You MUST escape through the side windows during this floating phase.'
-  - 'THE METRIC TON DOOR TRAP: Water pressing against a submerged car door exerts thousands of Newtons of force (equivalent to over 600 kg / 1,300 lbs). You cannot push a car door open until the entire cabin completely fills with water to equalize internal and external hydrostatic pressure.'
+  - >-
+    THE 60-SECOND ESCAPE WINDOW: A vehicle entering deep water floats for
+    approximately 30 to 120 seconds before the engine bay submerges. You MUST
+    escape through the side windows during this floating phase.
+  - >-
+    THE METRIC TON DOOR TRAP: Water pressing against a submerged car door exerts
+    thousands of Newtons of force (equivalent to over 600 kg / 1,300 lbs). You
+    cannot push a car door open until the entire cabin completely fills with
+    water to equalize internal and external hydrostatic pressure.
 immediate_action:
-  - '1. REMEMBER THE PROTOCOL (SWOC): Seatbelts, Windows, Out (Children First).'
-  - '2. UNBUCKLE SEATBELTS IMMEDIATELY: Free yourself and help children unbuckle from oldest to youngest.'
-  - '3. OPEN OR BREAK SIDE WINDOWS IMMEDIATELY: Roll down electric windows before water shorts the electrical system (you typically have 30–60 seconds).'
-  - '4. IF WINDOWS ARE ELECTRICALLY DEAD: Strike a side window at the lower corner with a center-punch or glass breaker. Never try to break the windshield (laminated safety glass will not shatter).'
-  - '5. ESCAPE THROUGH THE WINDOW: Push children out through the open window first, then climb out immediately.'
-  - '6. SWIM TO THE SURFACE: Follow rising air bubbles to orient toward the surface if disoriented.'
+  - title: SEATBELTS OFF & OPEN WINDOWS IMMEDIATELY
+    instruction: >-
+      Execute within the first 60 seconds before vehicle submerges and
+      electrical power fails:
+    substeps:
+      - Unbuckle driver and passenger seatbelts immediately.
+      - Roll down or break side windows before water pressure seals them.
+  - title: UNBUCKLE CHILDREN FROM OLDEST TO YOUNGEST
+    instruction: >-
+      Release older children first so they can assist younger siblings or exit
+      directly through windows.
+  - title: ESCAPE THROUGH WINDOWS ONTO CAR ROOF
+    instruction: >-
+      Climb out open windows onto the vehicle roof, never waste time pushing
+      submerged doors against water pressure.
 do_not:
-  - 'Do not waste time trying to open the car doors (hydrostatic water pressure holds the door shut with tons of force).'
-  - 'Do not waste precious seconds calling emergency services while inside the floating vehicle.'
-  - 'Do not try to break the front windshield (laminated glass is designed to stay bonded together and cannot be breached with a center punch; break tempered side windows only).'
-  - 'Do not remove clothing or shoes inside the vehicle (it wastes time; push out through the window immediately).'
+  - >-
+    Do not waste time trying to open the car doors (hydrostatic water pressure
+    holds the door shut with tons of force).
+  - >-
+    Do not waste precious seconds calling emergency services while inside the
+    floating vehicle.
+  - >-
+    Do not try to break the front windshield (laminated glass is designed to
+    stay bonded together and cannot be breached with a center punch; break
+    tempered side windows only).
+  - >-
+    Do not remove clothing or shoes inside the vehicle (it wastes time; push out
+    through the window immediately).
 sources:
-  - name: 'Dr. Gordon Giesbrecht (Operation Alive / University of Manitoba)'
+  - name: Dr. Gordon Giesbrecht (Operation Alive / University of Manitoba)
     url: 'https://umanitoba.ca/'
     authoritative: true
-    guideline_version: 'Submerged Vehicle Survival Protocol (SWOC)'
-    jurisdiction: 'Global'
-    notes: 'Empirical vehicle sinking phases, hydrostatic pressure calculations, and SWOC escape sequencing.'
-  - name: 'ADAC (Allgemeiner Deutscher Automobil-Club)'
+    guideline_version: Submerged Vehicle Survival Protocol (SWOC)
+    jurisdiction: Global
+    notes: >-
+      Empirical vehicle sinking phases, hydrostatic pressure calculations, and
+      SWOC escape sequencing.
+  - name: ADAC (Allgemeiner Deutscher Automobil-Club)
     url: 'https://www.adac.de/'
     authoritative: true
     guideline_version: 'Notfallratgeber: Auto im Wasser'
-    jurisdiction: 'Germany / DACH'
+    jurisdiction: Germany / DACH
     notes: 'Scheibenzerstörung, Notfallhämmer und Fluchtwege aus sinkenden PKW.'
 ---
-
 When a motor vehicle leaves the roadway and enters deep water (a river, canal, lake, or harbor), the engine block—being the heaviest component—immediately pulls the nose downward.
 
 ### The Hydrostatic Pressure Lock

@@ -1,78 +1,118 @@
 ---
-slug: 'person-currently-having-a-seizure'
-title: 'Person Currently Having a Seizure'
-subtitle: 'Generalized tonic-clonic seizure protection, airway management, and status epilepticus escalation'
-category: 'medical'
+slug: person-currently-having-a-seizure
+title: Person Currently Having a Seizure
+subtitle: >-
+  Generalized tonic-clonic seizure protection, airway management, and status
+  epilepticus escalation
+category: medical
 tags:
-  - 'seizure'
-  - 'epilepsy'
-  - 'neurology'
-  - 'convulsions'
-  - 'first-aid'
-  - 'medical'
-  - 'emergency'
+  - seizure
+  - epilepsy
+  - neurology
+  - convulsions
+  - first-aid
+  - medical
+  - emergency
 aliases:
-  - 'seizure'
-  - 'epilepsy'
-  - 'convulsions'
-  - 'epileptic fit'
-  - 'convulsion first aid'
-  - 'tonic clonic seizure'
-  - 'grand mal seizure'
-  - 'seizure response'
-severity: 'critical'
-urgency: 'immediate'
+  - seizure
+  - epilepsy
+  - convulsions
+  - epileptic fit
+  - convulsion first aid
+  - tonic clonic seizure
+  - grand mal seizure
+  - seizure response
+severity: critical
+urgency: immediate
 threat_level: 4
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Protect the head, time the duration, never put anything in the mouth, and turn onto the side once shaking stops.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Protect the head, time the duration, never put anything in the mouth, and turn
+  onto the side once shaking stops.
 memorable_facts:
-  - 'THE TONGUE SWALLOWING MYTH: The human tongue is firmly anchored to the floor of the oral cavity by the lingual frenulum; it is anatomically impossible to swallow your own tongue. Forcing spoons, wallets, or fingers between clenched teeth during a seizure shatters enamel and creates jagged fragments that aspirate into the lungs.'
-  - 'THE 5-MINUTE STATUS EPILEPTICUS THRESHOLD: Most unprovoked seizures terminate spontaneously within 60 to 90 seconds. If generalized convulsions exceed 5 uninterrupted minutes, the brain’s endogenous inhibitory GABA mechanisms have failed, entering life-threatening status epilepticus that demands immediate intravenous medical termination.'
+  - >-
+    THE TONGUE SWALLOWING MYTH: The human tongue is firmly anchored to the floor
+    of the oral cavity by the lingual frenulum; it is anatomically impossible to
+    swallow your own tongue. Forcing spoons, wallets, or fingers between
+    clenched teeth during a seizure shatters enamel and creates jagged fragments
+    that aspirate into the lungs.
+  - >-
+    THE 5-MINUTE STATUS EPILEPTICUS THRESHOLD: Most unprovoked seizures
+    terminate spontaneously within 60 to 90 seconds. If generalized convulsions
+    exceed 5 uninterrupted minutes, the brain’s endogenous inhibitory GABA
+    mechanisms have failed, entering life-threatening status epilepticus that
+    demands immediate intravenous medical termination.
 immediate_action:
-  - '1. PROTECT THE HEAD AND BODY: Place something soft (a folded jacket, blanket, or your hands) under their head to cushion against concrete or hard flooring. Move hard, sharp, or hot objects away from the area.'
-  - '2. TIME THE SEIZURE: Note the exact start time on your watch or phone. Duration is the single most critical factor determining medical intervention.'
-  - '3. LOOSEN NECKWEAR: Unbutton collars, loosen neckties, or remove eyeglasses to ensure unrestricted airflow.'
-  - '4. TURN ONTO THE SIDE ONCE SHAKING STOPS: As soon as active convulsions subside, place the person into the recovery position to prevent saliva, blood, or vomit from obstructing the airway.'
-  - '5. STAY UNTIL FULLY RECOVERED: Speak calmly and reassure the person during the post-ictal phase (drowsiness and disorientation), which typically lasts several minutes.'
-  - '6. CALL 911 / 112 IMMEDIATELY IF ANY OF THE FOLLOWING OCCUR:'
-  - '   • The seizure lasts longer than 5 minutes.'
-  - '   • A second seizure begins before the person fully regains consciousness.'
-  - '   • The person has difficulty breathing or remains unresponsive for an extended period after convulsions stop.'
-  - '   • The seizure occurred in water (bathtub, swimming pool, open water).'
-  - '   • The person is pregnant, injured, diabetic, or having a seizure for the very first time.'
+  - title: PROTECT FROM TRAUMA & CLEAR AREA
+    instruction: >-
+      Move sharp, hard, or dangerous objects away from the convulsing person and
+      place a soft jacket under their head.
+  - title: NEVER RESTRAIN OR INSERT OBJECTS INTO MOUTH
+    instruction: >-
+      Allow the seizure to run its course. Forcing spoons, fingers, or objects
+      between teeth causes broken teeth and airway obstruction.
+  - title: TIME SEIZURE & CALL 911 / 112
+    instruction: 'Note start time; call emergency dispatch immediately:'
+    variants:
+      - condition: Seizure lasts > 5 minutes or repeats
+        action: >-
+          High-priority status epilepticus emergency: Dispatch paramedics
+          immediately.
+      - condition: 'First-time seizure, pregnancy, or injury'
+        action: Requires immediate emergency transport.
+  - title: POST-ICTAL RECOVERY POSITION
+    instruction: >-
+      Once motor convulsions stop, roll the person into the recovery position,
+      clear fluids from mouth, and stay until fully awake.
 do_not:
-  - 'Do not restrain the person or try to hold down their arms and legs (muscular forces during tonic-clonic contractions can cause severe muscle tears, joint dislocations, or bone fractures if resisted).'
-  - 'Never put anything into the person’s mouth—no spoons, wallets, wooden sticks, or fingers (it is anatomically impossible to swallow the tongue; forcing objects into clenched jaws shatters teeth, bites off fingers, and creates fatal airway obstruction).'
-  - 'Do not give food, water, or oral medication until the person is fully awake, oriented, and able to swallow normally.'
-  - 'Do not attempt mouth-to-mouth ventilation while the person is actively convulsing.'
+  - >-
+    Do not restrain the person or try to hold down their arms and legs (muscular
+    forces during tonic-clonic contractions can cause severe muscle tears, joint
+    dislocations, or bone fractures if resisted).
+  - >-
+    Never put anything into the person’s mouth—no spoons, wallets, wooden
+    sticks, or fingers (it is anatomically impossible to swallow the tongue;
+    forcing objects into clenched jaws shatters teeth, bites off fingers, and
+    creates fatal airway obstruction).
+  - >-
+    Do not give food, water, or oral medication until the person is fully awake,
+    oriented, and able to swallow normally.
+  - >-
+    Do not attempt mouth-to-mouth ventilation while the person is actively
+    convulsing.
 sources:
-  - name: 'Epilepsy Foundation'
+  - name: Epilepsy Foundation
     url: 'https://www.epilepsy.com/'
     authoritative: true
     guideline_version: 'Seizure First Aid: Stay, Safe, Side Protocol'
-    jurisdiction: 'US / Global'
-    notes: 'Clinical guidelines on head protection, 5-minute emergency threshold, and debunking oral object myths.'
-  - name: 'Centers for Disease Control and Prevention (CDC)'
+    jurisdiction: US / Global
+    notes: >-
+      Clinical guidelines on head protection, 5-minute emergency threshold, and
+      debunking oral object myths.
+  - name: Centers for Disease Control and Prevention (CDC)
     url: 'https://www.cdc.gov/epilepsy/'
     authoritative: true
-    guideline_version: 'CDC Seizure First Aid Guidelines'
-    jurisdiction: 'US / Global'
-    notes: 'Standard layperson seizure response, water immersion risks, and emergency dispatch criteria.'
-  - name: 'Deutsche Gesellschaft für Epileptologie (DGfE)'
+    guideline_version: CDC Seizure First Aid Guidelines
+    jurisdiction: US / Global
+    notes: >-
+      Standard layperson seizure response, water immersion risks, and emergency
+      dispatch criteria.
+  - name: Deutsche Gesellschaft für Epileptologie (DGfE)
     url: 'https://www.dgfe.org/'
     authoritative: true
-    guideline_version: 'Erste Hilfe bei epileptischen Anfällen'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Evidenzbasierte Schutzmaßnahmen, Status-Epilepticus-Grenzwerte und Nachsorge.'
+    guideline_version: Erste Hilfe bei epileptischen Anfällen
+    jurisdiction: Germany / DACH
+    notes: >-
+      Evidenzbasierte Schutzmaßnahmen, Status-Epilepticus-Grenzwerte und
+      Nachsorge.
 ---
-
 The human cerebral cortex functions through synchronized electrochemical signaling regulated by inhibitory and excitatory neurotransmitters. Occasionally, a sudden hypersynchronous neuronal discharge sweeps across the brain, temporarily overwhelming normal neurochemical regulation.
 
 During a generalized tonic-clonic seizure (formerly known as grand mal), this electrical storm causes simultaneous tonic muscular contraction (causing the person to collapse and stiffen) followed by clonic rhythmic contractions across the entire skeletal musculature.

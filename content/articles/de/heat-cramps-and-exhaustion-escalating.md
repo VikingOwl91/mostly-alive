@@ -1,70 +1,106 @@
 ---
-slug: 'heat-cramps-and-exhaustion-escalating'
-title: 'Hitzekrämpfe und Erschöpfung eskalieren'
-subtitle: 'Hitzeerkrankungen-Spektrum, Elektrolytrehydratation vs. Hyponatriämie und die Übergangsschwelle zum lebensbedrohlichen Hitzschlag'
-category: 'weather'
+slug: heat-cramps-and-exhaustion-escalating
+title: Hitzekrämpfe und Erschöpfung eskalieren
+subtitle: >-
+  Hitzeerkrankungen-Spektrum, Elektrolytrehydratation vs. Hyponatriämie und die
+  Übergangsschwelle zum lebensbedrohlichen Hitzschlag
+category: weather
 tags:
-  - 'hitzeerschoepfung'
-  - 'hitzschlag'
-  - 'hitze'
-  - 'dehydratation'
-  - 'elektrolyte'
-  - 'erste-hilfe'
+  - hitzeerschoepfung
+  - hitzschlag
+  - hitze
+  - dehydratation
+  - elektrolyte
+  - erste-hilfe
 aliases:
-  - 'hitzeerschoepfung was tun'
-  - 'hitzekrampf behandlung'
-  - 'ueberhitzung erste hilfe'
-  - 'unterschied hitzeerschoepfung hitzschlag'
-  - 'wasservergiftung hitze'
-  - 'wie ueberhitzten koerper abkuehlen'
-severity: 'serious'
-urgency: 'high'
+  - hitzeerschoepfung was tun
+  - hitzekrampf behandlung
+  - ueberhitzung erste hilfe
+  - unterschied hitzeerschoepfung hitzschlag
+  - wasservergiftung hitze
+  - wie ueberhitzten koerper abkuehlen
+severity: serious
+urgency: high
 threat_level: 3
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'context_dependent'
-status: 'reviewed'
+emergency_services: context_dependent
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'In den Schatten bringen, Kleidung lockern, schluckweise Elektrolyte trinken und bei Verwirrtheit sofort Notarzt 112 rufen (Hitzschlag).'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  In den Schatten bringen, Kleidung lockern, schluckweise Elektrolyte trinken
+  und bei Verwirrtheit sofort Notarzt 112 rufen (Hitzschlag).
 memorable_facts:
-  - 'DIE GRENZE ZUM TÖDLICHEN HITZSCHLAG: Der entscheidende Unterschied zwischen einer behandelbaren Hitzeerschöpfung und einem lebensbedrohlichen Hitzschlag ist die Gehirnfunktion. Wird ein überhitzter Mensch verwirrt, spricht verwaschen oder halluziniert, übersteigt die Kerntemperatur 40 °C und Gehirnproteine beginnen zu denaturieren. Sofort Notruf 112 wählen und den ganzen Körper kühlen!'
-  - 'DIE HYPONATRIÄMIE-WASSERFALLE: Wer nach stundenlangem, starkem Schwitzen hektisch literweise reines, salzfreies Leitungswasser trinkt, verdünnt den Natriumgehalt im Blut. Es kommt zur gefürchteten Wasservergiftung (hyponatriämische Enzephalopathie mit Hirnödem und Krampfanfällen). Immer Elektrolyte oder leicht gesalzenes Wasser mit Salzgebäck zuführen.'
+  - >-
+    DIE GRENZE ZUM TÖDLICHEN HITZSCHLAG: Der entscheidende Unterschied zwischen
+    einer behandelbaren Hitzeerschöpfung und einem lebensbedrohlichen Hitzschlag
+    ist die Gehirnfunktion. Wird ein überhitzter Mensch verwirrt, spricht
+    verwaschen oder halluziniert, übersteigt die Kerntemperatur 40 °C und
+    Gehirnproteine beginnen zu denaturieren. Sofort Notruf 112 wählen und den
+    ganzen Körper kühlen!
+  - >-
+    DIE HYPONATRIÄMIE-WASSERFALLE: Wer nach stundenlangem, starkem Schwitzen
+    hektisch literweise reines, salzfreies Leitungswasser trinkt, verdünnt den
+    Natriumgehalt im Blut. Es kommt zur gefürchteten Wasservergiftung
+    (hyponatriämische Enzephalopathie mit Hirnödem und Krampfanfällen). Immer
+    Elektrolyte oder leicht gesalzenes Wasser mit Salzgebäck zuführen.
 immediate_action:
-  - '1. SOFORT IN EINE KÜHLE, SCHATTIGE UMGEBUNG BRINGEN: Den Betroffenen unverzüglich aus der direkten Sonneneinstrahlung in einen klimatisierten Raum oder dichten Schatten bringen.'
-  - '2. ENGE UND DICKE KLEIDUNG ÖFFNEN ODER AUSZIEHEN: Jacken, Mützen, Helme, Schuhe und Socken ausziehen, um die Wärmeabgabe über die Haut zu ermöglichen.'
-  - '3. KÜHLE ELEKTROLYTGETRÄNKE VERABREICHEN (NUR WENN WACH UND NICHT ÜBEL): In kleinen, regelmäßigen Schlucken eine orale Rehydratationslösung (ORS), verdünnte Fruchtsaftschorle mit einer Prise Salz oder ein Sport-Elektrolytgetränk trinken lassen (ca. 500 ml über 30 Minuten). Keine eiskalten Massenmengen auf einmal stürzen!'
-  - '4. AKTIVE ÄUSSERLICHE KÜHLUNG: Die Haut mit feuchten, kühlen Tüchern abtupfen oder mit Wasser besprühen und Luft zufächeln. Kühle Umschläge auf Nacken, Achselhöhlen und Leisten legen (Bereiche mit hoher Durchblutung).'
-  - '5. BEI SCHWINDEL BEINE LEICHT HOCHLAGERN: Klagt die Person über Schwindel oder Schwarzwerden vor den Augen (Hitzekollaps), flach hinlegen und die Beine 15–20 cm anheben.'
-  - '6. BEI VERWIRRTHEIT ODER ERBRECHEN SOFORT NOTARZT (112) ALARMIEREN: Tritt Desorientierung, Aggressivität, Wesensveränderung oder Erbrechen auf oder bessern sich die Symptome nach 30 Minuten nicht: Als **HITZSCHLAG** behandeln, sofort 112 wählen und den Oberkörper intensiv mit Eiswasser kühlen!'
+  - title: IN DEN SCHATTEN BRINGEN & KLEIDUNG LOCKERN
+    instruction: >-
+      Körperliche Belastung sofort stoppen und in kühle, schattige oder
+      klimatisierte Umgebung wechseln.
+  - title: ELEKTROLYTHALTIGE FLÜSSIGKEIT ZUFÜHREN
+    instruction: >-
+      Schluckweise elektrolytreiche Getränke oder leicht gesalzenes Wasser
+      trinken (keine reinen Wassermengen stürzen).
+  - title: AKTIV KÜHLEN & AUF HITZSCHLAG ÜBERWACHEN
+    instruction: 'Feuchte Tücher auf Nacken, Achseln und Leisten auflegen:'
+    variants:
+      - condition: 'Bei Verwirrtheit, Krämpfen oder Körpertemp > 40°C'
+        action: >-
+          Sofort Notruf 112 wegen Hitzschlag: Aggressive Ganzkörperkühlung mit
+          Eiswasser einleiten.
 do_not:
-  - 'Niemals einer benommenen oder erbrechenden Person Flüssigkeiten einflößen (akute Erstickungsgefahr).'
-  - 'Niemals fiebersenkende Medikamente wie Paracetamol oder Ibuprofen/Aspirin geben (Hitzeerschöpfung ist eine physikalische Überhitzung und kein infektbedingtes Fieber; Antipyretika belasten Leber und Nieren zusätzlich).'
-  - 'Niemals nach starkem Schwitzen große Mengen reines, salzfreies Wasser auf Ex trinken (Gefahr des tödlichen Hirnödems durch Hyponatriämie).'
-  - 'Einer Person nach schwerer Hitzeerschöpfung am selben Tag keine weitere körperliche Anstrengung in der Sonne erlauben.'
+  - >-
+    Niemals einer benommenen oder erbrechenden Person Flüssigkeiten einflößen
+    (akute Erstickungsgefahr).
+  - >-
+    Niemals fiebersenkende Medikamente wie Paracetamol oder Ibuprofen/Aspirin
+    geben (Hitzeerschöpfung ist eine physikalische Überhitzung und kein
+    infektbedingtes Fieber; Antipyretika belasten Leber und Nieren zusätzlich).
+  - >-
+    Niemals nach starkem Schwitzen große Mengen reines, salzfreies Wasser auf Ex
+    trinken (Gefahr des tödlichen Hirnödems durch Hyponatriämie).
+  - >-
+    Einer Person nach schwerer Hitzeerschöpfung am selben Tag keine weitere
+    körperliche Anstrengung in der Sonne erlauben.
 sources:
-  - name: 'Deutsche Gesellschaft für Arbeitsmedizin und Umweltmedizin (DGAUM)'
+  - name: Deutsche Gesellschaft für Arbeitsmedizin und Umweltmedizin (DGAUM)
     url: 'https://www.dgaum.de/'
     authoritative: true
     guideline_version: 'S2k-Leitlinie: Hitzebedingte Erkrankungen und Hitzeaktionspläne'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Klassifikation von Hitzekrämpfen, Hitzeerschöpfung und Hitzschlag, Kühlmethoden und Rehydratation.'
-  - name: 'American College of Sports Medicine (ACSM)'
+    jurisdiction: Germany / DACH
+    notes: >-
+      Klassifikation von Hitzekrämpfen, Hitzeerschöpfung und Hitzschlag,
+      Kühlmethoden und Rehydratation.
+  - name: American College of Sports Medicine (ACSM)
     url: 'https://www.acsm.org/'
     authoritative: true
     guideline_version: 'ACSM Position Stand: Exertional Heat Illness'
-    jurisdiction: 'Global'
-    notes: 'CNS-Status als Differenzierungsmerkmal, Elektrolytmanagement und Hyponatriämie-Prävention.'
-  - name: 'European Resuscitation Council (ERC)'
+    jurisdiction: Global
+    notes: >-
+      CNS-Status als Differenzierungsmerkmal, Elektrolytmanagement und
+      Hyponatriämie-Prävention.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Heat Emergencies'
-    jurisdiction: 'EU / Global'
-    notes: 'First-aid cooling protocols and escalation to emergency services.'
+    jurisdiction: EU / Global
+    notes: First-aid cooling protocols and escalation to emergency services.
 ---
-
 Körperliche Schwerarbeit oder sportliche Höchstleistungen bei hohen Außentemperaturen oder hoher Luftfeuchtigkeit führen dazu, dass die körpereigene Wärmeproduktion die Wärmeabgabe übertrifft.
 
 Normalerweise ist die **Verdunstung von Schweiß** der effektivste Kühlmechanismus des Körpers. Steigt jedoch die Luftfeuchtigkeit über 75 % oder führt anhaltendes Schwitzen zu starkem Flüssigkeits- und Natriumverlust, gerät das Thermoregulationszentrum aus dem Gleichgewicht: Es entsteht ein Spektrum von **Hitzekrämpfen** über die **Hitzeerschöpfung** bis hin zum lebensbedrohlichen **Hitzschlag**.

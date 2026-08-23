@@ -1,69 +1,103 @@
 ---
-slug: 'body-part-pointing-in-a-new-and-unapproved-direction'
-title: 'Körperteil zeigt in eine neue und ungenehmigte Richtung'
-subtitle: 'Knochenbrüche (Frakturen) und Gelenkluxationen, pDMS-Kontrolle und die Gefahren laienhafter Einrenkversuche'
-category: 'medical'
+slug: body-part-pointing-in-a-new-and-unapproved-direction
+title: Körperteil zeigt in eine neue und ungenehmigte Richtung
+subtitle: >-
+  Knochenbrüche (Frakturen) und Gelenkluxationen, pDMS-Kontrolle und die
+  Gefahren laienhafter Einrenkversuche
+category: medical
 tags:
-  - 'fraktur'
-  - 'knochenbruch'
-  - 'luxation'
-  - 'ausgekugelt'
-  - 'erste-hilfe'
-  - 'notfall'
+  - fraktur
+  - knochenbruch
+  - luxation
+  - ausgekugelt
+  - erste-hilfe
+  - notfall
 aliases:
-  - 'knochen gebrochen'
-  - 'schulter ausgekugelt'
-  - 'bein gebrochen'
-  - 'arm gebrochen'
-  - 'gelenk einrenken mythos'
-  - 'offener bruch erste hilfe'
-severity: 'serious'
-urgency: 'high'
+  - knochen gebrochen
+  - schulter ausgekugelt
+  - bein gebrochen
+  - arm gebrochen
+  - gelenk einrenken mythos
+  - offener bruch erste hilfe
+severity: serious
+urgency: high
 threat_level: 3
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'In der vorgefundenen Stellung polsternd ruhigstellen, niemals Knochen oder Gelenke gewaltsam einrenken und Durchblutung (pDMS) prüfen.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  In der vorgefundenen Stellung polsternd ruhigstellen, niemals Knochen oder
+  Gelenke gewaltsam einrenken und Durchblutung (pDMS) prüfen.
 memorable_facts:
-  - 'DIE GEFAHR VON GEFÄSS- UND NERVENABRISSEN: Große Schlagadern (z.B. Arteria brachialis oder poplitea) und Nervenstränge verlaufen unmittelbar auf der Knochenhaut. Wer eine unnatürlich abgeknickte Gliedmaße gewaltsam geradebiegt, um sie „schön aussehen zu lassen“, kann Arterien zerschneiden oder Nerven dauerhaft zerreißen – aus einem einfachen Bruch wird eine Amputationsgefahr.'
-  - 'HERAUSSTEHENDE KNOCHEN NIEMALS ZURÜCKDRÜCKEN: Bei einem offenen Bruch sind die sichtbaren Knochenenden mit Schmutz und Keimen kontaminiert. Wer herausragende Knochenfragmente zurück ins Gewebe drückt, impft hochvirulente Bakterien tief in das sterile Knochenmark und provoziert eine schwerste Osteomyelitis.'
+  - >-
+    DIE GEFAHR VON GEFÄSS- UND NERVENABRISSEN: Große Schlagadern (z.B. Arteria
+    brachialis oder poplitea) und Nervenstränge verlaufen unmittelbar auf der
+    Knochenhaut. Wer eine unnatürlich abgeknickte Gliedmaße gewaltsam
+    geradebiegt, um sie „schön aussehen zu lassen“, kann Arterien zerschneiden
+    oder Nerven dauerhaft zerreißen – aus einem einfachen Bruch wird eine
+    Amputationsgefahr.
+  - >-
+    HERAUSSTEHENDE KNOCHEN NIEMALS ZURÜCKDRÜCKEN: Bei einem offenen Bruch sind
+    die sichtbaren Knochenenden mit Schmutz und Keimen kontaminiert. Wer
+    herausragende Knochenfragmente zurück ins Gewebe drückt, impft hochvirulente
+    Bakterien tief in das sterile Knochenmark und provoziert eine schwerste
+    Osteomyelitis.
 immediate_action:
-  - '1. IN DER VORGEFUNDENEN FEHLSTELLUNG RUHIGSTELLEN: Die verletzte Gliedmaße genau so lagern, wie sie liegt. Mit zusammengerollten Decken, Kissen, Jacken oder Schienen polsternd abstützen. Niemals versuchen, die Gliedmaße gewaltsam geradezubiegen oder zu strecken.'
-  - '2. DURCHBLUTUNG, MOTORIK UND SENSIBILITÄT PRÜFEN (pDMS-KONTROLLE): Den peripheren Puls jenseits der Bruchstelle ertasten (Radialispuls am Handgelenk oder Fußrückenpuls). Den Verletzten fragen, ob er Berührungen spürt und Finger/Zehen leicht bewegen kann. Ein fehlender Puls ist ein gefäßchirurgischer Höchstnotfall!'
-  - '3. OFFENE BRÜCHE STERIL ABDECKEN: Durchspießt ein Knochenfragment die Haut, die Wunde und den Knochen locker mit einer sterilen Wundauflage abdecken. Den Knochen unter keinen Umständen zurück in die Wunde drücken!'
-  - '4. NOTRUF 112 WÄHLEN: Die Rettungsleitstelle über die Fraktur, Fehlstellung und den Durchblutungsstatus informieren.'
-  - '5. BEI GESCHLOSSENEN BRÜCHEN VORSICHTIG KÜHLEN: Ein Kältepack (in ein Tuch gewickelt) vorsichtig um die geschlossene Schwellung legen, um Schwellung und Schmerzen zu lindern (kein Eis direkt auf offene Wunden).'
+  - title: IN DER VORGEFUNDENEN POSITION RUHIGSTELLEN
+    instruction: >-
+      Gliedmaße in der bestehenden Fehlstellung mit Polstermaterial oder Schiene
+      fixieren. Niemals Gelenke eigenmächtig einrenken.
+  - title: 'DURCHBLUTUNG, MOTORIK & SENSIBILITÄT PRÜFEN (pDMS)'
+    instruction: >-
+      Peripheren Puls tasten, Rekapillarisierungszeit (<2 Sek.) prüfen, Gefühl
+      und Finger-/Zehenbeweglichkeit testen.
+  - title: OFFENE BRÜCHE STERIL ABDECKEN & NOTRUF 112
+    instruction: >-
+      Herausragende Knochenteile steril abdecken (keinesfalls zurück in die
+      Wunde drücken) und Rettungsdienst alarmieren.
 do_not:
-  - 'Niemals versuchen, ein ausgekugeltes Gelenk (z.B. Schulter, Knie oder Finger) selbst einzurenken (zerreißt Gelenklippen, klemmt Nerven ein und schädigt Gefäße).'
-  - 'Niemals abgeknickte Knochenbrüche am Unfallort gewaltsam geraderichten (außer bei speziellem Rettungstraining in extremer Wildnis bei vollständigem Pulsausfall).'
-  - 'Niemals herausstehende Knochenenden zurück unter die Haut schieben.'
-  - 'Dem Verletzten vor der ärztlichen Untersuchung kein Essen, Trinken oder Schmerztabletten geben (Notoperation in Vollnarkose oft binnen weniger Stunden erforderlich).'
+  - >-
+    Niemals versuchen, ein ausgekugeltes Gelenk (z.B. Schulter, Knie oder
+    Finger) selbst einzurenken (zerreißt Gelenklippen, klemmt Nerven ein und
+    schädigt Gefäße).
+  - >-
+    Niemals abgeknickte Knochenbrüche am Unfallort gewaltsam geraderichten
+    (außer bei speziellem Rettungstraining in extremer Wildnis bei vollständigem
+    Pulsausfall).
+  - Niemals herausstehende Knochenenden zurück unter die Haut schieben.
+  - >-
+    Dem Verletzten vor der ärztlichen Untersuchung kein Essen, Trinken oder
+    Schmerztabletten geben (Notoperation in Vollnarkose oft binnen weniger
+    Stunden erforderlich).
 sources:
-  - name: 'Deutsche Gesellschaft für Unfallchirurgie (DGU)'
+  - name: Deutsche Gesellschaft für Unfallchirurgie (DGU)
     url: 'https://www.dgu-online.de/'
     authoritative: true
-    guideline_version: 'S3-Leitlinie Polytrauma / Schwerverletzten-Behandlung: Extremitätentrauma 2023'
-    jurisdiction: 'Germany / DACH'
-    notes: 'Ruhigstellung in situ, pDMS-Diagnostik und Verbot laienhafter Repositionsmanöver.'
-  - name: 'European Resuscitation Council (ERC)'
+    guideline_version: >-
+      S3-Leitlinie Polytrauma / Schwerverletzten-Behandlung: Extremitätentrauma
+      2023
+    jurisdiction: Germany / DACH
+    notes: >-
+      Ruhigstellung in situ, pDMS-Diagnostik und Verbot laienhafter
+      Repositionsmanöver.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid - Musculoskeletal Trauma'
-    jurisdiction: 'EU / Global'
+    jurisdiction: EU / Global
     notes: 'Splinting guidelines, open fracture protection, and cold therapy.'
-  - name: 'American Academy of Orthopaedic Surgeons (AAOS)'
+  - name: American Academy of Orthopaedic Surgeons (AAOS)
     url: 'https://www.aaos.org/'
     authoritative: true
-    guideline_version: 'Management of Musculoskeletal Trauma'
-    jurisdiction: 'US / Global'
-    notes: 'Neurovascular assessment and contraindications for amateur reduction.'
+    guideline_version: Management of Musculoskeletal Trauma
+    jurisdiction: US / Global
+    notes: Neurovascular assessment and contraindications for amateur reduction.
 ---
-
 Ein Sturz aus großer Höhe, ein Sportunfall oder ein Verkehrsunfall kann die mechanische Belastbarkeit des Knochens überschreiten (es kommt zur **Fraktur**) oder die schützende Gelenkkapsel zerreißen, sodass der Gelenkkopf aus der Pfanne springt (**Luxation**).
 
 Das Bild ist für Laien oft schockierend: Ein Arm ist in unnatürlichem Winkel verdreht, die Schulter weist eine tiefe Delle auf oder ein Knochenende schaut durch die Haut.

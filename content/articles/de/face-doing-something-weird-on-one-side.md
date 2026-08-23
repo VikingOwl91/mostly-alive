@@ -1,74 +1,125 @@
 ---
-slug: 'face-doing-something-weird-on-one-side'
-title: 'Gesicht verhält sich einseitig ungewohnt'
-subtitle: 'Schlaganfall-Früherkennung, der FAST-Test und sofortige zerebrale Notfallmaßnahmen'
-category: 'medical'
+slug: face-doing-something-weird-on-one-side
+title: Gesicht verhält sich einseitig ungewohnt
+subtitle: >-
+  Schlaganfall-Früherkennung, der FAST-Test und sofortige zerebrale
+  Notfallmaßnahmen
+category: medical
 tags:
-  - 'schlaganfall'
-  - 'gehirn'
-  - 'neurologie'
-  - 'erste-hilfe'
-  - 'medizin'
-  - 'notfall'
+  - schlaganfall
+  - gehirn
+  - neurologie
+  - erste-hilfe
+  - medizin
+  - notfall
 aliases:
-  - 'schlaganfall'
-  - 'fast test'
-  - 'schlaganfall anzeichen'
-  - 'gesichtslähmung'
-  - 'apoplex'
-  - 'lähmung arm'
-  - 'sprachstörung schlaganfall'
-  - 'stroke'
-severity: 'immediate'
-urgency: 'immediate'
+  - schlaganfall
+  - fast test
+  - schlaganfall anzeichen
+  - gesichtslähmung
+  - apoplex
+  - lähmung arm
+  - sprachstörung schlaganfall
+  - stroke
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'easy'
-region_scope: 'global'
+difficulty: easy
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Gesicht, Arme und Sprache prüfen (FAST); genaue Uhrzeit notieren und sofort den Notruf 112 wählen.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Gesicht, Arme und Sprache prüfen (FAST); genaue Uhrzeit notieren und sofort
+  den Notruf 112 wählen.
 memorable_facts:
-  - '1,9 MILLIONEN NEURONEN PRO MINUTE: Bei einem ischämischen Schlaganfall sterben pro Minute, in der ein Hirngefäß verschlossen bleibt, rund 1.900.000 Nervenzellen und 14 Milliarden Synapsen unwiederbringlich ab. Jede Minute zählt für die Lysetherapie im Krankenhaus.'
-  - 'STRIKTES ESSENS- UND TRINKVERBOT: Ein Schlaganfall lähmt häufig unbemerkt die Schluckmuskulatur (Dysphagie). Wer dem Patienten Wasser oder Tabletten reicht, riskiert, dass die Flüssigkeit ungehindert in die Lunge fließt und eine lebensgefährliche Aspirationspneumonie auslöst.'
+  - >-
+    1,9 MILLIONEN NEURONEN PRO MINUTE: Bei einem ischämischen Schlaganfall
+    sterben pro Minute, in der ein Hirngefäß verschlossen bleibt, rund 1.900.000
+    Nervenzellen und 14 Milliarden Synapsen unwiederbringlich ab. Jede Minute
+    zählt für die Lysetherapie im Krankenhaus.
+  - >-
+    STRIKTES ESSENS- UND TRINKVERBOT: Ein Schlaganfall lähmt häufig unbemerkt
+    die Schluckmuskulatur (Dysphagie). Wer dem Patienten Wasser oder Tabletten
+    reicht, riskiert, dass die Flüssigkeit ungehindert in die Lunge fließt und
+    eine lebensgefährliche Aspirationspneumonie auslöst.
 immediate_action:
-  - '1. FAST-TEST UNVERZÜGLICH DURCHFÜHREN:'
-  - '   • FACE (Gesicht): Die Person bitten zu lächeln oder die Zähne zu zeigen. Auf Asymmetrie, ein herabhängendes Augenlid oder einen schlaffen Mundwinkel achten.'
-  - '   • ARMS (Arme): Die Person bitten, beide Arme mit den Handflächen nach oben nach vorne auszustrecken und die Augen für 10 Sekunden zu schließen. Prüfen, ob ein Arm absinkt, eindreht oder gar nicht angehoben werden kann.'
-  - '   • SPEECH (Sprache): Die Person einen einfachen Satz nachsprechen lassen (z. B. „Heute ist ein sonniger Tag“). Auf verwaschene Aussprache, falsche Wörter oder Sprachunfähigkeit achten.'
-  - '   • TIME (Zeit / Notruf): Ist auch nur EIN Test auffällig, sofort Notruf 112 (EU) bzw. 911 (US) wählen. Der Leitstelle klar melden: „Verdacht auf akuten Schlaganfall.“'
-  - '2. GENAUEN ZEITPUNKT NOTIEREN: Den genauen Zeitpunkt feststellen, zu dem die Person zuletzt vollkommen symptomfrei gesehen wurde. Dieses Zeitfenster entscheidet über die Durchführbarkeit einer medikamentösen Lysetherapie oder Thrombektomie in der Stroke Unit.'
-  - '3. LAGERUNG: Eine ansprechbare Person mit leicht erhöhtem Oberkörper (ca. 30 Grad) und abgestütztem Kopf ruhig lagern. Enge Kleidung am Hals und Brustkorb lockern.'
-  - '4. BEI BEWUSSTLOSIGKEIT MIT NORMALER ATMUNG: Unverzüglich in die Stabile Seitenlage bringen, um die Atemwege vor Aspiration durch Speichel oder Erbrochenes freizuhalten, und die Atmung kontinuierlich überwachen.'
+  - title: FAST-SCHNELLTEST DURCHFÜHREN
+    instruction: 'Die vier Kriterien des Schlaganfall-Schemas unverzüglich prüfen:'
+    substeps:
+      - >-
+        Face (Gesicht): Person lächeln lassen. Hängt ein Mundwinkel oder eine
+        Gesichtshälfte herab?
+      - >-
+        Arms (Arme): Beide Arme nach vorne anheben lassen. Sinkt ein Arm ab oder
+        dreht sich?
+      - >-
+        Speech (Sprache): Einen einfachen Satz nachsprechen lassen. Klingt die
+        Sprache verwaschen oder unverständlich?
+      - >-
+        Time (Zeit): Notiere die genaue Uhrzeit des Symptombeginns. Time is
+        Brain!
+  - title: SOFORT NOTRUF 112 WÄHLEN
+    instruction: >-
+      Verdacht auf akuten Schlaganfall und Symptombeginn melden; Zielklinik mit
+      Stroke Unit anfordern.
+  - title: PATIENTEN LAGERN & ORALE AUFNAHME VERBIETEN
+    instruction: >-
+      Oberkörper leicht erhöht (~30°) lagern und strikt keine Getränke oder
+      Medikamente geben (hohe Erstickungsgefahr durch Schlucklähmung).
+    variants:
+      - condition: Bei Bewusstlosigkeit mit normaler Atmung
+        action: In die stabile Seitenlage bringen (gelähmte Seite nach oben).
 do_not:
-  - 'Der Person absolut nichts zu essen oder zu trinken geben, auch kein Wasser (bei einem Schlaganfall ist häufig die Schluckmuskulatur gelähmt; Flüssigkeiten geraten ungehindert in die Luftröhre und verursachen eine lebensgefährliche Aspiration).'
-  - 'Kein Aspirin, keine Blutverdünner oder Schmerzmittel verabreichen (ein Schlaganfall kann auch durch eine Hirnblutung verursacht sein; die unkontrollierte Gabe von Thrombozytenaggregationshemmern vor einem Computertomogramm in der Klinik kann tödliche Blutungen beschleunigen).'
-  - 'Niemals abwarten, ob die Symptome von alleine nachlassen, oder die Person „sich erst einmal ausschlafen“ lassen (pro Minute unbehandelter zerebraler Ischämie sterben rund 1,9 Millionen Nervenzellen ab).'
-  - 'Die Person keinesfalls selbst mit dem Auto in die Klinik fahren oder laufen lassen (ausschließlich den Rettungsdienst alarmieren, da dieser die Zielklinik mit Stroke Unit voranmeldet).'
+  - >-
+    Der Person absolut nichts zu essen oder zu trinken geben, auch kein Wasser
+    (bei einem Schlaganfall ist häufig die Schluckmuskulatur gelähmt;
+    Flüssigkeiten geraten ungehindert in die Luftröhre und verursachen eine
+    lebensgefährliche Aspiration).
+  - >-
+    Kein Aspirin, keine Blutverdünner oder Schmerzmittel verabreichen (ein
+    Schlaganfall kann auch durch eine Hirnblutung verursacht sein; die
+    unkontrollierte Gabe von Thrombozytenaggregationshemmern vor einem
+    Computertomogramm in der Klinik kann tödliche Blutungen beschleunigen).
+  - >-
+    Niemals abwarten, ob die Symptome von alleine nachlassen, oder die Person
+    „sich erst einmal ausschlafen“ lassen (pro Minute unbehandelter zerebraler
+    Ischämie sterben rund 1,9 Millionen Nervenzellen ab).
+  - >-
+    Die Person keinesfalls selbst mit dem Auto in die Klinik fahren oder laufen
+    lassen (ausschließlich den Rettungsdienst alarmieren, da dieser die
+    Zielklinik mit Stroke Unit voranmeldet).
 sources:
-  - name: 'Stiftung Deutsche Schlaganfall-Hilfe'
+  - name: Stiftung Deutsche Schlaganfall-Hilfe
     url: 'https://www.schlaganfall-hilfe.de/'
     authoritative: true
-    guideline_version: 'FAST-Test Notfallstandard'
-    jurisdiction: 'Deutschland / DACH'
-    notes: 'Klinische Kriterien zur Schlaganfallerkennung, Zeitfenster und Notrufkoordination.'
-  - name: 'European Resuscitation Council (ERC)'
+    guideline_version: FAST-Test Notfallstandard
+    jurisdiction: Deutschland / DACH
+    notes: >-
+      Klinische Kriterien zur Schlaganfallerkennung, Zeitfenster und
+      Notrufkoordination.
+  - name: European Resuscitation Council (ERC)
     url: 'https://cprguidelines.eu/'
     authoritative: true
     guideline_version: 'ERC Guidelines 2021: First Aid'
-    jurisdiction: 'EU / Global'
-    notes: 'Standardprotokoll zur Laien-Erstversorgung, Lagerung und Notfallindikation.'
-  - name: 'American Heart Association / American Stroke Association (AHA/ASA)'
+    jurisdiction: EU / Global
+    notes: >-
+      Standardprotokoll zur Laien-Erstversorgung, Lagerung und
+      Notfallindikation.
+  - name: American Heart Association / American Stroke Association (AHA/ASA)
     url: 'https://www.stroke.org/'
     authoritative: true
-    guideline_version: 'AHA/ASA Guidelines for the Early Management of Patients With Acute Ischemic Stroke'
-    jurisdiction: 'US / Global'
-    notes: 'Evidenzbasierte Kriterien zur Ischämie-Therapie und Kontraindikation von oraler Medikation vor Neuro-Imaging.'
+    guideline_version: >-
+      AHA/ASA Guidelines for the Early Management of Patients With Acute
+      Ischemic Stroke
+    jurisdiction: US / Global
+    notes: >-
+      Evidenzbasierte Kriterien zur Ischämie-Therapie und Kontraindikation von
+      oraler Medikation vor Neuro-Imaging.
 ---
-
 Das menschliche Gehirn beansprucht rund zwanzig Prozent des gesamten Sauerstoffbedarfs des Körpers, obwohl es lediglich etwa zwei Prozent der Körpermasse ausmacht. Um dieses anspruchsvolle neuronale Netzwerk zu versorgen, pumpen die Hirnarterien kontinuierlich Blut unter hohem Druck in den Schädel.
 
 Ein akuter Schlaganfall (Apoplex) tritt auf, wenn dieses arterielle Versorgungssystem plötzlich versagt: Entweder verstopft ein Blutgerinnsel ein Gefäß (ischämischer Schlaganfall, ca. 85 % der Fälle) oder ein Gefäß reißt und blutet unter Druck direkt in das Hirngewebe ein (hämorrhagischer Schlaganfall, ca. 15 % der Fälle). In beiden Szenarien beginnen sauerstoffunterversorgte Neuronen innerhalb weniger Minuten unwiederbringlich abzusterben.

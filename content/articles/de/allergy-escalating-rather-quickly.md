@@ -1,89 +1,141 @@
 ---
-slug: 'allergy-escalating-rather-quickly'
-title: 'Allergie eskaliert beachtlich schnell'
-subtitle: 'Anaphylaxie-Erkennung, Notfallanwendung von Adrenalin-Autoinjektoren und Kreislaufstabilisierung'
-category: 'medical'
+slug: allergy-escalating-rather-quickly
+title: Allergie eskaliert beachtlich schnell
+subtitle: >-
+  Anaphylaxie-Erkennung, Notfallanwendung von Adrenalin-Autoinjektoren und
+  Kreislaufstabilisierung
+category: medical
 tags:
-  - 'anaphylaxie'
-  - 'allergie'
-  - 'adrenalin'
-  - 'epipen'
-  - 'erste-hilfe'
-  - 'medizin'
-  - 'notfall'
+  - anaphylaxie
+  - allergie
+  - adrenalin
+  - epipen
+  - erste-hilfe
+  - medizin
+  - notfall
 aliases:
-  - 'anaphylaxie'
-  - 'allergische reaktion'
-  - 'epipen'
-  - 'anaphylaktischer schock'
-  - 'epipen anwendung'
-  - 'allergischer schock'
-  - 'insektenstich allergie'
-  - 'zuschwellen hals allergie'
-severity: 'immediate'
-urgency: 'immediate'
+  - anaphylaxie
+  - allergische reaktion
+  - epipen
+  - anaphylaktischer schock
+  - epipen anwendung
+  - allergischer schock
+  - insektenstich allergie
+  - zuschwellen hals allergie
+severity: immediate
+urgency: immediate
 threat_level: 5
-difficulty: 'moderate'
-region_scope: 'global'
+difficulty: moderate
+region_scope: global
 medical: true
-emergency_services: 'call_immediately'
-status: 'reviewed'
+emergency_services: call_immediately
+status: reviewed
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Adrenalin-Autoinjektor sofort in den äußeren Oberschenkel injizieren, Notruf 112 wählen und die Person flach hinlegen.'
+reviewer: Editorial Medical Review Board
+memory_hook: >-
+  Adrenalin-Autoinjektor sofort in den äußeren Oberschenkel injizieren, Notruf
+  112 wählen und die Person flach hinlegen.
 memorable_facts:
-  - 'DAS EMPTY-VENTRICLE-SYNDROM: Durch massive Histaminausschüttung weiten sich alle Blutgefäße. Steht ein Anaphylaxie-Patient auf oder geht herum, versackt das Blut schwerkraftbedingt in den Beinen. Das Herz pumpt schlagartig ins Leere – sofortiger Herz-Kreislauf-Stillstand! Patient zwingend flach hinlegen und Beine anheben.'
-  - 'ADRENALIN VS. ANTIHISTAMINIKA: Die intramuskuläre Adrenalingabe in den Oberschenkel wirkt in 3 bis 5 Minuten. Antihistaminika-Tropfen und Kortison-Tabletten benötigen 30 bis 120 Minuten Wirkungseintritt – wer bei Zuschwellen des Halses nach Tabletten sucht, verliert wertvolle Überlebenszeit.'
+  - >-
+    DAS EMPTY-VENTRICLE-SYNDROM: Durch massive Histaminausschüttung weiten sich
+    alle Blutgefäße. Steht ein Anaphylaxie-Patient auf oder geht herum, versackt
+    das Blut schwerkraftbedingt in den Beinen. Das Herz pumpt schlagartig ins
+    Leere – sofortiger Herz-Kreislauf-Stillstand! Patient zwingend flach
+    hinlegen und Beine anheben.
+  - >-
+    ADRENALIN VS. ANTIHISTAMINIKA: Die intramuskuläre Adrenalingabe in den
+    Oberschenkel wirkt in 3 bis 5 Minuten. Antihistaminika-Tropfen und
+    Kortison-Tabletten benötigen 30 bis 120 Minuten Wirkungseintritt – wer bei
+    Zuschwellen des Halses nach Tabletten sucht, verliert wertvolle
+    Überlebenszeit.
 immediate_action:
-  - title: 'ADRENALIN-AUTOINJEKTOR SOFORT ANWENDEN'
-    instruction: 'Bei den ersten Anzeichen von Atemnot, Zuschwellen des Rachens oder Schwindel unverzüglich den verordneten Autoinjektor (z. B. EpiPen, Jext, FastJekt) einsetzen.'
+  - title: ADRENALIN-AUTOINJEKTOR SOFORT ANWENDEN
+    instruction: >-
+      Bei den ersten Anzeichen von Atemnot, Zuschwellen des Rachens oder
+      Schwindel unverzüglich den verordneten Autoinjektor (z. B. EpiPen, Jext,
+      FastJekt) einsetzen.
     substeps:
-      - 'Den Autoinjektor mit der Faust umfassen (Daumen niemals auf die Öffnung/Nadelspitze legen!) und Sicherheitskappe abziehen.'
-      - 'Die Nadelspitze im 90-Grad-Winkel kräftig gegen die Außenseite des mittleren Oberschenkels drücken (kann durch Kleidung hindurch erfolgen).'
-      - 'Für 3 bis 5 Sekunden fest angedrückt halten, bis der Mechanismus auslöst und das Medikament abgegeben ist.'
-      - 'Injektor entfernen und die Injektionsstelle 10 Sekunden lang sanft massieren.'
-  - title: 'NOTRUF 112 WÄHLEN'
-    instruction: 'Der Leitstelle klar melden: „Schwere Anaphylaxie / allergischer Schock, Adrenalin verabreicht.“'
-  - title: 'KORREKTE LAGERUNG (LEBENSWICHTIG)'
+      - >-
+        Den Autoinjektor mit der Faust umfassen (Daumen niemals auf die
+        Öffnung/Nadelspitze legen!) und Sicherheitskappe abziehen.
+      - >-
+        Die Nadelspitze im 90-Grad-Winkel kräftig gegen die Außenseite des
+        mittleren Oberschenkels drücken (kann durch Kleidung hindurch erfolgen).
+      - >-
+        Für 3 bis 5 Sekunden fest angedrückt halten, bis der Mechanismus auslöst
+        und das Medikament abgegeben ist.
+      - >-
+        Injektor entfernen und die Injektionsstelle 10 Sekunden lang sanft
+        massieren.
+  - title: NOTRUF 112 WÄHLEN
+    instruction: >-
+      Der Leitstelle klar melden: „Schwere Anaphylaxie / allergischer Schock,
+      Adrenalin verabreicht.“
+  - title: KORREKTE LAGERUNG (LEBENSWICHTIG)
     instruction: 'Lagerung an die Symptome anpassen:'
     variants:
-      - condition: 'Schwindel / Blässe / Schock'
-        action: 'Flach auf den Rücken legen und Beine hochlagern (Schocklage zur Sicherung des Blutrückflusses).'
-      - condition: 'Atemnot im Vordergrund'
+      - condition: Schwindel / Blässe / Schock
+        action: >-
+          Flach auf den Rücken legen und Beine hochlagern (Schocklage zur
+          Sicherung des Blutrückflusses).
+      - condition: Atemnot im Vordergrund
         action: 'Oberkörper leicht erhöht positionieren, um die Atmung zu erleichtern.'
-      - condition: 'Bewusstlos mit Atmung'
-        action: 'Stabile Seitenlage zur Sicherung der Atemwege.'
-      - condition: 'Schwangerschaft'
-        action: 'Linksseitenlage zur Entlastung der Vena cava.'
-  - title: 'ZWEITGABE BEI AUSBLEIBENDER BESSERUNG'
-    instruction: 'Tritt nach 5 bis 15 Minuten keine deutliche Besserung ein oder verschlechtert sich der Zustand und der Rettungsdienst ist noch nicht da, einen zweiten Autoinjektor in den anderen Oberschenkel injizieren.'
+      - condition: Bewusstlos mit Atmung
+        action: Stabile Seitenlage zur Sicherung der Atemwege.
+      - condition: Schwangerschaft
+        action: Linksseitenlage zur Entlastung der Vena cava.
+  - title: ZWEITGABE BEI AUSBLEIBENDER BESSERUNG
+    instruction: >-
+      Tritt nach 5 bis 15 Minuten keine deutliche Besserung ein oder
+      verschlechtert sich der Zustand und der Rettungsdienst ist noch nicht da,
+      einen zweiten Autoinjektor in den anderen Oberschenkel injizieren.
 do_not:
-  - 'Die Adrenalingabe niemals verzögern, um erst Antihistaminika-Tropfen oder Asthmasprays zu verabreichen (Antihistaminika und Kortison benötigen 30 bis 120 Minuten Wirkungseintritt und können ein akutes Kehlkopfödem oder einen Gefäßkollaps nicht rechtzeitig stoppen).'
-  - 'Die Person keinesfalls aufstehen, herumlaufen oder plötzlich aufrecht hinsetzen lassen, auch wenn sie sich nach der Injektion scheinbar besser fühlt (plötzliches Aufstehen führt durch Schwerkraftversacken des Blutes zum gefürchteten „Empty-Ventricle-Syndrom“ und sofortigem Herz-Kreislauf-Stillstand).'
-  - 'Adrenalin niemals in Hände, Füße, Gefäße oder das Gesäß injizieren (nur der mittlere äußere Oberschenkelmuskel garantiert die notwendige schnelle Resorption).'
-  - 'Den gebrauchten Autoinjektor nicht wegwerfen (sicher aufbewahren und dem Notarzt übergeben, damit Dosis und Verabreichungszeitpunkt dokumentiert sind).'
+  - >-
+    Die Adrenalingabe niemals verzögern, um erst Antihistaminika-Tropfen oder
+    Asthmasprays zu verabreichen (Antihistaminika und Kortison benötigen 30 bis
+    120 Minuten Wirkungseintritt und können ein akutes Kehlkopfödem oder einen
+    Gefäßkollaps nicht rechtzeitig stoppen).
+  - >-
+    Die Person keinesfalls aufstehen, herumlaufen oder plötzlich aufrecht
+    hinsetzen lassen, auch wenn sie sich nach der Injektion scheinbar besser
+    fühlt (plötzliches Aufstehen führt durch Schwerkraftversacken des Blutes zum
+    gefürchteten „Empty-Ventricle-Syndrom“ und sofortigem
+    Herz-Kreislauf-Stillstand).
+  - >-
+    Adrenalin niemals in Hände, Füße, Gefäße oder das Gesäß injizieren (nur der
+    mittlere äußere Oberschenkelmuskel garantiert die notwendige schnelle
+    Resorption).
+  - >-
+    Den gebrauchten Autoinjektor nicht wegwerfen (sicher aufbewahren und dem
+    Notarzt übergeben, damit Dosis und Verabreichungszeitpunkt dokumentiert
+    sind).
 sources:
-  - name: 'Deutscher Allergie- und Asthmabund (DAAB) / AWMF'
+  - name: Deutscher Allergie- und Asthmabund (DAAB) / AWMF
     url: 'https://www.daab.de/'
     authoritative: true
-    guideline_version: 'S2k-Leitlinie Akuttherapie und Management der Anaphylaxie'
-    jurisdiction: 'Deutschland / DACH'
-    notes: 'Klinische Stadieneinteilung, Adrenalin als Medikament der ersten Wahl, Schocklagerung und Zweitgabezulassung.'
-  - name: 'European Academy of Allergy and Clinical Immunology (EAACI)'
+    guideline_version: S2k-Leitlinie Akuttherapie und Management der Anaphylaxie
+    jurisdiction: Deutschland / DACH
+    notes: >-
+      Klinische Stadieneinteilung, Adrenalin als Medikament der ersten Wahl,
+      Schocklagerung und Zweitgabezulassung.
+  - name: European Academy of Allergy and Clinical Immunology (EAACI)
     url: 'https://eaaci.org/'
     authoritative: true
     guideline_version: 'EAACI Guidelines: Anaphylaxis (2021 Update)'
-    jurisdiction: 'EU / Global'
-    notes: 'Intramuskuläre Adrenalin-Dosierung, Oberschenkel-Injektionslokalisation und Timing.'
-  - name: 'Resuscitation Council UK'
+    jurisdiction: EU / Global
+    notes: >-
+      Intramuskuläre Adrenalin-Dosierung, Oberschenkel-Injektionslokalisation
+      und Timing.
+  - name: Resuscitation Council UK
     url: 'https://www.resus.org.uk/'
     authoritative: true
-    guideline_version: 'Emergency Treatment of Anaphylactic Reactions (2021)'
-    jurisdiction: 'UK / Europe'
-    notes: 'Lagerungsvorschriften und Vermeidung plötzlicher Lageveränderungen (Empty-Heart-Syndrome).'
+    guideline_version: Emergency Treatment of Anaphylactic Reactions (2021)
+    jurisdiction: UK / Europe
+    notes: >-
+      Lagerungsvorschriften und Vermeidung plötzlicher Lageveränderungen
+      (Empty-Heart-Syndrome).
 ---
-
 Das menschliche Immunsystem ist ein hochkomplexes zelluläres Abwehrsystem, das entwickelt wurde, um Krankheitserreger zu neutralisieren. Gelegentlich unterläuft diesem Apparat jedoch eine verhängnisvolle Fehleinschätzung: Es stuft ein harmloses Umweltprotein – etwa Erdnussbestandteile, Wespengift oder Penicillin – fälschlicherweise als tödliche Bedrohung ein.
 
 Bei einer Anaphylaxie detonieren sensibilisierte Mastzellen und basophile Granulozyten schlagartig im gesamten Gefäßsystem. Sie schütten gewaltige Mengen an Histamin, Leukotrienen und Prostaglandinen aus. Diese biochemische Schockwelle führt zu einer sofortigen massiven Gefäßerweiterung (der Blutdruck bricht zusammen) und bewirkt eine starke Kapillarundichtigkeit sowie Verkrampfung der glatten Bronchialmuskulatur (die Atemwege und die Stimmritze schwellen lebensbedrohlich zu).
