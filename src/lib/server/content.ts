@@ -1,5 +1,3 @@
-import fs from 'node:fs';
-import path from 'node:path';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import {
@@ -16,63 +14,93 @@ marked.setOptions({
 	breaks: true
 });
 
-const CONTENT_DIR = path.resolve('content');
+// Vite glob imports: build-time discoverable without runtime filesystem access
+const rawArticleFiles = import.meta.glob('/content/articles/**/*.md', {
+	query: '?raw',
+	import: 'default',
+	eager: true
+}) as Record<string, string>;
 
-export function loadAllArticles(lang?: 'en' | 'de'): Article[] {
-	const articles: Article[] = [];
-	const langs: ('en' | 'de')[] = lang ? [lang] : ['en', 'de'];
+const rawPageFiles = import.meta.glob('/content/pages/**/*.md', {
+	query: '?raw',
+	import: 'default',
+	eager: true
+}) as Record<string, string>;
 
-	for (const l of langs) {
-		const langDir = path.join(CONTENT_DIR, 'articles', l);
-		if (!fs.existsSync(langDir)) continue;
+// In-memory indexed structures for lightning-fast lookups in Cloudflare Workers
+const articleMap = new Map<string, Article>();
+const articlesByLang: Record<'en' | 'de', Article[]> = {
+	en: [],
+	de: []
+};
 
-		const files = fs.readdirSync(langDir).filter((f) => f.endsWith('.md'));
-		for (const file of files) {
-			const filePath = path.join(langDir, file);
-			const fileContent = fs.readFileSync(filePath, 'utf-8');
-			const parsed = matter(fileContent);
+const pageMap = new Map<string, StaticPage>();
+const pagesByLang: Record<'en' | 'de', StaticPage[]> = {
+	en: [],
+	de: []
+};
 
-			const validated = ArticleFrontmatterSchema.safeParse(parsed.data);
-			if (!validated.success) {
-				console.error(`Invalid article frontmatter in ${filePath}:`, validated.error.format());
-				continue;
-			}
+// Initialize article catalog
+for (const [filePath, rawContent] of Object.entries(rawArticleFiles)) {
+	const match = filePath.match(/(?:content\/articles\/)?(en|de)\/([^/]+)\.md$/);
+	if (!match) continue;
 
-			const html = marked.parse(parsed.content) as string;
-
-			articles.push({
-				...validated.data,
-				lang: l,
-				body: parsed.content,
-				html
-			});
-		}
-	}
-
-	return articles;
-}
-
-export function getArticle(slug: string, lang: 'en' | 'de'): Article | null {
-	const filePath = path.join(CONTENT_DIR, 'articles', lang, `${slug}.md`);
-	if (!fs.existsSync(filePath)) return null;
-
-	const fileContent = fs.readFileSync(filePath, 'utf-8');
-	const parsed = matter(fileContent);
-
+	const lang = match[1] as 'en' | 'de';
+	const parsed = matter(rawContent);
 	const validated = ArticleFrontmatterSchema.safeParse(parsed.data);
+
 	if (!validated.success) {
-		console.error(`Invalid frontmatter in ${filePath}:`, validated.error.format());
-		return null;
+		console.error(`Invalid article frontmatter in ${filePath}:`, validated.error.format());
+		continue;
 	}
 
 	const html = marked.parse(parsed.content) as string;
-
-	return {
+	const article: Article = {
 		...validated.data,
 		lang,
 		body: parsed.content,
 		html
 	};
+
+	articleMap.set(`${lang}:${article.slug}`, article);
+	articlesByLang[lang].push(article);
+}
+
+// Initialize static page catalog
+for (const [filePath, rawContent] of Object.entries(rawPageFiles)) {
+	const match = filePath.match(/(?:content\/pages\/)?(en|de)\/([^/]+)\.md$/);
+	if (!match) continue;
+
+	const lang = match[1] as 'en' | 'de';
+	const parsed = matter(rawContent);
+	const validated = PageFrontmatterSchema.safeParse(parsed.data);
+
+	if (!validated.success) {
+		console.error(`Invalid page frontmatter in ${filePath}:`, validated.error.format());
+		continue;
+	}
+
+	const html = marked.parse(parsed.content) as string;
+	const page: StaticPage = {
+		...validated.data,
+		lang,
+		body: parsed.content,
+		html
+	};
+
+	pageMap.set(`${lang}:${page.slug}`, page);
+	pagesByLang[lang].push(page);
+}
+
+export function loadAllArticles(lang?: 'en' | 'de'): Article[] {
+	if (lang) {
+		return articlesByLang[lang] ? [...articlesByLang[lang]] : [];
+	}
+	return [...articlesByLang.en, ...articlesByLang.de];
+}
+
+export function getArticle(slug: string, lang: 'en' | 'de'): Article | null {
+	return articleMap.get(`${lang}:${slug}`) || null;
 }
 
 export function getArticlesByCategory(category: Category, lang: 'en' | 'de'): Article[] {
@@ -91,26 +119,14 @@ export function getRandomArticle(lang: 'en' | 'de', category?: Category): Articl
 }
 
 export function getStaticPage(slug: string, lang: 'en' | 'de'): StaticPage | null {
-	const filePath = path.join(CONTENT_DIR, 'pages', lang, `${slug}.md`);
-	if (!fs.existsSync(filePath)) return null;
+	return pageMap.get(`${lang}:${slug}`) || null;
+}
 
-	const fileContent = fs.readFileSync(filePath, 'utf-8');
-	const parsed = matter(fileContent);
-
-	const validated = PageFrontmatterSchema.safeParse(parsed.data);
-	if (!validated.success) {
-		console.error(`Invalid page frontmatter in ${filePath}:`, validated.error.format());
-		return null;
+export function loadAllStaticPages(lang?: 'en' | 'de'): StaticPage[] {
+	if (lang) {
+		return pagesByLang[lang] ? [...pagesByLang[lang]] : [];
 	}
-
-	const html = marked.parse(parsed.content) as string;
-
-	return {
-		...validated.data,
-		lang,
-		body: parsed.content,
-		html
-	};
+	return [...pagesByLang.en, ...pagesByLang.de];
 }
 
 export function getSearchIndex(lang: 'en' | 'de') {

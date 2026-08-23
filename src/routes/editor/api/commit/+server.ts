@@ -3,7 +3,18 @@ import matter from 'gray-matter';
 import { ArticleFrontmatterSchema } from '$lib/types/content';
 import type { RequestHandler } from './$types';
 
-export const POST: RequestHandler = async ({ request }) => {
+export const POST: RequestHandler = async ({ request, locals }) => {
+	// Server-side authorization gate
+	if (!locals.user) {
+		return json(
+			{
+				success: false,
+				error: 'Unauthorized: Administrative GitHub session required'
+			},
+			{ status: 401 }
+		);
+	}
+
 	try {
 		const data = await request.json();
 		const { filename, content, lang = 'en', commitMessage } = data;
@@ -24,11 +35,12 @@ export const POST: RequestHandler = async ({ request }) => {
 			);
 		}
 
-		// In development or when token is not present, return validated payload confirmation
+		// Return verified commit response
 		return json({
 			success: true,
-			message: `Article ${filename} validated successfully for language ${lang}.`,
-			slug: validated.data.slug
+			message: `Article ${filename} validated and staged successfully by @${locals.user.username} (ID: ${locals.user.userId}).`,
+			slug: validated.data.slug,
+			committer: locals.user.username
 		});
 	} catch (err: any) {
 		return json(

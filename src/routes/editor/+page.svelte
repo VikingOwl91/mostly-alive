@@ -20,8 +20,13 @@
 	import MemoryHook from '$lib/components/MemoryHook.svelte';
 	import SourceInspector from '$lib/components/SourceInspector.svelte';
 
+	let { data } = $props();
+	let currentUser = $derived(data?.user);
+
 	let activeLang: 'en' | 'de' = $state('en');
 	let activeTab: 'edit' | 'preview' | 'split' = $state('split');
+	let isCommitting = $state(false);
+	let commitStatusMsg = $state<string | null>(null);
 
 	// Article Form State
 	let slug = $state('new-hazard-entry');
@@ -191,6 +196,40 @@
 		exportSuccess = true;
 		setTimeout(() => (exportSuccess = false), 3000);
 	}
+	async function commitArticle() {
+		if (!validate()) return;
+		isCommitting = true;
+		commitStatusMsg = null;
+
+		try {
+			const content = generateMarkdownFile();
+			const res = await fetch('/editor/api/commit', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+					filename: `${slug}.md`,
+					content,
+					lang: activeLang,
+					commitMessage: `content(${activeLang}): update ${slug}`
+				})
+			});
+
+			const resData = await res.json();
+			if (!res.ok || !resData.success) {
+				validationErrors = [resData.error || 'Commit failed.'];
+				commitStatusMsg = null;
+			} else {
+				commitStatusMsg = resData.message || 'Article staged successfully.';
+				setTimeout(() => (commitStatusMsg = null), 4000);
+			}
+		} catch (err: any) {
+			validationErrors = [err?.message || 'Network error during commit.'];
+		} finally {
+			isCommitting = false;
+		}
+	}
 </script>
 
 <svelte:head>
@@ -219,8 +258,18 @@
 			</div>
 		</div>
 
-		<!-- Action Controls -->
+		<!-- Action Controls & Authenticated User Info -->
 		<div class="flex items-center gap-3">
+			{#if currentUser}
+				<div
+					class="hidden sm:flex items-center gap-2 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 font-mono text-[11px] text-slate-300"
+				>
+					<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+					<span>@{currentUser.username}</span>
+					<span class="text-slate-500">({currentUser.userId})</span>
+				</div>
+			{/if}
+
 			<div class="flex rounded-lg border border-slate-800 bg-slate-900 p-0.5 text-xs font-mono">
 				<button
 					type="button"
@@ -253,12 +302,30 @@
 
 			<button
 				type="button"
+				onclick={commitArticle}
+				disabled={isCommitting}
+				class="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-xs font-bold transition-all flex items-center gap-1.5 disabled:opacity-50"
+			>
+				<Save class="w-3.5 h-3.5" />
+				<span>{isCommitting ? 'Staging...' : 'Stage API'}</span>
+			</button>
+
+			<button
+				type="button"
 				onclick={downloadMarkdown}
-				class="px-4 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-mono text-xs font-bold transition-all flex items-center gap-1.5 shadow-[0_0_10px_rgba(245,158,11,0.2)]"
+				class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-mono text-xs font-bold transition-all flex items-center gap-1.5 shadow-[0_0_10px_rgba(245,158,11,0.2)]"
 			>
 				<Download class="w-3.5 h-3.5" />
 				<span>{exportSuccess ? 'Saved!' : 'Export .md'}</span>
 			</button>
+
+			<a
+				href="/editor/auth/logout"
+				class="px-2.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-red-400 font-mono text-xs transition-colors"
+				title="Log out from Web Studio"
+			>
+				Logout
+			</a>
 		</div>
 	</header>
 
