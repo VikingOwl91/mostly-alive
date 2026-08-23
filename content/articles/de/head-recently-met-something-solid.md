@@ -79,7 +79,7 @@ sources:
 
 Das menschliche Gehirn ist ein hochsensibles, gallertartiges Organ mit einem Gewicht von etwa 1,4 Kilogramm, das schwimmend in einer schockabsorbierenden Hülle aus Gehirn-Rückenmarks-Flüssigkeit (Liquor) im starren knöchernen Schädel (Cranium) gelagert ist.
 
-Wirkt eine plötzliche kinetische Wucht – etwa durch einen Sturz, Verkehrsunfall, Sportzusammenprall oder Schlag – auf den Kopf ein, prallt das Gehirn zunächst gegen die innere Knochenwand der Aufprallseite (*Coup*-Verletzung), federt zurück gegen die gegenüberliegende Schädelinnenseite (*Contrecoup*-Verletzung) und erleidet massive Scherkräfte, die mikroskopische Nervenfasern (Axone) im gesamten Hirngewebe überdehnen oder zerreißen.
+Wirkt eine plötzliche kinetische Wucht – etwa durch einen Sturz, Verkehrsunfall, Sportzusammenprall oder Schlag – auf den Kopf ein, prallt das Gehirn zunächst gegen die innere Knochenwand der Aufprallseite (_Coup_-Verletzung), federt zurück gegen die gegenüberliegende Schädelinnenseite (_Contrecoup_-Verletzung) und erleidet massive Scherkräfte, die mikroskopische Nervenfasern (Axone) im gesamten Hirngewebe überdehnen oder zerreißen.
 
 ### Alarmsymptome: Gehirnerschütterung vs. intrakranielle Blutung
 

@@ -65,10 +65,11 @@ sources:
     notes: 'Mechanische Entfernung ohne Öl/Klebstoff, FSME-Endemiegebiete und Wanderröte-Monitoring.'
 ---
 
-Ticks (*Ixodida*) are obligate blood-feeding arachnids that have spent millions of years optimizing silent parasitic attachment. Their specialized feeding apparatus (*hypostome*) is covered in backward-facing microscopic barbs and secretes an anesthetic, anticoagulant, and immunosuppressive saliva that prevents the host from feeling the bite.
+Ticks (_Ixodida_) are obligate blood-feeding arachnids that have spent millions of years optimizing silent parasitic attachment. Their specialized feeding apparatus (_hypostome_) is covered in backward-facing microscopic barbs and secretes an anesthetic, anticoagulant, and immunosuppressive saliva that prevents the host from feeling the bite.
 
 While the bite itself is harmless, ticks serve as vectors for serious systemic pathogens:
-- **Lyme Disease (*Borrelia burgdorferi*)**: A bacterial spirochete causing migratory joint arthritis, facial nerve palsy (Bell's palsy), carditis, and chronic neurological complications.
+
+- **Lyme Disease (_Borrelia burgdorferi_)**: A bacterial spirochete causing migratory joint arthritis, facial nerve palsy (Bell's palsy), carditis, and chronic neurological complications.
 - **Tick-Borne Encephalitis (TBE / FSME)**: A flavivirus capable of causing viral meningitis, encephalitis, and permanent paralysis.
 
 ### The Myth of Butter, Oil, and Matches: The Regurgitation Hazard
@@ -79,14 +80,15 @@ From an infectious disease standpoint, **these home remedies drastically increas
 
 1. **Slow Asphyxiation**: Ticks have exceptionally low metabolic rates and breathe through microscopic spiracles on their sides; it takes hours for a tick to suffocate under oil.
 2. **Stress-Induced Gut Regurgitation**: When suffocated or burned, the tick experiences acute physiological distress. In response, it violently empties the contents of its digestive tract and salivary reservoirs straight into the host’s bloodstream.
-3. *Borrelia* bacteria live predominantly in the tick’s midgut. Inducing vomiting directly injects millions of spirochetes into your dermis.
+3. _Borrelia_ bacteria live predominantly in the tick’s midgut. Inducing vomiting directly injects millions of spirochetes into your dermis.
 
 ### The 24-to-48-Hour Biological Window
 
-*Borrelia* bacteria are not transmitted instantaneously upon attachment:
+_Borrelia_ bacteria are not transmitted instantaneously upon attachment:
+
 - The bacteria reside in the midgut in an inactive state.
 - Once warm host blood enters the tick's gut, the spirochetes undergo genetic expression changes, multiply, penetrate the gut wall, and migrate forward into the salivary glands.
-- This process typically takes **24 to 48 hours**. 
+- This process typically takes **24 to 48 hours**.
 
 Prompt mechanical extraction with fine-tipped tweezers within the first 24 hours of attachment virtually eliminates the risk of Lyme disease. (Note: The TBE/FSME virus is already present in the salivary glands and can transmit immediately upon attachment, which is why vaccination is recommended in endemic areas).
 
@@ -95,6 +97,7 @@ Prompt mechanical extraction with fine-tipped tweezers within the first 24 hours
 A small red bump or minor redness (< 2 cm) appearing immediately after removal is a normal local histamine reaction to tick saliva.
 
 **Erythema Migrans (Wanderröte)** is different:
+
 - It appears **3 to 30 days** after the bite.
 - It is an expanding red circular rash that grows outward over days, often exceeding **5 cm (2 inches)** in diameter and sometimes clearing in the center to form a classic "bullseye."
 - The presence of expanding Erythema Migrans is diagnostic for Lyme disease and mandates immediate medical evaluation for oral doxycycline or amoxicillin.

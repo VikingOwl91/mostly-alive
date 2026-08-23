@@ -67,8 +67,9 @@ Accidental hypothermia occurs when the body's internal heat production cannot ma
 The body protects vital organs during extreme cold by shunting blood away from the skin and limbs via intense vasoconstriction. The limbs become a cold, acidic, lactic-acid and potassium-saturated reservoir sitting at 10°C to 20°C.
 
 If a rescuer rubs the patient's limbs, places them in a hot bath, or forces them to walk:
+
 1. Peripheral blood vessels dilate instantly.
 2. The stagnant, icy, potassium-rich blood from the limbs flushes directly into the central venous circulation.
-3. The core temperature drops by an additional 1°C to 3°C (*afterdrop*), while the acidic potassium shock triggers instantaneous, fatal **Ventricular Fibrillation (Rescue Collapse)**.
+3. The core temperature drops by an additional 1°C to 3°C (_afterdrop_), while the acidic potassium shock triggers instantaneous, fatal **Ventricular Fibrillation (Rescue Collapse)**.
 
 Always keep the patient horizontal, handle with extreme gentleness, and insulate the trunk.

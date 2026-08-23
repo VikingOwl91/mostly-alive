@@ -61,6 +61,6 @@ Fließendes Wasser besitzt enorme kinetische Energie. Ein Kubikmeter Wasser wieg
 
 Der häufigste Grund für tödliche Unfälle bei Starkregen ist ein physikalischer Trugschluss: Autofahrer glauben, ihr schweres 1.500-kg-Fahrzeug würde durch sein Eigengewicht fest auf der Straße haften bleiben.
 
-Nach dem archimedischen Prinzip erfährt jeder eingetauchte Körper eine Auftriebskraft, die dem Gewicht des verdrängten Wasservolumens entspricht. Ein modernes Kraftfahrzeug ist eine weitgehend luftdichte Hohlform. 
+Nach dem archimedischen Prinzip erfährt jeder eingetauchte Körper eine Auftriebskraft, die dem Gewicht des verdrängten Wasservolumens entspricht. Ein modernes Kraftfahrzeug ist eine weitgehend luftdichte Hohlform.
 
 Erreicht das Wasser eine Tiefe von **nur 30 Zentimetern**, verdrängt das Fahrzeug über 1.500 Liter Wasser: Die Auftriebskraft hebt das gesamte Fahrzeuggewicht an. Die Reifenhaftung sinkt auf null, die Lenkung wird wirkungslos und die Strömung treibt das Auto mühelos in tödliche Tiefen.

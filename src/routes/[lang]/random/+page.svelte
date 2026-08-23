@@ -82,7 +82,9 @@
 
 			{#if data.article.memorable_facts && data.article.memorable_facts.length > 0}
 				<div class="p-4 rounded-xl bg-slate-950/90 border border-cyan-500/30 space-y-2">
-					<div class="flex items-center gap-2 font-mono text-[11px] font-bold uppercase text-cyan-400">
+					<div
+						class="flex items-center gap-2 font-mono text-[11px] font-bold uppercase text-cyan-400"
+					>
 						<Brain class="w-3.5 h-3.5 text-cyan-400" />
 						<span>
 							{data.lang === 'de'
@@ -115,7 +117,9 @@
 					class="px-5 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 font-mono text-xs font-bold transition-all flex items-center gap-2 disabled:opacity-50"
 				>
 					<RefreshCw class="w-4 h-4 {isRolling ? 'animate-spin' : ''}" />
-					<span>{data.lang === 'de' ? 'Nächsten Zufallseintrag würfeln' : 'Roll Another Entry'}</span>
+					<span
+						>{data.lang === 'de' ? 'Nächsten Zufallseintrag würfeln' : 'Roll Another Entry'}</span
+					>
 				</button>
 
 				<a

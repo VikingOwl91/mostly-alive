@@ -64,7 +64,7 @@ sources:
     notes: 'PDL cell viability and storage media comparison.'
 ---
 
-Ein heftiger Schlag ins Gesicht—beim Sport, durch einen Fahrradsturz oder einen Zusammenstoß—kann einen bleibenden Zahn mitsamt der Wurzel vollständig aus dem Kieferknochen heraushebeln (*Avulsion*).
+Ein heftiger Schlag ins Gesicht—beim Sport, durch einen Fahrradsturz oder einen Zusammenstoß—kann einen bleibenden Zahn mitsamt der Wurzel vollständig aus dem Kieferknochen heraushebeln (_Avulsion_).
 
 Ein herausgeschlagener Zahn ist kein toter Knochensplitter, sondern ein biologisches Organ, das über eine hochspezialisierte Aufhängung im Kiefer verankert ist: die **Wurzelhaut (Parodontalligament / Desmodont)**.
 
@@ -73,21 +73,22 @@ Ein herausgeschlagener Zahn ist kein toter Knochensplitter, sondern ein biologis
 Ein Zahn ist nicht starr mit dem Knochen verwachsen wie ein eingegossener Zaunpfahl, sondern über Millionen elastischer Kollagenfasern und lebender Bindegewebszellen im Zahnfach aufgehängt.
 
 Wird ein Zahn traumatisch ausgeschlagen:
+
 - Reißt diese Faserverbindung in der Mitte durch: Ein Teil der Zellen verbleibt im Kieferknochen, der andere Teil haftet an der Wurzel des Zahns.
 - Bleiben diese Zellen auf der Zahnwurzel lebendig und feucht, kann ein Zahnarzt den Zahn zurück ins Fach setzen und schienen. Die Fasern wachsen innerhalb von 2 bis 4 Wochen wieder vollständig zusammen.
-- Trocknen die Zellen jedoch aus oder werden sie abgerieben, erkennt das Immunsystem den Zahn als Fremdkörper: Knochenfresszellen (*Osteoklasten*) bauen die Zahnwurzel in den Folgemonaten schleichend ab (*Ersatzgewebsresorption / Ankylose*), bis der Zahn verloren geht.
+- Trocknen die Zellen jedoch aus oder werden sie abgerieben, erkennt das Immunsystem den Zahn als Fremdkörper: Knochenfresszellen (_Osteoklasten_) bauen die Zahnwurzel in den Folgemonaten schleichend ab (_Ersatzgewebsresorption / Ankylose_), bis der Zahn verloren geht.
 
 ### Lagermedien: Warum kalte Milch besser ist als Wasser
 
 Kann der Zahn am Unfallort nicht sofort wieder zurückgesteckt werden, entscheidet die Transportflüssigkeit über das Überleben der Zellen:
 
 1. **Trockene Luft (Am schlechtesten)**: An der Luft dehydrieren die Zellwände. Nach **30 bis 60 Minuten** sind alle Wurzelhautzellen unwiederbringlich abgestorben.
-2. **Reines Leitungswasser (Schädlich)**: Wasser besitzt eine extrem niedrige Osmolalität (*hypoton*). Durch osmotischen Druck strömt Wasser massiv in die Zellen ein, bis die Zellmembranen platzen (*osmotische Lyse*).
+2. **Reines Leitungswasser (Schädlich)**: Wasser besitzt eine extrem niedrige Osmolalität (_hypoton_). Durch osmotischen Druck strömt Wasser massiv in die Zellen ein, bis die Zellmembranen platzen (_osmotische Lyse_).
 3. **Kalte H-Milch oder Frischmilch (Sehr gut & überall verfügbar)**: Milch hat einen physiologischen osmotischen Druck, einen neutralen pH-Wert und enthält Nährstoffe, die die Zellen für 2 bis 4 Stunden am Leben erhalten.
 4. **Zahnrettungsbox (Dentosafe / Zellkulturmedium - Goldstandard)**: Hält die Zellen mit Aminosäuren und Glukose bis zu 24 Stunden lang vital.
 
 ### Die eiserne Regel: Nur an der Krone anfassen
 
-Die weiße, glatte Zahnkrone besteht aus Zahnschmelz und trägt keine lebenden Zellen. 
+Die weiße, glatte Zahnkrone besteht aus Zahnschmelz und trägt keine lebenden Zellen.
 
 Die gelbliche, sich verjüngende Zahnwurzel hingegen ist der Träger des Lebens. **Die Wurzel darf niemals berührt, abgerieben, gereinigt oder desinfiziert werden**. Selbst wenn der Zahn im Dreck lag: Maximal 10 Sekunden unter kaltem Wasser abspülen, in Milch einlegen und sofort einen zahnärztlichen Notdienst aufsuchen.

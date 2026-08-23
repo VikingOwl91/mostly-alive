@@ -213,11 +213,15 @@ async function runLiveCrawl() {
 				if (pathStr.startsWith('/en/')) {
 					const expectedDe = pathStr.replace('/en/', '/de/');
 					crawlEntry.counterpartUrl = expectedDe;
-					crawlEntry.hasLanguageSwitch = langLinks.some((l) => l?.startsWith(expectedDe.split('?')[0]));
+					crawlEntry.hasLanguageSwitch = langLinks.some((l) =>
+						l?.startsWith(expectedDe.split('?')[0])
+					);
 				} else if (pathStr.startsWith('/de/')) {
 					const expectedEn = pathStr.replace('/de/', '/en/');
 					crawlEntry.counterpartUrl = expectedEn;
-					crawlEntry.hasLanguageSwitch = langLinks.some((l) => l?.startsWith(expectedEn.split('?')[0]));
+					crawlEntry.hasLanguageSwitch = langLinks.some((l) =>
+						l?.startsWith(expectedEn.split('?')[0])
+					);
 				}
 			}
 
@@ -249,8 +253,12 @@ async function runLiveCrawl() {
 	// Calculate Crawl Statistics
 	const totalVisited = visited.size;
 	const status200 = Array.from(visited.values()).filter((r) => r.status === 200).length;
-	const status3xx = Array.from(visited.values()).filter((r) => r.status >= 300 && r.status < 400).length;
-	const status4xx = Array.from(visited.values()).filter((r) => r.status >= 400 && r.status < 500).length;
+	const status3xx = Array.from(visited.values()).filter(
+		(r) => r.status >= 300 && r.status < 400
+	).length;
+	const status4xx = Array.from(visited.values()).filter(
+		(r) => r.status >= 400 && r.status < 500
+	).length;
 	const status5xx = Array.from(visited.values()).filter((r) => r.status >= 500).length;
 
 	// Check for orphaned content routes (routes in repo that have 0 inbound links from the crawl)
@@ -299,12 +307,22 @@ async function runLiveCrawl() {
 	}
 
 	console.log('\n🔒 SECURITY & EDITOR AUDIT:');
-	console.log(`  • /editor -> HTTP ${visited.get('/editor')?.status} (Redirect: ${visited.get('/editor')?.redirectUrl})`);
+	console.log(
+		`  • /editor -> HTTP ${visited.get('/editor')?.status} (Redirect: ${visited.get('/editor')?.redirectUrl})`
+	);
 	console.log(`  • /editor/login -> HTTP ${visited.get('/editor/login')?.status}`);
-	console.log(`  • /editor/auth/login -> HTTP ${visited.get('/editor/auth/login')?.status} (Redirect: ${visited.get('/editor/auth/login')?.redirectUrl})`);
-	console.log(`  • /editor/auth/logout -> HTTP ${visited.get('/editor/auth/logout')?.status} (Redirect: ${visited.get('/editor/auth/logout')?.redirectUrl})`);
-	console.log(`  • /editor/auth/callback (no state) -> HTTP ${visited.get('/editor/auth/callback')?.status} (Redirect: ${visited.get('/editor/auth/callback')?.redirectUrl})`);
-	console.log(`  • POST /editor/api/commit (Anonymous) -> HTTP ${apiCommitStatus} (Response: ${JSON.stringify(apiCommitBody)})`);
+	console.log(
+		`  • /editor/auth/login -> HTTP ${visited.get('/editor/auth/login')?.status} (Redirect: ${visited.get('/editor/auth/login')?.redirectUrl})`
+	);
+	console.log(
+		`  • /editor/auth/logout -> HTTP ${visited.get('/editor/auth/logout')?.status} (Redirect: ${visited.get('/editor/auth/logout')?.redirectUrl})`
+	);
+	console.log(
+		`  • /editor/auth/callback (no state) -> HTTP ${visited.get('/editor/auth/callback')?.status} (Redirect: ${visited.get('/editor/auth/callback')?.redirectUrl})`
+	);
+	console.log(
+		`  • POST /editor/api/commit (Anonymous) -> HTTP ${apiCommitStatus} (Response: ${JSON.stringify(apiCommitBody)})`
+	);
 
 	console.log('\n🌐 EMERGENCY COUNTRY DISPATCH PARAMETERS (ALL 5 REGIONS):');
 	for (const lang of ['en', 'de']) {
@@ -316,15 +334,29 @@ async function runLiveCrawl() {
 	}
 
 	console.log('\n🔍 SEARCH INDEX ENDPOINTS:');
-	console.log(`  • /api/search-index.json?lang=en -> HTTP ${visited.get('/api/search-index.json?lang=en')?.status}`);
-	console.log(`  • /api/search-index.json?lang=de -> HTTP ${visited.get('/api/search-index.json?lang=de')?.status}`);
+	console.log(
+		`  • /api/search-index.json?lang=en -> HTTP ${visited.get('/api/search-index.json?lang=en')?.status}`
+	);
+	console.log(
+		`  • /api/search-index.json?lang=de -> HTTP ${visited.get('/api/search-index.json?lang=de')?.status}`
+	);
 
 	console.log('\n📚 CONTENT INVENTORY AUDIT:');
-	console.log(`  • English Articles Verified: ${repoArticles.filter((a) => a.lang === 'en').length} / 15 (All HTTP 200)`);
-	console.log(`  • German Articles Verified:  ${repoArticles.filter((a) => a.lang === 'de').length} / 15 (All HTTP 200)`);
-	console.log(`  • English Static Pages:     ${repoPages.filter((p) => p.lang === 'en').length} / 10 (All HTTP 200)`);
-	console.log(`  • German Static Pages:      ${repoPages.filter((p) => p.lang === 'de').length} / 10 (All HTTP 200)`);
-	console.log(`  • Categories Tested:        ${repoCategories.length} EN + ${repoCategories.length} DE (All HTTP 200)`);
+	console.log(
+		`  • English Articles Verified: ${repoArticles.filter((a) => a.lang === 'en').length} / 15 (All HTTP 200)`
+	);
+	console.log(
+		`  • German Articles Verified:  ${repoArticles.filter((a) => a.lang === 'de').length} / 15 (All HTTP 200)`
+	);
+	console.log(
+		`  • English Static Pages:     ${repoPages.filter((p) => p.lang === 'en').length} / 10 (All HTTP 200)`
+	);
+	console.log(
+		`  • German Static Pages:      ${repoPages.filter((p) => p.lang === 'de').length} / 10 (All HTTP 200)`
+	);
+	console.log(
+		`  • Categories Tested:        ${repoCategories.length} EN + ${repoCategories.length} DE (All HTTP 200)`
+	);
 
 	if (errors.length > 0 || status4xx > 0 || status5xx > 0) {
 		console.error('\n❌ FAILURES FOUND DURING LIVE CRAWL:');
@@ -333,7 +365,9 @@ async function runLiveCrawl() {
 		}
 		process.exit(1);
 	} else {
-		console.log('\n✅ CRAWL VERDICT: Perfect score. Zero 4xx/5xx errors, zero orphaned pages, full bilingual parity, verified security gates.');
+		console.log(
+			'\n✅ CRAWL VERDICT: Perfect score. Zero 4xx/5xx errors, zero orphaned pages, full bilingual parity, verified security gates.'
+		);
 	}
 }
 

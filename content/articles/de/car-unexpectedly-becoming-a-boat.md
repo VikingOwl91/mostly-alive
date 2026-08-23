@@ -61,7 +61,7 @@ Stürzt ein Fahrzeug in ein tiefes Gewässer (See, Fluss, Hafenbecken oder Kanal
 
 ### Die hydrostatische Türfalle
 
-Der tödlichste Fehler von Insassen ist der Versuch, die Türen aufzudrücken. 
+Der tödlichste Fehler von Insassen ist der Versuch, die Türen aufzudrücken.
 
 Mit zunehmender Eintauchtiefe erzeugt das Wasser einen immensen hydrostatischen Druck ($P = \rho \cdot g \cdot h$). Bereits bei einem halben Meter Wassertiefe drückt das Wasser mit einer Kraft von mehreren hundert Kilogramm gegen die Außenseite der Fahrzeugtür. Kein Mensch besitzt die Kraft, diese Tür gegen den Wasserdruck aufzudrücken.
 

@@ -62,7 +62,7 @@ Steigen Umgebungstemperatur und Luftfeuchtigkeit drastisch an, versagt die wicht
 
 ### Die zelluläre Zerstörung durch Hyperthermie
 
-Ab einer Kerntemperatur von 40,5 °C denaturieren lebenswichtige Proteine und Enzyme im Gehirn, im Herzmuskel und in der Leber. 
+Ab einer Kerntemperatur von 40,5 °C denaturieren lebenswichtige Proteine und Enzyme im Gehirn, im Herzmuskel und in der Leber.
 
 Die Blut-Hirn-Schranke wird durchlässig, es kommt zum Hirnödem und neurologischem Kontrollverlust (Verwirrtheit, Torkeln, Krampfanfälle, Koma). Gleichzeitig wird die Darmschleimhaut undicht, sodass bakterielle Toxine in die Blutbahn geschwemmt werden: Es folgt ein systemisches Entzündungssyndrom (SIRS) und Multiorganversagen.
 

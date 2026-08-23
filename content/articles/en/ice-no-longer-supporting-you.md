@@ -72,6 +72,6 @@ Physiologist Dr. Gordon Giesbrecht established the evidence-based survival timel
 
 ### The Horizontal Kick-and-Pull
 
-Trying to lift yourself vertically out of an ice hole places your entire 80-kg body weight on a few square centimeters of brittle ice, collapsing the shelf under you. 
+Trying to lift yourself vertically out of an ice hole places your entire 80-kg body weight on a few square centimeters of brittle ice, collapsing the shelf under you.
 
 Instead, place both forearms on the ice edge, kick your feet behind you to bring your body completely horizontal on the water surface, and flutter-kick vigorously. The forward thrust of your legs pushes your torso up onto the ice like a marine mammal. Once out, roll like a log to spread your body weight across square meters of ice.

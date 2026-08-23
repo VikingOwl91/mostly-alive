@@ -62,9 +62,9 @@ When a motor vehicle leaves the roadway and enters deep water (a river, canal, l
 
 ### The Hydrostatic Pressure Lock
 
-The single most fatal mistake occupants make is attempting to push the doors open. 
+The single most fatal mistake occupants make is attempting to push the doors open.
 
-Water depth creates immense hydrostatic pressure ($P = \rho g h$). At just half a meter of submergence, the water pressing against the outside of a car door exerts a force equivalent to several hundred kilograms. No human being can push open a door against this differential pressure. 
+Water depth creates immense hydrostatic pressure ($P = \rho g h$). At just half a meter of submergence, the water pressing against the outside of a car door exerts a force equivalent to several hundred kilograms. No human being can push open a door against this differential pressure.
 
 Attempting to open the door merely wastes the 30 to 60 seconds of consciousness available before the cabin floods.
 

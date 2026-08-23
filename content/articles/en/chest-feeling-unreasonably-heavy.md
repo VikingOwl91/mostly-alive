@@ -73,6 +73,7 @@ A myocardial infarction (heart attack) occurs when an atherosclerotic plaque ins
 ### Clinical Warning Signs
 
 Classic acute coronary syndrome presents with:
+
 - **Central Chest Discomfort**: Squeezing, crushing pressure, heavy fullness, or intense burning pain in the center of the chest lasting more than a few minutes, or resolving and returning.
 - **Pain Radiation**: Sensation spreading across the shoulders, down the left arm (or both arms), into the neck, lower jaw, back, or upper epigastric region.
 - **Autonomic Discharge**: Profuse cold sweating (diaphoresis), nausea, dizziness, and extreme unprompted apprehension or impending doom.
@@ -81,6 +82,7 @@ Classic acute coronary syndrome presents with:
 ### Atypical Presentations (Women, Diabetics, and the Elderly)
 
 A critical hazard in first aid is expecting every heart attack to mirror dramatic Hollywood clutching. Women, individuals with diabetic neuropathy, and elderly patients frequently do not experience crushing central chest pain. Instead, they present with:
+
 - Unexplained profound exhaustion or sudden lightheadedness.
 - Burning sensation in the upper abdomen easily mistaken for acid reflux.
 - Isolated pain isolated solely to the jaw, upper back, or shoulder blades.

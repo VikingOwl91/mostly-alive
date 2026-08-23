@@ -64,7 +64,7 @@ sources:
     notes: 'Kopfschmerz-Charakteristik (Vernichtungskopfschmerz), Meningismus und Bildgebung.'
 ---
 
-Almost everyone experiences tension headaches or occasional migraines that build gradually over hours. 
+Almost everyone experiences tension headaches or occasional migraines that build gradually over hours.
 
 A **thunderclap headache** is fundamentally different: it is an explosive, blinding neurological event that detonates with zero warning, reaching maximum, incapacitating intensity (described uniformly as "the worst headache of my life") **in under 60 seconds**.
 
@@ -74,9 +74,9 @@ When a headache behaves like a lightning strike, it is a medical emergency of th
 
 The brain is surrounded by three protective membranes (meninges). Between the arachnoid mater and the pia mater lies the **subarachnoid space**, filled with circulating cerebrospinal fluid (CSF) and major arterial blood vessels forming the Circle of Willis.
 
-- **Aneurysm Rupture**: A balloon-like weakness in an arterial wall suddenly bursts under arterial pressure (typically 120–160 mmHg). 
-- **The Pressure Shockwave**: High-pressure arterial blood erupts directly into the fluid-filled subarachnoid space. This immediately spikes intracranial pressure, triggers violent meningeal irritation, and produces severe global vasoconstriction (*cerebral vasospasm*).
-- **The Classic Presentation**: Instantaneous 10/10 agony, often accompanied by *meningism* (inability to bend the neck forward so the chin touches the chest), photophobia (light intolerance), nausea, vomiting, confusion, or sudden collapse.
+- **Aneurysm Rupture**: A balloon-like weakness in an arterial wall suddenly bursts under arterial pressure (typically 120–160 mmHg).
+- **The Pressure Shockwave**: High-pressure arterial blood erupts directly into the fluid-filled subarachnoid space. This immediately spikes intracranial pressure, triggers violent meningeal irritation, and produces severe global vasoconstriction (_cerebral vasospasm_).
+- **The Classic Presentation**: Instantaneous 10/10 agony, often accompanied by _meningism_ (inability to bend the neck forward so the chin touches the chest), photophobia (light intolerance), nausea, vomiting, confusion, or sudden collapse.
 
 ### The "Sentinel Leak" Trap: Why Fading Pain is Not Safety
 
@@ -89,8 +89,8 @@ In approximately 15% to 30% of patients with aneurysmal subarachnoid hemorrhage,
 
 ### Why Standard Pain Relievers are Dangerous
 
-If you or someone around you suffers a thunderclap headache, **do not take aspirin, ibuprofen, naproxen, or any NSAID**. 
+If you or someone around you suffers a thunderclap headache, **do not take aspirin, ibuprofen, naproxen, or any NSAID**.
 
-These medications inhibit platelet aggregation and interfere with the clotting cascade. If the headache is caused by an active cerebral arterial leak, taking antiplatelet painkillers removes your body’s only temporary defense against catastrophic re-bleeding. 
+These medications inhibit platelet aggregation and interfere with the clotting cascade. If the headache is caused by an active cerebral arterial leak, taking antiplatelet painkillers removes your body’s only temporary defense against catastrophic re-bleeding.
 
 Call 911 / 112 immediately for emergency neuroimaging (non-contrast CT scan within 6 hours has near-100% sensitivity).

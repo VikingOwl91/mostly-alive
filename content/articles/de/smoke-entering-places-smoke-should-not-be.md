@@ -56,13 +56,14 @@ sources:
     notes: 'Thermische Rauchschichtung und Selbstrettung.'
 ---
 
-In modernen Wohnungen bestehen Möbel und Textilien fast vollständig aus synthetischen Erdölpolymeren (Polyurethanschaum in Matratzen, Polyesterstoffe, Kunststoffgehäuse). 
+In modernen Wohnungen bestehen Möbel und Textilien fast vollständig aus synthetischen Erdölpolymeren (Polyurethanschaum in Matratzen, Polyesterstoffe, Kunststoffgehäuse).
 
 Beim Brand zersetzen sich diese Materialien in dichten, pechschwarzen Rauch voller Kohlenmonoxid ($CO$), Cyanwasserstoff (Blausäure, $HCN$) und Reizgase.
 
 ### Die Thermik der Rauchschichtung
 
 Heiße Gase besitzen eine geringere Dichte und steigen mit hoher Geschwindigkeit zur Decke auf. Es bildet sich eine scharfe Zweiteilung im Raum:
+
 - **Obere Heißgasschicht**: 300 °C bis 800 °C heiß, null Sicht, voll tödlicher Blausäure.
 - **Bodennahe Pufferzone**: Die untersten 30 bis 50 cm über dem Fußboden bieten Restsauerstoff und deutlich kühlere Luft.
 

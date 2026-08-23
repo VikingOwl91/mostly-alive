@@ -59,7 +59,7 @@ sources:
     notes: 'Kälteschockphasen, 10-Minuten-Zeitfenster für motorische Selbstrettung.'
 ---
 
-Das plötzliche Einbrechen durch eine Eisdecke in eiskaltes Wasser (0 °C bis 4 °C) löst den schlagartigen physiologischen Sturm des **Kälteschocks** (*Cold Shock Response*) aus.
+Das plötzliche Einbrechen durch eine Eisdecke in eiskaltes Wasser (0 °C bis 4 °C) löst den schlagartigen physiologischen Sturm des **Kälteschocks** (_Cold Shock Response_) aus.
 
 ### Die 1-10-1-Überlebenszeitleiste
 
@@ -71,6 +71,6 @@ Die von Kältephysiologen etablierte 1-10-1-Regel definiert das Zeitfenster für
 
 ### Die horizontale Robben-Technik
 
-Wer versucht, sich wie am Beckenrand senkrecht nach oben zu stemmen, platziert sein gesamtes Körpergewicht auf wenige Quadratzentimeter Eiskante: Das Eis bricht unweigerlich weiter ab. 
+Wer versucht, sich wie am Beckenrand senkrecht nach oben zu stemmen, platziert sein gesamtes Körpergewicht auf wenige Quadratzentimeter Eiskante: Das Eis bricht unweigerlich weiter ab.
 
 Legen Sie stattdessen die Unterarme flach auf, strecken Sie die Beine nach hinten aus und schlagen Sie kräftig mit den Beinen wie beim Kraulschwimmen. Der Vorwärtsschub der Beine gleitet Ihren Oberkörper flach auf die Eisplatte. Rollen Sie sich anschließend wie eine Walze über das Eis in Sicherheit.

@@ -68,9 +68,10 @@ Utility transmission and distribution cables carry alternating potentials from 4
 
 ### The Physics of Step Potential
 
-Electricity spreads through the ground radially from the contact point, creating concentric ripples of decreasing voltage (a voltage gradient funnel or *Spannungstrichter*). 
+Electricity spreads through the ground radially from the contact point, creating concentric ripples of decreasing voltage (a voltage gradient funnel or _Spannungstrichter_).
 
 If a person takes a normal walking stride near the cable:
+
 - The front foot lands in a high-voltage ring (e.g., 8,000 V).
 - The rear foot remains in a lower-voltage ring (e.g., 3,000 V).
 - The resulting **5,000-Volt potential difference (step potential)** forces electrical current to enter through one foot, travel up the leg, across the groin, and down the other leg to earth, inducing severe deep-tissue electrothermal burns and immediate cardiac ventricular fibrillation.

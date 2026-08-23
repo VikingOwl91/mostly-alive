@@ -66,6 +66,7 @@ sources:
 ---
 
 Asthma is an inflammatory disease of the bronchial tree characterized by chronic airway hyperresponsiveness. During an acute exacerbation (asthma attack), three pathological mechanisms simultaneously choke off ventilation:
+
 1. **Bronchospasm**: Circular smooth muscle bands surrounding the bronchioles contract vigorously.
 2. **Mucosal Edema**: Vascular leakage causes rapid swelling of the airway lining.
 3. **Mucus Plugging**: Hyperactive goblet cells produce thick, tenacious mucus that blocks terminal air passages.
@@ -74,9 +75,9 @@ When an asthma attack escalates beyond the control of standard maintenance medic
 
 ### The "Silent Chest": When Missing Wheezes Mean Imminent Arrest
 
-A common diagnostic trap among bystanders and inexperienced rescuers is listening for wheezing. 
+A common diagnostic trap among bystanders and inexperienced rescuers is listening for wheezing.
 
-Wheezing is the acoustic sound of high-velocity air whistling through narrow, constricted tubes. To produce a wheeze, air must actually be moving. 
+Wheezing is the acoustic sound of high-velocity air whistling through narrow, constricted tubes. To produce a wheeze, air must actually be moving.
 
 When bronchospasm and mucus plugging become critical, airway resistance rises so drastically that the patient cannot generate sufficient tidal volume to create turbulent whistling sounds. The chest falls completely **silent**. A silent chest in an individual with obvious respiratory distress, sweating, gasping, or confusion indicates that alveolar gas exchange is nearly zero. Without immediate paramedic intervention, cardiorespiratory arrest follows within minutes.
 
@@ -84,5 +85,5 @@ When bronchospasm and mucus plugging become critical, airway resistance rises so
 
 During severe dyspnea, the primary muscle of respiration—the diaphragm—becomes exhausted under the immense pressure needed to overcome airway resistance.
 
-- **The Tripod Position (Kutscher-Sitz)**: By leaning forward with arms braced firmly against the knees or a table, the pectoral girdle is fixed in space. This mechanically converts the *pectoralis major* and *latissimus dorsi* muscles into accessory inspiratory engines, pulling the rib cage outward and upward.
+- **The Tripod Position (Kutscher-Sitz)**: By leaning forward with arms braced firmly against the knees or a table, the pectoral girdle is fixed in space. This mechanically converts the _pectoralis major_ and _latissimus dorsi_ muscles into accessory inspiratory engines, pulling the rib cage outward and upward.
 - **Dosing Escalation (The 4–10 Puff Rule)**: Standard maintenance instructions usually advise taking 1 or 2 puffs. In an acute severe attack, airway narrowing prevents most inhaled droplets from reaching distal receptors. Clinical guidelines (GINA, BTS) mandate escalating to **4 to 10 puffs of a short-acting beta-2 agonist (SABA like salbutamol/albuterol)**, preferably through a spacer to maximize lung deposition. The risk of cardiac tachyarrhythmia from salbutamol is trivial compared to the lethal hazard of untreated asphyxia.

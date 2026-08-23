@@ -62,7 +62,7 @@ When ambient air temperature and relative humidity rise, the human body's primar
 
 ### The Cellular Destruction of Hyperthermia
 
-At core temperatures above 40.5°C (105°F), cellular enzymes and structural proteins throughout the brain, liver, and cardiovascular system undergo thermal denaturation. 
+At core temperatures above 40.5°C (105°F), cellular enzymes and structural proteins throughout the brain, liver, and cardiovascular system undergo thermal denaturation.
 
 The blood-brain barrier breaks down, causing cerebral edema and neurological collapse (manifesting as agitation, bizarre behavior, seizures, and coma). Meanwhile, the intestinal mucosal barrier becomes permeable, dumping bacterial endotoxins directly into the circulation and triggering systemic inflammatory response syndrome (SIRS), disseminated intravascular coagulation (DIC), and multi-organ failure.
 

@@ -74,13 +74,13 @@ When a corrosive chemical—whether an industrial solvent, household bleach, ove
 
 In consumer first aid, people often assume that strong industrial acids (like sulfuric or hydrochloric acid) represent the most dangerous chemical exposure. In ocular trauma, **alkaline substances (bases) are significantly more destructive**:
 
-- **Acids (pH < 4.0)**: Acids denature and precipitate corneal surface proteins (*coagulative necrosis*). This coagulated protein barrier forms a physical crust that partially slows the acid from penetrating deeper into internal ocular chambers (though concentrated hydrofluoric acid is an exception).
-- **Alkalis (pH > 10.0 - Bleach, Lye, Ammonia, Drain Cleaners, Wet Cement)**: Strong alkalis saponify the fatty acids of cellular lipid membranes, causing rapid *liquefactive necrosis*. The chemical dissolves structural corneal collagen fibers and penetrates directly through the stroma into the anterior chamber in under two minutes, destroying the trabecular meshwork, iris, and lens, resulting in permanent intractable glaucoma and total blindness.
+- **Acids (pH < 4.0)**: Acids denature and precipitate corneal surface proteins (_coagulative necrosis_). This coagulated protein barrier forms a physical crust that partially slows the acid from penetrating deeper into internal ocular chambers (though concentrated hydrofluoric acid is an exception).
+- **Alkalis (pH > 10.0 - Bleach, Lye, Ammonia, Drain Cleaners, Wet Cement)**: Strong alkalis saponify the fatty acids of cellular lipid membranes, causing rapid _liquefactive necrosis_. The chemical dissolves structural corneal collagen fibers and penetrates directly through the stroma into the anterior chamber in under two minutes, destroying the trabecular meshwork, iris, and lens, resulting in permanent intractable glaucoma and total blindness.
 
 ### Why 20 Minutes of Water Trumps Every Specialized Antidote
 
 The single most critical prognostic factor determining whether a patient retains their vision is the **time elapsed between exposure and the start of irrigation**.
 
 1. **Volume and Duration**: The goal is not merely to rinse the surface, but to mechanically dilute and wash away corrosive ions that have diffused into the deep corneal stroma. Flushing must continue uninterrupted for a minimum of 15 to 20 minutes.
-2. **The Eyelid Fornix Pool**: Blepharospasm (involuntary, violent squinting caused by pain) clamps the eyelids shut, creating a sealed pocket where corrosive liquids pool in the upper and lower conjunctival recesses (*fornices*). Rescuers must physically hold the eyelids open to flush these recesses thoroughly.
+2. **The Eyelid Fornix Pool**: Blepharospasm (involuntary, violent squinting caused by pain) clamps the eyelids shut, creating a sealed pocket where corrosive liquids pool in the upper and lower conjunctival recesses (_fornices_). Rescuers must physically hold the eyelids open to flush these recesses thoroughly.
 3. **The Chemical Neutralization Fallacy**: Attempting to "neutralize" an alkaline burn with mild vinegar or an acid burn with sodium bicarbonate produces an exothermic acid-base neutralization reaction ($H^+ + OH^- \rightarrow H_2O + \text{Heat}$). The resulting thermal energy literally cooks the cornea while failing to clear trapped chemical particulate.

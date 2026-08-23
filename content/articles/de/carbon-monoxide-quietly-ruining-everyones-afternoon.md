@@ -63,11 +63,12 @@ Die Verbrennung organischer Kohlenwasserstoffe benötigt ausreichend Sauerstoff,
 
 Kohlenmonoxid gilt in der Notfallmedizin als der „stille Killer“, da es vollkommen geruchlos, farblos und geschmacklos ist und keine Reizung der Atemwege hervorruft.
 
-Wird das Gas über die Lunge eingeatmet, gelangt es direkt in die Blutkapillaren und bindet mit einer **200- bis 250-fach höheren Affinität als Sauerstoff** an das Hämoglobin der roten Blutkörperchen. Es entsteht *Carboxyhämoglobin ($COHb$)*: Das Blut kann keinen Sauerstoff mehr transportieren und gibt vorhandenen Restsauerstoff nicht mehr an das Gewebe ab. Gehirn und Herzmuskel ersticken buchstäblich von innen.
+Wird das Gas über die Lunge eingeatmet, gelangt es direkt in die Blutkapillaren und bindet mit einer **200- bis 250-fach höheren Affinität als Sauerstoff** an das Hämoglobin der roten Blutkörperchen. Es entsteht _Carboxyhämoglobin ($COHb$)_: Das Blut kann keinen Sauerstoff mehr transportieren und gibt vorhandenen Restsauerstoff nicht mehr an das Gewebe ab. Gehirn und Herzmuskel ersticken buchstäblich von innen.
 
 ### Die trügerische Grippe-Falle
 
 Weil Kohlenmonoxid keinen Hustenreiz auslöst, ähneln die Anfangssymptome einer leichten Erkältung oder Erschöpfung:
+
 - Dumpfer, drückender Stirnkopfschmerz.
 - Schwindelgefühl, Benommenheit und Ohrensausen.
 - Übelkeit, Erbrechen und ausgeprägte Muskelschwäche.

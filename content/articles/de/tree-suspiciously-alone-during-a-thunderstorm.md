@@ -60,7 +60,8 @@ Einzeln stehende Bäume sind während eines Gewitters natürliche elektrostatisc
 ### Warum das Unterstellen lebensgefährlich ist
 
 Trifft der Blitzkanal auf den Baumstamm:
+
 1. **Dampfexplosion**: Der im Holz enthaltene Baumsaft verdampft schlagartig zu überhitztem Wasserdampf. Der enorme Innendruck sprengt die Rinde und massive Holzsplitter explosionsartig meterweit durch die Luft.
-2. **Der Seitenschlag (Side-Flash)**: Holz ist ein mäßiger elektrischer Leiter. Der menschliche Körper – bestehend aus elektrolytreichem Wasser – bietet dem Strom einen wesentlich geringeren elektrischen Widerstand. Der Blitzstrom springt deshalb durch die Luft seitlich vom Stamm auf den Menschen über (*Überschlag*), fährt durch den Körper und tritt über die Füße in den Boden aus.
+2. **Der Seitenschlag (Side-Flash)**: Holz ist ein mäßiger elektrischer Leiter. Der menschliche Körper – bestehend aus elektrolytreichem Wasser – bietet dem Strom einen wesentlich geringeren elektrischen Widerstand. Der Blitzstrom springt deshalb durch die Luft seitlich vom Stamm auf den Menschen über (_Überschlag_), fährt durch den Körper und tritt über die Füße in den Boden aus.
 
 Halten Sie immer einen Abstand ein, der mindestens der doppelten Höhe des Baumes entspricht.

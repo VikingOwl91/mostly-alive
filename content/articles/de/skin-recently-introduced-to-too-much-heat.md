@@ -80,6 +80,7 @@ Ein gravierender physikalischer Trugschluss bei thermischen Traumata ist die Ann
 ### Die 20-Minuten-Wasserkühlung
 
 Internationale Verbrennungsleitlinien belegen, dass das Kühlen mit **fließendem, kühlem Leitungswasser (10 °C bis 20 °C) für volle 20 Minuten** die mit Abstand wirksamste Erstmaßnahme darstellt:
+
 1. Es entzieht dem Gewebe die Resthitze und stoppt das Nachbrennen in die Subkutis.
 2. Es stabilisiert die Membranpotenziale gereizter Schmerzrezeptoren und lindert den Schmerz nachhaltig.
 3. Es begrenzt die Entzündungsreaktion und die Kapillarpermeabilität, wodurch Wundödeme und spätere Transplantationsnotwendigkeiten signifikant reduziert werden.

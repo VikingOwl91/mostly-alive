@@ -65,7 +65,7 @@ Throwing even a small cup of tap water onto burning cooking oil triggers one of 
 
 1. **Density Disparity**: Liquid water has a density of approximately $1.0 \text{ g/cm}^3$, whereas cooking oil has a density of approximately $0.9 \text{ g/cm}^3$. The cold water immediately sinks to the bottom of the superheated pot.
 2. **Flash Phase Change**: The liquid oil is sitting at over 300°C—triple the boiling temperature of water. The submerged water absorbs thermal energy instantaneously, converting into steam in fractions of a second.
-3. **Volumetric Expansion**: When water transitions to gaseous steam at atmospheric pressure, it expands by a factor of approximately **1,700 to 1**. 
+3. **Volumetric Expansion**: When water transitions to gaseous steam at atmospheric pressure, it expands by a factor of approximately **1,700 to 1**.
 4. **The Aerosol Fireball**: As the steam bubble detonates outward from the bottom of the pan, it rips the liquid burning oil into billions of microscopic droplets, creating an enormous high-surface-area fuel aerosol that ignites instantaneously in the room's oxygen. A single 200 ml glass of water can generate a fire column ten feet high.
 
 ### How to Smother Correctly

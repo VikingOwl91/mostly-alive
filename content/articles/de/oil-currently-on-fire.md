@@ -70,6 +70,6 @@ Wird auch nur eine kleine Tasse Leitungswasser in einen brennenden Topf gegossen
 
 ### Richtiges Ersticken
 
-Die einzige wirksame Sofortmaßnahme ist der physikalische Sauerstoffentzug: Durch das flache Aufschieben eines Metalldeckels verbrauchen die Flammen den Restsauerstoff im Topf und erlöschen in wenigen Sekunden. 
+Die einzige wirksame Sofortmaßnahme ist der physikalische Sauerstoffentzug: Durch das flache Aufschieben eines Metalldeckels verbrauchen die Flammen den Restsauerstoff im Topf und erlöschen in wenigen Sekunden.
 
-Der Topf muss danach zwingend unberührt abkühlen: Da das flüssige Fett noch lange Zeit über seiner Zündtemperatur bleibt, führt ein voreiliges Anheben des Deckels durch den einströmenden Sauerstoff zur sofortigen explosionsartigen Rückzündung (*Backdraft*).
+Der Topf muss danach zwingend unberührt abkühlen: Da das flüssige Fett noch lange Zeit über seiner Zündtemperatur bleibt, führt ein voreiliges Anheben des Deckels durch den einströmenden Sauerstoff zur sofortigen explosionsartigen Rückzündung (_Backdraft_).

@@ -60,6 +60,7 @@ Tall isolated trees are natural electrostatic focal points during electrical sto
 ### The Physics of Side-Flash and Steam Explosions
 
 When a multi-kiloampere lightning return stroke attaches to a tree trunk:
+
 1. **Steam Detonation**: Tree sap within the cambium layer absorbs extreme resistive energy, instantaneously vaporizing into high-pressure steam that shatters the bark and hurls sharp wood shards in all directions.
 2. **Side-Flash Arc**: Wood is a relatively poor electrical conductor. The human body—composed of salty electrolyte-rich water—presents a path of far lower electrical impedance. Current readily jumps (arcs) sideways across several meters through the air from the trunk into a human sheltering underneath, entering through the head and exiting into the ground.
 

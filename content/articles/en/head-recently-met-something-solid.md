@@ -79,14 +79,14 @@ sources:
 
 The human brain is a fragile, jelly-like organ weighing approximately 1.4 kilograms, suspended inside a rigid, unyielding spherical casing of bone: the cranium. Between the brain and the skull walls sits a shock-absorbing layer of cerebrospinal fluid (CSF).
 
-When the head undergoes sudden violent deceleration—from a fall, sports collision, assault, or vehicle impact—the brain crashes against the interior bony ridges of the skull (*coup* injury), rebounds against the opposite wall (*contrecoup* injury), and undergoes destructive rotational shearing forces that stretch and tear microscopic axonal fibers throughout the cerebral white matter.
+When the head undergoes sudden violent deceleration—from a fall, sports collision, assault, or vehicle impact—the brain crashes against the interior bony ridges of the skull (_coup_ injury), rebounds against the opposite wall (_contrecoup_ injury), and undergoes destructive rotational shearing forces that stretch and tear microscopic axonal fibers throughout the cerebral white matter.
 
 ### Recognizing Red Flags vs. Mild Concussion
 
 While a mild concussion causes temporary confusion, headache, dizziness, and light sensitivity, high-energy kinetic impacts risk expanding intracranial hemorrhages (epidural, subdural, or intracerebral hematomas) that compress brain tissue against the skull:
 
 - **Unequal Pupils (Anisocoria)**: When an expanding blood clot increases intracranial pressure on the third cranial nerve (oculomotor nerve), the pupil on the side of the bleed becomes fixed and dilated. This is a critical neurosurgical emergency.
-- **Cerebrospinal Fluid (CSF) Leakage**: A fracture of the skull base tears the underlying dura mater, allowing clear, watery CSF to leak from the ears (otorrhea) or nose (rhinorrhea). Placing dressings *inside* the ear or nose blocks drainage and provides a direct pathway for bacteria to enter the subarachnoid space, causing fatal meningitis.
+- **Cerebrospinal Fluid (CSF) Leakage**: A fracture of the skull base tears the underlying dura mater, allowing clear, watery CSF to leak from the ears (otorrhea) or nose (rhinorrhea). Placing dressings _inside_ the ear or nose blocks drainage and provides a direct pathway for bacteria to enter the subarachnoid space, causing fatal meningitis.
 - **Anticoagulant Use**: Elderly patients or individuals taking blood-thinning medications (e.g., Warfarin, Rivaroxaban, Apixaban) can experience massive delayed intracranial bleeding from seemingly minor, low-velocity bumps against a wall or cupboard.
 
 ### The Cervical Spine and the "Airway Trumps Spine" Rule

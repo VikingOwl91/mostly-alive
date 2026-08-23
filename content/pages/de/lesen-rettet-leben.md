@@ -17,7 +17,7 @@ Mostly Alive maßt sich nicht an, dass das bloße Lesen von Texten auf einem Bil
 
 Was Lesen jedoch leistet, ist ungleich wirksamer und fundamental: **vorinstallierte Mustererkennung.**
 
-Du kannst dir in der Regel nicht aussuchen, wann ein Notfall eintritt. Du *kannst* dir jedoch aussuchen, das entscheidende Wissen vorher einmal gesehen zu haben.
+Du kannst dir in der Regel nicht aussuchen, wann ein Notfall eintritt. Du _kannst_ dir jedoch aussuchen, das entscheidende Wissen vorher einmal gesehen zu haben.
 
 ---
 
@@ -43,10 +43,11 @@ Wer das konkrete Erkennungsmerkmal vorher kennt, verwandelt Schockstarre in refl
 
 ### Warum der Ton trocken, bildhaft und einprägsam ist
 
-Das menschliche Gehirn ist bemerkenswert schlecht darin, bürokratische Sicherheitshinweise abzuspeichern. Eine sterile Broschüre, die rät, *„bei konvektiven meteorologischen Ereignissen exponierte Geländepunkte zu meiden“*, ist zehn Minuten nach dem Lesen vergessen.
+Das menschliche Gehirn ist bemerkenswert schlecht darin, bürokratische Sicherheitshinweise abzuspeichern. Eine sterile Broschüre, die rät, _„bei konvektiven meteorologischen Ereignissen exponierte Geländepunkte zu meiden“_, ist zehn Minuten nach dem Lesen vergessen.
 
 Ungewöhnliche, konkrete Informationen bleiben haften, wenn sie an etwas Plastischem verankert sind:
-- Ein Titel wie *„Haare stehen plötzlich senkrecht zu Berge“* verankert das körperliche Warnsignal unmittelbar.
+
+- Ein Titel wie _„Haare stehen plötzlich senkrecht zu Berge“_ verankert das körperliche Warnsignal unmittelbar.
 - Zu wissen, dass Erdgas künstlich nach faulen Eiern riecht, weil reines Methan geruchlos ist, macht Chemie zum sensorischen Reflex.
 - Die Erklärung, dass Wasser in heißem Fett eine 1.700-fache Dampfexplosion auslöst, brennt den physikalischen Mechanismus ins Gedächtnis ein.
 

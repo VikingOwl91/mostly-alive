@@ -67,11 +67,11 @@ Menschen investieren beträchtliche Ressourcen, um ihrem Haar Volumen zu verleih
 
 Allerdings unter extrem hoher elektrischer Spannung.
 
-Wenn deine Haare bei einem aufziehenden Gewitter plötzlich senkrecht nach oben stehen, deine Haut kribbelt oder metallische Gegenstände in der Nähe leise summen oder ein bläuliches Leuchten zeigen (Elmsfeuer), hat der lokale elektrostatische Feldstärkegradient Hunderte von Kilovolt pro Meter überschritten. Du stehst exakt in einem aufsteigenden Fangentladungskanal (*Upward Streamer*).
+Wenn deine Haare bei einem aufziehenden Gewitter plötzlich senkrecht nach oben stehen, deine Haut kribbelt oder metallische Gegenstände in der Nähe leise summen oder ein bläuliches Leuchten zeigen (Elmsfeuer), hat der lokale elektrostatische Feldstärkegradient Hunderte von Kilovolt pro Meter überschritten. Du stehst exakt in einem aufsteigenden Fangentladungskanal (_Upward Streamer_).
 
 ### Die Physik der Vorentladung
 
-Vor einem Wolke-Boden-Blitz tastet sich ein unsichtbarer Vorentladungskanal (*Stepped Leader*) in 50-Meter-Sprüngen aus der Wolke nach unten. Als Reaktion darauf schießen von exponierten Objekten am Boden – Zäunen, Felsen, Bäumen und menschlichen Köpfen – hochgespannte positive Fangentladungen in den Himmel.
+Vor einem Wolke-Boden-Blitz tastet sich ein unsichtbarer Vorentladungskanal (_Stepped Leader_) in 50-Meter-Sprüngen aus der Wolke nach unten. Als Reaktion darauf schießen von exponierten Objekten am Boden – Zäunen, Felsen, Bäumen und menschlichen Köpfen – hochgespannte positive Fangentladungen in den Himmel.
 
 Sobald der Kanal der Wolke auf eine Fangentladung trifft, schließt sich der Stromkreis: Ein Hauptblitz mit 20.000 bis 200.000 Ampere rast mit einem Drittel der Lichtgeschwindigkeit durch diese ionisierte Plasmabahn. Die Haare stehen nach oben ab, weil sich die gleichnamigen elektrostatischen Ladungen auf jedem einzelnen Haarstrang gegenseitig massiv abstoßen.
 

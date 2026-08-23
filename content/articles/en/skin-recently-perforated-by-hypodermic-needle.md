@@ -69,6 +69,7 @@ sources:
 Encountering an accidental needle puncture—whether from an improperly discarded syringe in a park, an occupational sharps injury in healthcare, or stepping on a needle through footwear—triggers immediate anxiety regarding bloodborne pathogens.
 
 The primary infectious pathogens of concern are:
+
 1. **Hepatitis B Virus (HBV)**: Highly infectious (up to 30% transmission risk in non-immune individuals exposed to HBeAg-positive blood).
 2. **Hepatitis C Virus (HCV)**: Moderate transmission risk (~1.8% to 3%).
 3. **Human Immunodeficiency Virus (HIV)**: Lower percutaneous transmission risk (~0.3% from a known HIV-positive hollow-bore needle), but catastrophic if untreated.
@@ -77,9 +78,10 @@ The primary infectious pathogens of concern are:
 
 When a sharp needle enters skin, it deposits microscopic droplets of blood and fluid into the dermis and subcutaneous fat.
 
-The intuitive reflex of many victims is to forcefully squeeze and pinch the puncture, attempting to "force the venom out." 
+The intuitive reflex of many victims is to forcefully squeeze and pinch the puncture, attempting to "force the venom out."
 
 Physiologically, heavy manual compression does the exact opposite:
+
 - Squeezing causes mechanical micro-damage to surrounding capillaries and lymph vessels.
 - When pressure is released, the recoil creates **negative interstitial tissue pressure**, which acts like a suction pump, drawing foreign viral particles directly into open lymphatic capillaries and systemic circulation.
 - The correct first-aid procedure is **gentle washing with mild soap under warm running water**, allowing natural blood flow to exit spontaneously without mechanical crushing.

@@ -72,11 +72,11 @@ Tritt ein Kopfschmerz mit dieser Blitzartigkeit auf, handelt es sich um einen ne
 
 ### Der Mechanismus: Aneurysmaruptur und Subarachnoidalblutung
 
-Das Gehirn ist von drei Hirnhäuten umgeben. Zwischen der Spinnwebenhaut (*Arachnoidea*) und der inneren Hirnhaut (*Pia mater*) liegt der **Subarachnoidalraum**, der mit zirkulierendem Hirnwasser (Liquor) und den großen hirnversorgenden Arterien ausgefüllt ist.
+Das Gehirn ist von drei Hirnhäuten umgeben. Zwischen der Spinnwebenhaut (_Arachnoidea_) und der inneren Hirnhaut (_Pia mater_) liegt der **Subarachnoidalraum**, der mit zirkulierendem Hirnwasser (Liquor) und den großen hirnversorgenden Arterien ausgefüllt ist.
 
 - **Aneurysmaruptur**: Eine angeborene oder erworbene Aussackung einer Hirnschlagader platzt unter dem arteriellen Blutdruck plötzlich auf.
-- **Die Druck-Schockwelle**: Mit jedem Herzschlag schießt arterielles Blut unter hohem Druck in den geschlossenen Hirnwasserraum. Der Schädelinnendruck schnellt schlagartig nach oben, die Hirnhäute werden extrem gereizt und die Gefäße verengen sich krampfartig (*Vasospasmus*).
-- **Die Begleitsymptome**: Neben dem vernichtenden Schmerz treten häufig ein steifer Nacken (*Meningismus* – das Kinn kann nicht mehr auf die Brust gesenkt werden), extreme Lichtempfindlichkeit, Übelkeit mit schwallartigem Erbrechen oder ein plötzlicher Kollaps auf.
+- **Die Druck-Schockwelle**: Mit jedem Herzschlag schießt arterielles Blut unter hohem Druck in den geschlossenen Hirnwasserraum. Der Schädelinnendruck schnellt schlagartig nach oben, die Hirnhäute werden extrem gereizt und die Gefäße verengen sich krampfartig (_Vasospasmus_).
+- **Die Begleitsymptome**: Neben dem vernichtenden Schmerz treten häufig ein steifer Nacken (_Meningismus_ – das Kinn kann nicht mehr auf die Brust gesenkt werden), extreme Lichtempfindlichkeit, Übelkeit mit schwallartigem Erbrechen oder ein plötzlicher Kollaps auf.
 
 ### Die tückische Warnblutung (Sentinel Headache)
 
@@ -89,8 +89,8 @@ Bei 15 % bis 30 % aller Betroffenen mit rupturiertem Aneurysma kündigt sich die
 
 ### Warum herkömmliche Schmerzmittel lebensgefährlich sind
 
-Wer einen schlagartigen Vernichtungskopfschmerz erleidet, darf **kein Aspirin (ASS), Ibuprofen oder Diclofenac** einnehmen. 
+Wer einen schlagartigen Vernichtungskopfschmerz erleidet, darf **kein Aspirin (ASS), Ibuprofen oder Diclofenac** einnehmen.
 
-Diese Wirkstoffe hemmen die Thrombozytenaggregation (Blutgerinnung). Liegt eine arterielle Hirnblutung vor, zerstört die Einnahme von ASS den einzigen natürlichen Schutzmechanismus des Körpers, die Gefäßleckage provisorisch abzudichten. 
+Diese Wirkstoffe hemmen die Thrombozytenaggregation (Blutgerinnung). Liegt eine arterielle Hirnblutung vor, zerstört die Einnahme von ASS den einzigen natürlichen Schutzmechanismus des Körpers, die Gefäßleckage provisorisch abzudichten.
 
 Wähle sofort den **Notruf 112**, um ein unverzügliches Notfall-CT des Schädels in einer Stroke Unit oder Neurochirurgie durchführen zu lassen.

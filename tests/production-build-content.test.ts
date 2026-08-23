@@ -9,9 +9,9 @@ import {
 } from '../src/lib/server/content';
 
 describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
-	it('should contain all 31 EN articles without filesystem access', () => {
+	it('should contain all 50 EN articles without filesystem access', () => {
 		const articles = loadAllArticles('en');
-		expect(articles.length).toBe(31);
+		expect(articles.length).toBe(50);
 		const slugs = articles.map((a) => a.slug);
 		expect(slugs).toContain('person-currently-choking');
 		expect(slugs).toContain('hair-suddenly-vertical');
@@ -34,11 +34,30 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(slugs).toContain('sudden-crushing-headache-like-thunder');
 		expect(slugs).toContain('tick-currently-attached-and-dining');
 		expect(slugs).toContain('tooth-violently-evicted-from-mouth');
+		expect(slugs).toContain('person-unconscious-but-inconveniently-still-breathing');
+		expect(slugs).toContain('something-important-is-no-longer-attached');
+		expect(slugs).toContain('blood-sugar-has-left-the-chat');
+		expect(slugs).toContain('body-part-pointing-in-a-new-and-unapproved-direction');
+		expect(slugs).toContain('person-looking-alarmingly-pale-after-something-bad-happened');
+		expect(slugs).toContain('vehicle-currently-touching-a-power-line');
+		expect(slugs).toContain('car-currently-on-fire');
+		expect(slugs).toContain('cleaning-products-have-formed-an-alliance');
+		expect(slugs).toContain('something-is-stuck-in-a-person');
+		expect(slugs).toContain('animal-has-made-an-unplanned-hole-in-you');
+		expect(slugs).toContain('snake-has-expressed-an-opinion');
+		expect(slugs).toContain('building-has-started-moving-without-permission');
+		expect(slugs).toContain('sky-is-rotating-more-than-usual');
+		expect(slugs).toContain('wildfire-is-now-considerably-less-distant');
+		expect(slugs).toContain('elevator-has-stopped-being-an-elevator');
+		expect(slugs).toContain('escalator-currently-eating-something');
+		expect(slugs).toContain('open-chest-wound-sucking-sound');
+		expect(slugs).toContain('frostbite-turning-fingers-waxy-and-solid');
+		expect(slugs).toContain('heat-cramps-and-exhaustion-escalating');
 	});
 
-	it('should contain all 31 DE articles without filesystem access', () => {
+	it('should contain all 50 DE articles without filesystem access', () => {
 		const articles = loadAllArticles('de');
-		expect(articles.length).toBe(31);
+		expect(articles.length).toBe(50);
 		const slugs = articles.map((a) => a.slug);
 		expect(slugs).toContain('person-currently-choking');
 		expect(slugs).toContain('hair-suddenly-vertical');
@@ -61,6 +80,25 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(slugs).toContain('sudden-crushing-headache-like-thunder');
 		expect(slugs).toContain('tick-currently-attached-and-dining');
 		expect(slugs).toContain('tooth-violently-evicted-from-mouth');
+		expect(slugs).toContain('person-unconscious-but-inconveniently-still-breathing');
+		expect(slugs).toContain('something-important-is-no-longer-attached');
+		expect(slugs).toContain('blood-sugar-has-left-the-chat');
+		expect(slugs).toContain('body-part-pointing-in-a-new-and-unapproved-direction');
+		expect(slugs).toContain('person-looking-alarmingly-pale-after-something-bad-happened');
+		expect(slugs).toContain('vehicle-currently-touching-a-power-line');
+		expect(slugs).toContain('car-currently-on-fire');
+		expect(slugs).toContain('cleaning-products-have-formed-an-alliance');
+		expect(slugs).toContain('something-is-stuck-in-a-person');
+		expect(slugs).toContain('animal-has-made-an-unplanned-hole-in-you');
+		expect(slugs).toContain('snake-has-expressed-an-opinion');
+		expect(slugs).toContain('building-has-started-moving-without-permission');
+		expect(slugs).toContain('sky-is-rotating-more-than-usual');
+		expect(slugs).toContain('wildfire-is-now-considerably-less-distant');
+		expect(slugs).toContain('elevator-has-stopped-being-an-elevator');
+		expect(slugs).toContain('escalator-currently-eating-something');
+		expect(slugs).toContain('open-chest-wound-sucking-sound');
+		expect(slugs).toContain('frostbite-turning-fingers-waxy-and-solid');
+		expect(slugs).toContain('heat-cramps-and-exhaustion-escalating');
 	});
 
 	it('should contain all EN static pages including Reading Saves Lives', () => {

@@ -57,13 +57,14 @@ sources:
     notes: 'Rauchvergiftung, geschlossene Türen und Fluchtwegregeln.'
 ---
 
-In modern residential architecture, interior furnishings are composed predominantly of synthetic petrochemical polymers (polyurethane foam mattresses, PVC conduits, synthetic polyester upholstery). 
+In modern residential architecture, interior furnishings are composed predominantly of synthetic petrochemical polymers (polyurethane foam mattresses, PVC conduits, synthetic polyester upholstery).
 
 When these materials ignite, they decompose into dense, black, superheated plumes containing lethal concentrations of carbon monoxide ($CO$), hydrogen cyanide ($HCN$), and phosgene.
 
 ### The Physics of Thermal Stratification
 
 Heat decreases gas density. As combustion gases heat up, they expand and rise violently toward the ceiling, creating a distinct two-zone atmospheric stratification:
+
 - **Upper Zone**: Superheated toxic gas layer (temperatures from 300°C to 800°C) with near-zero visibility and lethal cyanide levels.
 - **Lower Zone**: A 30 to 50 cm buffer layer along the floor containing residual oxygen and significantly lower thermal loads.
 

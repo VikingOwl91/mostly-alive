@@ -81,6 +81,7 @@ Bei einer Anaphylaxie detonieren sensibilisierte Mastzellen und basophile Granul
 ### Symptomkomplex der Anaphylaxie
 
 Eine systemische Anaphylaxie entwickelt sich typischerweise innerhalb von Sekunden bis wenigen Minuten und betrifft mehrere Organsysteme:
+
 - **Atemwege**: Kloßgefühl im Hals, Heiserkeit, pfeifendes Atemgeräusch (Stridor), Schluckbeschwerden, Keuchen oder akute Erstickungsangst.
 - **Kreislauf & ZNS**: Schwindel, plötzliche Blässe, Kaltschweißigkeit, Verwirrtheit, Kollaps oder Bewusstlosigkeit durch distributiven Schock.
 - **Haut & Schleimhäute**: Ausgeprägter Juckreiz an Handflächen und Fußsohlen, Nesselsucht (Urtikaria), Rötung (Flush) und massive Schwellungen an Lippen, Zunge und Augenlidern (Angioödem).
@@ -89,6 +90,7 @@ Eine systemische Anaphylaxie entwickelt sich typischerweise innerhalb von Sekund
 ### Adrenalin: Das einzige Mittel der ersten Wahl
 
 Für die intramuskuläre Adrenalingabe gibt es in der Akutphase keinen Ersatz. Adrenalin wirkt als physiologischer Gegenspieler an den relevanten Rezeptoren:
+
 1. Es aktiviert Alpha-1-Adrenorezeptoren, verengt die erschlafften Blutgefäße und stabilisiert den Blutdruck.
 2. Es aktiviert Beta-2-Adrenorezeptoren, entspannt die Bronchien, stoppt die weitere Freisetzung von Entzündungsmediatoren und reduziert das Schleimhautödem.
 

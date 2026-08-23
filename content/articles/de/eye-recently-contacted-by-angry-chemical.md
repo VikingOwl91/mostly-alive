@@ -74,13 +74,13 @@ Trifft eine ätzende Chemikalie—egal ob Rohrreiniger, Bleichmittel, Ofenspray,
 
 Im Laien-Verständnis gelten starke Säuren oft als die gefährlichsten Substanzen. In der Augenheilkunde sind **Laugen (Basen) jedoch weitaus destruktiver**:
 
-- **Säuren (pH < 4,0)**: Säuren denaturieren die Proteine der oberflächlichen Hornhautzellen (*Koagulationsnekrose*). Das geronnene Eiweiß bildet eine feste Barriere, die das weitere Eindringen der Säure in tiefere Schichten hemmt (eine gefährliche Ausnahme bildet Flusssäure).
-- **Laugen (pH > 10,0 - Rohrreiniger, Abflussreiniger, Ammoniak, Kalk, feuchter Beton)**: Starke Laugen verseifen die Fettsäuren der Zellmembranen (*Kolliquationsnekrose*). Die Lauge verflüssigt die Hornhautmatrix und dringt binnen zwei bis drei Minuten ungehindert in die vordere Augenkammer vor. Dort zerstört sie Iris, Linse und das Trabekelwerk, was zu irreversiblem Grünem Star und vollständiger Erblindung führt.
+- **Säuren (pH < 4,0)**: Säuren denaturieren die Proteine der oberflächlichen Hornhautzellen (_Koagulationsnekrose_). Das geronnene Eiweiß bildet eine feste Barriere, die das weitere Eindringen der Säure in tiefere Schichten hemmt (eine gefährliche Ausnahme bildet Flusssäure).
+- **Laugen (pH > 10,0 - Rohrreiniger, Abflussreiniger, Ammoniak, Kalk, feuchter Beton)**: Starke Laugen verseifen die Fettsäuren der Zellmembranen (_Kolliquationsnekrose_). Die Lauge verflüssigt die Hornhautmatrix und dringt binnen zwei bis drei Minuten ungehindert in die vordere Augenkammer vor. Dort zerstört sie Iris, Linse und das Trabekelwerk, was zu irreversiblem Grünem Star und vollständiger Erblindung führt.
 
 ### Warum 20 Minuten Wasser jedes Spezialmittel schlagen
 
 Der wichtigste prognostische Faktor für den Erhalt des Sehvermögens ist die **Zeitspanne zwischen Chemikalienkontakt und Beginn der Wasserspülung**.
 
 1. **Spüldauer und Volumen**: Es reicht nicht aus, das Auge kurz auszuwaschen. Die Spülung muss mindestens 15 bis 20 Minuten ununterbrochen laufen, um ätzende Ionen aus den tieferen Hornhautschichten herauszuwaschen und den physiologischen pH-Wert wiederherzustellen.
-2. **Die Lidkrampf-Falle (Blepharospasmus)**: Durch den extremen Schmerz verkrampft der Augenmuskel unwillkürlich. In den Umschlagfalten der Augenlider (*Fornices*) sammeln sich ätzende Reste. Das Auge muss aktiv mit gespreizten Lidern gespült werden, während der Patient in alle Richtungen blickt.
+2. **Die Lidkrampf-Falle (Blepharospasmus)**: Durch den extremen Schmerz verkrampft der Augenmuskel unwillkürlich. In den Umschlagfalten der Augenlider (_Fornices_) sammeln sich ätzende Reste. Das Auge muss aktiv mit gespreizten Lidern gespült werden, während der Patient in alle Richtungen blickt.
 3. **Die Neutralisations-Katastrophe**: Der Versuch, eine Lauge mit Essig oder eine Säure mit Natron zu neutralisieren, setzt eine exotherme Reaktion frei ($H^+ + OH^- \rightarrow H_2O + \text{Wärme}$). Die entstehende Hitze denaturiert Hornhautproteine thermisch und verbrennt das Auge zusätzlich.

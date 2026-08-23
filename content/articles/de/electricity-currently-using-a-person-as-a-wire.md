@@ -78,7 +78,7 @@ Da die Netzfrequenz von 50 Hertz exakt mit der vulnerablen Phase der Herzmuskelr
 
 ### Der Tetanus-Effekt: Die Loslass-Schwelle
 
-Haushaltswechselstrom zwingt die Skelettmuskulatur zu 50 Kontraktionen pro Sekunde. Da die Beugemuskeln des Unterarms (die die Finger zur Faust schließen) deutlich kräftiger sind als die Streckmuskeln, führt ein Stromfluss durch die Handinnenfläche zu einem unwillkürlichen, unlösbaren Verkrampfungsgriff um das stromführende Kabel (*Krampfgriff*, ab etwa 10 bis 16 Milliampere). 
+Haushaltswechselstrom zwingt die Skelettmuskulatur zu 50 Kontraktionen pro Sekunde. Da die Beugemuskeln des Unterarms (die die Finger zur Faust schließen) deutlich kräftiger sind als die Streckmuskeln, führt ein Stromfluss durch die Handinnenfläche zu einem unwillkürlichen, unlösbaren Verkrampfungsgriff um das stromführende Kabel (_Krampfgriff_, ab etwa 10 bis 16 Milliampere).
 
 Greift ein unbedarfter Ersthelfer nun mit bloßen Händen nach dem Verunfallten, fließt der Strom sofort über die Kontaktstelle in den Retter: Beide Personen sind im tödlichen Stromkreis gefangen.
 
@@ -91,7 +91,7 @@ Greift ein unbedarfter Ersthelfer nun mit bloßen Händen nach dem Verunfallten,
 2. **Hochspannung (≥ 1.000 Volt / Bahn-Oberleitungen, Überlandleitungen)**:
    - Erfordert keinen Kontakt: Hochspannung ionisiert die Luft und schlägt als gewaltiger Lichtbogen über Distanzen von mehreren Metern über.
    - Erzeugt extreme thermische Lichtbogenverbrennungen (mehrere tausend Grad) und schleudert Personen meterweit durch die Luft.
-   - Bildet im Erdreich einen lebensgefährlichen Spannungstrichter (*Schrittspannung*).
+   - Bildet im Erdreich einen lebensgefährlichen Spannungstrichter (_Schrittspannung_).
    - Rettung: **Mindestens 10 Meter Abstand halten** und warten, bis der Energieversorger die Leitung nachweislich geerdet und freigeschaltet hat.
 
 ### Innere Verbrennungen und Rhabdomyolyse

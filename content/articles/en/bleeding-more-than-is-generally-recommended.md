@@ -64,7 +64,7 @@ sources:
     notes: 'Hemostatic dressings, tourniquet timing, and junctional hemorrhage management.'
 ---
 
-The adult human cardiovascular system contains roughly five liters of pressurized blood pumped at velocities exceeding thirty centimeters per second through the major arterial conduits. 
+The adult human cardiovascular system contains roughly five liters of pressurized blood pumped at velocities exceeding thirty centimeters per second through the major arterial conduits.
 
 When a high-energy trauma (deep laceration, machinery accident, explosive fragment, or vehicular puncture) severs an artery, hydraulic pressure shoots blood outward in pulsatile jets.
 

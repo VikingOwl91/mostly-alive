@@ -61,12 +61,12 @@ Erdgas (überwiegend Methan, $CH_4$) ist ein hervorragender Energieträger, da e
 
 ### Warum Erdgas nach faulen Eiern riecht
 
-In seinem natürlichen Zustand ist Methan vollkommen geruchlos, farblos und ungiftig. Nach verheerenden Explosionskatastrophen im 20. Jahrhundert führten Gesetzgeber weltweit die obligatorische Odorierung ein: Gasversorger mischen dem Brenngas winzige Mengen intensiv riechender organischer Schwefelverbindungen (z. B. *Tetrahydrothiophen (THT)* oder *tert-Butylmercaptan*) bei.
+In seinem natürlichen Zustand ist Methan vollkommen geruchlos, farblos und ungiftig. Nach verheerenden Explosionskatastrophen im 20. Jahrhundert führten Gesetzgeber weltweit die obligatorische Odorierung ein: Gasversorger mischen dem Brenngas winzige Mengen intensiv riechender organischer Schwefelverbindungen (z. B. _Tetrahydrothiophen (THT)_ oder _tert-Butylmercaptan_) bei.
 
 Dieser stechende Schwefelgeruch nach faulen Eiern ist biologisch so intensiv, dass der Mensch ein Gasleck wahrnimmt, lange bevor die untere Explosionsgrenze erreicht ist.
 
 ### Die Gefahr von Mikrofunken
 
-Der fatalste Fehler bei Gasgeruch ist der reflexive Griff zum Lichtschalter oder das Klingeln bei den Nachbarn. 
+Der fatalste Fehler bei Gasgeruch ist der reflexive Griff zum Lichtschalter oder das Klingeln bei den Nachbarn.
 
 Klassische mechanische Wippschalter trennen Kontakte über federbelastete Kupferzungen. Beim Schalten entsteht im mikroskopischen Luftspalt für Millisekunden ein kleiner Lichtbogen (Abreißfunke). In einem gasgesättigten Raum setzt dieser winzige Funke weit mehr als die minimale Zündenergie von 0,28 Millijoule frei – das gesamte Raumvolumen detoniert schlagartig.

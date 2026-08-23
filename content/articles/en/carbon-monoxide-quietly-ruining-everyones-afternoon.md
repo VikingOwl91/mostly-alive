@@ -60,15 +60,16 @@ Combustion of organic hydrocarbons requires an adequate stoichiometric supply of
 
 ### Biochemical Cellular Asphyxiation
 
-Carbon monoxide is universally known in clinical toxicology as the "silent killer" because it has no odor, no color, no taste, and causes no respiratory irritation. 
+Carbon monoxide is universally known in clinical toxicology as the "silent killer" because it has no odor, no color, no taste, and causes no respiratory irritation.
 
-Once inhaled into the pulmonary alveoli, carbon monoxide diffuses effortlessly across the capillary membrane and binds to the iron heme groups of hemoglobin with an affinity **200 to 250 times greater than oxygen**. 
+Once inhaled into the pulmonary alveoli, carbon monoxide diffuses effortlessly across the capillary membrane and binds to the iron heme groups of hemoglobin with an affinity **200 to 250 times greater than oxygen**.
 
-This forms *carboxyhemoglobin ($COHb$)*, which not only renders hemoglobin incapable of carrying oxygen to the brain and heart, but also shifts the oxygen-hemoglobin dissociation curve to the left, preventing the remaining oxygen from being released to hypoxic tissues.
+This forms _carboxyhemoglobin ($COHb$)_, which not only renders hemoglobin incapable of carrying oxygen to the brain and heart, but also shifts the oxygen-hemoglobin dissociation curve to the left, preventing the remaining oxygen from being released to hypoxic tissues.
 
 ### The Flu-Like Symptoms Trap
 
 Because carbon monoxide poisoning causes no coughing or eye stinging, early toxicity presents deceptively as a viral illness:
+
 - Dull frontal tension headache.
 - Dizziness and lightheadedness.
 - Nausea, vomiting, and fatigue.

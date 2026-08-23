@@ -83,11 +83,11 @@ sources:
 
 The human circulatory system is an entirely closed hydraulic circuit. The left ventricle pumps pressurized oxygenated blood into the aorta, maintaining a cerebral perfusion pressure of at least 60 mmHg. When the heart abruptly ceases mechanical pumping—typically triggered by chaotic ventricular fibrillation (VF) or pulseless electrical activity (PEA)—systemic arterial blood pressure crashes to zero in less than three seconds.
 
-Without active arterial perfusion, consciousness is lost within 10 to 15 seconds. Irreversible ischemic neuronal death in the cerebral cortex begins in under four minutes. 
+Without active arterial perfusion, consciousness is lost within 10 to 15 seconds. Irreversible ischemic neuronal death in the cerebral cortex begins in under four minutes.
 
 ### Recognizing Cardiac Arrest (The Agonal Breathing Trap)
 
-The single greatest point of failure in lay resuscitation is misinterpreting **agonal respiration**. In approximately 50% of sudden cardiac arrests, the hypoxic brainstem continues firing sporadic, reflexive electrical impulses to the diaphragm for several minutes. 
+The single greatest point of failure in lay resuscitation is misinterpreting **agonal respiration**. In approximately 50% of sudden cardiac arrests, the hypoxic brainstem continues firing sporadic, reflexive electrical impulses to the diaphragm for several minutes.
 
 This presents as heavy, irregular, snoring, or gasping sounds occurring every 10 to 15 seconds without chest movement. **This is not breathing; it is the death rattle of a dying brainstem.** If a person is unresponsive and not breathing normally and rhythmically, assume cardiac arrest and begin compressions immediately.
 

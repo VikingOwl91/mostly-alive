@@ -65,11 +65,12 @@ sources:
     notes: 'Gerade-Zug-Technik und Widerlegung von Erstickungsmethoden.'
 ---
 
-Zecken (*Ixodida*) sind hochspezialisierte blutsaugende Spinnentiere. Ihr Stechapparat (*Hypostom*) ist mit widerhakenartigen Zähnchen besetzt. Beim Einstich sondert die Zecke einen Speichelcocktail ab, der schmerzlindernd, entzündungshemmend und gerinnungshemmend wirkt—weshalb der Wirt den Stich meist überhaupt nicht spürt.
+Zecken (_Ixodida_) sind hochspezialisierte blutsaugende Spinnentiere. Ihr Stechapparat (_Hypostom_) ist mit widerhakenartigen Zähnchen besetzt. Beim Einstich sondert die Zecke einen Speichelcocktail ab, der schmerzlindernd, entzündungshemmend und gerinnungshemmend wirkt—weshalb der Wirt den Stich meist überhaupt nicht spürt.
 
 Während der Stich selbst harmlos ist, übertragen Zecken zwei bedeutende Krankheitserreger:
-- **Borreliose (*Lyme-Borreliose*)**: Eine durch das Bakterium *Borrelia burgdorferi* ausgelöste Infektion, die chronische Gelenkentzündungen, Gesichtslähmungen (Fazialisparese) und Nervenschmerzen verursachen kann.
-- **FSME (*Frühsommer-Meningoenzephalitis*)**: Ein Virus, das Hirnhaut- und Gehirnentzündungen mit potenziell bleibenden Lähmungen auslöst (in ausgewiesenen Risikogebieten schützt eine Schutzimpfung).
+
+- **Borreliose (_Lyme-Borreliose_)**: Eine durch das Bakterium _Borrelia burgdorferi_ ausgelöste Infektion, die chronische Gelenkentzündungen, Gesichtslähmungen (Fazialisparese) und Nervenschmerzen verursachen kann.
+- **FSME (_Frühsommer-Meningoenzephalitis_)**: Ein Virus, das Hirnhaut- und Gehirnentzündungen mit potenziell bleibenden Lähmungen auslöst (in ausgewiesenen Risikogebieten schützt eine Schutzimpfung).
 
 ### Der Mythos von Butter, Öl und Klebstoff: Die Erreger-Injektion
 
@@ -84,6 +85,7 @@ Aus infektiologischer Sicht ist **dieser Ratschlag brandgefährlich**:
 ### Das 24-bis-48-Stunden-Zeitfenster
 
 Borrelien werden glücklicherweise nicht sofort beim Einstich übertragen:
+
 - Die Bakterien befinden sich in einer Art Ruhephase im Zeckendarm.
 - Durch das Einströmen des warmen Wirtsbluts erwachen die Borrelien, verändern ihre Oberflächenproteine, durchwandern die Darmwand der Zecke und gelangen in ihre Speicheldrüsen.
 - Dieser Aktivierungsprozess dauert typischerweise **24 bis 48 Stunden**.
@@ -94,7 +96,8 @@ Wer die Zecke innerhalb der ersten 24 Stunden mit einer feinen Pinzette gerade u
 
 Eine kleine Rötung von 1 bis 2 cm Durchmesser unmittelbar nach dem Entfernen ist lediglich eine normale lokale Hautreaktion auf den Zeckenspeichel.
 
-**Die echte Wanderröte (*Erythema migrans*)** hingegen:
+**Die echte Wanderröte (_Erythema migrans_)** hingegen:
+
 - Erscheint erst **3 bis 30 Tage** nach dem Stich.
 - Breitet sich als roter Kreis langsam über Tage hinweg nach außen aus und erreicht einen Durchmesser von **über 5 cm** (oft mit zentraler Abblassung wie eine Zielscheibe).
 - Eine Wanderröte ist der klinische Beweis für eine Borrelien-Infektion und muss umgehend durch den Hausarzt mit einem passenden Antibiotikum (z.B. Doxycyclin) behandelt werden.

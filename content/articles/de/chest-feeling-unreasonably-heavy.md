@@ -74,6 +74,7 @@ Ein akuter Myokardinfarkt (Herzinfarkt) entsteht, wenn ein arteriosklerotisches 
 ### Typische klinische Symptome
 
 Das klassische Akute Koronarsyndrom (ACS) äußert sich durch:
+
 - **Massives Enge- und Druckgefühl**: Ein unerträgliches Brennen, dumpfer Druck oder das Gefühl eines tonnenschweren Steins mittig hinter dem Brustbein (retrosternal), das länger als fünf Minuten anhält.
 - **Schmerzausstrahlung**: Ausstrahlen der Schmerzen in den linken Arm (oder beide Arme), in den Hals, Unterkiefer, Rücken (zwischen die Schulterblätter) oder den oberen Bauchraum.
 - **Vegetative Begleitsymptome**: Kalter Schweißausbruch, blasse Gesichtsfarbe, Übelkeit, Schwindelgefühl und ausgeprägte Todesangst.
@@ -82,6 +83,7 @@ Das klassische Akute Koronarsyndrom (ACS) äußert sich durch:
 ### Atypische Symptome (Frauen, Diabetiker und ältere Menschen)
 
 Ein gravierender Fehler in der Ersten Hilfe ist die Annahme, jeder Herzinfarkt müsse sich durch dramatisches Festhalten der linken Brust äußern. Insbesondere Frauen, Personen mit diabetischer Polyneuropathie und ältere Menschen weisen häufig atypische Verläufe auf:
+
 - Unerklärliche, plötzliche Erschöpfung oder Schwindelanfälle.
 - Brennende Schmerzen im Oberbauch, die fälschlicherweise für eine Magenverstimmung gehalten werden.
 - Isolierte Schmerzen ausschließlich im Kiefer- oder Nackenbereich.

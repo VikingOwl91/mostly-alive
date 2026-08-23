@@ -81,6 +81,7 @@ In anaphylaxis, sensitized mast cells and basophils detonate simultaneously thro
 ### Recognizing Systemic Anaphylaxis
 
 Anaphylaxis is defined clinically by rapid onset (often within seconds to minutes) involving multiple organ systems:
+
 - **Airway & Breathing**: Sensation of throat closure, hoarse voice, high-pitched inspiratory sound (stridor), wheezing, severe chest tightness, or inability to swallow saliva.
 - **Cardiovascular & Central Nervous System**: Sudden severe dizziness, clammy pale skin, confusion, collapse, or loss of consciousness due to profound distributive shock.
 - **Skin & Mucosa**: Widespread itchy urticaria (hives), intense flushing, and angioedema (dramatic swelling of lips, tongue, eyelids, and throat).
@@ -89,6 +90,7 @@ Anaphylaxis is defined clinically by rapid onset (often within seconds to minute
 ### Epinephrine: The Only First-Line Therapy
 
 There is no substitute for intramuscular epinephrine (adrenaline). Epinephrine acts as a physiological agonist across all affected receptor sites:
+
 1. It stimulates alpha-1 adrenergic receptors, causing peripheral blood vessels to constrict, rapidly restoring blood pressure.
 2. It stimulates beta-2 adrenergic receptors, relaxing bronchial smooth muscle to reopen the airway and halting further mast cell degranulation.
 

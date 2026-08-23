@@ -80,6 +80,7 @@ A common physics error during thermal injuries is assuming that damage ceases th
 ### The Physics and Biology of 20-Minute Water Cooling
 
 Clinical burn research demonstrates that cooling with **cool or lukewarm running tap water (10°C to 20°C / 50°F to 68°F) for a full 20 minutes** is the single most effective first-aid intervention:
+
 1. It halts heat progression into deeper subcutaneous tissue layers.
 2. It stabilizes cellular membrane potential, reducing pain sensation at exposed nociceptors.
 3. It limits inflammatory histamine release and microvascular permeability, dramatically reducing post-burn edema and subsequent grafting requirements.

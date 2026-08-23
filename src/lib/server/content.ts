@@ -152,9 +152,9 @@ export function getSearchIndex(lang: 'en' | 'de') {
 	const staticPages = loadAllStaticPages(lang).map((p) => {
 		const isReadingSavesLives = p.slug === 'reading-saves-lives' || p.slug === 'lesen-rettet-leben';
 		const aliases = isReadingSavesLives
-			? (lang === 'de'
+			? lang === 'de'
 				? 'lesen rettet leben warum lesen hilft wozu mostly alive da ist manifest philosophie'
-				: 'reading saves lives why reading helps why mostly alive exists manifesto philosophy')
+				: 'reading saves lives why reading helps why mostly alive exists manifesto philosophy'
 			: '';
 		const tags = isReadingSavesLives
 			? 'editorial philosophy manifesto recognition-clues reading-saves-lives'
@@ -168,7 +168,8 @@ export function getSearchIndex(lang: 'en' | 'de') {
 			category: isReadingSavesLives ? 'editorial' : 'system',
 			tags,
 			aliases,
-			memory_hook: p.description || (lang === 'de' ? 'Offizielle Dokumentation' : 'Official documentation'),
+			memory_hook:
+				p.description || (lang === 'de' ? 'Offizielle Dokumentation' : 'Official documentation'),
 			memorable_facts: '',
 			immediate_action: '',
 			body: p.body,

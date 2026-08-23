@@ -66,13 +66,14 @@ sources:
 ---
 
 Asthma bronchiale ist eine chronisch-entzündliche Erkrankung der Atemwege mit bronchialer Hyperreagibilität. Bei einer akuten schweren Exazerbation (Asthmaanfall) verengen drei pathologische Faktoren gleichzeitig den Atemstrom:
+
 1. **Bronchospasmus**: Die ringförmige glatte Muskulatur der Bronchiolen verkrampft sich reflexartig.
 2. **Schleimhautödem**: Durch entzündliche Gefäßpermeabilität schwillt die innere Schleimhautauskleidung massiv an.
 3. **Hyperkrinie / Dyskrinie**: Drüsenzellen produzieren zähen, glasigen Schleim, der die feinen Atemwege wie ein Pfropf verlegt.
 
 ### Die stumme Lunge (Silent Chest): Wenn das Pfeifen plötzlich aufhört
 
-Ein weitverbreiteter Trugschluss unter Ersthelfern besteht darin, auf pfeifende Atemgeräusche (Giemen und Brummen) zu warten. 
+Ein weitverbreiteter Trugschluss unter Ersthelfern besteht darin, auf pfeifende Atemgeräusche (Giemen und Brummen) zu warten.
 
 Giemen entsteht, wenn Luft mit hoher Geschwindigkeit durch verengte Rohre strömt. Um ein Pfeifgeräusch zu erzeugen, muss sich jedoch überhaupt noch Luft bewegen können.
 
@@ -82,5 +83,5 @@ Nimmt der Anfall einen lebensbedrohlichen Verlauf, schwellen die Atemwege so wei
 
 Im schweren Anfall ermüdet der Hauptatemmuskel—das Zwerchfell—binnen kürzester Zeit gegen den immensen Strömungswiderstand.
 
-- **Der Kutschersitz**: Das Abstützen der Arme auf den Oberschenkeln fixiert den Schultergürtel nach vorne hin. Dadurch kehrt sich der Muskelzug von *Musculus pectoralis major* und *Musculus latissimus dorsi* um: Statt die Arme zu bewegen, heben sie den Brustkorb nach oben an und vergrößern den Raum für die Lungenflügel (*Atemhilfsmuskulatur*).
+- **Der Kutschersitz**: Das Abstützen der Arme auf den Oberschenkeln fixiert den Schultergürtel nach vorne hin. Dadurch kehrt sich der Muskelzug von _Musculus pectoralis major_ und _Musculus latissimus dorsi_ um: Statt die Arme zu bewegen, heben sie den Brustkorb nach oben an und vergrößern den Raum für die Lungenflügel (_Atemhilfsmuskulatur_).
 - **Die 4-bis-10-Hübe-Regel**: Auf vielen Packungsbeilagen steht der Hinweis auf 1–2 Hübe. Bei einem schweren Anfall erreicht wegen der extremen Verengung nur ein Bruchteil des Aerosols die tieferen Bronchien. Leitlinien (Deutsche Atemwegsliga, GINA) fordern daher im Notfall die Gabe von **4 bis 10 Hüben Salbutamol** (idealerweise einzeln über eine Inhalierhilfe/Spacer inhaliert). Vorübergehendes Herzklopfen oder ein leichtes Zittern sind harmlose Begleiterscheinungen im Vergleich zum lebensbedrohlichen Sauerstoffmangel.

@@ -75,13 +75,13 @@ sources:
 
 Der menschliche Gasaustausch erfordert trockene Alveolarmembranen, durch die atmosphärischer Sauerstoff über eine mikroskopisch dünne Epithelschicht in die Lungenkapillaren diffundieren kann. Gelangt flüssiges Wasser in die Atemwege, zerstört dies die funktionelle Lungenarchitektur schlagartig.
 
-Gerät eine Person unter Wasser, verhindert ein reflektorischer Stimmritzenkrampf (Laryngospasmus) kurzzeitig das Eindringen von Flüssigkeit. Der rasch ansteigende Sauerstoffmangel (Hypoxie) und Kohlendioxidgehalt (Hyperkapnie) im Blut lösen jedoch unweigerlich einen massiven unwillkürlichen Einatemreflex aus. Das inhalierte Wasser wäscht das körpereigene *Surfactant* (einen Phospholipidfilm, der das Zusammenfallen der Lungenbläschen verhindert) aus, flutet das Lungengewebe und führt zur akuten Erstickung.
+Gerät eine Person unter Wasser, verhindert ein reflektorischer Stimmritzenkrampf (Laryngospasmus) kurzzeitig das Eindringen von Flüssigkeit. Der rasch ansteigende Sauerstoffmangel (Hypoxie) und Kohlendioxidgehalt (Hyperkapnie) im Blut lösen jedoch unweigerlich einen massiven unwillkürlichen Einatemreflex aus. Das inhalierte Wasser wäscht das körpereigene _Surfactant_ (einen Phospholipidfilm, der das Zusammenfallen der Lungenbläschen verhindert) aus, flutet das Lungengewebe und führt zur akuten Erstickung.
 
 ### Warum Ertrinkungsreanimation sich fundamental von normaler CPR unterscheidet
 
 Bei einem klassischen Herzstillstand an Land (z. B. durch Herzinfarkt) sind Lunge und arterielles Blut im Moment des Stillstands noch mehrere Minuten lang mit Sauerstoff angereichert. Daher hat bei Erwachsenen die reine Herzdruckmassage oberste Priorität.
 
-**Beim Ertrinken ist der Mechanismus exakt umgekehrt:** Das Herz schlägt zunächst weiter und bleibt erst stehen, nachdem die Sauerstoffreserven des gesamten Körpers restlos verbraucht sind (*primär hypoxischer Herzstillstand*). Wer bei einem Ertrinkungsopfer nur drückt, ohne zu beatmen, zirkuliert sauerstoffleeres Blut durch ein sauerstofftotes Gehirn.
+**Beim Ertrinken ist der Mechanismus exakt umgekehrt:** Das Herz schlägt zunächst weiter und bleibt erst stehen, nachdem die Sauerstoffreserven des gesamten Körpers restlos verbraucht sind (_primär hypoxischer Herzstillstand_). Wer bei einem Ertrinkungsopfer nur drückt, ohne zu beatmen, zirkuliert sauerstoffleeres Blut durch ein sauerstofftotes Gehirn.
 
 Aus diesem Grund schreiben internationale Leitlinien (ERC und ILCOR) vor, dass die Reanimation bei Ertrinkungsopfern **immer mit 5 Initialbeatmungen beginnen muss**, um zunächst die Sauerstoffspannung in den Lungenbläschen wiederherzustellen, bevor der Zyklus 30:2 beginnt.
 

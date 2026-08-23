@@ -82,13 +82,13 @@ When a person's airway submerges, involuntary laryngeal spasms temporarily preve
 
 In sudden cardiac arrest occurring on dry land (such as a heart attack), the victim's lungs and arterial blood remain saturated with residual oxygen for several minutes. Therefore, adult lay-responder CPR prioritizes immediate chest compressions.
 
-**In drowning, the physiological mechanism is reversed:** The heart stopped pumping purely because the entire respiratory reservoir was starved of oxygen (*primary hypoxic cardiac arrest*). Delivering compressions without oxygen simply pumps deoxygenated blood through collapsed, hypoxic cerebral vasculature.
+**In drowning, the physiological mechanism is reversed:** The heart stopped pumping purely because the entire respiratory reservoir was starved of oxygen (_primary hypoxic cardiac arrest_). Delivering compressions without oxygen simply pumps deoxygenated blood through collapsed, hypoxic cerebral vasculature.
 
 For this reason, international resuscitation guidelines (ERC and ILCOR) mandate that resuscitation for drowning **must begin with 5 initial rescue breaths** to restore oxygen tension in the alveolar spaces before commencing the standard 30:2 compression-ventilation cycle.
 
 ### The Lethal Fallacy of "Draining the Lungs"
 
-A dangerous myth propagated by vintage media is holding a drowning victim upside down or performing violent abdominal thrusts to pump water out of the stomach. 
+A dangerous myth propagated by vintage media is holding a drowning victim upside down or performing violent abdominal thrusts to pump water out of the stomach.
 
 Inhaled fresh or salt water is rapidly absorbed across alveolar membranes directly into the central circulation within minutes. What remains in the stomach is swallowed water mixed with acidic gastric contents. Performing abdominal thrusts triggers massive regurgitation of gastric acid directly into the pharynx, contaminating the airway and causing catastrophic chemical aspiration pneumonitis.
 

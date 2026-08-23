@@ -71,9 +71,10 @@ An avulsed permanent tooth is not a dead piece of bone: it is a living organ sur
 
 ### The Biology of Tooth Survival: The Periodontal Ligament
 
-A tooth is not fused directly to the jawbone like a post cemented in concrete. Instead, it is suspended inside the alveolar socket by millions of microscopic collagen fibers and living fibroblast cells (*the periodontal ligament*).
+A tooth is not fused directly to the jawbone like a post cemented in concrete. Instead, it is suspended inside the alveolar socket by millions of microscopic collagen fibers and living fibroblast cells (_the periodontal ligament_).
 
 When a tooth is violently knocked out:
+
 - Half of these periodontal fibers remain anchored in the jaw socket, and the other half remain attached to the root of the dislodged tooth.
 - If those root-bound PDL cells stay alive and hydrated, a dentist can reinsert the tooth, splint it to adjacent teeth, and the ligament fibers will re-fuse over 2 to 4 weeks, saving the natural tooth for a lifetime.
 - If the PDL cells dry out or are mechanically scraped away, the body’s osteoclasts treat the replanted tooth as a foreign body, triggering **replacement resorption (ankylosis)** where the jawbone slowly eats away the root until the tooth falls out permanently.
@@ -83,12 +84,12 @@ When a tooth is violently knocked out:
 When an avulsed tooth cannot be immediately pushed back into the socket on the field, the choice of storage fluid determines cell survival:
 
 1. **Dry Air (Worst)**: In ambient air, cell membranes dehydrate and rupture. Irreversible cell death occurs in **30 to 60 minutes**.
-2. **Plain Tap Water (Dangerous)**: Tap water is severely *hypotonic* (low osmolality). Water rushes into the high-solute PDL cells via osmosis, causing the cells to swell and burst (*osmotic lysis*).
+2. **Plain Tap Water (Dangerous)**: Tap water is severely _hypotonic_ (low osmolality). Water rushes into the high-solute PDL cells via osmosis, causing the cells to swell and burst (_osmotic lysis_).
 3. **Cold Cow's Milk (Excellent & Readily Available)**: Milk has a physiological osmolality (approx. 270–290 mOsm/kg), neutral pH, and contains calcium, magnesium, and glucose that sustain cell metabolism without causing osmotic rupture for up to 2 to 4 hours.
 4. **Tooth Rescue Box (HBSS / Dentosafe - Gold Standard)**: Hanks Balanced Salt Solution supplemented with amino acids and glucose maintains PDL viability for up to 24 hours.
 
 ### The Golden Rule: Handle Only the Crown
 
-The smooth, shiny white top of the tooth (enamel crown) has no living cells on its exterior. 
+The smooth, shiny white top of the tooth (enamel crown) has no living cells on its exterior.
 
 The yellowish, tapered root is where the living periodontal ligament resides. **Never touch, scrub, scrape, or sterilize the root**. Even if the tooth fell into dirt or grass, gently rinse it under cold water for 10 seconds without rubbing, place it into cold milk or the socket, and reach a dental trauma clinic within 60 minutes.

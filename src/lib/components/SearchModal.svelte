@@ -258,9 +258,15 @@
 					</div>
 				{:else}
 					{#if !searchQuery.trim()}
-						<div class="px-3 py-1.5 text-[11px] font-mono font-bold uppercase text-slate-500 flex items-center gap-1.5">
+						<div
+							class="px-3 py-1.5 text-[11px] font-mono font-bold uppercase text-slate-500 flex items-center gap-1.5"
+						>
 							<Sparkles class="w-3.5 h-3.5 text-amber-400" />
-							<span>{lang === 'de' ? 'Empfohlene Notfall-Einträge' : 'Suggested Emergency Guides'}</span>
+							<span
+								>{lang === 'de'
+									? 'Empfohlene Notfall-Einträge'
+									: 'Suggested Emergency Guides'}</span
+							>
 						</div>
 					{/if}
 
@@ -279,15 +285,23 @@
 						>
 							<div class="space-y-1 pr-3 flex-1">
 								<div class="flex items-center gap-2">
-									<span class="font-mono text-[11px] font-bold uppercase {item.category === 'editorial' ? 'text-cyan-400' : 'text-amber-400'}">
+									<span
+										class="font-mono text-[11px] font-bold uppercase {item.category === 'editorial'
+											? 'text-cyan-400'
+											: 'text-amber-400'}"
+									>
 										{item.category}
 									</span>
 									{#if item.threat_level > 0}
-										<span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300">
+										<span
+											class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300"
+										>
 											L{item.threat_level}
 										</span>
 									{:else}
-										<span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400">
+										<span
+											class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400"
+										>
 											INFO
 										</span>
 									{/if}
@@ -322,17 +336,20 @@
 					<span
 						><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300"
 							>↑↓</kbd
-						> {lang === 'de' ? 'navigieren' : 'navigate'}</span
+						>
+						{lang === 'de' ? 'navigieren' : 'navigate'}</span
 					>
 					<span
 						><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300"
 							>↵</kbd
-						> {lang === 'de' ? 'öffnen' : 'select'}</span
+						>
+						{lang === 'de' ? 'öffnen' : 'select'}</span
 					>
 					<span
 						><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300"
 							>esc</kbd
-						> {lang === 'de' ? 'schließen' : 'close'}</span
+						>
+						{lang === 'de' ? 'schließen' : 'close'}</span
 					>
 				</div>
 				<a

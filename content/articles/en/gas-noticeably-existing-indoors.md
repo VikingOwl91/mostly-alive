@@ -61,12 +61,12 @@ Natural gas (predominantly methane, $CH_4$) and liquefied petroleum gas (propane
 
 ### The Mercaptan Warning Layer
 
-In its unrefined natural state, methane is completely odorless, colorless, and tasteless. Following the catastrophic 1937 New London School explosion (where an undetected natural gas leak killed nearly 300 students and teachers), modern regulations mandated that all commercial distribution gas must be odorized with organic sulfur compounds—typically *tert-butyl mercaptan* or *tetrahydrothiophene*. 
+In its unrefined natural state, methane is completely odorless, colorless, and tasteless. Following the catastrophic 1937 New London School explosion (where an undetected natural gas leak killed nearly 300 students and teachers), modern regulations mandated that all commercial distribution gas must be odorized with organic sulfur compounds—typically _tert-butyl mercaptan_ or _tetrahydrothiophene_.
 
 These chemical odorants produce the distinctive, unmistakable stench of rotting eggs, calibrated so that healthy humans detect the hazard when concentration reaches less than one-fifth of the minimum explosive threshold.
 
 ### The Physics of Micro-Sparks
 
-A common fatal mistake during a gas leak is attempting to "turn off the lights" or answer a ringing phone before fleeing. 
+A common fatal mistake during a gas leak is attempting to "turn off the lights" or answer a ringing phone before fleeing.
 
 Household mechanical toggle switches function via spring-loaded copper contacts. As the contacts separate, a microscopic electrical arc jumps across the microscopic air gap for a few milliseconds. In a room containing a 5% to 15% gas-air mixture, this sub-millimeter arc releases vastly more energy than the minimum ignition threshold (approx. 0.28 millijoules), triggering immediate deflagration that blows out exterior walls.

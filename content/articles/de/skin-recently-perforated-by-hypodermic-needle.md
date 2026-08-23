@@ -68,6 +68,7 @@ sources:
 Eine versehentliche Nadelstichverletzung—sei es durch eine weggeworfene Spritze im Park, eine Kanüle bei Reinigungsarbeiten oder eine Stichverletzung im klinischen Bereich—erzeugt verständlicherweise massive Verunsicherung bezüglich blutübertragbarer Infektionskrankheiten.
 
 Die drei relevantesten Viren sind:
+
 1. **Hepatitis-B-Virus (HBV)**: Sehr hohe Infektiosität (bis zu 30 % Übertragungsrisiko bei ungeimpften Personen und HBeAg-positivem Spenderblut).
 2. **Hepatitis-C-Virus (HCV)**: Mittlere Infektiosität (ca. 1,8 % bis 3 %).
 3. **Humanes Immundefizienzvirus (HIV)**: Vergleichsweise geringes Übertragungsrisiko bei perkutanem Stich (ca. 0,3 % bei bekannt HIV-positivem Hohlraumnadel-Blut), jedoch mit lebenslanger Tragweite bei Nichtbehandlung.
@@ -79,6 +80,7 @@ Dringt eine Kanüle in die Haut ein, deponiert sie mikroskopische Spuren von Blu
 Der intuitive Reflex vieler Betroffener ist es, die Wunde kräftig zusammenzudrücken und zu kneten, um „das Gift herauszupressen“.
 
 Aus physiologischer Sicht richtet starker Druck jedoch Schaden an:
+
 - Das Quetschen erzeugt feine Gewebeeinrisse (Mikrotraumata) in den umliegenden Kapillaren und Lymphbahnen.
 - Lässt der Druck nach, entsteht ein **interstitieller Unterdruck**, der wie eine Saugpumpe wirkt und Krankheitserreger tiefer in die eröffneten Lymphgefäße zieht.
 - Die korrekte Vorgehensweise lautet daher: **Sanftes Abspülen unter fließendem Wasser mit Seife**, um den spontanen Blutfluss zu nutzen, gefolgt von einer Wunddesinfektion.

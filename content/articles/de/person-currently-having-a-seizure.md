@@ -75,7 +75,7 @@ sources:
 
 Die menschliche Großhirnrinde koordiniert alle kognitiven und motorischen Funktionen über ein präzises Zusammenspiel erregender und hemmender neuronaler Synapsen. Gelegentlich kommt es zu einer plötzlichen, überschießenden synchronen Entladung ganzer Nervenzellverbände, die das hemmende Regelsystem des Gehirns kurzzeitig überlastet.
 
-Bei einem generalisierten tonisch-klonischen Anfall (früher als *Grand-Mal-Anfall* bezeichnet) führt diese elektrische Entladungswelle zu einer synchronen Verkrampfung der gesamten Skelettmuskulatur.
+Bei einem generalisierten tonisch-klonischen Anfall (früher als _Grand-Mal-Anfall_ bezeichnet) führt diese elektrische Entladungswelle zu einer synchronen Verkrampfung der gesamten Skelettmuskulatur.
 
 ### Die Phasen des tonisch-klonischen Anfalls
 
@@ -92,4 +92,4 @@ Bei einem generalisierten tonisch-klonischen Anfall (früher als *Grand-Mal-Anfa
 
 ### Die 5-Minuten-Notfallgrenze (Status Epilepticus)
 
-Die überwiegende Mehrheit aller epileptischen Anfälle stoppt von selbst nach 60 bis 120 Sekunden. Dauert ein Anfall jedoch länger als **5 Minuten** ununterbrochen an, liegt ein lebensbedrohlicher *Status Epilepticus* vor. Der Körper kann den Anfall nicht mehr aus eigener Kraft beenden. Es drohen schwere Sauerstoffunterversorgung des Gehirns, Herzrhythmusstörungen und irreversible neuronale Zellschäden, die den sofortigen Einsatz von Notfallmedikamenten durch den Notarzt erfordern.
+Die überwiegende Mehrheit aller epileptischen Anfälle stoppt von selbst nach 60 bis 120 Sekunden. Dauert ein Anfall jedoch länger als **5 Minuten** ununterbrochen an, liegt ein lebensbedrohlicher _Status Epilepticus_ vor. Der Körper kann den Anfall nicht mehr aus eigener Kraft beenden. Es drohen schwere Sauerstoffunterversorgung des Gehirns, Herzrhythmusstörungen und irreversible neuronale Zellschäden, die den sofortigen Einsatz von Notfallmedikamenten durch den Notarzt erfordern.

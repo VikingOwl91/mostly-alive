@@ -67,6 +67,7 @@ Eine akzidentelle Hypothermie liegt vor, wenn die Wärmeverluste an die Umgebung
 Um lebenswichtige Organe im Körperkern (Gehirn, Herz, Nieren) zu schützen, zieht der Körper bei Kälte das Blut über eine maximale Gefäßverengung (Vasokonstriktion) aus den Gliedmaßen ab. In Armen und Beinen entsteht ein 10 °C bis 20 °C kaltes, saures und kaliumreiches Blutreservoir.
 
 Werden nun die Beine eines tief unterkühlten Patienten massiert, warm abgewaschen oder der Patient zum Aufstehen gezwungen:
+
 1. Weiten sich die peripheren Blutgefäße schlagartig.
 2. Das eiskalte, übersäuerte Blut strömt unkontrolliert in den Körperkern und das rechte Herz zurück.
-3. Die Kerntemperatur fällt innerhalb von Sekunden um weitere 1 °C bis 3 °C ab (*Afterdrop*), während der Schwall an Kalium und Kälte das ohnehin instabile Herz in ein fatales, irreversibles **Kammerflimmern (Bergungstod)** stürzt.
+3. Die Kerntemperatur fällt innerhalb von Sekunden um weitere 1 °C bis 3 °C ab (_Afterdrop_), während der Schwall an Kalium und Kälte das ohnehin instabile Herz in ein fatales, irreversibles **Kammerflimmern (Bergungstod)** stürzt.

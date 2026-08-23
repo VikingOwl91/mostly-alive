@@ -84,6 +84,7 @@ Klinische Studien belegen, dass drei einfache körperliche Prüfungen über 85 %
 ### Zusätzliche neurologische Warnsignale
 
 Insbesondere bei Durchblutungsstörungen des Kleinhirns oder Hirnstamms (hinteres Stromgebiet) können zusätzliche Symptome auftreten:
+
 - Plötzlicher starker Drehschwindel oder ausgeprägte Gangunsicherheit (Ataxie).
 - Plötzlicher Sehverlust auf einem Auge oder plötzliche Doppelbilder (Diplopie).
 - Plötzlicher, vernichtender „Donnerschlag-Kopfschmerz“ ohne bekannte Vorgeschichte.

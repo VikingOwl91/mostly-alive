@@ -62,6 +62,6 @@ Flowing water possesses immense kinetic energy. Water weighs approximately 1,000
 
 The primary reason drivers drown in floodwaters is a failure of intuitive physics: they assume that a heavy 1,500-kilogram metal car will remain glued to the road by gravity.
 
-According to Archimedes' principle, any object partially or wholly immersed in a fluid is buoyed up by a force equal to the weight of the fluid displaced by the object. A modern automobile is an airtight container enclosing a huge volume of air. 
+According to Archimedes' principle, any object partially or wholly immersed in a fluid is buoyed up by a force equal to the weight of the fluid displaced by the object. A modern automobile is an airtight container enclosing a huge volume of air.
 
 As water reaches **30 cm (12 inches)**, the vehicle displaces over 1,500 liters of water. The buoyant upward force equals the downward gravitational weight of the car. The tires lose all traction, the car becomes a boat without a rudder, and lateral currents push the vehicle into deep ditches and drowning channels.

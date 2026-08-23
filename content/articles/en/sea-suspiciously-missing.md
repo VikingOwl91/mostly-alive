@@ -59,6 +59,6 @@ When a subsea megathrust earthquake displaces thousands of cubic kilometers of t
 
 ### The Drawdown Phenomenon
 
-If the leading edge of the tsunami wave packet is a trough (*drawdown*), the ocean surface drops sharply along the coastline. Seawater recedes at rapid speeds, exposing hundreds of meters of normally submerged seabed, reefs, and struggling marine life.
+If the leading edge of the tsunami wave packet is a trough (_drawdown_), the ocean surface drops sharply along the coastline. Seawater recedes at rapid speeds, exposing hundreds of meters of normally submerged seabed, reefs, and struggling marine life.
 
 This is not a picturesque low tide; it is the physical displacement trough of a hydrodynamic monster approaching at the speed of a jet airliner. Within five to fifteen minutes, the massive crest arrives as a non-breaking wall of black water packed with debris, crushing everything along the shoreline.

@@ -13,11 +13,11 @@ If your car is currently filling with river water, your kitchen stove is activel
 
 You have a few seconds.
 
-Mostly Alive does not pretend that simply reading words on a screen guarantees safety or survival. Physics, biology, and chemistry remain indifferent to good intentions. 
+Mostly Alive does not pretend that simply reading words on a screen guarantees safety or survival. Physics, biology, and chemistry remain indifferent to good intentions.
 
-What reading *does* provide is something far simpler and remarkably effective: **pre-loaded recognition.**
+What reading _does_ provide is something far simpler and remarkably effective: **pre-loaded recognition.**
 
-You usually cannot choose when an emergency happens. You *can* choose to encounter the relevant knowledge beforehand.
+You usually cannot choose when an emergency happens. You _can_ choose to encounter the relevant knowledge beforehand.
 
 ---
 
@@ -43,10 +43,11 @@ Knowing the physical recognition clue before the incident converts panic into im
 
 ### Why the Tone is Dry, Distinctive, and Memorable
 
-Human brains are exceptionally poor at retaining dry, bureaucratic safety warnings. A generic brochure advising you to *"exercise caution near elevated geological formations during atmospheric convective events"* is forgotten ten minutes after reading.
+Human brains are exceptionally poor at retaining dry, bureaucratic safety warnings. A generic brochure advising you to _"exercise caution near elevated geological formations during atmospheric convective events"_ is forgotten ten minutes after reading.
 
 Unusual, concrete information sticks when attached to something distinctive:
-- Calling an article *“Hair, Suddenly Vertical”* anchors the physical symptom.
+
+- Calling an article _“Hair, Suddenly Vertical”_ anchors the physical symptom.
 - Explaining that natural gas is scented with rotten-egg odorants because pure methane is invisible turns chemistry into a sensory reflex.
 - Highlighting that pouring water on hot oil triggers a 1,700-fold steam explosion aerosol fireball burns the exact hazard mechanism into memory.
 

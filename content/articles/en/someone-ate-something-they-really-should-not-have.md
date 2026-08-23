@@ -90,6 +90,7 @@ For over a century, folk medicine advocated sticking fingers down the throat or 
 ### Why Milk Is Not an Antidote
 
 A persistent household myth recommends giving a poisoned individual a glass of milk to "neutralize" the toxin. In clinical reality:
+
 - Milk does not neutralize strong acids or bases.
 - The lipid emulsion in milk actively acts as a lipophilic solvent, accelerating the rapid intestinal absorption of fat-soluble poisons such as organic solvents, insecticides, and oil-soluble medications.
 - Drinking milk induces nausea and sudden vomiting, triggering the exact aspiration disasters detailed above.
@@ -97,6 +98,7 @@ A persistent household myth recommends giving a poisoned individual a glass of m
 ### The Five "W" Questions for Poison Control
 
 Certified poison control centers maintain real-time toxicological databases containing clinical protocols for over one million chemical and biological products. When calling Poison Help or your regional Giftnotruf, have the product packaging in hand and be ready to answer:
+
 1. **Who**: Age, estimated weight, and pre-existing medical conditions.
 2. **What**: The exact brand name, chemical formulation, and UN/CAS numbers from the label.
 3. **How Much**: The maximum plausible dose consumed (e.g., number of missing tablets or milliliters).

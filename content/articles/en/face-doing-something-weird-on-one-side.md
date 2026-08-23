@@ -84,6 +84,7 @@ Clinical studies demonstrate that three simple physical tests identify over 85% 
 ### Additional Neurological Warning Signs
 
 While FAST covers the vast majority of cases, posterior circulation strokes may present with:
+
 - Sudden severe loss of balance or uncoordinated ataxia.
 - Sudden loss of vision in one eye or double vision (diplopia).
 - Sudden severe "thunderclap" headache with no prior history.

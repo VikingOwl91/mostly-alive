@@ -91,11 +91,11 @@ This is the **"can't let-go" threshold** (typically occurring at just 10 to 16 m
 2. **High-Voltage (≥ 1,000 Volts / Distribution Lines & Railways)**:
    - High voltage does not require direct contact; it ionizes air and arcs across distances exceeding several meters.
    - Contact causes massive thermal flashover burns and violent whole-body muscular spasms that throw the victim violently.
-   - Ground current radiates outward in concentric voltage drops (*step potential*).
+   - Ground current radiates outward in concentric voltage drops (_step potential_).
    - Rescuer priority: Maintain a strict **10-meter (33-foot) exclusion zone** and wait for utility grid confirmation.
 
 ### Delayed Internal Damage and Rhabdomyolysis
 
-Electricity travels through the human body along paths of lowest electrical resistance: nerves, blood vessels, and deep muscle tissue. 
+Electricity travels through the human body along paths of lowest electrical resistance: nerves, blood vessels, and deep muscle tissue.
 
 As current passes through deep muscle beds, resistive joule heating ($P = I^2 R$) cooks the deep muscle fibers from the inside out, even if the skin surface shows only minor entry and exit pinpricks. The cooked muscle tissue decomposes, releasing massive quantities of potassium (triggering delayed lethal cardiac arrhythmias) and myoglobin proteins into the bloodstream, which clog the renal tubules and trigger acute, fatal kidney failure hours later. Every electrical shock victim requires immediate emergency transport and inpatient telemetry monitoring.

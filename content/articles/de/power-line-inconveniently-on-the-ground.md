@@ -68,9 +68,10 @@ sources:
 
 ### Das Prinzip der Schrittspannung
 
-Der Strom breitet sich vom Eintrittspunkt trichterförmig im Boden aus (*Spannungstrichter*). Mit zunehmendem Abstand sinkt das elektrische Potenzial.
+Der Strom breitet sich vom Eintrittspunkt trichterförmig im Boden aus (_Spannungstrichter_). Mit zunehmendem Abstand sinkt das elektrische Potenzial.
 
 Macht ein Mensch in diesem Bereich einen normalen Schritt:
+
 - Der vordere Fuß steht auf einer Zone mit z. B. 8.000 Volt.
 - Der hintere Fuß steht auf einer Zone mit 3.000 Volt.
 - Die **Potenzialdifferenz von 5.000 Volt (Schrittspannung)** treibt tödlichen Strom von Fuß zu Fuß durch den Körper, was zu schwersten inneren Verbrennungen und sofortigem Kammerflimmern führt.

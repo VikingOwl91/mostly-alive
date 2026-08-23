@@ -88,6 +88,7 @@ Verschiedene Giftklassen entfalten ihre toxische Wirkung über fundamentale bioc
 ### Warum Milch kein Gegengift ist
 
 Der weitverbreitete Mythos, Milch könne Gifte binden oder „neutralisieren“, ist klinisch widerlegt:
+
 - Milch neutralisiert weder starke Säuren noch Laugen.
 - Die feine Fettemulsion der Milch wirkt im Dünndarm als idealer Lösungsvermittler (Solubilisator): Sie beschleunigt die Aufnahme fettlöslicher Gifte (wie Insektizide, Lösungsmittel und Narkotika) in den Blutkreislauf dramatisch.
 - Das Trinken von Milch provoziert Übelkeit und führt zu unkontrolliertem Erbrechen mit den oben genannten Aspirationsrisiken.
@@ -95,6 +96,7 @@ Der weitverbreitete Mythos, Milch könne Gifte binden oder „neutralisieren“,
 ### Die 5 W-Fragen an die Giftnotrufzentrale
 
 In den Giftnotrufzentralen (GIZ) sitzen Fachärzte für Klinische Toxikologie, die Zugriff auf Datenbanken mit Millionen von Inhaltsstoffen und Notfallprotokollen haben. Halten Sie beim Anruf die Produktverpackung bereit und beantworten Sie:
+
 1. **Wer**: Alter, geschätztes Körpergewicht, Vorerkrankungen.
 2. **Was**: Exakter Produktname, Inhaltsstoffe, Hersteller, EAN- oder PZN-Nummer.
 3. **Wie viel**: Maximal denkbare geschluckte Menge (Anzahl fehlender Tabletten oder Schlucke).
