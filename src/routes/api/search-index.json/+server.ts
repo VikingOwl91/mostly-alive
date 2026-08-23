@@ -8,7 +8,7 @@ export const GET: RequestHandler = async ({ url }) => {
 
 	return json(index, {
 		headers: {
-			'cache-control': 'public, max-age=3600'
+			'cache-control': 'public, max-age=60, s-maxage=60'
 		}
 	});
 };
