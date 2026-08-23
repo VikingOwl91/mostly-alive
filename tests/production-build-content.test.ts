@@ -9,26 +9,46 @@ import {
 } from '../src/lib/server/content';
 
 describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
-	it('should contain all 15 EN articles without filesystem access', () => {
+	it('should contain all 25 EN articles without filesystem access', () => {
 		const articles = loadAllArticles('en');
-		expect(articles.length).toBe(15);
+		expect(articles.length).toBe(25);
 		const slugs = articles.map((a) => a.slug);
 		expect(slugs).toContain('person-currently-choking');
 		expect(slugs).toContain('hair-suddenly-vertical');
 		expect(slugs).toContain('oil-currently-on-fire');
 		expect(slugs).toContain('carbon-monoxide-quietly-ruining-everyones-afternoon');
 		expect(slugs).toContain('power-line-inconveniently-on-the-ground');
+		expect(slugs).toContain('face-doing-something-weird-on-one-side');
+		expect(slugs).toContain('chest-feeling-unreasonably-heavy');
+		expect(slugs).toContain('allergy-escalating-rather-quickly');
+		expect(slugs).toContain('person-currently-having-a-seizure');
+		expect(slugs).toContain('skin-recently-introduced-to-too-much-heat');
+		expect(slugs).toContain('person-no-longer-breathing-for-some-reason');
+		expect(slugs).toContain('person-has-inhaled-more-water-than-recommended');
+		expect(slugs).toContain('electricity-currently-using-a-person-as-a-wire');
+		expect(slugs).toContain('someone-ate-something-they-really-should-not-have');
+		expect(slugs).toContain('head-recently-met-something-solid');
 	});
 
-	it('should contain all 15 DE articles without filesystem access', () => {
+	it('should contain all 25 DE articles without filesystem access', () => {
 		const articles = loadAllArticles('de');
-		expect(articles.length).toBe(15);
+		expect(articles.length).toBe(25);
 		const slugs = articles.map((a) => a.slug);
 		expect(slugs).toContain('person-currently-choking');
 		expect(slugs).toContain('hair-suddenly-vertical');
 		expect(slugs).toContain('oil-currently-on-fire');
 		expect(slugs).toContain('carbon-monoxide-quietly-ruining-everyones-afternoon');
 		expect(slugs).toContain('power-line-inconveniently-on-the-ground');
+		expect(slugs).toContain('face-doing-something-weird-on-one-side');
+		expect(slugs).toContain('chest-feeling-unreasonably-heavy');
+		expect(slugs).toContain('allergy-escalating-rather-quickly');
+		expect(slugs).toContain('person-currently-having-a-seizure');
+		expect(slugs).toContain('skin-recently-introduced-to-too-much-heat');
+		expect(slugs).toContain('person-no-longer-breathing-for-some-reason');
+		expect(slugs).toContain('person-has-inhaled-more-water-than-recommended');
+		expect(slugs).toContain('electricity-currently-using-a-person-as-a-wire');
+		expect(slugs).toContain('someone-ate-something-they-really-should-not-have');
+		expect(slugs).toContain('head-recently-met-something-solid');
 	});
 
 	it('should contain all 10 EN static trust and legal pages', () => {

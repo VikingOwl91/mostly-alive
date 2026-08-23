@@ -1,0 +1,97 @@
+---
+slug: 'person-no-longer-breathing-for-some-reason'
+title: 'Person No Longer Breathing for Some Reason'
+subtitle: 'Sudden cardiac arrest recognition, high-performance CPR, and automated external defibrillator (AED) deployment'
+category: 'medical'
+tags:
+  - 'cpr'
+  - 'cardiac-arrest'
+  - 'aed'
+  - 'resuscitation'
+  - 'first-aid'
+  - 'medical'
+  - 'emergency'
+aliases:
+  - 'chest compressions'
+  - 'how to do cpr'
+  - 'defibrillator guide'
+  - 'unresponsive not breathing'
+  - 'cardiopulmonary resuscitation'
+severity: 'immediate'
+urgency: 'immediate'
+threat_level: 5
+difficulty: 'moderate'
+region_scope: 'global'
+medical: true
+emergency_services: 'call_immediately'
+status: 'reviewed'
+reviewed_at: '2026-08-23'
+review_due: '2027-08-23'
+reviewer: 'Editorial Medical Review Board'
+memory_hook: 'Call 911/112, push hard and fast in the center of the chest (100–120 bpm, 5–6 cm deep), and use an AED immediately.'
+immediate_action:
+  - '1. CHECK RESPONSIVENESS AND BREATHING (10 SECONDS MAX):'
+  - '   • Shake the shoulders firmly and shout: "Are you okay?"'
+  - '   • Tilt the head back gently and lift the chin to open the airway. Look, listen, and feel for normal chest movement and breath for up to 10 seconds.'
+  - '   • AGONAL GASPS = CARDIAC ARREST: Infrequent, noisy, slow gasps are NOT normal breathing. Treat gasping as cardiac arrest and act immediately.'
+  - '2. CALL 911 / 112 AND GET AN AED: Call emergency services immediately (put the phone on speakerphone) and shout to a specific bystander: "You in the jacket, get an AED!"'
+  - '3. START CHEST COMPRESSIONS IMMEDIATELY:'
+  - '   • Place the heel of one hand in the center of the chest (lower half of the breastbone). Place your other hand on top, interlocking your fingers.'
+  - '   • Position your shoulders directly over your hands with straight arms. Lock your elbows.'
+  - '   • Push down hard and fast: Depth of 5 to 6 cm (2 to 2.4 inches) in adults.'
+  - '   • Rate: 100 to 120 compressions per minute (to the rhythm of "Stayin’ Alive").'
+  - '   • Allow the chest to fully recoil between each compression (do not lean on the chest).'
+  - '   • Compression-Only CPR is completely acceptable and effective if untrained or unwilling to deliver rescue breaths.'
+  - '   • If trained: Alternate 30 compressions with 2 rescue breaths (1 second per breath).'
+  - '4. ATTACH THE AED AS SOON AS IT ARRIVES:'
+  - '   • Power on the AED immediately and follow the voice instructions.'
+  - '   • Peel and place pads on the bare, dry chest: One pad below the right collarbone, one pad on the left side below the armpit.'
+  - '   • Ensure NO ONE touches the patient when the AED says "Analyzing rhythm" or "Shock advised". Press the shock button if prompted, then resume CPR immediately.'
+do_not:
+  - 'Do not waste time checking for a pulse (clinical studies prove laypersons cannot reliably detect carotid pulses in emergencies; absence of response and normal breathing is the sole criteria).'
+  - 'Do not hesitate to start CPR if the person is taking occasional gasping breaths (agonal respiration occurs in ~50% of cardiac arrests and is a direct sign of cerebral hypoxia).'
+  - 'Do not remove the AED pads after a shock is delivered (the device must continuously monitor the heart rhythm every 2 minutes).'
+  - 'Do not interrupt chest compressions for more than 10 seconds for any reason.'
+  - 'Do not fear hurting the patient or breaking ribs (rib fractures heal; untreated cardiac arrest is 100% fatal within 8 minutes).'
+sources:
+  - name: 'European Resuscitation Council (ERC)'
+    url: 'https://cprguidelines.eu/'
+    authoritative: true
+    guideline_version: 'ERC Guidelines 2021: Basic Life Support'
+    jurisdiction: 'EU / Global'
+    notes: 'Compression depth (5-6 cm), rate (100-120 bpm), agonal breathing recognition, and AED voice integration.'
+  - name: 'American Heart Association (AHA)'
+    url: 'https://cpr.heart.org/'
+    authoritative: true
+    guideline_version: '2020 AHA Guidelines for CPR and ECC: Adult Basic Life Support'
+    jurisdiction: 'US / Global'
+    notes: 'Hands-Only CPR layperson guidance, dispatcher-assisted CPR, and minimal interruption protocols.'
+  - name: 'German Resuscitation Council (GRC)'
+    url: 'https://www.grc-org.de/'
+    authoritative: true
+    guideline_version: 'Leitlinien zur Wiederbelebung 2021: Basismaßnahmen'
+    jurisdiction: 'Germany / DACH'
+    notes: 'Prüfen-Rufen-Drücken Kampagnenstandard und Laienreanimation.'
+---
+
+The human circulatory system is an entirely closed hydraulic circuit. The left ventricle pumps pressurized oxygenated blood into the aorta, maintaining a cerebral perfusion pressure of at least 60 mmHg. When the heart abruptly ceases mechanical pumping—typically triggered by chaotic ventricular fibrillation (VF) or pulseless electrical activity (PEA)—systemic arterial blood pressure crashes to zero in less than three seconds.
+
+Without active arterial perfusion, consciousness is lost within 10 to 15 seconds. Irreversible ischemic neuronal death in the cerebral cortex begins in under four minutes. 
+
+### Recognizing Cardiac Arrest (The Agonal Breathing Trap)
+
+The single greatest point of failure in lay resuscitation is misinterpreting **agonal respiration**. In approximately 50% of sudden cardiac arrests, the hypoxic brainstem continues firing sporadic, reflexive electrical impulses to the diaphragm for several minutes. 
+
+This presents as heavy, irregular, snoring, or gasping sounds occurring every 10 to 15 seconds without chest movement. **This is not breathing; it is the death rattle of a dying brainstem.** If a person is unresponsive and not breathing normally and rhythmically, assume cardiac arrest and begin compressions immediately.
+
+### The Mechanics of High-Quality Chest Compressions
+
+Manual chest compressions function as an external mechanical pump, squeezing the heart between the sternum and thoracic spine to generate artificial forward cardiac output (typically 20% to 30% of normal baseline perfusion):
+
+1. **Depth (5 to 6 cm)**: Compressions shallower than 5 cm fail to generate sufficient left ventricular ejection fraction to perfuse coronary and carotid arteries. Compressions deeper than 6 cm increase thoracic trauma without increasing cardiac output.
+2. **Rate (100 to 120 beats per minute)**: Pushing slower than 100 bpm fails to build up cumulative mean arterial pressure. Pushing faster than 120 bpm deprives the heart chambers of diastolic filling time between strokes.
+3. **Full Recoil**: Leaning on the chest between compressions prevents negative intrathoracic pressure from drawing venous blood back into the right atrium, collapsing artificial perfusion.
+
+### Defibrillation (The AED)
+
+Chest compressions generate blood flow, but they almost never terminate ventricular fibrillation on their own. The definitive cure for ventricular fibrillation is an electrical shock delivered by an Automated External Defibrillator (AED). The shock depolarizes the entire myocardial mass simultaneously, resetting chaotic electrical activity and allowing the heart's natural pacemaker (the Sinoatrial Node) to resume coordinated contractions. Every minute of delay before defibrillation reduces survival odds by 7% to 10%.
