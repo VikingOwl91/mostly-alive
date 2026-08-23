@@ -56,7 +56,13 @@ describe('Search Index Engine Regression Suite', () => {
 			{ query: 'stroke', expectedSlug: 'face-doing-something-weird-on-one-side' },
 			{ query: 'FAST', expectedSlug: 'face-doing-something-weird-on-one-side' },
 			{ query: 'Reading Saves Lives', expectedSlug: 'reading-saves-lives' },
-			{ query: 'why reading helps', expectedSlug: 'reading-saves-lives' }
+			{ query: 'why reading helps', expectedSlug: 'reading-saves-lives' },
+			{ query: 'chemical in eye', expectedSlug: 'eye-recently-contacted-by-angry-chemical' },
+			{ query: 'asthma attack', expectedSlug: 'asthma-inhaler-not-doing-the-job' },
+			{ query: 'needle poke', expectedSlug: 'skin-recently-perforated-by-hypodermic-needle' },
+			{ query: 'thunderclap headache', expectedSlug: 'sudden-crushing-headache-like-thunder' },
+			{ query: 'tick bite', expectedSlug: 'tick-currently-attached-and-dining' },
+			{ query: 'knocked out tooth', expectedSlug: 'tooth-violently-evicted-from-mouth' }
 		];
 
 		for (const { query, expectedSlug } of requiredQueries) {
@@ -103,7 +109,13 @@ describe('Search Index Engine Regression Suite', () => {
 			{ query: 'ertrinken', expectedSlug: 'person-has-inhaled-more-water-than-recommended' },
 			{ query: 'schlaganfall', expectedSlug: 'face-doing-something-weird-on-one-side' },
 			{ query: 'Lesen rettet Leben', expectedSlug: 'reading-saves-lives' },
-			{ query: 'warum lesen hilft', expectedSlug: 'reading-saves-lives' }
+			{ query: 'warum lesen hilft', expectedSlug: 'reading-saves-lives' },
+			{ query: 'chemikalie im auge', expectedSlug: 'eye-recently-contacted-by-angry-chemical' },
+			{ query: 'asthmaanfall', expectedSlug: 'asthma-inhaler-not-doing-the-job' },
+			{ query: 'nadelstichverletzung', expectedSlug: 'skin-recently-perforated-by-hypodermic-needle' },
+			{ query: 'donnerschlagkopfschmerz', expectedSlug: 'sudden-crushing-headache-like-thunder' },
+			{ query: 'zeckenbiss', expectedSlug: 'tick-currently-attached-and-dining' },
+			{ query: 'zahn ausgeschlagen', expectedSlug: 'tooth-violently-evicted-from-mouth' }
 		];
 
 		for (const { query, expectedSlug } of requiredQueries) {

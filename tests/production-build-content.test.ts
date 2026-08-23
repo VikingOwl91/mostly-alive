@@ -9,9 +9,9 @@ import {
 } from '../src/lib/server/content';
 
 describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
-	it('should contain all 25 EN articles without filesystem access', () => {
+	it('should contain all 31 EN articles without filesystem access', () => {
 		const articles = loadAllArticles('en');
-		expect(articles.length).toBe(25);
+		expect(articles.length).toBe(31);
 		const slugs = articles.map((a) => a.slug);
 		expect(slugs).toContain('person-currently-choking');
 		expect(slugs).toContain('hair-suddenly-vertical');
@@ -28,11 +28,17 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(slugs).toContain('electricity-currently-using-a-person-as-a-wire');
 		expect(slugs).toContain('someone-ate-something-they-really-should-not-have');
 		expect(slugs).toContain('head-recently-met-something-solid');
+		expect(slugs).toContain('eye-recently-contacted-by-angry-chemical');
+		expect(slugs).toContain('asthma-inhaler-not-doing-the-job');
+		expect(slugs).toContain('skin-recently-perforated-by-hypodermic-needle');
+		expect(slugs).toContain('sudden-crushing-headache-like-thunder');
+		expect(slugs).toContain('tick-currently-attached-and-dining');
+		expect(slugs).toContain('tooth-violently-evicted-from-mouth');
 	});
 
-	it('should contain all 25 DE articles without filesystem access', () => {
+	it('should contain all 31 DE articles without filesystem access', () => {
 		const articles = loadAllArticles('de');
-		expect(articles.length).toBe(25);
+		expect(articles.length).toBe(31);
 		const slugs = articles.map((a) => a.slug);
 		expect(slugs).toContain('person-currently-choking');
 		expect(slugs).toContain('hair-suddenly-vertical');
@@ -49,6 +55,12 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(slugs).toContain('electricity-currently-using-a-person-as-a-wire');
 		expect(slugs).toContain('someone-ate-something-they-really-should-not-have');
 		expect(slugs).toContain('head-recently-met-something-solid');
+		expect(slugs).toContain('eye-recently-contacted-by-angry-chemical');
+		expect(slugs).toContain('asthma-inhaler-not-doing-the-job');
+		expect(slugs).toContain('skin-recently-perforated-by-hypodermic-needle');
+		expect(slugs).toContain('sudden-crushing-headache-like-thunder');
+		expect(slugs).toContain('tick-currently-attached-and-dining');
+		expect(slugs).toContain('tooth-violently-evicted-from-mouth');
 	});
 
 	it('should contain all EN static pages including Reading Saves Lives', () => {
