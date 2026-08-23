@@ -127,6 +127,76 @@
 		</div>
 	</section>
 
+	<!-- Reading Saves Lives / Manifesto Featured Section -->
+	<section
+		class="relative rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-slate-950 via-slate-900/90 to-cyan-950/30 p-6 sm:p-10 terminal-border-cyan space-y-6 shadow-2xl overflow-hidden"
+	>
+		<!-- Background glow accent -->
+		<div
+			class="absolute -right-20 -bottom-20 w-80 h-80 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"
+		></div>
+
+		<div class="relative z-10 space-y-4 max-w-4xl">
+			<div
+				class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-cyan-950/70 border border-cyan-500/40 text-cyan-300 font-mono text-xs tracking-wider uppercase"
+			>
+				<Sparkles class="w-3.5 h-3.5 text-cyan-400" />
+				<span
+					>{data.lang === 'de'
+						? '// LIES DAS, BEVOR DU ES BRAUCHST'
+						: '// READ THIS BEFORE YOU NEED IT'}</span
+				>
+			</div>
+
+			<h2 class="text-2xl sm:text-4xl font-mono font-black text-white uppercase tracking-tight">
+				{data.lang === 'de' ? 'LESEN RETTET LEBEN' : 'READING SAVES LIVES'}
+			</h2>
+
+			<p class="text-slate-300 text-sm sm:text-base font-sans leading-relaxed">
+				{data.lang === 'de'
+					? 'Der schlechteste Zeitpunkt herauszufinden, was plötzlich hochstehende Haare, ein zurückweichendes Meer oder dieselben Kopfschmerzen bei mehreren Menschen bedeuten, ist dann, wenn es gerade passiert.'
+					: "The worst possible moment to learn what standing hair, a suddenly retreating sea, or identical headaches across a room mean is when they're already happening."}
+			</p>
+
+			<div
+				class="p-4 rounded-xl bg-slate-950/80 border border-slate-800 space-y-1.5 font-mono text-xs sm:text-sm text-amber-300/90"
+			>
+				<p class="font-bold text-white uppercase tracking-wide">
+					{data.lang === 'de'
+						? 'MOSTLY ALIVE ist für den langweiligen Moment vor dem aufregenden da.'
+						: 'MOSTLY ALIVE exists for the boring moment before the exciting one.'}
+				</p>
+				<p class="text-slate-400 font-sans text-xs sm:text-sm">
+					{data.lang === 'de'
+						? 'Lern jetzt ein seltsames Warnsignal. Erinner dich daran, wenn es darauf ankommt.'
+						: 'Learn one strange warning sign now. Remember it when it matters.'}
+				</p>
+			</div>
+
+			<div class="pt-2 flex flex-wrap items-center gap-3.5 font-mono text-xs">
+				<a
+					href="/{data.lang}/random"
+					class="px-5 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition-all flex items-center gap-2 shadow-[0_0_15px_rgba(6,182,212,0.3)] hover:scale-[1.02]"
+				>
+					<Dices class="w-4 h-4 text-slate-950" />
+					<span
+						>{data.lang === 'de'
+							? 'BRING MIR WAS ZUFÄLLIGES BEI →'
+							: 'TEACH ME SOMETHING RANDOM →'}</span
+					>
+				</a>
+
+				<a
+					href="/{data.lang}/reading-saves-lives"
+					class="px-5 py-3 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 text-slate-300 hover:text-cyan-300 transition-all flex items-center gap-2"
+				>
+					<BookOpen class="w-4 h-4 text-cyan-400" />
+					<span>{data.lang === 'de' ? 'WARUM LESEN HILFT →' : 'WHY READING HELPS →'}</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
 	<!-- Featured Priority 0 Articles -->
 	<section class="space-y-6">
 		<div

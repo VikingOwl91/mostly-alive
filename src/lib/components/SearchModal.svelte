@@ -157,8 +157,15 @@
 		}
 	}
 
+	function getItemUrl(item: any) {
+		if (item.is_page || item.category === 'editorial' || item.category === 'system') {
+			return `/${lang}/${item.slug}`;
+		}
+		return `/${lang}/guide/${item.slug}`;
+	}
+
 	function navigateToItem(item: any) {
-		const targetUrl = `/${lang}/guide/${item.slug}`;
+		const targetUrl = getItemUrl(item);
 		close();
 		goto(targetUrl);
 	}
@@ -259,7 +266,7 @@
 
 					{#each searchResults as item, index}
 						<a
-							href="/{lang}/guide/{item.slug}"
+							href={getItemUrl(item)}
 							class="flex items-center justify-between p-3.5 rounded-xl transition-all {index ===
 							selectedIndex
 								? 'bg-amber-500/15 border border-amber-500/40 text-amber-100'
@@ -272,12 +279,18 @@
 						>
 							<div class="space-y-1 pr-3 flex-1">
 								<div class="flex items-center gap-2">
-									<span class="font-mono text-[11px] font-bold uppercase text-amber-400">
+									<span class="font-mono text-[11px] font-bold uppercase {item.category === 'editorial' ? 'text-cyan-400' : 'text-amber-400'}">
 										{item.category}
 									</span>
-									<span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300">
-										L{item.threat_level ?? 4}
-									</span>
+									{#if item.threat_level > 0}
+										<span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300">
+											L{item.threat_level}
+										</span>
+									{:else}
+										<span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400">
+											INFO
+										</span>
+									{/if}
 								</div>
 								<div class="text-base font-semibold text-white">
 									{item.title}

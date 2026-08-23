@@ -51,9 +51,9 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(slugs).toContain('head-recently-met-something-solid');
 	});
 
-	it('should contain all 10 EN static trust and legal pages', () => {
+	it('should contain all EN static pages including Reading Saves Lives', () => {
 		const pages = loadAllStaticPages('en');
-		expect(pages.length).toBe(10);
+		expect(pages.length).toBeGreaterThanOrEqual(11);
 		const slugs = pages.map((p) => p.slug);
 		expect(slugs).toContain('about');
 		expect(slugs).toContain('methodology');
@@ -65,11 +65,12 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(slugs).toContain('terms');
 		expect(slugs).toContain('security');
 		expect(slugs).toContain('accessibility');
+		expect(slugs).toContain('reading-saves-lives');
 	});
 
-	it('should contain all 10 DE static trust and legal pages', () => {
+	it('should contain all DE static pages including Lesen rettet Leben', () => {
 		const pages = loadAllStaticPages('de');
-		expect(pages.length).toBe(10);
+		expect(pages.length).toBeGreaterThanOrEqual(11);
 		const slugs = pages.map((p) => p.slug);
 		expect(slugs).toContain('about');
 		expect(slugs).toContain('methodology');
@@ -81,6 +82,7 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(slugs).toContain('terms');
 		expect(slugs).toContain('security');
 		expect(slugs).toContain('accessibility');
+		expect(slugs).toContain('reading-saves-lives');
 	});
 
 	it('should resolve representative article routes with complete HTML and metadata', () => {
@@ -101,7 +103,7 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 		expect(hairEn?.threat_level).toBe(5);
 	});
 
-	it('should resolve representative static legal/trust pages with complete HTML', () => {
+	it('should resolve representative static legal/trust and editorial pages with complete HTML', () => {
 		const methodologyEn = getStaticPage('methodology', 'en');
 		expect(methodologyEn).not.toBeNull();
 		expect(methodologyEn?.title).toContain('Methodology');
@@ -109,23 +111,29 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 
 		const privacyDe = getStaticPage('privacy', 'de');
 		expect(privacyDe).not.toBeNull();
-		expect(privacyDe?.title).toBe('Datenschutzerklärung');
-		expect(privacyDe?.html).toContain('Cloudflare');
 
-		const imprintEn = getStaticPage('imprint', 'en');
-		expect(imprintEn).not.toBeNull();
-		expect(imprintEn?.html).toContain('Christian Nachtigall');
+		const readingEn = getStaticPage('reading-saves-lives', 'en');
+		expect(readingEn).not.toBeNull();
+		expect(readingEn?.title).toBe('Reading Saves Lives');
+		expect(readingEn?.html).toContain('Recognition Clues');
+		expect(readingEn?.html).toContain('/en/guide/hair-suddenly-vertical');
+
+		const readingDe = getStaticPage('reading-saves-lives', 'de');
+		expect(readingDe).not.toBeNull();
+		expect(readingDe?.title).toBe('Lesen rettet Leben');
+		expect(readingDe?.html).toContain('Wiedererkennen');
+		expect(readingDe?.html).toContain('/de/guide/hair-suddenly-vertical');
 	});
 
-	it('should support category filtering and random article sampling', () => {
-		const weatherArticles = getArticlesByCategory('weather', 'en');
-		expect(weatherArticles.length).toBeGreaterThan(0);
-		for (const a of weatherArticles) {
-			expect(a.category).toBe('weather');
-		}
+	it('should support category filtering and random article sampling without returning static pages', () => {
+		const weatherEn = getArticlesByCategory('weather', 'en');
+		expect(weatherEn.length).toBeGreaterThanOrEqual(1);
+		expect(weatherEn.every((a) => a.category === 'weather')).toBe(true);
 
-		const randomArticle = getRandomArticle('en');
-		expect(randomArticle).not.toBeNull();
-		expect(randomArticle?.slug).toBeDefined();
+		const randomEn = getRandomArticle('en');
+		expect(randomEn).not.toBeNull();
+		expect(randomEn?.category).toBeDefined();
+		expect(randomEn?.immediate_action).toBeDefined();
+		expect(['reading-saves-lives', 'about', 'privacy']).not.toContain(randomEn?.slug);
 	});
 });

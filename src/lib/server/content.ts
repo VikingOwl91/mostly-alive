@@ -130,8 +130,7 @@ export function loadAllStaticPages(lang?: 'en' | 'de'): StaticPage[] {
 }
 
 export function getSearchIndex(lang: 'en' | 'de') {
-	const articles = loadAllArticles(lang);
-	return articles.map((a) => ({
+	const articles = loadAllArticles(lang).map((a) => ({
 		id: a.slug,
 		slug: a.slug,
 		title: a.title,
@@ -146,6 +145,40 @@ export function getSearchIndex(lang: 'en' | 'de') {
 		severity: a.severity,
 		urgency: a.urgency,
 		threat_level: a.threat_level,
-		status: a.status
+		status: a.status,
+		is_page: false
 	}));
+
+	const staticPages = loadAllStaticPages(lang).map((p) => {
+		const isReadingSavesLives = p.slug === 'reading-saves-lives' || p.slug === 'lesen-rettet-leben';
+		const aliases = isReadingSavesLives
+			? (lang === 'de'
+				? 'lesen rettet leben warum lesen hilft wozu mostly alive da ist manifest philosophie'
+				: 'reading saves lives why reading helps why mostly alive exists manifesto philosophy')
+			: '';
+		const tags = isReadingSavesLives
+			? 'editorial philosophy manifesto recognition-clues reading-saves-lives'
+			: 'documentation legal';
+
+		return {
+			id: p.slug,
+			slug: p.slug,
+			title: p.title,
+			subtitle: p.description || '',
+			category: isReadingSavesLives ? 'editorial' : 'system',
+			tags,
+			aliases,
+			memory_hook: p.description || (lang === 'de' ? 'Offizielle Dokumentation' : 'Official documentation'),
+			memorable_facts: '',
+			immediate_action: '',
+			body: p.body,
+			severity: 'informational',
+			urgency: 'low',
+			threat_level: 0,
+			status: 'reviewed',
+			is_page: true
+		};
+	});
+
+	return [...articles, ...staticPages];
 }
