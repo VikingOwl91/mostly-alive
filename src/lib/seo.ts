@@ -1,18 +1,32 @@
 /**
  * Mostly Alive — Centralized SEO, Social Discovery & Structured Trust Data Infrastructure
  * Source of truth for canonical URLs, hreflang alternates, OpenGraph, Twitter Cards,
- * and schema.org JSON-LD structured data.
+ * schema.org JSON-LD structured data, and navigation breadcrumbs.
  */
 
 import { CATEGORIES, type Article, type Category, type StaticPage } from '$lib/types/content';
 
+/**
+ * SINGLE AUTHORITATIVE SITE ORIGIN
+ * All canonical URLs, hreflang links, OpenGraph URLs, JSON-LD identifiers,
+ * sitemap entries, and social image assets MUST derive from this value.
+ */
 export const SITE_URL = 'https://mostly-alive.christian-d81.workers.dev';
 export const SITE_NAME = 'Mostly Alive';
-export const DEFAULT_OG_IMAGE = `${SITE_URL}/logo.png`;
+export const DEFAULT_OG_IMAGE = `${SITE_URL}/social-card.png`;
+export const DEFAULT_OG_IMAGE_WIDTH = 1200;
+export const DEFAULT_OG_IMAGE_HEIGHT = 630;
+export const DEFAULT_OG_IMAGE_TYPE = 'image/png';
 
 export interface HreflangLink {
 	lang: string;
 	href: string;
+}
+
+export interface BreadcrumbItem {
+	name: string;
+	url: string;
+	current?: boolean;
 }
 
 export interface SeoMetadata {
@@ -27,23 +41,24 @@ export interface SeoMetadata {
 	ogImageWidth?: number;
 	ogImageHeight?: number;
 	ogImageType?: string;
+	breadcrumbs?: BreadcrumbItem[];
 	jsonLd?: Record<string, any> | Array<Record<string, any>>;
 }
 
 /**
- * Normalizes a URL pathname to a clean canonical absolute URL.
+ * Normalizes a URL pathname to a clean canonical absolute URL based on SITE_URL.
  */
-export function buildCanonicalUrl(pathname: string): string {
-	if (!pathname) return `${SITE_URL}/`;
+export function buildCanonicalUrl(pathname: string, origin: string = SITE_URL): string {
+	if (!pathname) return `${origin}/`;
 	const clean = pathname.split('?')[0].split('#')[0].trim();
 	const normalized = clean === '/' ? '/' : clean.replace(/\/+$/, '') || '/';
-	return `${SITE_URL}${normalized}`;
+	return `${origin}${normalized}`;
 }
 
 /**
  * Builds reciprocal bilingual hreflang links (en, de, and x-default).
  */
-export function buildHreflangLinks(pathname: string): HreflangLink[] {
+export function buildHreflangLinks(pathname: string, origin: string = SITE_URL): HreflangLink[] {
 	if (!pathname) return [];
 	const clean = pathname.split('?')[0].split('#')[0].trim();
 	const normalized = clean === '/' ? '/' : clean.replace(/\/+$/, '') || '/';
@@ -56,9 +71,9 @@ export function buildHreflangLinks(pathname: string): HreflangLink[] {
 	const subpath = match[2] || '';
 
 	return [
-		{ lang: 'en', href: `${SITE_URL}/en${subpath}` },
-		{ lang: 'de', href: `${SITE_URL}/de${subpath}` },
-		{ lang: 'x-default', href: `${SITE_URL}/en${subpath}` }
+		{ lang: 'en', href: `${origin}/en${subpath}` },
+		{ lang: 'de', href: `${origin}/de${subpath}` },
+		{ lang: 'x-default', href: `${origin}/en${subpath}` }
 	];
 }
 
@@ -89,18 +104,71 @@ export function serializeJsonLd(data: Record<string, any> | Array<Record<string,
 }
 
 /* =========================================================================
+ * Breadcrumb Model Builders (Single Source for Visible UI + JSON-LD)
+ * ========================================================================= */
+
+export function buildHandbookBreadcrumbs(lang: 'en' | 'de', origin: string = SITE_URL): BreadcrumbItem[] {
+	return [
+		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${origin}/${lang}` },
+		{ name: lang === 'de' ? 'Handbuch' : 'Handbook', url: `${origin}/${lang}/guide`, current: true }
+	];
+}
+
+export function buildCategoriesIndexBreadcrumbs(lang: 'en' | 'de', origin: string = SITE_URL): BreadcrumbItem[] {
+	return [
+		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${origin}/${lang}` },
+		{ name: lang === 'de' ? 'Kategorien' : 'Categories', url: `${origin}/${lang}/categories`, current: true }
+	];
+}
+
+export function buildCategoryBreadcrumbs(category: Category, lang: 'en' | 'de', origin: string = SITE_URL): BreadcrumbItem[] {
+	const catInfo = CATEGORIES[category];
+	const catTitle = catInfo ? catInfo.title[lang] : category;
+
+	return [
+		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${origin}/${lang}` },
+		{ name: lang === 'de' ? 'Kategorien' : 'Categories', url: `${origin}/${lang}/categories` },
+		{ name: catTitle, url: `${origin}/${lang}/categories/${category}`, current: true }
+	];
+}
+
+export function buildGuideBreadcrumbs(article: Article, lang: 'en' | 'de', origin: string = SITE_URL): BreadcrumbItem[] {
+	const catInfo = CATEGORIES[article.category as Category];
+	const catTitle = catInfo ? catInfo.title[lang] : article.category;
+	const catUrl = `${origin}/${lang}/categories/${article.category}`;
+
+	return [
+		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${origin}/${lang}` },
+		{ name: lang === 'de' ? 'Handbuch' : 'Handbook', url: `${origin}/${lang}/guide` },
+		{ name: catTitle, url: catUrl },
+		{ name: article.title, url: `${origin}/${lang}/guide/${article.slug}`, current: true }
+	];
+}
+
+export function buildEmergencyBreadcrumbs(lang: 'en' | 'de', origin: string = SITE_URL): BreadcrumbItem[] {
+	return [
+		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${origin}/${lang}` },
+		{ name: lang === 'de' ? 'Notfall-Schnellhilfe' : 'Emergency Fast Scan', url: `${origin}/${lang}/emergency`, current: true }
+	];
+}
+
+export function buildStaticPageBreadcrumbs(page: StaticPage, lang: 'en' | 'de', origin: string = SITE_URL): BreadcrumbItem[] {
+	return [
+		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${origin}/${lang}` },
+		{ name: page.title, url: `${origin}/${lang}/${page.slug}`, current: true }
+	];
+}
+
+/* =========================================================================
  * JSON-LD Schema Builders (Truthful & Provenance-Backed)
  * ========================================================================= */
 
-/**
- * Builds WebSite structured data for the homepage.
- */
-export function buildWebSiteSchema(lang: 'en' | 'de') {
+export function buildWebSiteSchema(lang: 'en' | 'de', origin: string = SITE_URL) {
 	return {
 		'@context': 'https://schema.org',
 		'@type': 'WebSite',
 		name: SITE_NAME,
-		url: `${SITE_URL}/${lang}`,
+		url: `${origin}/${lang}`,
 		description:
 			lang === 'de'
 				? 'Ein quellenbasiertes, trocken humorvolles Sicherheitskompendium für seltene, aber lebenswichtige Alltagssituationen.'
@@ -109,12 +177,8 @@ export function buildWebSiteSchema(lang: 'en' | 'de') {
 	};
 }
 
-/**
- * Builds Article structured data for guide articles using real frontmatter provenance.
- * Note: Only verified review dates and source URLs are included. No fake authors or publishers.
- */
-export function buildArticleSchema(article: Article, lang: 'en' | 'de') {
-	const url = `${SITE_URL}/${lang}/guide/${article.slug}`;
+export function buildArticleSchema(article: Article, lang: 'en' | 'de', origin: string = SITE_URL) {
+	const url = `${origin}/${lang}/guide/${article.slug}`;
 	const description = article.subtitle || article.memory_hook;
 
 	const schema: Record<string, any> = {
@@ -126,7 +190,7 @@ export function buildArticleSchema(article: Article, lang: 'en' | 'de') {
 		mainEntityOfPage: url,
 		inLanguage: lang,
 		articleSection: article.category,
-		image: DEFAULT_OG_IMAGE
+		image: `${origin}/social-card.png`
 	};
 
 	if (article.reviewed_at) {
@@ -140,10 +204,7 @@ export function buildArticleSchema(article: Article, lang: 'en' | 'de') {
 	return schema;
 }
 
-/**
- * Builds BreadcrumbList structured data reflecting real information architecture.
- */
-export function buildBreadcrumbSchema(items: Array<{ name: string; url: string }>) {
+export function buildBreadcrumbSchema(items: BreadcrumbItem[]) {
 	return {
 		'@context': 'https://schema.org',
 		'@type': 'BreadcrumbList',
@@ -160,8 +221,8 @@ export function buildBreadcrumbSchema(items: Array<{ name: string; url: string }
  * High-Level Page SEO Builders
  * ========================================================================= */
 
-export function buildHomepageSeo(lang: 'en' | 'de'): SeoMetadata {
-	const canonicalUrl = `${SITE_URL}/${lang}`;
+export function buildHomepageSeo(lang: 'en' | 'de', origin: string = SITE_URL): SeoMetadata {
+	const canonicalUrl = `${origin}/${lang}`;
 	const title =
 		lang === 'de'
 			? 'Mostly Alive — Praktischer Überlebensleitfaden'
@@ -177,17 +238,17 @@ export function buildHomepageSeo(lang: 'en' | 'de'): SeoMetadata {
 		canonicalUrl,
 		lang,
 		type: 'website',
-		hreflangs: buildHreflangLinks(`/${lang}`),
-		ogImage: DEFAULT_OG_IMAGE,
-		ogImageWidth: 512,
-		ogImageHeight: 512,
-		ogImageType: 'image/png',
-		jsonLd: buildWebSiteSchema(lang)
+		hreflangs: buildHreflangLinks(`/${lang}`, origin),
+		ogImage: `${origin}/social-card.png`,
+		ogImageWidth: DEFAULT_OG_IMAGE_WIDTH,
+		ogImageHeight: DEFAULT_OG_IMAGE_HEIGHT,
+		ogImageType: DEFAULT_OG_IMAGE_TYPE,
+		jsonLd: buildWebSiteSchema(lang, origin)
 	};
 }
 
-export function buildHandbookSeo(lang: 'en' | 'de'): SeoMetadata {
-	const canonicalUrl = `${SITE_URL}/${lang}/guide`;
+export function buildHandbookSeo(lang: 'en' | 'de', origin: string = SITE_URL): SeoMetadata {
+	const canonicalUrl = `${origin}/${lang}/guide`;
 	const title =
 		lang === 'de'
 			? 'Vollständiges Handbuch — Überlebenswissen — Mostly Alive'
@@ -197,10 +258,8 @@ export function buildHandbookSeo(lang: 'en' | 'de'): SeoMetadata {
 			? 'Durchsuche alle dokumentierten Notfallsituationen und Überlebensanleitungen. Quellenbasierte Sofortmaßnahmen für den Ernstfall.'
 			: 'Browse all documented emergency situations and survival instructions. Actionable safety steps backed by authoritative primary sources.';
 
-	const breadcrumb = buildBreadcrumbSchema([
-		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${SITE_URL}/${lang}` },
-		{ name: lang === 'de' ? 'Handbuch' : 'Handbook', url: canonicalUrl }
-	]);
+	const breadcrumbs = buildHandbookBreadcrumbs(lang, origin);
+	const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbs);
 
 	return {
 		title,
@@ -208,31 +267,24 @@ export function buildHandbookSeo(lang: 'en' | 'de'): SeoMetadata {
 		canonicalUrl,
 		lang,
 		type: 'website',
-		hreflangs: buildHreflangLinks(`/${lang}/guide`),
-		ogImage: DEFAULT_OG_IMAGE,
-		ogImageWidth: 512,
-		ogImageHeight: 512,
-		ogImageType: 'image/png',
-		jsonLd: breadcrumb
+		hreflangs: buildHreflangLinks(`/${lang}/guide`, origin),
+		ogImage: `${origin}/social-card.png`,
+		ogImageWidth: DEFAULT_OG_IMAGE_WIDTH,
+		ogImageHeight: DEFAULT_OG_IMAGE_HEIGHT,
+		ogImageType: DEFAULT_OG_IMAGE_TYPE,
+		breadcrumbs,
+		jsonLd: breadcrumbSchema
 	};
 }
 
-export function buildGuideSeo(article: Article, lang: 'en' | 'de'): SeoMetadata {
-	const canonicalUrl = `${SITE_URL}/${lang}/guide/${article.slug}`;
+export function buildGuideSeo(article: Article, lang: 'en' | 'de', origin: string = SITE_URL): SeoMetadata {
+	const canonicalUrl = `${origin}/${lang}/guide/${article.slug}`;
 	const title = `${article.title} — Mostly Alive`;
 	const description = article.subtitle || article.memory_hook;
 
-	const catInfo = CATEGORIES[article.category as Category];
-	const catTitle = catInfo ? catInfo.title[lang] : article.category;
-	const catUrl = `${SITE_URL}/${lang}/categories/${article.category}`;
-
-	const articleSchema = buildArticleSchema(article, lang);
-	const breadcrumbSchema = buildBreadcrumbSchema([
-		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${SITE_URL}/${lang}` },
-		{ name: lang === 'de' ? 'Handbuch' : 'Handbook', url: `${SITE_URL}/${lang}/guide` },
-		{ name: catTitle, url: catUrl },
-		{ name: article.title, url: canonicalUrl }
-	]);
+	const breadcrumbs = buildGuideBreadcrumbs(article, lang, origin);
+	const articleSchema = buildArticleSchema(article, lang, origin);
+	const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbs);
 
 	return {
 		title,
@@ -240,27 +292,26 @@ export function buildGuideSeo(article: Article, lang: 'en' | 'de'): SeoMetadata 
 		canonicalUrl,
 		lang,
 		type: 'article',
-		hreflangs: buildHreflangLinks(`/${lang}/guide/${article.slug}`),
-		ogImage: DEFAULT_OG_IMAGE,
-		ogImageWidth: 512,
-		ogImageHeight: 512,
-		ogImageType: 'image/png',
+		hreflangs: buildHreflangLinks(`/${lang}/guide/${article.slug}`, origin),
+		ogImage: `${origin}/social-card.png`,
+		ogImageWidth: DEFAULT_OG_IMAGE_WIDTH,
+		ogImageHeight: DEFAULT_OG_IMAGE_HEIGHT,
+		ogImageType: DEFAULT_OG_IMAGE_TYPE,
+		breadcrumbs,
 		jsonLd: [articleSchema, breadcrumbSchema]
 	};
 }
 
-export function buildCategoriesIndexSeo(lang: 'en' | 'de'): SeoMetadata {
-	const canonicalUrl = `${SITE_URL}/${lang}/categories`;
+export function buildCategoriesIndexSeo(lang: 'en' | 'de', origin: string = SITE_URL): SeoMetadata {
+	const canonicalUrl = `${origin}/${lang}/categories`;
 	const title = lang === 'de' ? 'Gefahrenkategorien — Mostly Alive' : 'Hazard Categories — Mostly Alive';
 	const description =
 		lang === 'de'
 			? 'Systematische Klassifikation alltäglicher und unvorhergesehener Notlagen nach Gefahrenbereichen.'
 			: 'Systematic classification of emergency and survival situations across medical, weather, fire, electrical, and other hazard domains.';
 
-	const breadcrumb = buildBreadcrumbSchema([
-		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${SITE_URL}/${lang}` },
-		{ name: lang === 'de' ? 'Kategorien' : 'Categories', url: canonicalUrl }
-	]);
+	const breadcrumbs = buildCategoriesIndexBreadcrumbs(lang, origin);
+	const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbs);
 
 	return {
 		title,
@@ -268,18 +319,19 @@ export function buildCategoriesIndexSeo(lang: 'en' | 'de'): SeoMetadata {
 		canonicalUrl,
 		lang,
 		type: 'website',
-		hreflangs: buildHreflangLinks(`/${lang}/categories`),
-		ogImage: DEFAULT_OG_IMAGE,
-		ogImageWidth: 512,
-		ogImageHeight: 512,
-		ogImageType: 'image/png',
-		jsonLd: breadcrumb
+		hreflangs: buildHreflangLinks(`/${lang}/categories`, origin),
+		ogImage: `${origin}/social-card.png`,
+		ogImageWidth: DEFAULT_OG_IMAGE_WIDTH,
+		ogImageHeight: DEFAULT_OG_IMAGE_HEIGHT,
+		ogImageType: DEFAULT_OG_IMAGE_TYPE,
+		breadcrumbs,
+		jsonLd: breadcrumbSchema
 	};
 }
 
-export function buildCategorySeo(category: Category, lang: 'en' | 'de'): SeoMetadata {
+export function buildCategorySeo(category: Category, lang: 'en' | 'de', origin: string = SITE_URL): SeoMetadata {
 	const catInfo = CATEGORIES[category];
-	const canonicalUrl = `${SITE_URL}/${lang}/categories/${category}`;
+	const canonicalUrl = `${origin}/${lang}/categories/${category}`;
 	const catTitle = catInfo ? catInfo.title[lang] : category;
 	const title =
 		lang === 'de'
@@ -291,11 +343,8 @@ export function buildCategorySeo(category: Category, lang: 'en' | 'de'): SeoMeta
 			? `Alle Sicherheitsanleitungen in der Kategorie ${catTitle}.`
 			: `All survival and emergency guides in the ${catTitle} category.`);
 
-	const breadcrumb = buildBreadcrumbSchema([
-		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${SITE_URL}/${lang}` },
-		{ name: lang === 'de' ? 'Kategorien' : 'Categories', url: `${SITE_URL}/${lang}/categories` },
-		{ name: catTitle, url: canonicalUrl }
-	]);
+	const breadcrumbs = buildCategoryBreadcrumbs(category, lang, origin);
+	const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbs);
 
 	return {
 		title,
@@ -303,17 +352,18 @@ export function buildCategorySeo(category: Category, lang: 'en' | 'de'): SeoMeta
 		canonicalUrl,
 		lang,
 		type: 'website',
-		hreflangs: buildHreflangLinks(`/${lang}/categories/${category}`),
-		ogImage: DEFAULT_OG_IMAGE,
-		ogImageWidth: 512,
-		ogImageHeight: 512,
-		ogImageType: 'image/png',
-		jsonLd: breadcrumb
+		hreflangs: buildHreflangLinks(`/${lang}/categories/${category}`, origin),
+		ogImage: `${origin}/social-card.png`,
+		ogImageWidth: DEFAULT_OG_IMAGE_WIDTH,
+		ogImageHeight: DEFAULT_OG_IMAGE_HEIGHT,
+		ogImageType: DEFAULT_OG_IMAGE_TYPE,
+		breadcrumbs,
+		jsonLd: breadcrumbSchema
 	};
 }
 
-export function buildEmergencySeo(lang: 'en' | 'de'): SeoMetadata {
-	const canonicalUrl = `${SITE_URL}/${lang}/emergency`;
+export function buildEmergencySeo(lang: 'en' | 'de', origin: string = SITE_URL): SeoMetadata {
+	const canonicalUrl = `${origin}/${lang}/emergency`;
 	const title =
 		lang === 'de'
 			? 'Notfall-Schnellhilfe — Sofortmaßnahmen — Mostly Alive'
@@ -323,10 +373,8 @@ export function buildEmergencySeo(lang: 'en' | 'de'): SeoMetadata {
 			? 'Kompakte, schnörkellose Sofortmaßnahmen für akute Lebensgefahr. Schnelle Handlungsschritte für kritische Notfälle.'
 			: 'Ultra-fast, zero-fluff immediate actions for life-threatening emergencies. Fast-scan reference for critical situations.';
 
-	const breadcrumb = buildBreadcrumbSchema([
-		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${SITE_URL}/${lang}` },
-		{ name: lang === 'de' ? 'Notfall-Schnellhilfe' : 'Emergency Fast Scan', url: canonicalUrl }
-	]);
+	const breadcrumbs = buildEmergencyBreadcrumbs(lang, origin);
+	const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbs);
 
 	return {
 		title,
@@ -334,17 +382,18 @@ export function buildEmergencySeo(lang: 'en' | 'de'): SeoMetadata {
 		canonicalUrl,
 		lang,
 		type: 'website',
-		hreflangs: buildHreflangLinks(`/${lang}/emergency`),
-		ogImage: DEFAULT_OG_IMAGE,
-		ogImageWidth: 512,
-		ogImageHeight: 512,
-		ogImageType: 'image/png',
-		jsonLd: breadcrumb
+		hreflangs: buildHreflangLinks(`/${lang}/emergency`, origin),
+		ogImage: `${origin}/social-card.png`,
+		ogImageWidth: DEFAULT_OG_IMAGE_WIDTH,
+		ogImageHeight: DEFAULT_OG_IMAGE_HEIGHT,
+		ogImageType: DEFAULT_OG_IMAGE_TYPE,
+		breadcrumbs,
+		jsonLd: breadcrumbSchema
 	};
 }
 
-export function buildStaticPageSeo(page: StaticPage, lang: 'en' | 'de'): SeoMetadata {
-	const canonicalUrl = `${SITE_URL}/${lang}/${page.slug}`;
+export function buildStaticPageSeo(page: StaticPage, lang: 'en' | 'de', origin: string = SITE_URL): SeoMetadata {
+	const canonicalUrl = `${origin}/${lang}/${page.slug}`;
 	const title = `${page.title} — Mostly Alive`;
 	const description =
 		page.description ||
@@ -352,10 +401,8 @@ export function buildStaticPageSeo(page: StaticPage, lang: 'en' | 'de'): SeoMeta
 			? 'Offizielle Dokumentation und Transparenzangaben für Mostly Alive.'
 			: 'Official documentation and transparency disclosures for Mostly Alive.');
 
-	const breadcrumb = buildBreadcrumbSchema([
-		{ name: lang === 'de' ? 'Startseite' : 'Home', url: `${SITE_URL}/${lang}` },
-		{ name: page.title, url: canonicalUrl }
-	]);
+	const breadcrumbs = buildStaticPageBreadcrumbs(page, lang, origin);
+	const breadcrumbSchema = buildBreadcrumbSchema(breadcrumbs);
 
 	return {
 		title,
@@ -363,17 +410,18 @@ export function buildStaticPageSeo(page: StaticPage, lang: 'en' | 'de'): SeoMeta
 		canonicalUrl,
 		lang,
 		type: 'website',
-		hreflangs: buildHreflangLinks(`/${lang}/${page.slug}`),
-		ogImage: DEFAULT_OG_IMAGE,
-		ogImageWidth: 512,
-		ogImageHeight: 512,
-		ogImageType: 'image/png',
-		jsonLd: breadcrumb
+		hreflangs: buildHreflangLinks(`/${lang}/${page.slug}`, origin),
+		ogImage: `${origin}/social-card.png`,
+		ogImageWidth: DEFAULT_OG_IMAGE_WIDTH,
+		ogImageHeight: DEFAULT_OG_IMAGE_HEIGHT,
+		ogImageType: DEFAULT_OG_IMAGE_TYPE,
+		breadcrumbs,
+		jsonLd: breadcrumbSchema
 	};
 }
 
-export function buildRandomSeo(lang: 'en' | 'de'): SeoMetadata {
-	const canonicalUrl = `${SITE_URL}/${lang}/random`;
+export function buildRandomSeo(lang: 'en' | 'de', origin: string = SITE_URL): SeoMetadata {
+	const canonicalUrl = `${origin}/${lang}/random`;
 	const title =
 		lang === 'de'
 			? 'Zufallseintrag — Einprägsames Überlebenswissen — Mostly Alive'
@@ -391,9 +439,9 @@ export function buildRandomSeo(lang: 'en' | 'de'): SeoMetadata {
 		type: 'website',
 		robots: 'noindex, follow',
 		hreflangs: [],
-		ogImage: DEFAULT_OG_IMAGE,
-		ogImageWidth: 512,
-		ogImageHeight: 512,
-		ogImageType: 'image/png'
+		ogImage: `${origin}/social-card.png`,
+		ogImageWidth: DEFAULT_OG_IMAGE_WIDTH,
+		ogImageHeight: DEFAULT_OG_IMAGE_HEIGHT,
+		ogImageType: DEFAULT_OG_IMAGE_TYPE
 	};
 }

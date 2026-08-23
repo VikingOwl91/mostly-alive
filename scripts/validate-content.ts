@@ -5,7 +5,8 @@ import {
 	ArticleFrontmatterSchema,
 	PageFrontmatterSchema,
 	CATEGORIES,
-	type ArticleFrontmatter
+	type ArticleFrontmatter,
+	type Category
 } from '../src/lib/types/content.js';
 import { SITE_URL } from '../src/lib/seo.js';
 
@@ -19,6 +20,65 @@ interface ValidationReport {
 	sitemapUrlsCount: number;
 	errors: string[];
 	warnings: string[];
+}
+
+function getRelatedSlugs(
+	currentSlug: string,
+	currentMeta: ArticleFrontmatter,
+	allArticles: Map<string, ArticleFrontmatter>,
+	limit = 3
+): string[] {
+	const tagSet = new Set((currentMeta.tags || []).map((t) => t.toLowerCase()));
+
+	const affinityMap: Record<string, string[]> = {
+		weather: ['electricity', 'water', 'medical', 'outdoors'],
+		electricity: ['vehicles', 'weather', 'home', 'buildings'],
+		fire: ['home', 'buildings', 'vehicles', 'medical'],
+		water: ['vehicles', 'weather', 'outdoors', 'medical'],
+		medical: ['weather', 'water', 'fire', 'animals'],
+		vehicles: ['water', 'electricity', 'fire', 'weather'],
+		animals: ['medical', 'outdoors', 'water'],
+		outdoors: ['weather', 'medical', 'water', 'animals'],
+		home: ['fire', 'electricity', 'buildings', 'medical'],
+		buildings: ['fire', 'electricity', 'home', 'crowds']
+	};
+
+	const affinities = new Set(affinityMap[currentMeta.category] || []);
+
+	const scored: Array<{ slug: string; score: number; threat: number }> = [];
+
+	for (const [slug, candidate] of allArticles) {
+		if (slug === currentSlug) continue;
+
+		let score = 0;
+		if (candidate.category === currentMeta.category) {
+			score += 10;
+		} else if (affinities.has(candidate.category)) {
+			score += 4;
+		}
+
+		if (candidate.tags) {
+			for (const t of candidate.tags) {
+				if (tagSet.has(t.toLowerCase())) {
+					score += 3;
+				}
+			}
+		}
+
+		if (Math.abs(candidate.threat_level - currentMeta.threat_level) <= 1) {
+			score += 1;
+		}
+
+		scored.push({ slug, score, threat: candidate.threat_level });
+	}
+
+	scored.sort((a, b) => {
+		if (b.score !== a.score) return b.score - a.score;
+		if (b.threat !== a.threat) return b.threat - a.threat;
+		return a.slug.localeCompare(b.slug);
+	});
+
+	return scored.slice(0, limit).map((s) => s.slug);
 }
 
 function runValidation(): ValidationReport {
@@ -69,6 +129,13 @@ function runValidation(): ValidationReport {
 
 			const meta = result.data;
 			articlesByLang[lang].set(fileSlug, meta);
+
+			// Check category exists in taxonomy
+			if (!CATEGORIES[meta.category as Category]) {
+				report.errors.push(
+					`[${lang.toUpperCase()}] Invalid category "${meta.category}" in ${file}.`
+				);
+			}
 
 			// Check slug matches filename
 			if (meta.slug !== fileSlug) {
@@ -227,7 +294,18 @@ function runValidation(): ValidationReport {
 		}
 	}
 
-	// 4. Validate Sitemap Coverage & Consistency
+	// 4. Validate Social Preview Asset (1200x630)
+	const socialCardPath = path.resolve('static/social-card.png');
+	if (!fs.existsSync(socialCardPath)) {
+		report.errors.push('Missing static/social-card.png file (1200x630 social preview image).');
+	} else {
+		const stat = fs.statSync(socialCardPath);
+		if (stat.size < 1000) {
+			report.errors.push('static/social-card.png file is suspiciously small or empty.');
+		}
+	}
+
+	// 5. Validate Sitemap Coverage & Consistency
 	const sitemapUrls = new Set<string>();
 
 	// Add homepages, guides, categories, emergency
@@ -264,6 +342,26 @@ function runValidation(): ValidationReport {
 		}
 	}
 
+	// 6. Validate Internal Linking & Orphan Detection
+	for (const lang of langs) {
+		for (const [slug, meta] of articlesByLang[lang]) {
+			const relatedSlugs = getRelatedSlugs(slug, meta, articlesByLang[lang], 3);
+
+			if (relatedSlugs.length === 0) {
+				report.errors.push(`[${lang.toUpperCase()}] Orphan guide detected: "${slug}" has 0 related guide paths.`);
+			}
+
+			for (const rSlug of relatedSlugs) {
+				if (rSlug === slug) {
+					report.errors.push(`[${lang.toUpperCase()}] Self-link in related guides detected for "${slug}".`);
+				}
+				if (!articlesByLang[lang].has(rSlug)) {
+					report.errors.push(`[${lang.toUpperCase()}] Related guide references non-existent slug "${rSlug}" from "${slug}".`);
+				}
+			}
+		}
+	}
+
 	return report;
 }
 
@@ -293,5 +391,5 @@ if (result.errors.length > 0) {
 	console.log('');
 	process.exit(1);
 } else {
-	console.log('✅ Content, Provenance & SEO validation passed successfully!\n');
+	console.log('✅ Content, Provenance, SEO & Linkage validation passed successfully!\n');
 }

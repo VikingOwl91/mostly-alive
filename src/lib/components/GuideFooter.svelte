@@ -10,7 +10,7 @@
 
 <footer class="mt-20 border-t border-slate-800/80 bg-slate-950/60 text-slate-400 text-xs">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-		<div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+		<nav aria-label={lang === 'de' ? 'Fußzeilen-Navigation' : 'Footer navigation'} class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
 			<!-- Column 1: Guide & Content -->
 			<div class="space-y-3 font-mono">
 				<div class="text-[11px] uppercase font-bold text-slate-200 tracking-wider">
@@ -135,7 +135,7 @@
 					</a>
 				</div>
 			</div>
-		</div>
+		</nav>
 
 		<!-- Bottom Bar with Absurdist Dry Disclaimer -->
 		<div

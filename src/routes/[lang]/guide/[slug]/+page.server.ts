@@ -1,5 +1,5 @@
 import { error } from '@sveltejs/kit';
-import { getArticle } from '$lib/server/content';
+import { getArticle, getRelatedArticles } from '$lib/server/content';
 import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params }) => {
@@ -11,8 +11,11 @@ export const load: PageServerLoad = async ({ params }) => {
 		throw error(404, `Article "${slug}" not found in language "${lang}"`);
 	}
 
+	const relatedArticles = getRelatedArticles(article, lang, 3);
+
 	return {
 		lang,
-		article
+		article,
+		relatedArticles
 	};
 };

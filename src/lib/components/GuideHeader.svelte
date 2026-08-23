@@ -37,7 +37,7 @@
 		</div>
 
 		<!-- Desktop Navigation -->
-		<nav class="hidden md:flex items-center gap-6 text-xs font-mono">
+		<nav aria-label={lang === 'de' ? 'Hauptnavigation' : 'Main navigation'} class="hidden md:flex items-center gap-6 text-xs font-mono">
 			<a
 				href="/{lang}/guide"
 				class="text-slate-300 hover:text-amber-400 transition-colors flex items-center gap-1.5"
@@ -107,7 +107,8 @@
 
 	<!-- Mobile Dropdown Menu -->
 	{#if isMobileMenuOpen}
-		<div
+		<nav
+			aria-label={lang === 'de' ? 'Mobile Navigation' : 'Mobile navigation'}
 			class="md:hidden border-t border-slate-800 bg-[#07090e] px-4 pt-3 pb-5 space-y-3 font-mono text-sm"
 		>
 			<a
@@ -138,7 +139,7 @@
 			>
 				🚨 {lang === 'de' ? 'NOTFALL-SCHNELLHILFE' : 'EMERGENCY BASICS'}
 			</a>
-		</div>
+		</nav>
 	{/if}
 </header>
 

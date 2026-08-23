@@ -17,6 +17,8 @@
 	import SourceInspector from '$lib/components/SourceInspector.svelte';
 	import EmergencyNumbersWidget from '$lib/components/EmergencyNumbersWidget.svelte';
 	import RegionalVariationNote from '$lib/components/RegionalVariationNote.svelte';
+	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
+	import RelatedGuides from '$lib/components/RelatedGuides.svelte';
 	import SeoHead from '$lib/components/SeoHead.svelte';
 	import { buildGuideSeo } from '$lib/seo';
 
@@ -44,6 +46,9 @@
 <SeoHead {seo} />
 
 <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 space-y-8">
+	<!-- Visible Semantic Breadcrumb Navigation -->
+	<Breadcrumbs items={seo.breadcrumbs || []} />
+
 	<!-- Navigation & Tools Bar -->
 	<div class="flex items-center justify-between gap-4 no-print text-xs font-mono text-slate-400">
 		<a
@@ -198,4 +203,7 @@
 			</a>
 		</div>
 	</div>
+
+	<!-- Related Survival Guides Discovery -->
+	<RelatedGuides articles={data.relatedArticles || []} lang={data.lang} />
 </article>

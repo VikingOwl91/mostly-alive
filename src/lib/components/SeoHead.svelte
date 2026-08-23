@@ -50,7 +50,7 @@
 	{/if}
 
 	<!-- Twitter Card Metadata -->
-	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content={seo.title} />
 	{#if seo.description}
 		<meta name="twitter:description" content={seo.description} />

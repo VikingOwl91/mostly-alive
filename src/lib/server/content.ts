@@ -118,6 +118,71 @@ export function getRandomArticle(lang: 'en' | 'de', category?: Category): Articl
 	return list[index];
 }
 
+export function getRelatedArticles(article: Article, lang: 'en' | 'de', limit = 3): Article[] {
+	const canonicalArticle = getArticle(article.slug, 'en') || article;
+	const allEn = loadAllArticles('en').filter(
+		(a) => a.slug !== article.slug && a.status !== 'archived'
+	);
+
+	const tagSet = new Set((canonicalArticle.tags || []).map((t) => t.toLowerCase()));
+
+	// Cross-category hazard affinities
+	const affinityMap: Record<string, string[]> = {
+		weather: ['electricity', 'water', 'medical', 'outdoors'],
+		electricity: ['vehicles', 'weather', 'home', 'buildings'],
+		fire: ['home', 'buildings', 'vehicles', 'medical'],
+		water: ['vehicles', 'weather', 'outdoors', 'medical'],
+		medical: ['weather', 'water', 'fire', 'animals'],
+		vehicles: ['water', 'electricity', 'fire', 'weather'],
+		animals: ['medical', 'outdoors', 'water'],
+		outdoors: ['weather', 'medical', 'water', 'animals'],
+		home: ['fire', 'electricity', 'buildings', 'medical'],
+		buildings: ['fire', 'electricity', 'home', 'crowds']
+	};
+
+	const affinities = new Set(affinityMap[canonicalArticle.category] || []);
+
+	const scored = allEn.map((candidate) => {
+		let score = 0;
+
+		// 1. Same category = +10
+		if (candidate.category === canonicalArticle.category) {
+			score += 10;
+		} else if (affinities.has(candidate.category)) {
+			// Related domain affinity = +4
+			score += 4;
+		}
+
+		// 2. Shared tags = +3 per match
+		if (candidate.tags) {
+			for (const t of candidate.tags) {
+				if (tagSet.has(t.toLowerCase())) {
+					score += 3;
+				}
+			}
+		}
+
+		// 3. Threat level proximity (bonus if within 1 level)
+		if (Math.abs(candidate.threat_level - canonicalArticle.threat_level) <= 1) {
+			score += 1;
+		}
+
+		return { slug: candidate.slug, score, threat: candidate.threat_level };
+	});
+
+	// Deterministic sort: score desc -> threat_level desc -> slug asc
+	scored.sort((a, b) => {
+		if (b.score !== a.score) return b.score - a.score;
+		if (b.threat !== a.threat) return b.threat - a.threat;
+		return a.slug.localeCompare(b.slug);
+	});
+
+	const topSlugs = scored.slice(0, limit).map((s) => s.slug);
+	return topSlugs
+		.map((slug) => getArticle(slug, lang))
+		.filter((a): a is Article => a !== null);
+}
+
 export function getStaticPage(slug: string, lang: 'en' | 'de'): StaticPage | null {
 	return pageMap.get(`${lang}:${slug}`) || null;
 }

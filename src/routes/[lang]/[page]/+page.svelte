@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { ArrowLeft, BookOpen, Calendar, ShieldCheck } from '@lucide/svelte';
+	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
 	import SeoHead from '$lib/components/SeoHead.svelte';
 	import { buildStaticPageSeo } from '$lib/seo';
 
@@ -19,6 +20,9 @@
 <SeoHead {seo} />
 
 <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16 space-y-8">
+	<!-- Visible Breadcrumbs Navigation -->
+	<Breadcrumbs items={seo.breadcrumbs || []} />
+
 	<!-- Navigation -->
 	<a
 		href="/{data.lang}"
