@@ -1,0 +1,17 @@
+{
+	"name": "Mostly Alive — Survival Guide",
+	"short_name": "Mostly Alive",
+	"description": "Practical survival knowledge and life-saving instructions.",
+	"start_url": "/en",
+	"display": "standalone",
+	"background_color": "#07090e",
+	"theme_color": "#07090e",
+	"icons": [
+		{
+			"src": "/favicon.svg",
+			"sizes": "any",
+			"type": "image/svg+xml",
+			"purpose": "any maskable"
+		}
+	]
+}

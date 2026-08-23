@@ -1,0 +1,45 @@
+{
+	"name": "mostly-alive",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"validate:content": "tsx scripts/validate-content.ts"
+	},
+	"dependencies": {
+		"@lucide/svelte": "^1.0.1",
+		"@sveltejs/adapter-cloudflare": "^5.0.3",
+		"clsx": "^2.1.1",
+		"gray-matter": "^4.0.3",
+		"marked": "^15.0.7",
+		"minisearch": "^7.1.2",
+		"tailwind-merge": "^3.0.2",
+		"zod": "^3.24.2"
+	},
+	"devDependencies": {
+		"@sveltejs/kit": "^2.17.2",
+		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@tailwindcss/typography": "^0.5.16",
+		"@tailwindcss/vite": "^4.0.6",
+		"@types/node": "^22.13.4",
+		"prettier": "^3.5.1",
+		"prettier-plugin-svelte": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"svelte": "^5.20.2",
+		"svelte-check": "^4.1.4",
+		"tailwindcss": "^4.0.6",
+		"tsx": "^4.19.3",
+		"typescript": "^5.7.3",
+		"vite": "^6.1.0",
+		"vitest": "^3.0.5"
+	}
+}
