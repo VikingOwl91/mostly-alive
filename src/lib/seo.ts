@@ -4,7 +4,7 @@
  * schema.org JSON-LD structured data, and navigation breadcrumbs.
  */
 
-import { CATEGORIES, type Article, type Category, type StaticPage } from '$lib/types/content';
+import { CATEGORIES, type Article, type Category, type StaticPage } from './types/content.js';
 
 /**
  * SINGLE AUTHORITATIVE SITE ORIGIN
