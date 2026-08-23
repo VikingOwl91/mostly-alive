@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#07090e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="512" height="512" fill="#07090e"/>
+  
+  <!-- Subtle Amber Glow -->
+  <circle cx="256" cy="256" r="220" fill="url(#glow)"/>
+
+  <!-- Outer Rounded Bezel -->
+  <rect x="36" y="36" width="440" height="440" rx="100" fill="#0b0f19" stroke="url(#borderGrad)" stroke-width="16"/>
+
+  <!-- Inner Telemetry Frame -->
+  <rect x="56" y="56" width="400" height="400" rx="84" fill="none" stroke="#f59e0b" stroke-opacity="0.25" stroke-width="3" stroke-dasharray="12 8"/>
+
+  <!-- Corner Tech Accents -->
+  <path d="M 80 130 L 80 80 L 130 80" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 432 130 L 432 80 L 382 80" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 80 382 L 80 432 L 130 432" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 432 382 L 432 432 L 382 432" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Telemetry Dot Markers -->
+  <circle cx="256" cy="74" r="5" fill="#f59e0b"/>
+  <circle cx="256" cy="438" r="5" fill="#f59e0b"/>
+  <circle cx="74" cy="256" r="5" fill="#f59e0b"/>
+  <circle cx="438" cy="256" r="5" fill="#f59e0b"/>
+
+  <!-- Central Monogram "MA" -->
+  <text x="256" y="325" fill="#f59e0b" font-family="JetBrains Mono, SF Pro Display, system-ui, -apple-system, monospace" font-weight="900" font-size="200" text-anchor="middle" letter-spacing="-10">MA</text>
+  
+  <!-- Subtle Telemetry Label -->
+  <text x="256" y="385" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-weight="700" font-size="22" text-anchor="middle" letter-spacing="8">MOSTLY ALIVE</text>
+</svg>
