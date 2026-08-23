@@ -407,33 +407,34 @@
 	<meta name="robots" content="noindex, nofollow" />
 </svelte:head>
 
-<div class="min-h-screen bg-[#07090e] text-slate-100 flex flex-col font-sans">
+<div class="min-h-[100dvh] bg-[#07090e] text-slate-100 flex flex-col font-sans">
 	<!-- Top Bar -->
 	<header
-		class="border-b border-slate-800 bg-slate-950/80 px-6 py-3 flex items-center justify-between gap-4"
+		class="border-b border-slate-800 bg-slate-950/80 px-3.5 sm:px-6 py-2.5 sm:py-3 flex flex-wrap items-center justify-between gap-3"
 	>
-		<div class="flex items-center gap-3">
+		<div class="flex items-center gap-2.5 sm:gap-3 min-w-0">
 			<a
 				href="/en"
-				class="p-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white"
+				class="p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-400 hover:text-white min-w-[36px] min-h-[36px] flex items-center justify-center shrink-0"
+				aria-label="Back to home"
 			>
 				<ArrowLeft class="w-4 h-4" />
 			</a>
-			<div>
-				<div class="font-mono text-xs font-bold uppercase tracking-wider text-amber-400">
+			<div class="min-w-0">
+				<div class="font-mono text-xs font-bold uppercase tracking-wider text-amber-400 truncate">
 					MOSTLY ALIVE // WEB STUDIO
 				</div>
-				<div class="text-xs text-slate-400 font-mono">
+				<div class="text-[11px] text-slate-400 font-mono truncate">
 					{slug ? `${slug}.md` : 'Untitled Entry'}
 				</div>
 			</div>
 		</div>
 
 		<!-- Action Controls & Authenticated User Info -->
-		<div class="flex items-center gap-3">
+		<div class="flex items-center gap-2 sm:gap-3 flex-wrap">
 			{#if currentUser}
 				<div
-					class="hidden sm:flex items-center gap-2 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 font-mono text-[11px] text-slate-300"
+					class="hidden md:flex items-center gap-2 px-2.5 py-1 rounded-lg bg-slate-900 border border-slate-800 font-mono text-[11px] text-slate-300"
 				>
 					<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
 					<span>@{currentUser.username}</span>
@@ -445,7 +446,7 @@
 				<button
 					type="button"
 					onclick={() => (activeTab = 'edit')}
-					class="px-2.5 py-1 rounded {activeTab === 'edit'
+					class="px-2.5 py-1 rounded min-h-[30px] {activeTab === 'edit'
 						? 'bg-amber-500 text-slate-950 font-bold'
 						: 'text-slate-400 hover:text-white'}"
 				>
@@ -454,7 +455,7 @@
 				<button
 					type="button"
 					onclick={() => (activeTab = 'split')}
-					class="px-2.5 py-1 rounded hidden md:block {activeTab === 'split'
+					class="px-2.5 py-1 rounded min-h-[30px] hidden md:block {activeTab === 'split'
 						? 'bg-amber-500 text-slate-950 font-bold'
 						: 'text-slate-400 hover:text-white'}"
 				>
@@ -463,7 +464,7 @@
 				<button
 					type="button"
 					onclick={() => (activeTab = 'preview')}
-					class="px-2.5 py-1 rounded {activeTab === 'preview'
+					class="px-2.5 py-1 rounded min-h-[30px] {activeTab === 'preview'
 						? 'bg-amber-500 text-slate-950 font-bold'
 						: 'text-slate-400 hover:text-white'}"
 				>
@@ -475,7 +476,7 @@
 				type="button"
 				onclick={commitArticle}
 				disabled={isCommitting}
-				class="px-3.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-xs font-bold transition-all flex items-center gap-1.5 disabled:opacity-50"
+				class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-mono text-xs font-bold transition-all flex items-center gap-1.5 disabled:opacity-50 min-h-[34px]"
 			>
 				<Save class="w-3.5 h-3.5" />
 				<span>{isCommitting ? 'Staging...' : 'Stage API'}</span>
@@ -484,7 +485,7 @@
 			<button
 				type="button"
 				onclick={downloadMarkdown}
-				class="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-mono text-xs font-bold transition-all flex items-center gap-1.5 shadow-[0_0_10px_rgba(245,158,11,0.2)]"
+				class="px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-mono text-xs font-bold transition-all flex items-center gap-1.5 shadow-[0_0_10px_rgba(245,158,11,0.2)] min-h-[34px]"
 			>
 				<Download class="w-3.5 h-3.5" />
 				<span>{exportSuccess ? 'Saved!' : 'Export .md'}</span>
@@ -492,7 +493,7 @@
 
 			<a
 				href="/editor/auth/logout"
-				class="px-2.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-red-400 font-mono text-xs transition-colors"
+				class="px-2.5 py-1.5 rounded-lg bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-red-400 font-mono text-xs transition-colors min-h-[34px] flex items-center"
 				title="Log out from Web Studio"
 			>
 				Logout
@@ -502,10 +503,10 @@
 
 	<!-- Main Workspace -->
 	<div
-		class="flex-1 grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-800 h-[calc(100vh-57px)] overflow-hidden"
+		class="flex-1 grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-slate-800 h-[calc(100dvh-57px)] overflow-hidden"
 	>
 		<!-- Left: Form & Markdown Source -->
-		<div class="overflow-y-auto p-6 space-y-6 {activeTab === 'preview' ? 'hidden md:block' : ''}">
+		<div class="overflow-y-auto p-4 sm:p-6 space-y-6 {activeTab === 'preview' ? 'hidden md:block' : ''}">
 			<!-- Validation Status / Feedback -->
 			{#if commitStatusMsg}
 				<div

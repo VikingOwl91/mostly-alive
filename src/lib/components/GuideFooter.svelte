@@ -10,30 +10,30 @@
 
 <footer class="mt-20 border-t border-slate-800/80 bg-slate-950/60 text-slate-400 text-xs">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-		<nav aria-label={lang === 'de' ? 'Fußzeilen-Navigation' : 'Footer navigation'} class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+		<nav aria-label={lang === 'de' ? 'Fußzeilen-Navigation' : 'Footer navigation'} class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-12">
 			<!-- Column 1: Guide & Content -->
 			<div class="space-y-3 font-mono">
 				<div class="text-[11px] uppercase font-bold text-slate-200 tracking-wider">
 					{lang === 'de' ? 'Wissensbasis' : 'Knowledge Base'}
 				</div>
-				<ul class="space-y-2">
+				<ul class="space-y-1.5">
 					<li>
-						<a href="/{lang}/guide" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/guide" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Alle Artikel' : 'All Articles'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/categories" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/categories" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Kategorien' : 'Categories'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/emergency" class="hover:text-red-400 transition-colors"
+						<a href="/{lang}/emergency" class="hover:text-red-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Notfall-Sofortübersicht' : 'Emergency Basics'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/random" class="hover:text-cyan-400 transition-colors"
+						<a href="/{lang}/random" class="hover:text-cyan-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Zufälliger Ratschlag' : 'Random Entry'}</a
 						>
 					</li>
@@ -45,24 +45,24 @@
 				<div class="text-[11px] uppercase font-bold text-slate-200 tracking-wider">
 					{lang === 'de' ? 'Prüfung & Transparenz' : 'Editorial & Trust'}
 				</div>
-				<ul class="space-y-2">
+				<ul class="space-y-1.5">
 					<li>
-						<a href="/{lang}/methodology" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/methodology" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Methodik & Quellenstandard' : 'Methodology & Standards'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/sources" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/sources" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Autoritative Quellen' : 'Authoritative Sources'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/editorial-policy" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/editorial-policy" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Redaktionsrichtlinie' : 'Editorial Policy'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/contributing" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/contributing" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Mitwirken / Korrekturen' : 'Contribute / Corrections'}</a
 						>
 					</li>
@@ -74,29 +74,29 @@
 				<div class="text-[11px] uppercase font-bold text-slate-200 tracking-wider">
 					{lang === 'de' ? 'Rechtliches' : 'Legal & Policies'}
 				</div>
-				<ul class="space-y-2">
+				<ul class="space-y-1.5">
 					<li>
-						<a href="/{lang}/imprint" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/imprint" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Impressum' : 'Imprint / Legal Notice'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/privacy" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/privacy" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Datenschutzerklärung' : 'Privacy Policy'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/terms" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/terms" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Nutzungsbedingungen' : 'Terms of Service'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/security" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/security" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Sicherheitshinweise' : 'Security Policy'}</a
 						>
 					</li>
 					<li>
-						<a href="/{lang}/accessibility" class="hover:text-amber-400 transition-colors"
+						<a href="/{lang}/accessibility" class="hover:text-amber-400 transition-colors inline-block py-1"
 							>{lang === 'de' ? 'Barrierefreiheit' : 'Accessibility'}</a
 						>
 					</li>
@@ -108,7 +108,7 @@
 				<div class="text-[11px] uppercase font-bold text-slate-200 tracking-wider">
 					{lang === 'de' ? 'Open Source' : 'Open Source Project'}
 				</div>
-				<p class="text-xs text-slate-400 leading-relaxed">
+				<p class="text-xs text-slate-400 leading-relaxed break-words">
 					{lang === 'de'
 						? 'Ein gemeinnütziges, quellenbasiertes Sicherheitskompendium für ungewöhnliche Alltagslagen.'
 						: 'An open-source, source-backed safety compendium for unusual everyday situations.'}
@@ -118,7 +118,7 @@
 						href="https://github.com/VikingOwl91/mostly-alive"
 						target="_blank"
 						rel="noopener noreferrer"
-						class="p-2 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white transition-colors"
+						class="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white transition-colors"
 						aria-label="GitHub Repository"
 					>
 						<svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
@@ -129,7 +129,7 @@
 					</a>
 					<a
 						href="/editor"
-						class="text-xs px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-amber-300 transition-colors"
+						class="min-h-[44px] flex items-center text-xs px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-amber-300 transition-colors"
 					>
 						Web Studio
 					</a>

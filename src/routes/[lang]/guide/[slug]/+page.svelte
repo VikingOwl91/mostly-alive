@@ -45,17 +45,17 @@
 
 <SeoHead {seo} />
 
-<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 space-y-8">
+<article class="max-w-4xl mx-auto px-3.5 sm:px-6 lg:px-8 py-6 md:py-12 space-y-6 sm:space-y-8">
 	<!-- Visible Semantic Breadcrumb Navigation -->
 	<Breadcrumbs items={seo.breadcrumbs || []} />
 
 	<!-- Navigation & Tools Bar -->
-	<div class="flex items-center justify-between gap-4 no-print text-xs font-mono text-slate-400">
+	<div class="flex items-center justify-between gap-3 no-print text-xs font-mono text-slate-400 flex-wrap">
 		<a
 			href="/{data.lang}/guide"
-			class="flex items-center gap-1.5 hover:text-amber-400 transition-colors"
+			class="flex items-center gap-1.5 hover:text-amber-400 transition-colors min-h-[44px] py-1"
 		>
-			<ArrowLeft class="w-4 h-4" />
+			<ArrowLeft class="w-4 h-4 shrink-0" />
 			<span>{data.lang === 'de' ? 'Zurück zum Handbuch' : 'Back to Guide'}</span>
 		</a>
 
@@ -63,8 +63,9 @@
 			<button
 				type="button"
 				onclick={handlePrint}
-				class="p-2 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-white transition-colors"
+				class="min-w-[44px] min-h-[44px] flex items-center justify-center p-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-white transition-colors"
 				title={data.lang === 'de' ? 'Taschenkarte drucken' : 'Print Pocket Card'}
+				aria-label={data.lang === 'de' ? 'Taschenkarte drucken' : 'Print Pocket Card'}
 			>
 				<Printer class="w-4 h-4" />
 			</button>
@@ -72,7 +73,8 @@
 			<button
 				type="button"
 				onclick={copyShareLink}
-				class="px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-white transition-colors flex items-center gap-1.5"
+				class="min-h-[44px] px-3.5 py-2 rounded-xl bg-slate-900 border border-slate-800 hover:border-slate-700 text-slate-300 hover:text-white transition-colors flex items-center gap-1.5"
+				aria-label={data.lang === 'de' ? 'Link teilen' : 'Share link'}
 			>
 				<Share2 class="w-3.5 h-3.5" />
 				<span
@@ -89,12 +91,12 @@
 	</div>
 
 	<!-- Article Header & Metadata -->
-	<header class="space-y-4 border-b border-slate-800 pb-6">
+	<header class="space-y-3.5 sm:space-y-4 border-b border-slate-800 pb-5 sm:pb-6">
 		<div class="flex flex-wrap items-center justify-between gap-3">
-			<div class="flex items-center gap-2">
+			<div class="flex items-center gap-2 flex-wrap">
 				<a
 					href="/{data.lang}/categories/{article.category}"
-					class="font-mono text-xs uppercase font-bold text-amber-400 px-2.5 py-1 rounded bg-amber-950/60 border border-amber-500/40 hover:bg-amber-900/60 transition-colors"
+					class="font-mono text-xs uppercase font-bold text-amber-400 px-2.5 py-1 rounded-lg bg-amber-950/60 border border-amber-500/40 hover:bg-amber-900/60 transition-colors"
 				>
 					{article.category}
 				</a>
@@ -107,13 +109,13 @@
 		</div>
 
 		<h1
-			class="text-3xl sm:text-5xl font-mono font-black text-white uppercase tracking-tight leading-tight"
+			class="text-2xl sm:text-4xl md:text-5xl font-mono font-black text-white uppercase tracking-tight leading-tight break-words"
 		>
 			{article.title}
 		</h1>
 
 		{#if article.subtitle}
-			<p class="text-lg text-slate-300 font-medium">
+			<p class="text-base sm:text-lg text-slate-300 font-medium break-words leading-relaxed">
 				{article.subtitle}
 			</p>
 		{/if}
@@ -173,30 +175,30 @@
 
 	<!-- Editorial Feedback & Correction Actions -->
 	<div
-		class="p-4 rounded-xl bg-slate-950/80 border border-slate-800 flex flex-wrap items-center justify-between gap-4 text-xs font-mono text-slate-400 no-print"
+		class="p-4 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs font-mono text-slate-400 no-print"
 	>
 		<div class="flex items-center gap-2">
-			<MessageSquareWarning class="w-4 h-4 text-amber-400" />
-			<span>
+			<MessageSquareWarning class="w-4 h-4 text-amber-400 shrink-0" />
+			<span class="break-words">
 				{data.lang === 'de'
 					? 'Fehler oder veraltete Information entdeckt?'
 					: 'Spotted an error or outdated standard?'}
 			</span>
 		</div>
 
-		<div class="flex items-center gap-3">
+		<div class="flex items-center gap-3 flex-wrap">
 			<a
 				href="https://github.com/VikingOwl91/mostly-alive/issues/new?title=Correction+for+{article.slug}&body=Article:+{article.slug}"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="text-amber-400 hover:text-amber-300 font-semibold"
+				class="text-amber-400 hover:text-amber-300 font-semibold min-h-[36px] flex items-center"
 			>
 				{data.lang === 'de' ? 'Korrektur melden' : 'Report Correction'}
 			</a>
-			<span>•</span>
+			<span class="text-slate-600 hidden sm:inline">•</span>
 			<a
 				href="/editor?slug={article.slug}&lang={data.lang}"
-				class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1"
+				class="text-cyan-400 hover:text-cyan-300 flex items-center gap-1 min-h-[36px]"
 			>
 				<Edit3 class="w-3.5 h-3.5" />
 				<span>{data.lang === 'de' ? 'Im Web Studio bearbeiten' : 'Edit in Web Studio'}</span>

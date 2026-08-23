@@ -22,7 +22,7 @@
 				<li class="inline-flex items-center min-w-0">
 					{#if item.current || index === items.length - 1}
 						<span
-							class="text-slate-200 font-medium truncate max-w-[180px] sm:max-w-[260px] md:max-w-none"
+							class="text-slate-200 font-medium truncate max-w-[140px] xs:max-w-[180px] sm:max-w-[260px] md:max-w-none py-0.5"
 							aria-current="page"
 							title={item.name}
 						>
@@ -31,7 +31,7 @@
 					{:else}
 						<a
 							href={item.url.replace(/^https?:\/\/[^/]+/, '') || '/'}
-							class="text-slate-400 hover:text-cyan-400 transition-colors truncate max-w-[120px] sm:max-w-[200px]"
+							class="text-slate-400 hover:text-cyan-400 transition-colors truncate max-w-[100px] xs:max-w-[140px] sm:max-w-[200px] py-1 inline-block"
 							title={item.name}
 						>
 							{item.name}

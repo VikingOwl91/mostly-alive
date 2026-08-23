@@ -42,13 +42,13 @@
 
 {#if items.length > 0}
 	<section
-		class="my-6 rounded-2xl border border-red-500/30 bg-red-950/15 p-5 sm:p-6"
+		class="my-6 rounded-2xl border border-red-500/30 bg-red-950/15 p-4 sm:p-6"
 		aria-labelledby="donot-heading"
 	>
 		<!-- Header -->
 		<div class="flex items-center gap-2.5 pb-3 border-b border-red-500/20 text-red-400">
 			<AlertOctagon class="w-5 h-5 shrink-0" />
-			<h2 id="donot-heading" class="font-mono text-xs font-black uppercase tracking-wider">
+			<h2 id="donot-heading" class="font-mono text-xs sm:text-sm font-black uppercase tracking-wider truncate">
 				{lang === 'de'
 					? '// KRITISCHE FEHLER (UNBEDINGT VERMEIDEN)'
 					: '// CRITICAL MISTAKES (DO NOT)'}
@@ -62,12 +62,12 @@
 					<!-- Primary Prohibition (High-Contrast Red Anchor) -->
 					<div class="flex items-start gap-2.5 text-sm sm:text-base font-semibold text-red-200">
 						<span class="text-red-400 font-bold shrink-0 mt-0.5 select-none">✕</span>
-						<span class="leading-snug">{mistake.prohibition}</span>
+						<span class="leading-snug break-words">{mistake.prohibition}</span>
 					</div>
 
 					<!-- Secondary Explanation (Visually quieter, indented) -->
 					{#if mistake.why}
-						<div class="pl-5 text-xs sm:text-sm text-slate-300 font-normal leading-relaxed">
+						<div class="pl-4 sm:pl-5 text-xs sm:text-sm text-slate-300 font-normal leading-relaxed break-words">
 							<span class="font-mono text-[10px] uppercase font-bold text-red-400/80 mr-1"
 								>{lang === 'de' ? 'WARUM:' : 'WHY:'}</span
 							>

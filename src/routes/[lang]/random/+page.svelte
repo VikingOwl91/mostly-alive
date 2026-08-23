@@ -24,7 +24,7 @@
 
 <SeoHead {seo} />
 
-<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-16 space-y-8">
+<div class="max-w-4xl mx-auto px-3.5 sm:px-6 lg:px-8 py-8 md:py-16 space-y-6 sm:space-y-8">
 	<!-- Hero / Randomizer controls -->
 	<div class="text-center space-y-3">
 		<div
@@ -33,12 +33,12 @@
 			<Dices class="w-4 h-4 text-cyan-400 {isRolling ? 'animate-spin' : ''}" />
 			<span>{data.lang === 'de' ? 'SPONTANE LEBENSRETTUNG' : 'SPONTANEOUS PRESERVATION'}</span>
 		</div>
-		<h1 class="text-3xl sm:text-5xl font-mono font-black text-white uppercase tracking-tight">
+		<h1 class="text-2xl sm:text-4xl md:text-5xl font-mono font-black text-white uppercase tracking-tight break-words">
 			{data.lang === 'de'
 				? 'Ein merkwürdiger Fakt, der dir das Leben retten könnte'
 				: 'Teach Me One Weird Thing That Might Save My Life'}
 		</h1>
-		<p class="text-slate-400 text-sm max-w-xl mx-auto font-sans leading-relaxed">
+		<p class="text-slate-400 text-xs sm:text-sm max-w-xl mx-auto font-sans leading-relaxed break-words">
 			{data.lang === 'de'
 				? 'Präge dir ein überlebenswichtiges Detail ein, bevor die Realität beschließt, dein Wissen unangekündigt zu prüfen.'
 				: 'Burn one obscure yet crucial emergency rule into your memory before nature tests your reflexes without warning.'}
@@ -48,10 +48,10 @@
 	<!-- Random Article Card -->
 	{#if data.article}
 		<div
-			class="rounded-3xl border border-slate-700 bg-slate-900/90 p-6 sm:p-10 terminal-border-cyan space-y-6 shadow-2xl transition-all"
+			class="rounded-2xl sm:rounded-3xl border border-slate-700 bg-slate-900/90 p-4 sm:p-8 md:p-10 terminal-border-cyan space-y-5 sm:space-y-6 shadow-2xl transition-all"
 		>
 			<div class="flex flex-wrap items-center justify-between gap-3 pb-4 border-b border-slate-800">
-				<div class="flex items-center gap-2">
+				<div class="flex items-center gap-2 flex-wrap">
 					<span
 						class="font-mono text-xs uppercase font-bold text-cyan-400 px-3 py-1 rounded bg-cyan-950/80 border border-cyan-500/40"
 					>
@@ -65,11 +65,11 @@
 			</div>
 
 			<div class="space-y-2">
-				<h2 class="text-2xl sm:text-4xl font-mono font-bold text-white leading-tight">
+				<h2 class="text-xl sm:text-3xl md:text-4xl font-mono font-bold text-white leading-tight break-words">
 					{data.article.title}
 				</h2>
 				{#if data.article.subtitle}
-					<p class="text-sm text-slate-300 font-medium font-sans">
+					<p class="text-xs sm:text-sm text-slate-300 font-medium font-sans break-words leading-relaxed">
 						{data.article.subtitle}
 					</p>
 				{/if}
@@ -80,18 +80,18 @@
 			{/if}
 
 			{#if data.article.memorable_facts && data.article.memorable_facts.length > 0}
-				<div class="p-4 rounded-xl bg-slate-950/90 border border-cyan-500/30 space-y-2">
+				<div class="p-3.5 sm:p-4 rounded-xl bg-slate-950/90 border border-cyan-500/30 space-y-2">
 					<div
-						class="flex items-center gap-2 font-mono text-[11px] font-bold uppercase text-cyan-400"
+						class="flex items-center gap-2 font-mono text-[11px] font-bold uppercase text-cyan-400 min-w-0"
 					>
-						<Brain class="w-3.5 h-3.5 text-cyan-400" />
-						<span>
+						<Brain class="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+						<span class="truncate">
 							{data.lang === 'de'
 								? '// OFFENSICHTLICH, ABER LEBENSWICHTIG QUANTIFIZIERT'
 								: '// OBVIOUS FACT, USEFULLY QUANTIFIED'}
 						</span>
 					</div>
-					<p class="text-sm text-slate-300 leading-relaxed font-sans font-medium">
+					<p class="text-xs sm:text-sm text-slate-300 leading-relaxed font-sans font-medium break-words">
 						{data.article.memorable_facts[0]}
 					</p>
 				</div>
@@ -100,20 +100,20 @@
 			{#if data.article.immediate_action && data.article.immediate_action.length > 0}
 				{@const primaryAction = getImmediateActionPreview(data.article.immediate_action[0])}
 				{#if primaryAction.instruction || primaryAction.title}
-					<div class="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
+					<div class="p-3.5 sm:p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
 						<div
-							class="font-mono text-xs font-bold uppercase text-amber-400 flex items-center gap-1.5"
+							class="font-mono text-xs font-bold uppercase text-amber-400 flex items-center gap-1.5 min-w-0"
 						>
-							<ShieldAlert class="w-3.5 h-3.5 text-amber-400" />
-							<span>{data.lang === 'de' ? 'Wichtigste Sofortmaßnahme:' : 'Key Immediate Action:'}</span>
+							<ShieldAlert class="w-3.5 h-3.5 text-amber-400 shrink-0" />
+							<span class="truncate">{data.lang === 'de' ? 'Wichtigste Sofortmaßnahme:' : 'Key Immediate Action:'}</span>
 						</div>
 						{#if primaryAction.title}
-							<div class="font-mono text-xs font-black uppercase text-amber-300 tracking-wider">
+							<div class="font-mono text-xs font-black uppercase text-amber-300 tracking-wider break-words">
 								{primaryAction.title}
 							</div>
 						{/if}
 						{#if primaryAction.instruction}
-							<p class="text-sm text-slate-200 leading-relaxed font-medium font-sans">
+							<p class="text-xs sm:text-sm text-slate-200 leading-relaxed font-medium font-sans break-words">
 								{primaryAction.instruction}
 							</p>
 						{/if}
@@ -122,12 +122,12 @@
 			{/if}
 
 			<!-- Actions -->
-			<div class="pt-4 flex flex-wrap items-center justify-between gap-4 border-t border-slate-800">
+			<div class="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 border-t border-slate-800">
 				<button
 					type="button"
 					onclick={rollAnother}
 					disabled={isRolling}
-					class="px-5 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 font-mono text-xs font-bold transition-all flex items-center gap-2 disabled:opacity-50"
+					class="px-5 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-cyan-300 font-mono text-xs font-bold transition-all flex items-center justify-center gap-2 disabled:opacity-50 min-h-[48px]"
 				>
 					<RefreshCw class="w-4 h-4 {isRolling ? 'animate-spin' : ''}" />
 					<span
@@ -137,7 +137,7 @@
 
 				<a
 					href="/{data.lang}/guide/{data.article.slug}"
-					class="px-6 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-mono text-xs font-bold transition-all flex items-center gap-2 shadow-[0_0_15px_rgba(6,182,212,0.3)]"
+					class="px-6 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-mono text-xs font-bold transition-all flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(6,182,212,0.3)] min-h-[48px]"
 				>
 					<span>{data.lang === 'de' ? 'Vollständigen Eintrag öffnen' : 'Read Full Entry'}</span>
 					<ArrowRight class="w-4 h-4" />

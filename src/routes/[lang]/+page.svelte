@@ -45,10 +45,10 @@
 
 <SeoHead {seo} />
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 space-y-16">
+<div class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 py-8 md:py-20 space-y-12 sm:space-y-16">
 	<!-- Hero Section: LEARN Focus -->
 	<section
-		class="relative rounded-3xl border border-slate-800 bg-slate-950/80 p-8 sm:p-12 md:p-16 overflow-hidden terminal-border-amber shadow-[0_0_50px_rgba(245,158,11,0.05)]"
+		class="relative rounded-2xl sm:rounded-3xl border border-slate-800 bg-slate-950/80 p-5 sm:p-10 md:p-16 overflow-hidden terminal-border-amber shadow-[0_0_50px_rgba(245,158,11,0.05)]"
 	>
 		<!-- Background Accents -->
 		<div
@@ -58,24 +58,24 @@
 			class="absolute -left-24 -bottom-24 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl pointer-events-none"
 		></div>
 
-		<div class="relative z-10 max-w-3xl space-y-6">
+		<div class="relative z-10 max-w-3xl space-y-5 sm:space-y-6">
 			<!-- Terminal System Badge -->
 			<div
 				class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-amber-950/60 border border-amber-500/40 text-amber-300 font-mono text-xs tracking-wider uppercase"
 			>
-				<span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
-				<span>{data.lang === 'de' ? 'SYS-MANUAL // V1.0 BEREIT' : 'SYS-MANUAL // V1.0 READY'}</span>
+				<span class="w-2 h-2 rounded-full bg-amber-400 animate-ping shrink-0"></span>
+				<span class="truncate">{data.lang === 'de' ? 'SYS-MANUAL // V1.0 BEREIT' : 'SYS-MANUAL // V1.0 READY'}</span>
 			</div>
 
 			<!-- Main Title -->
 			<h1
-				class="text-4xl sm:text-6xl md:text-7xl font-mono font-black tracking-tight text-white uppercase leading-none"
+				class="text-3xl sm:text-6xl md:text-7xl font-mono font-black tracking-tight text-white uppercase leading-none break-words"
 			>
 				Mostly<br /><span class="text-amber-400 glow-amber">Alive</span>
 			</h1>
 
 			<!-- Subtitle -->
-			<p class="text-xl sm:text-2xl font-sans font-medium text-slate-200">
+			<p class="text-lg sm:text-2xl font-sans font-medium text-slate-200 break-words">
 				{data.lang === 'de'
 					? 'Ein praktischer Leitfaden, um es zu bleiben.'
 					: 'A practical guide to remaining so.'}
@@ -83,7 +83,7 @@
 
 			<!-- Dry Absurdist Quote -->
 			<blockquote
-				class="border-l-2 border-slate-700 pl-4 py-1 text-slate-400 italic text-sm sm:text-base leading-relaxed"
+				class="border-l-2 border-slate-700 pl-3.5 sm:pl-4 py-1 text-slate-400 italic text-xs sm:text-base leading-relaxed break-words"
 			>
 				“{data.lang === 'de'
 					? 'Die Menschheit hat trotz allgemein mangelhafter Dokumentation erstaunlich lange überlebt.'
@@ -91,13 +91,13 @@
 			</blockquote>
 
 			<!-- CTA Buttons (Hierarchy: Random/Learn > Handbook > Emergency) -->
-			<div class="pt-4 flex flex-wrap items-center gap-4 font-mono text-sm">
+			<div class="pt-3 sm:pt-4 flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 sm:gap-4 font-mono text-sm">
 				<!-- Primary Learning CTA -->
 				<a
 					href="/{data.lang}/random"
-					class="px-6 py-3.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition-all flex items-center gap-2 shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:scale-[1.02]"
+					class="px-5 sm:px-6 py-3.5 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition-all flex items-center justify-center gap-2 shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:scale-[1.02] min-h-[48px] text-center"
 				>
-					<Dices class="w-4 h-4" />
+					<Dices class="w-4 h-4 shrink-0" />
 					<span
 						>{data.lang === 'de'
 							? 'LERN ETWAS ZUFÄLLIGES'
@@ -108,18 +108,18 @@
 				<!-- Secondary Exploration CTA -->
 				<a
 					href="/{data.lang}/guide"
-					class="px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-amber-500/50 text-slate-200 hover:text-amber-300 font-bold transition-all flex items-center gap-2"
+					class="px-5 sm:px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 hover:border-amber-500/50 text-slate-200 hover:text-amber-300 font-bold transition-all flex items-center justify-center gap-2 min-h-[48px] text-center"
 				>
-					<BookOpen class="w-4 h-4 text-amber-400" />
+					<BookOpen class="w-4 h-4 text-amber-400 shrink-0" />
 					<span>{data.lang === 'de' ? 'HANDBUCH ÖFFNEN' : 'OPEN HANDBOOK'}</span>
 				</a>
 
 				<!-- Dedicated Fast Emergency Action -->
 				<a
 					href="/{data.lang}/emergency"
-					class="px-6 py-3.5 rounded-xl bg-red-950/70 hover:bg-red-900/90 border border-red-500/40 text-red-200 font-bold transition-all flex items-center gap-2 shadow-[0_0_15px_rgba(239,68,68,0.2)] ml-auto sm:ml-0"
+					class="px-5 sm:px-6 py-3.5 rounded-xl bg-red-950/70 hover:bg-red-900/90 border border-red-500/40 text-red-200 font-bold transition-all flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(239,68,68,0.2)] ml-0 min-h-[48px] text-center"
 				>
-					<ShieldAlert class="w-4 h-4 text-red-400 animate-pulse" />
+					<ShieldAlert class="w-4 h-4 text-red-400 animate-pulse shrink-0" />
 					<span>{data.lang === 'de' ? 'NOTFALL-MODUS' : 'EMERGENCY ACT'}</span>
 				</a>
 			</div>
@@ -128,7 +128,7 @@
 
 	<!-- Reading Saves Lives / Manifesto Featured Section -->
 	<section
-		class="relative rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-slate-950 via-slate-900/90 to-cyan-950/30 p-6 sm:p-10 terminal-border-cyan space-y-6 shadow-2xl overflow-hidden"
+		class="relative rounded-2xl sm:rounded-3xl border border-cyan-500/30 bg-gradient-to-br from-slate-950 via-slate-900/90 to-cyan-950/30 p-5 sm:p-8 md:p-10 terminal-border-cyan space-y-5 sm:space-y-6 shadow-2xl overflow-hidden"
 	>
 		<!-- Background glow accent -->
 		<div
@@ -139,8 +139,8 @@
 			<div
 				class="inline-flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-wider text-cyan-400 px-3 py-1 rounded bg-cyan-950/80 border border-cyan-500/40"
 			>
-				<Sparkles class="w-3.5 h-3.5" />
-				<span
+				<Sparkles class="w-3.5 h-3.5 shrink-0" />
+				<span class="truncate"
 					>{data.lang === 'de'
 						? '// LIES DAS, BEVOR DU ES BRAUCHST'
 						: '// READ THIS BEFORE YOU NEED IT'}</span
@@ -148,14 +148,14 @@
 			</div>
 
 			<h2
-				class="text-2xl sm:text-4xl font-mono font-black text-white uppercase tracking-tight leading-tight"
+				class="text-xl sm:text-3xl md:text-4xl font-mono font-black text-white uppercase tracking-tight leading-tight break-words"
 			>
 				{data.lang === 'de'
 					? 'Lesen rettet Leben: Das Mostly-Alive-Prinzip'
 					: 'Reading Saves Lives: The Mostly Alive Principle'}
 			</h2>
 
-			<p class="text-slate-200 text-sm sm:text-base leading-relaxed font-sans">
+			<p class="text-slate-200 text-xs sm:text-base leading-relaxed font-sans break-words">
 				{data.lang === 'de'
 					? 'Der denkbar schlechteste Moment, um zu lernen, was ein unheimliches Warnzeichen bedeutet, ist der Moment, in dem es bereits passiert. Zu wissen, dass eine Gefahr existiert, ist nützlich – aber im Alltag rechtzeitig zu erkennen, dass man sie gerade vor Augen hat, ist lebensrettend.'
 					: 'The single worst moment to learn what an unusual warning sign means is while it is already happening. Knowing that something is dangerous is useful—recognizing that you are currently looking at it is what keeps you alive.'}
@@ -166,7 +166,7 @@
 					<div class="font-bold text-amber-400">
 						{data.lang === 'de' ? '1. Seltene Erkennungsmerkmale' : '1. Rare Recognition Clues'}
 					</div>
-					<div class="text-slate-400">
+					<div class="text-slate-400 leading-relaxed break-words">
 						{data.lang === 'de'
 							? 'Senkrecht stehende Haare vor dem Blitzeinschlag oder zurückweichendes Meer vor dem Tsunami.'
 							: 'Hair standing on end before lightning, or the sea vanishing before a tsunami.'}
@@ -177,7 +177,7 @@
 					<div class="font-bold text-cyan-400">
 						{data.lang === 'de' ? '2. Gehirngerechte Verankerung' : '2. Brain Retention Physics'}
 					</div>
-					<div class="text-slate-400">
+					<div class="text-slate-400 leading-relaxed break-words">
 						{data.lang === 'de'
 							? 'Trockener Humor und präzise Fakten bleiben im Gedächtnis, während monotone Tabellen verblassen.'
 							: 'Dry humor and precise facts stick in long-term memory when sterile tables fade.'}
@@ -185,12 +185,12 @@
 				</div>
 			</div>
 
-			<div class="pt-3 flex flex-wrap items-center gap-3 font-mono text-xs">
+			<div class="pt-2 flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center gap-3 font-mono text-xs">
 				<a
 					href="/{data.lang}/random"
-					class="px-5 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition-all flex items-center gap-2 shadow-[0_0_15px_rgba(6,182,212,0.25)] hover:scale-[1.02]"
+					class="px-5 py-3 rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold transition-all flex items-center justify-center gap-2 shadow-[0_0_15px_rgba(6,182,212,0.25)] hover:scale-[1.02] min-h-[44px]"
 				>
-					<Dices class="w-4 h-4 text-slate-950" />
+					<Dices class="w-4 h-4 text-slate-950 shrink-0" />
 					<span
 						>{data.lang === 'de'
 							? 'BRING MIR WAS ZUFÄLLIGES BEI →'
@@ -200,9 +200,9 @@
 
 				<a
 					href="/{data.lang}/reading-saves-lives"
-					class="px-5 py-3 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 text-slate-300 hover:text-cyan-300 transition-all flex items-center gap-2"
+					class="px-5 py-3 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-700 hover:border-cyan-500/50 text-slate-300 hover:text-cyan-300 transition-all flex items-center justify-center gap-2 min-h-[44px]"
 				>
-					<BookOpen class="w-4 h-4 text-cyan-400" />
+					<BookOpen class="w-4 h-4 text-cyan-400 shrink-0" />
 					<span>{data.lang === 'de' ? 'WARUM LESEN HILFT →' : 'WHY READING HELPS →'}</span>
 				</a>
 			</div>

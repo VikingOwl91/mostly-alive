@@ -49,16 +49,16 @@
 
 <SeoHead {seo} />
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+<div class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-8 sm:space-y-12">
 	<!-- Page Header -->
-	<div class="border-b border-slate-800 pb-6">
+	<div class="border-b border-slate-800 pb-5 sm:pb-6">
 		<div class="font-mono text-xs text-amber-400 font-bold uppercase tracking-wider mb-1">
 			{data.lang === 'de' ? '// THEMATISCHE GLIEDERUNG' : '// TAXONOMY'}
 		</div>
-		<h1 class="text-3xl sm:text-4xl font-mono font-bold text-white tracking-tight">
+		<h1 class="text-2xl sm:text-4xl font-mono font-bold text-white tracking-tight break-words">
 			{data.lang === 'de' ? 'Gefahrenkategorien' : 'Hazard Categories'}
 		</h1>
-		<p class="text-sm text-slate-400 mt-2">
+		<p class="text-xs sm:text-sm text-slate-400 mt-2 leading-relaxed break-words">
 			{data.lang === 'de'
 				? 'Systematische Klassifikation alltäglicher und unvorhergesehener Notlagen.'
 				: 'Systematic classification of everyday and unforeseen complications.'}
@@ -67,42 +67,42 @@
 
 	<!-- Active Categories Grid -->
 	<section class="space-y-6">
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
 			{#each activeCategories as cat}
 				{@const IconComponent = iconMap[cat.icon] || BookOpen}
 				<a
 					href="/{data.lang}/categories/{cat.id}"
-					class="group p-6 rounded-2xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/90 hover:border-amber-500/40 transition-all flex flex-col justify-between"
+					class="group p-4 sm:p-6 rounded-2xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/90 hover:border-amber-500/40 transition-all flex flex-col justify-between"
 				>
 					<div>
 						<div class="flex items-center justify-between gap-3 mb-4">
 							<div
-								class="p-3 rounded-xl bg-slate-900 border border-slate-800 text-amber-400 group-hover:border-amber-500/40 transition-colors"
+								class="p-2.5 sm:p-3 rounded-xl bg-slate-900 border border-slate-800 text-amber-400 group-hover:border-amber-500/40 transition-colors shrink-0"
 							>
-								<IconComponent class="w-6 h-6" />
+								<IconComponent class="w-5 h-5 sm:w-6 sm:h-6" />
 							</div>
 							<span
-								class="font-mono text-xs font-bold px-2.5 py-1 rounded bg-slate-800/80 border border-slate-700/50 text-slate-300"
+								class="font-mono text-[11px] sm:text-xs font-bold px-2.5 py-1 rounded bg-slate-800/80 border border-slate-700/50 text-slate-300 shrink-0"
 							>
 								{data.counts[cat.id]}
 								{data.lang === 'de' ? 'Anleitungen' : 'guides'}
 							</span>
 						</div>
 
-						<h2 class="text-xl font-mono font-bold text-white group-hover:text-amber-300">
+						<h2 class="text-lg sm:text-xl font-mono font-bold text-white group-hover:text-amber-300 break-words">
 							{cat.title[data.lang]}
 						</h2>
-						<div class="font-mono text-xs text-slate-400 mb-3">
+						<div class="font-mono text-xs text-slate-400 mb-2.5 break-words">
 							{cat.humorousTitle[data.lang]}
 						</div>
 
-						<p class="text-xs text-slate-400 leading-relaxed">
+						<p class="text-xs text-slate-400 leading-relaxed break-words">
 							{cat.description[data.lang]}
 						</p>
 					</div>
 
 					<div
-						class="pt-6 flex items-center justify-between text-xs font-mono text-amber-400 group-hover:text-amber-300 border-t border-slate-800/60 mt-4"
+						class="pt-4 flex items-center justify-between text-xs font-mono text-amber-400 group-hover:text-amber-300 border-t border-slate-800/60 mt-4 min-h-[36px]"
 					>
 						<span>{data.lang === 'de' ? 'Kategorie öffnen' : 'Explore Category'}</span>
 						<ArrowRight class="w-4 h-4 group-hover:translate-x-1 transition-transform" />

@@ -13,28 +13,28 @@
 
 <SeoHead {seo} />
 
-<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+<div class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 py-6 sm:py-10 space-y-6 sm:space-y-8">
 	<!-- Visible Breadcrumb Navigation -->
 	<Breadcrumbs items={seo.breadcrumbs || []} />
 
 	<!-- Navigation -->
 	<a
 		href="/{data.lang}/categories"
-		class="inline-flex items-center gap-1.5 font-mono text-xs text-slate-400 hover:text-cyan-400 transition-colors"
+		class="inline-flex items-center gap-1.5 font-mono text-xs text-slate-400 hover:text-cyan-400 transition-colors min-h-[44px] py-1"
 	>
-		<ArrowLeft class="w-4 h-4" />
+		<ArrowLeft class="w-4 h-4 shrink-0" />
 		<span>{data.lang === 'de' ? 'Alle Kategorien' : 'All Categories'}</span>
 	</a>
 
 	<!-- Header -->
-	<div class="border-b border-slate-800 pb-6">
+	<div class="border-b border-slate-800 pb-5 sm:pb-6">
 		<div class="font-mono text-xs text-cyan-400 font-bold uppercase tracking-wider mb-1">
 			{data.categoryInfo.humorousTitle[data.lang]}
 		</div>
-		<h1 class="text-3xl sm:text-4xl font-mono font-bold text-white tracking-tight">
+		<h1 class="text-2xl sm:text-4xl font-mono font-bold text-white tracking-tight break-words">
 			{data.categoryInfo.title[data.lang]}
 		</h1>
-		<p class="text-sm text-slate-400 mt-2 max-w-2xl">
+		<p class="text-xs sm:text-sm text-slate-400 mt-2 max-w-2xl leading-relaxed break-words">
 			{data.categoryInfo.description[data.lang]}
 		</p>
 	</div>
@@ -42,42 +42,42 @@
 	<!-- Articles in this category -->
 	{#if data.articles.length === 0}
 		<div
-			class="p-12 text-center rounded-2xl bg-slate-900/40 border border-slate-800 font-mono text-sm text-slate-400"
+			class="p-8 sm:p-12 text-center rounded-2xl bg-slate-900/40 border border-slate-800 font-mono text-sm text-slate-400"
 		>
 			{data.lang === 'de'
 				? 'In dieser Kategorie liegen derzeit noch keine überprüften Artikel vor.'
 				: 'No articles currently published in this category.'}
 		</div>
 	{:else}
-		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
 			{#each data.articles as article}
 				<a
 					href="/{data.lang}/guide/{article.slug}"
-					class="group rounded-2xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/90 p-6 flex flex-col justify-between h-full transition-all hover:border-cyan-500/40 hover:shadow-[0_0_20px_rgba(6,182,212,0.08)]"
+					class="group rounded-2xl border border-slate-800 bg-slate-900/40 hover:bg-slate-900/90 p-4 sm:p-6 flex flex-col justify-between h-full transition-all hover:border-cyan-500/40 hover:shadow-[0_0_20px_rgba(6,182,212,0.08)]"
 				>
-					<div class="space-y-4 flex-1">
+					<div class="space-y-3.5 sm:space-y-4 flex-1">
 						<div class="flex items-center justify-between gap-2">
 							<ThreatGauge level={article.threat_level} lang={data.lang} />
 						</div>
 
 						<h2
-							class="text-xl font-mono font-bold text-white group-hover:text-cyan-300 transition-colors leading-snug"
+							class="text-lg sm:text-xl font-mono font-bold text-white group-hover:text-cyan-300 transition-colors leading-snug break-words"
 						>
 							{article.title}
 						</h2>
 
 						{#if article.memory_hook}
 							<p
-								class="text-xs text-cyan-200/90 italic bg-cyan-950/30 p-3 rounded-lg border border-cyan-900/40 leading-relaxed"
+								class="text-xs text-cyan-200/90 italic bg-cyan-950/30 p-3 rounded-xl border border-cyan-900/40 leading-relaxed font-sans break-words"
 							>
-								"{article.memory_hook}"
+								“{article.memory_hook}”
 							</p>
 						{/if}
 
 						{#if article.immediate_action && article.immediate_action.length > 0}
 							{@const actionPreview = getImmediateActionPreview(article.immediate_action[0])}
 							{#if actionPreview.instruction || actionPreview.title}
-								<p class="text-xs text-slate-300 leading-relaxed font-sans line-clamp-2">
+								<p class="text-xs text-slate-300 leading-relaxed font-sans line-clamp-2 break-words">
 									{#if actionPreview.title}
 										<strong class="font-mono text-cyan-400 font-bold uppercase text-[11px] tracking-wide mr-1.5">{actionPreview.title}:</strong>
 									{/if}
@@ -88,7 +88,7 @@
 					</div>
 
 					<div
-						class="pt-4 flex items-center justify-between text-xs font-mono text-slate-400 group-hover:text-cyan-400 border-t border-slate-800/60 mt-5 shrink-0"
+						class="pt-3.5 sm:pt-4 flex items-center justify-between text-xs font-mono text-slate-400 group-hover:text-cyan-400 border-t border-slate-800/60 mt-4 sm:mt-5 shrink-0"
 					>
 						<span class="flex items-center gap-1.5">
 							{#if article.status === 'reviewed'}

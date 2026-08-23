@@ -46,16 +46,16 @@
 	let currentLabel = $derived(labels[lang][Math.min(Math.max(0, level), 5)]);
 </script>
 
-<div class="inline-flex flex-col gap-1.5 font-mono">
-	<div class="flex items-center gap-2">
+<div class="inline-flex flex-col gap-1.5 font-mono max-w-full min-w-0">
+	<div class="flex items-center gap-1.5 sm:gap-2 flex-wrap">
 		<span class="text-[10px] uppercase tracking-wider text-slate-400">
 			{lang === 'de' ? 'Bedrohungsstufe' : 'Threat Level'}
 		</span>
-		<span class="text-xs font-semibold px-2 py-0.5 rounded border {levelColors[level]}">
+		<span class="text-[11px] sm:text-xs font-semibold px-2 py-0.5 rounded border whitespace-nowrap {levelColors[level]}">
 			{currentLabel}
 		</span>
 	</div>
-	<div class="flex gap-1 h-1.5 w-full max-w-[180px]">
+	<div class="flex gap-1 h-1.5 w-full max-w-[160px] sm:max-w-[180px]">
 		{#each Array(6) as _, i}
 			<div
 				class="flex-1 rounded-xs transition-all duration-300 {i <= level

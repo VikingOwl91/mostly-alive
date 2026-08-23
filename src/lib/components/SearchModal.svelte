@@ -296,7 +296,7 @@
 {#if isOpen}
 	<!-- Backdrop -->
 	<div
-		class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-start justify-center p-4 sm:p-6 md:p-20 overflow-y-auto"
+		class="fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-sm flex items-start justify-center p-2 sm:p-4 md:p-12 overflow-y-auto"
 		onclick={(e) => {
 			if (e.target === e.currentTarget) closeModal();
 		}}
@@ -310,25 +310,29 @@
 	>
 		<!-- Modal Box -->
 		<div
-			class="w-full max-w-2xl rounded-2xl bg-slate-900 border border-slate-700/80 shadow-2xl overflow-hidden terminal-border flex flex-col my-auto sm:my-0"
+			class="w-full max-w-2xl rounded-2xl bg-slate-900 border border-slate-700/80 shadow-2xl overflow-hidden terminal-border flex flex-col my-auto sm:my-0 max-h-[calc(100dvh-1.5rem)] sm:max-h-[85vh]"
 		>
 			<!-- Input Header -->
-			<div class="relative flex items-center px-4 py-3.5 border-b border-slate-800 bg-slate-950/60">
+			<div class="relative flex items-center px-3 sm:px-4 py-3 sm:py-3.5 border-b border-slate-800 bg-slate-950/80 shrink-0">
 				<Search class="w-5 h-5 text-amber-400 shrink-0 ml-1" />
 				<input
 					bind:this={inputElement}
 					bind:value={searchQuery}
 					type="text"
+					autocapitalize="none"
+					autocorrect="off"
+					spellcheck="false"
 					placeholder={lang === 'de'
 						? 'Suche: Herzinfarkt, Blutung, Strom, Tsunami, Blitz...'
 						: 'Search: heart attack, bleeding, power line, tsunami, lightning...'}
-					class="w-full bg-transparent px-3.5 text-sm sm:text-base text-white placeholder-slate-500 focus:outline-none font-mono"
+					class="w-full bg-transparent px-2.5 sm:px-3.5 text-sm sm:text-base text-white placeholder-slate-500 focus:outline-none font-mono min-h-[40px]"
 				/>
 				{#if searchQuery}
 					<button
 						type="button"
 						onclick={() => (searchQuery = '')}
-						class="p-1 rounded-md text-slate-400 hover:text-white"
+						class="min-w-[36px] min-h-[36px] flex items-center justify-center p-1 rounded-lg text-slate-400 hover:text-white"
+						aria-label={lang === 'de' ? 'Eingabe löschen' : 'Clear search'}
 					>
 						<X class="w-4 h-4" />
 					</button>
@@ -336,14 +340,16 @@
 				<button
 					type="button"
 					onclick={closeModal}
-					class="ml-2 px-2 py-1 rounded bg-slate-800 text-[11px] font-mono text-slate-400 hover:text-white border border-slate-700"
+					class="ml-1 sm:ml-2 min-w-[40px] min-h-[36px] px-2.5 py-1.5 rounded-lg bg-slate-800 text-xs font-mono text-slate-300 hover:text-white border border-slate-700 flex items-center justify-center"
+					aria-label={lang === 'de' ? 'Suche schließen' : 'Close search'}
 				>
-					ESC
+					<span class="hidden sm:inline">ESC</span>
+					<X class="w-4 h-4 sm:hidden" />
 				</button>
 			</div>
 
 			<!-- Search Results / Initial Emergency Launcher -->
-			<div class="max-h-[60vh] overflow-y-auto p-2 divide-y divide-slate-800/40">
+			<div class="max-h-[calc(100dvh-8rem)] sm:max-h-[60vh] overflow-y-auto p-2 divide-y divide-slate-800/40">
 				{#if isLoading}
 					<div class="py-12 text-center text-slate-400 font-mono text-xs">
 						{lang === 'de' ? 'Lade Suchindex...' : 'Loading search index...'}

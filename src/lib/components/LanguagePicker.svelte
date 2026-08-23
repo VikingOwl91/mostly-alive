@@ -21,12 +21,12 @@
 </script>
 
 <div
-	class="flex items-center gap-1 font-mono text-xs bg-slate-900/90 border border-slate-800 rounded-lg p-1"
+	class="flex items-center gap-1 font-mono text-xs bg-slate-900/90 border border-slate-800 rounded-xl p-1 shrink-0"
 >
-	<Globe class="w-3.5 h-3.5 text-slate-400 ml-1.5 mr-0.5" />
+	<Globe class="w-3.5 h-3.5 text-slate-400 ml-1.5 mr-0.5 hidden xs:block" />
 	<a
 		href={getTargetUrl('en')}
-		class="px-2 py-1 rounded transition-colors {currentLang === 'en'
+		class="min-w-[34px] min-h-[34px] flex items-center justify-center px-2 py-1 rounded-lg transition-colors {currentLang === 'en'
 			? 'bg-amber-500/20 text-amber-300 font-bold border border-amber-500/40'
 			: 'text-slate-400 hover:text-slate-200'}"
 	>
@@ -34,7 +34,7 @@
 	</a>
 	<a
 		href={getTargetUrl('de')}
-		class="px-2 py-1 rounded transition-colors {currentLang === 'de'
+		class="min-w-[34px] min-h-[34px] flex items-center justify-center px-2 py-1 rounded-lg transition-colors {currentLang === 'de'
 			? 'bg-amber-500/20 text-amber-300 font-bold border border-amber-500/40'
 			: 'text-slate-400 hover:text-slate-200'}"
 	>
