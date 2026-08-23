@@ -12,11 +12,14 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'head injury'
+  - 'concussion'
   - 'concussion first aid'
   - 'severe head injury symptoms'
   - 'spinal injury stabilization'
   - 'traumatic brain injury'
   - 'skull fracture signs'
+  - 'unequal pupils head hit'
 severity: 'critical'
 urgency: 'immediate'
 threat_level: 4
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Hold the head still in line, watch for red flags (vomiting, amnesia, pupil changes), and prioritize clear airway over spinal stillness.'
+memorable_facts:
+  - 'AIRWAY TRUMPS SPINAL IMMOBILIZATION: Hypoxic asphyxiation destroys brain tissue in 180 seconds. If an immobilized spinal trauma casualty loses consciousness and starts vomiting, you MUST log-roll them into the recovery position to clear the airway. Dead patients derive zero benefit from an intact spinal column.'
+  - 'NEVER PLUG CSF LEAKS: Clear watery fluid draining from the ear or nose after head impact is cerebrospinal fluid leaking through a basilar skull fracture. Plugging the ear or nose with cotton traps intracranial fluid, spiking pressure and driving bacteria straight into the subarachnoid space (fatal bacterial meningitis).'
 immediate_action:
   - '1. IMMOBILIZE THE HEAD AND NECK (MANUAL IN-LINE STABILIZATION): Kneel at the person’s head, place your hands firmly on both sides of their head, and hold it still in the neutral position found. Tell them firmly: "Keep your head completely still, do not nod or turn."'
   - '2. ASSESS CONSCIOUSNESS AND AIRWAY (THE GOLDEN RULE):'

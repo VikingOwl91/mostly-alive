@@ -1,18 +1,21 @@
 ---
 slug: 'gas-noticeably-existing-indoors'
-title: 'Gas, spürbar im Gebäude vorhanden'
-subtitle: 'Mercaptan-Geruch, Zündgrenzen und die Gefahr elektrischer Schaltfunken'
+title: 'Gas existiert spürbar in Innenräumen'
+subtitle: 'Odorierte Gasleckagen, Explosionsgrenzen und funkenfreie Gebäudeevakuierung'
 category: 'home'
 tags:
   - 'gas'
-  - 'gasleck'
   - 'explosion'
+  - 'feuer'
   - 'haushalt'
-  - 'erdgas'
+  - 'gefahr'
 aliases:
-  - 'gasgeruch wohnung'
-  - 'es riecht nach faulen eiern'
-  - 'erdgas leckage'
+  - 'gasgeruch'
+  - 'gasleck wohnung'
+  - 'faule eier geruch gas'
+  - 'erdgas leck'
+  - 'gasalarm zuhause'
+  - 'gasgeruch was tun'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -23,51 +26,47 @@ emergency_services: 'call_immediately'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Redaktionelle Prüfgruppe'
-memory_hook: 'Riechst du faule Eier, berühre keinen einzigen Lichtschalter; geh zuerst nach draußen.'
+reviewer: 'Editorial Safety Core'
+memory_hook: 'Riecht das Haus nach faulen Eiern: Keinen Schalter berühren, Türen offen lassen und erst von draußen anrufen.'
+memorable_facts:
+  - 'DER KÜNSTLICHE FAULE-EIER-GERUCH: Reines Erdgas (Methan) ist zu 100 % geruchlos und unsichtbar. Gasversorger mischen gesetzlich vorgeschrieben intensiv riechende Schwefelverbindungen (wie Tetrahydrothiophen oder Mercaptane) bei, damit die menschliche Nase ein Leck bereits bei 1 % Raumluftkonzentration wahrnimmt – weit unter der Explosionsgrenze von 5 % (UEG).'
+  - 'DER TÖDLICHE LICHTSCHALTER-FUNKE: Beim Betätigen eines normalen Lichtschalters (auch beim AUS-Schalten!) springt zwischen den Kupferkontakten ein winziger Mikrofunke über. In einem gasgesättigten Raum reicht dieser Funke mühelos aus, um das gesamte Gebäude zur Explosion zu bringen.'
 immediate_action:
-  - 'Betätige KEINE Lichtschalter, Steckdosen, Sicherungen oder Türklingeln.'
-  - 'Benutze im Gebäude KEINE Telefone oder Smartphones.'
-  - 'Öffne auf dem Fluchtweg Fenster und Türen für Durchzug, aber verzögere die Evakuierung nicht.'
-  - 'Verlasse das Gebäude unverzüglich zu Fuß zusammen mit allen Mitbewohnern.'
-  - 'Lösche offene Flammen (Kerzen, Raucherwaren) sofort.'
-  - 'Rufe den Gas-Notruf des Netzbetreibers und den Notruf 112 erst von außerhalb des Gebäudes an (mindestens 50 Meter Sicherheitsabstand).'
+  - '1. ABSOLUT KEINE ELEKTRISCHEN GERÄTE BEDIENEN: Keine Lichtschalter betätigen (weder EIN noch AUS!), keine Stecker ziehen, keine Klingeln drücken und kein Telefon/Handy im Gebäude benutzen.'
+  - '2. ALLE OFFENEN FLAMMEN VERMEIDEN: Keine Streichhölzer, Feuerzeuge oder Kerzen anzünden. Absolutes Rauchverbot.'
+  - '3. TÜREN UND FENSTER ÖFFNEN: Wenn dies auf dem direkten Fluchtweg ohne Zeitverlust möglich ist, Fenster und Türen weit aufreißen (Durchzug schaffen).'
+  - '4. GEBÄUDE SOFORT ZU FUSS VERLASSEN: Alle Personen im Haus warnen (durch Klopfen, niemals durch Klingeln!) und das Haus sofort verlassen. Türen hinter sich offen lassen.'
+  - '5. NOTRUF 112 ERST VON DRAUSSEN WÄHLEN: Das Smartphone erst in sicherem Abstand (mindestens 50 Meter windaufwärts vom Gebäude) benutzen.'
 do_not:
-  - 'Lichtschalter weder ein- noch ausschalten (jeder Schaltvorgang erzeugt einen winzigen Abreißfunken im Schaltergehäuse).'
-  - 'Kein Auto in der Tiefgarage oder Einfahrt starten.'
-  - 'Kein Feuerzeug oder Streichholz zur Lecksuche benutzen.'
-  - 'Bei Nachbarn nicht klingeln, sondern ausschließlich laut an die Tür klopfen.'
+  - 'Keine Lichtschalter betätigen (auch das Ausschalten eines Lichts erzeugt einen elektrischen Abreißfunken).'
+  - 'Niemals selbst im Keller oder an Leitungen nach der Leckstelle suchen.'
+  - 'Keinen Aufzug zur Evakuierung benutzen (Schaltfunken des Relais im Schacht).'
+  - 'Das Gebäude keinesfalls wieder betreten, bevor Feuerwehr und Gasversorger Entwarnung gegeben haben.'
 sources:
   - name: 'Deutscher Verein des Gas- und Wasserfaches (DVGW)'
     url: 'https://www.dvgw.de/'
     authoritative: true
-    guideline_version: 'DVGW-Arbeitsblatt G 600 (TRGI: Technische Regeln für Gasinstallationen)'
-    jurisdiction: 'DE / EU'
-    notes: 'Verbindliche Handlungsanweisungen bei Gasgeruch im Innenraum.'
-  - name: 'Bundesverband der Energie- und Wasserwirtschaft (BDEW)'
-    url: 'https://www.bdew.de/'
+    guideline_version: 'DVGW-Arbeitsblatt G 280: Odorierung von Gasen'
+    jurisdiction: 'Deutschland / EU'
+    notes: 'Vorschriften zur Odorierung (THT), Mindestwarnstufen und Verhalten bei Gasgeruch.'
+  - name: 'National Fire Protection Association (NFPA)'
+    url: 'https://www.nfpa.org/'
     authoritative: true
-    guideline_version: 'Leitfaden Gassicherheit für Verbraucher'
-    jurisdiction: 'DE'
+    guideline_version: 'NFPA 54: National Fuel Gas Code'
+    jurisdiction: 'US / Global'
+    notes: 'Explosionsgrenzen von Methan und Evakuierungsregeln bei Gasleckagen.'
 ---
 
-Erdgas ist von Natur aus völlig geruchlos. Da unbemerktes Füllen eines Wohnzimmers mit hochentzündlichem Methan suboptimal für die Bausubstanz ist, mischen die Gasversorger dem Gas einen intensiven Odorierungsstoff bei (meist Thioether oder Mercaptane). Das Gas riecht dadurch penetrant nach faulen Eiern oder Schwefel.
+Erdgas (überwiegend Methan, $CH_4$) ist ein hervorragender Energieträger, da es bei der Verbrennung enorme thermische Energie freisetzt. Mischt sich das Gas jedoch mit dem Sauerstoff der Raumluft in einem Verhältnis zwischen 5 % (untere Explosionsgrenze, UEG) und 15 % (obere Explosionsgrenze, OEG), entsteht ein hochexplosives Gemisch, das auf die kleinste Zündquelle wartet.
 
-Nimmst du diesen Geruch wahr, nähert sich das Gas-Luft-Gemisch im Raum der **Unteren Explosionsgrenze (UEG)** von etwa 4 bis 5 Volumenprozent.
+### Warum Erdgas nach faulen Eiern riecht
 
-### Die Gefahr des Abreißfunkens
+In seinem natürlichen Zustand ist Methan vollkommen geruchlos, farblos und ungiftig. Nach verheerenden Explosionskatastrophen im 20. Jahrhundert führten Gesetzgeber weltweit die obligatorische Odorierung ein: Gasversorger mischen dem Brenngas winzige Mengen intensiv riechender organischer Schwefelverbindungen (z. B. *Tetrahydrothiophen (THT)* oder *tert-Butylmercaptan*) bei.
 
-Wenn du einen gewöhnlichen Lichtschalter an der Wand betätigst, springt im Inneren des Gehäuses ein mikroskopisch kleiner elektrischer Abreißfunke zwischen den Kontakten über. In normaler Raumluft ist das harmlos. In einem zündfähigen Gas-Luft-Gemisch reicht dieser winzige Funke aus, um eine verheerende Raumexplosion auszulösen.
+Dieser stechende Schwefelgeruch nach faulen Eiern ist biologisch so intensiv, dass der Mensch ein Gasleck wahrnimmt, lange bevor die untere Explosionsgrenze erreicht ist.
 
-Gleiches gilt für:
+### Die Gefahr von Mikrofunken
 
-- Klingeltaster an Wohnungstüren.
-- Stecker, die aus der Steckdose gezogen werden.
-- Smartphones, die beim Klingeln, Vibrieren oder Senden Funken an Relais erzeugen können.
+Der fatalste Fehler bei Gasgeruch ist der reflexive Griff zum Lichtschalter oder das Klingeln bei den Nachbarn. 
 
-### Das Evakuierungsprotokoll
-
-1. **Keine elektrischen Schaltungen**: Schalter nicht berühren – weder AN noch AUS schalten.
-2. **Auf dem Weg lüften**: Türen weit öffnen und die Wohnung verlassen.
-3. **Nachbarn durch Klopfen warnen**: Niemals die elektrische Türklingel der Nachbarn drücken, sondern laut rufen und mit der Hand klopfen.
-4. **Notruf von draußen absetzen**: Erst mit sicherem Abstand (mindestens 50 Meter vom Gebäude) das Smartphone nutzen und 112 sowie die Störungsnummer des Gasversorgers anrufen.
+Klassische mechanische Wippschalter trennen Kontakte über federbelastete Kupferzungen. Beim Schalten entsteht im mikroskopischen Luftspalt für Millisekunden ein kleiner Lichtbogen (Abreißfunke). In einem gasgesättigten Raum setzt dieser winzige Funke weit mehr als die minimale Zündenergie von 0,28 Millijoule frei – das gesamte Raumvolumen detoniert schlagartig.

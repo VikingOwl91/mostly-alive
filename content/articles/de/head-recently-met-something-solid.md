@@ -12,11 +12,14 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
+  - 'kopfverletzung'
+  - 'gehirnerschütterung'
+  - 'schädel-hirn-trauma'
   - 'gehirnerschütterung symptome'
-  - 'schädel-hirn-trauma erste hilfe'
   - 'halswirbelsäule stabilisieren'
   - 'schädelbasisbruch anzeichen'
   - 'pupillendifferenz nach sturz'
+  - 'kopf gestoßen übelkeit'
 severity: 'critical'
 urgency: 'immediate'
 threat_level: 4
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Kopf in neutraler Position ruhig halten, auf Warnsignale (Erbrechen, Pupillendifferenz) achten und Atemwege immer vor Wirbelsäulenruhe priorisieren.'
+memorable_facts:
+  - 'FREIE ATEMWEGE HABEN VORRANG VOR HWS-SCHUTZ: Sauerstoffmangel zerstört Hirngewebe in 3 Minuten. Wenn ein Traumapatient mit Verdacht auf Wirbelsäulenverletzung bewusstlos wird und erbricht, MUSS er sofort in die stabile Seitenlage gedreht werden. Ein toter Patient hat keinen Nutzen von einer geschonten Wirbelsäule!'
+  - 'LIQUORRHOE NIEMALS MIT WATTE VERSTOPFEN: Wenn nach einem Sturz klare, wässrige Flüssigkeit aus Ohr oder Nase tropft, ist die Schädelbasis gebrochen (Hirnwasser tritt aus). Das Zudrücken mit Verbandsmull staut den Druck im Schädel und schwemmt Bakterien direkt in die Hirnhäute (tödliche Meningitis).'
 immediate_action:
   - '1. KOPF UND HWS MANUELL STABILISIEREN: Hinter den Kopf des Patienten knien, beide Hände seitlich an den Kopf anlegen und diesen ohne Zug vorsichtig in der vorgefundenen neutralen Position fixieren. Den Patienten anweisen: „Kopf absolut ruhig halten, nicht nicken oder drehen!“'
   - '2. BEWUSSTSEIN UND ATEMWEGE PRÜFEN (DIE GOLDENE REGEL):'

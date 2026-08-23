@@ -1,65 +1,64 @@
 ---
 slug: 'sea-suspiciously-missing'
-title: 'Meer, verdächtig abwesend'
-subtitle: 'Schneller Rückzug des Meeres als akutes Tsunami-Vorzeichen'
+title: 'Meer fehlt auf einmal verdächtig'
+subtitle: 'Tsunami-Wellental, Wellenzug-Dynamik und 30-Meter-Höhenevakuierung'
 category: 'water'
 tags:
   - 'tsunami'
-  - 'meer'
   - 'ozean'
+  - 'erdbeben'
   - 'kueste'
+  - 'wasser'
 aliases:
-  - 'meer zieht sich zurueck'
-  - 'wasser am strand weg'
   - 'tsunami anzeichen'
+  - 'meer zieht sich zurueck'
+  - 'wasser weicht zurueck strand'
+  - 'tsunami verhalten'
+  - 'meeresboden trocken'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
 difficulty: 'easy'
 region_scope: 'global'
 medical: false
-emergency_services: 'call_immediately'
+emergency_services: 'context_dependent'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Redaktionelle Prüfgruppe'
-memory_hook: 'Wenn das Meer plötzlich den Raum verlässt, laufe ihm keinesfalls hinterher.'
+reviewer: 'Editorial Safety Core'
+memory_hook: 'Zieht sich das Meer schlagartig zurück: Sofort ins Landesinnere auf mindestens 30 Meter Höhe rennen – kein Foto machen!'
+memorable_facts:
+  - 'DIE MEERESRÜCKZUG-FALLE: Erreicht das Wellental eines Tsunamis die Küste zuerst, weicht das Wasser hunderte Meter zurück und legt zappelnde Fische frei. Wer auf den Meeresboden läuft, um Muscheln zu sammeln oder Fotos zu schießen, hat weniger als 5 bis 10 Minuten vor der anrollenden Wasserwand.'
+  - 'DER MEHRFACH-WELLENZUG: Ein Tsunami besteht aus einer ganzen Kette gewaltiger Wellenberge im Abstand von 10 bis 60 Minuten. Die zweite oder dritte Welle ist oft deutlich höher und zerstörerischer als die erste.'
 immediate_action:
-  - 'Drehe dem Meer den Rücken zu und renne sofort landeinwärts und bergauf.'
-  - 'Suche Anhöhen von mindestens 30 Metern über dem Meeresspiegel oder bewege dich mindestens 2 Kilometer ins Landesinnere.'
-  - 'In flachem Küstengebiet ohne natürliche Hügel: Führe eine vertikale Evakuierung in die oberen Stockwerke (mindestens 3. Obergeschoss) eines massiven Stahlbetongebäudes durch.'
-  - 'Warte nicht auf Sirenen, behördliche Lautsprecherdurchsagen oder die sichtbare Welle.'
-  - 'Bleibe mehrere Stunden auf erhöhter Position. Tsunamis bestehen aus einer Wellenserie, und spätere Flutwellen sind oft höher als die erste.'
+  - '1. SOFORT ZU FUSS INS HINTERLAND UND IN DIE HÖHE FLIEHEN: Mindestens 30 Höhenmeter über dem Meeresspiegel oder 3 Kilometer ins Landesinnere laufen.'
+  - '2. NICHT AUF OFFIZIELLE WARNUNGEN WARTEN: Das plötzliche Zurückweichen des Wassers oder ein vorausgehendes Erdbeben an der Küste ist der definitive Evakuierungsbefehl der Natur.'
+  - '3. VERTIKALE EVAKUIERUNG ALS LETZTER AUSWEG: Wenn das Landesinnere nicht mehr erreichbar ist, in das 4. Stockwerk oder höher eines massiven Stahlbetongebäudes oder Tsunami-Schutzturms flüchten.'
+  - '4. MEHRERE STUNDEN OBEN BLEIBEN: Niemals nach der ersten Welle an den Strand zurückkehren.'
 do_not:
-  - 'Niemals auf den freiliegenden Meeresboden laufen, um zappelnde Fische oder Muscheln zu sammeln oder Fotos zu machen.'
-  - 'Nicht am Strand stehen bleiben, um die Welle zu beobachten (sobald man die Wellenwand sieht, ist eine Flucht zu Fuß unmöglich).'
-  - 'Nach dem Zurückweichen der ersten Welle nicht vorzeitig ins Küstengebiet zurückkehren.'
+  - 'Niemals auf den trocken gefallenen Meeresboden laufen, um Fische oder Muscheln zu sammeln.'
+  - 'Keine Zeit für Fotos oder Social-Media-Videos verschwenden.'
+  - 'Nicht in Holzbungalows oder Autos am Strand Schutz suchen (Autos werden zu tödlichen Rammböcken in den Fluten).'
+  - 'Nicht an die Küste zurückkehren, bevor Behörden offizielle Entwarnung gegeben haben.'
 sources:
-  - name: 'UNESCO Intergovernmental Oceanographic Commission (IOC)'
-    url: 'https://ioc.unesco.org/our-work/tsunami-warning-system'
+  - name: 'International Tsunami Information Center (ITIC / UNESCO)'
+    url: 'https://itic.ioc-unesco.org/'
     authoritative: true
-    guideline_version: 'Tsunami Early Warning and Evacuation Manual'
+    guideline_version: 'Tsunami Warning and Evacuation Protocol'
     jurisdiction: 'Global'
-    notes: 'Internationaler Standard für Tsunami-Frühwarnzeichen und Evakuierungshöhen.'
-  - name: 'Deutsches GeoForschungsZentrum (GFZ) Potsdam'
+    notes: 'Frühwarnzeichen, vertikale Evakuierungshöhen (30m) und Wellenzug-Verhalten.'
+  - name: 'Deutsches GeoForschungsZentrum (GFZ)'
     url: 'https://www.gfz-potsdam.de/'
     authoritative: true
-    guideline_version: 'Tsunami-Frühwarnung und Gefahrenlehre'
-    jurisdiction: 'DE / Global'
+    guideline_version: 'Tsunami-Merkblatt für Küstenreisende'
+    jurisdiction: 'Deutschland / Global'
+    notes: 'Naturwarnzeichen, Verhalten bei Meeresspiegelabsenkung und Fluchtstrategien.'
 ---
 
-Das Meer ist im Allgemeinen recht zuverlässig darin, in seinem Becken zu verbleiben. Wenn sich das Wasser an der Küste innerhalb weniger Minuten hunderte Meter weit zurückzieht und Felsen, Korallen sowie zappelnde Fische freilegt, handelt es sich nicht um eine spontane Ebbe.
+Verschiebt ein starkes Seebeben den Meeresboden schlagartig um mehrere Meter nach oben oder unten, wird die gesamte darüberliegende Wassersäule des Ozeans vertikal versetzt.
 
-Es ist das Wellental einer gewaltigen submarinen Verdrängungswelle.
+### Das Phänomen des Wellentals (Drawdown)
 
-### Warum das geschieht
+Erreicht das vordere Wellental des Tsunamis die Küstenlinie, fällt der Wasserspiegel schlagartig ab. Das Meer weicht in atemberaubendem Tempo zurück und legt hunderte Meter des Meeresbodens, Korallenriffe und zappelnde Fische frei.
 
-Wenn ein Seebeben oder ein unterseeischer Erdrutsch Milliarden Kubikmeter Wasser verdrängt, entsteht eine Welle mit enormer Wellenlänge. Erreicht das Wellental die Küste zuerst, saugt der Tsunami das küstennahe Wasser rasend schnell an.
-
-Dieses Wasser kehrt innerhalb von Minuten zurück. Da sich die Energie eines Tsunamis über die gesamte Tiefe der Wassersäule erstreckt, gleicht das Wasser beim Eintreffen keiner normalen Brandungswelle, sondern einer unaufhaltsamen, reißenden Flutmauer aus Trümmern und Schlamm.
-
-### Verhaltensregeln
-
-1. **Natürliche Warnsignale erkennen**: Schneller Meeresrückzug, spürbare Erdbeben an der Küste oder ein grollendes Donnern wie von einem Güterzug oder Düsenjet.
-2. **Sofort nach oben**: Begib dich unverzüglich auf Anhöhen oder in stabile Betonbauten.
-3. **Die Wellenserie beachten**: Ein Tsunami besteht immer aus mehreren Wellenbergen, die im Abstand von 10 Minuten bis über einer Stunde eintreffen können. Bleibe oben, bis offizielle Entwarnung gegeben wird.
+Dies ist keine normale Ebbe, sondern das physikalische Ansaugen der Wassermassen durch das herannahende Wellental. Innerhalb von fünf bis fünfzehn Minuten rollt der eigentliche Wellenberg heran: Eine meterhohe, dunkle Wand aus Wasser und Trümmern, die sich mit der Wucht von hunderten Tonnen über die Küste wälzt.

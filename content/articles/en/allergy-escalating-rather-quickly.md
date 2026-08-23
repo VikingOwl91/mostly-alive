@@ -12,6 +12,9 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'anaphylaxis'
+  - 'allergic reaction'
+  - 'epipen'
   - 'severe allergic reaction'
   - 'anaphylactic shock'
   - 'how to use epipen'
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Inject epinephrine into the outer thigh immediately, call 911/112, keep the person lying flat, and never let them stand up.'
+memorable_facts:
+  - 'THE EMPTY VENTRICLE DISASTER: Massive histamine release dilates peripheral blood vessels throughout the body. If an anaphylactic person stands up or walks, blood pools in their legs, instantly starving the heart of venous return. The heart pumps on empty chambers, causing sudden pulseless cardiac arrest. Keep them lying flat with legs elevated!'
+  - 'EPINEPHRINE VS ANTIHISTAMINES: Intramuscular adrenaline into the mid-outer thigh reverses airway swelling and vascular collapse in 3 to 5 minutes. Oral antihistamines and cortisone take 30 to 120 minutes to absorb—waiting for pills during an airway emergency is fatal.'
 immediate_action:
   - '1. INJECT EPINEPHRINE (ADRENALINE) IMMEDIATELY: If the person has a prescribed auto-injector (EpiPen, Jext, Auvi-Q), use it immediately at the first sign of airway swelling, breathing difficulty, or dizziness:'
   - '   • Grasp the auto-injector with a fist (never place your thumb over the needle end) and pull off the safety cap.'

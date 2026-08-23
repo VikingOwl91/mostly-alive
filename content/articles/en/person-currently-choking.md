@@ -1,85 +1,81 @@
 ---
 slug: 'person-currently-choking'
 title: 'Person, Currently Choking'
-subtitle: 'Foreign body airway obstruction and the 5-and-5 resuscitation protocol'
+subtitle: 'Foreign body airway obstruction, back blow mechanics, and abdominal thrusts'
 category: 'medical'
 tags:
   - 'choking'
+  - 'heimlich'
+  - 'airway'
   - 'first-aid'
   - 'medical'
   - 'emergency'
-  - 'airway'
 aliases:
+  - 'choking'
   - 'heimlich maneuver'
-  - 'choking adult'
+  - 'how to do the heimlich'
   - 'food stuck in throat'
-  - 'how to save choking person'
+  - 'choking first aid'
+  - 'back blows choking'
+  - 'abdominal thrusts'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
-difficulty: 'moderate'
+difficulty: 'easy'
 region_scope: 'global'
 medical: true
-emergency_services: 'call_immediately'
+emergency_services: 'context_dependent'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Encourage coughing first; if silent, alternate 5 back blows and 5 abdominal thrusts.'
+memory_hook: 'If they can cough, encourage coughing; if they cannot breathe or speak, alternate 5 back blows and 5 abdominal thrusts.'
+memorable_facts:
+  - 'THE 5-AND-5 RESCUE CYCLE: International guidelines (ERC and AHA) mandate alternating 5 firm back blows between the shoulder blades with 5 sharp inward-and-upward abdominal thrusts (the Heimlich maneuver). The sudden upward displacement of the diaphragm acts like an artificial cough, compressing residual air in the lungs to dislodge the obstruction.'
+  - 'THE SPONTANEOUS COUGH RULE: If the person can still cough loudly, speak, or inhale, their airway is only partially obstructed. An unhindered biological cough generates subglottic pressures exceeding 100 mmHg—far more force than external thrusts. Intervene physically only when their cough becomes silent or absent.'
 immediate_action:
-  - "Assess severity: Ask 'Are you choking?'"
-  - 'If the person can speak, cough forcefully, or breathe (Mild Obstruction): DO NOT INTERFERE. Encourage them to keep coughing.'
-  - 'If the person cannot speak, has a silent/weak cough, or clutches their throat (Severe Obstruction):'
-  - '1. BACK BLOWS: Stand slightly behind to the side, support their chest with one hand, lean them well forward, and deliver up to 5 sharp blows between the shoulder blades with the heel of your other hand.'
-  - '2. ABDOMINAL THRUSTS (Heimlich): If 5 blows fail, stand behind them, place your arms around their upper abdomen, make a fist with one hand placed thumb-side inward between the navel and bottom of the ribcage, grasp your fist with your other hand, and pull sharply INWARD and UPWARD up to 5 times.'
-  - '3. ALTERNATE: Continue alternating 5 back blows and 5 abdominal thrusts until the obstruction is cleared or the person loses consciousness.'
-  - '4. IF UNCONSCIOUS: Lower them gently to the floor, call 911 / 112 immediately, and begin CPR immediately starting with 30 chest compressions.'
+  - '1. ASSESS SEVERITY IMMEDIATELY: Ask: "Are you choking?"'
+  - '   • MILD (CAN COUGH/SPEAK): Encourage vigorous coughing. Do not intervene physically with thrusts while they are coughing effectively.'
+  - '   • SEVERE (CANNOT SPEAK, BREATHE, OR ONLY SQUEAKS / CLUTCHING THROAT): Act immediately.'
+  - '2. DELIVER 5 SHARP BACK BLOWS:'
+  - '   • Stand to the side and slightly behind the person.'
+  - '   • Support their chest with one hand and lean them well forward so dislodged objects fall out of the mouth rather than back down the airway.'
+  - '   • Deliver up to 5 sharp blows between the shoulder blades using the heel of your hand.'
+  - '3. DELIVER 5 ABDOMINAL THRUSTS (HEIMLICH MANEUVER):'
+  - '   • If back blows fail, stand behind the person and wrap both arms around their upper abdomen.'
+  - '   • Form a fist with one hand and place the thumb side just above the navel (well below the bottom of the breastbone).'
+  - '   • Grasp your fist with your other hand and pull sharply inward and upward.'
+  - '4. ALTERNATE 5 BACK BLOWS AND 5 ABDOMINAL THRUSTS until the object pops out or the person loses consciousness.'
+  - '5. IF THE PERSON COLLAPSES UNRESPONSIVE: Lower them carefully to the ground, call 911 / 112 immediately, and start CPR beginning with 30 chest compressions.'
 do_not:
-  - 'Do not slap a choking person on the back while they are standing upright (gravity can lodge the object deeper into the trachea; always lean them forward).'
-  - 'Do not perform blind finger sweeps in the mouth (you may push a lodged foreign object further down into the laryngeal inlet).'
-  - 'Do not perform abdominal thrusts on infants under 1 year old (use alternating 5 back blows and 5 chest thrusts instead).'
+  - 'Do not slap someone on the back while they are standing completely upright (this allows gravity to pull the dislodged foreign object deeper into the trachea).'
+  - 'Do not perform blind finger sweeps in the mouth (you risk pushing lodged food or objects deeper past the vocal cords).'
+  - 'Do not perform abdominal thrusts on infants under 1 year (use alternating back slaps and gentle two-finger chest thrusts).'
+  - 'Do not skip medical evaluation after successful abdominal thrusts (inward thrusts can cause internal bruising or lacerations to the spleen, liver, or stomach).'
 sources:
   - name: 'European Resuscitation Council (ERC)'
     url: 'https://cprguidelines.eu/'
     authoritative: true
-    guideline_version: 'ERC Guidelines 2021 - Basic Life Support and Foreign Body Airway Obstruction'
+    guideline_version: 'ERC Guidelines 2021: Basic Life Support - Foreign Body Airway Obstruction'
     jurisdiction: 'EU / Global'
-    notes: 'Primary clinical protocol for mild vs severe obstruction, back blow mechanics, and transition to CPR.'
+    notes: '5 back blows and 5 abdominal thrusts sequence, infant modifications, and post-resuscitation care.'
   - name: 'American Heart Association (AHA)'
     url: 'https://cpr.heart.org/'
     authoritative: true
-    guideline_version: '2020 AHA Guidelines for CPR and ECC'
+    guideline_version: '2020 AHA Guidelines for CPR and ECC: Adult Basic Life Support'
     jurisdiction: 'US / Global'
+    notes: 'Management of mild vs severe foreign body airway obstruction and choking algorithms.'
 ---
 
-Human anatomy routes both nourishing solid sustenance and life-sustaining atmospheric gases through the exact same pharyngeal intersection. Occasionally, solid food misinterprets its itinerary and wedges tightly across the vocal cords.
+The human pharynx serves as a shared structural intersection for both the digestive and respiratory systems. During normal deglutition (swallowing), the epiglottis folds downward over the laryngeal inlet like a trapdoor, directing solids and liquids safely into the esophagus.
 
-Complete airway obstruction leads to cerebral hypoxia and irreversible cardiac arrest in 3 to 4 minutes. Speed and mechanical correctness are vital.
+Foreign body airway obstruction occurs when food or foreign items slip past the epiglottis into the trachea before the vocal cords can spasm shut.
 
-### Step 1: Differentiate Mild vs. Severe Obstruction
+### The Dynamics of 5 Back Blows and 5 Abdominal Thrusts
 
-- **Mild Obstruction**: The person is coughing loudly, wheezing, and able to speak or nod. Their own cough generates far greater peak airway pressures than any external intervention. **Do not strike them.** Encourage them to keep coughing.
-- **Severe Obstruction**: The person is silent, clutching their throat (the universal choking sign), turning blue/cyanotic, or producing only high-pitched squeaks. Intervene immediately.
+1. **Forward Lean and Back Blows**: Leaning the person forward uses gravity to prevent dislodged objects from dropping deeper into the mainstem bronchi. Delivering a firm blow with the heel of the hand over the thoracic spine creates a sudden shockwave and instantaneous pressure spike in the respiratory tract.
+2. **Abdominal Thrusts (The Heimlich Maneuver)**: Pulling inward and upward just above the umbilicus forcibly elevates the diaphragm. This suddenly compresses the residual volume of air trapped in the lower lobes of the lungs, generating an artificial explosive expiration that ejects the foreign object out through the glottis.
 
-### Step 2: The 5-and-5 Protocol
+### When to Restrain from Physical Intervention
 
-```text
-[ Stand Beside & Lean Forward ]
-           ↓
-   5 Sharp Back Blows (between shoulder blades)
-           ↓ (Object still lodged?)
-   5 Abdominal Thrusts (inward & upward above navel)
-           ↓ (Repeat cycle until cleared)
-```
-
-1. **Lean Forward First**: Supporting the patient's upper chest with one arm, lean their torso forward so that the trachea points downward. This ensures dislodged objects fall out through the mouth rather than sliding deeper down the airway.
-2. **Heel-of-Hand Back Blows**: Deliver up to 5 distinct, energetic blows directly between the scapulae.
-3. **Abdominal Thrusts**: Place a fist between the navel and xiphoid process (bottom of the sternum). Pull sharply inward and upward in an artificial cough motion.
-
-### Transition to CPR if Unconscious
-
-If the person collapses:
-
-1. Lower them flat onto their back on the floor.
-2. Call emergency medical dispatch (911 / 112) or direct a specific bystander to call.
-3. Begin chest compressions immediately (30 compressions followed by 2 breaths). Each time you open the airway for breaths, look in the mouth: remove an object only if clearly visible and easily reached with your fingers.
+If the victim is making noisy breathing sounds, coughing vigorously, or able to speak in complete sentences, the obstruction is partial. A spontaneous, voluntary human cough generates a subglottic pressure wave exceeding **100 mmHg** and velocity reaching hundreds of kilometers per hour. Delivering premature back blows while someone is actively coughing can dislodge a partial obstruction into a catastrophic total blockage.

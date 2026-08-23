@@ -1,19 +1,23 @@
 ---
 slug: 'bleeding-more-than-is-generally-recommended'
-title: 'Bleeding, More Than Is Generally Recommended'
-subtitle: 'Catastrophic arterial hemorrhage, wound packing, and tourniquet application'
+title: 'Bleeding More Than Is Generally Recommended'
+subtitle: 'Catastrophic hemorrhage control, wound packing, and tourniquet application'
 category: 'medical'
 tags:
   - 'bleeding'
-  - 'first-aid'
   - 'tourniquet'
   - 'trauma'
+  - 'first-aid'
   - 'medical'
+  - 'emergency'
 aliases:
-  - 'stop the bleed'
-  - 'arterial bleeding'
-  - 'tourniquet instructions'
-  - 'severe cut spurting blood'
+  - 'bleeding'
+  - 'tourniquet'
+  - 'severe bleeding'
+  - 'how to stop bleeding'
+  - 'arterial bleeding first aid'
+  - 'hemorrhage control'
+  - 'wound packing'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -25,66 +29,51 @@ status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
-memory_hook: 'Press hard directly on the source; if on an arm or leg and spurting, crank the tourniquet tight.'
+memory_hook: 'Press hard with both hands directly on the wound; for catastrophic limb bleeds, apply a tourniquet high and tight.'
+memorable_facts:
+  - 'THE 3-MINUTE ARTERIAL CLOCK: A full transection of a major arterial highway (such as the femoral or brachial artery) can drain 40% of the body’s total blood volume in under 180 seconds. In catastrophic bleeding, stopping the leak precedes every other first-aid step.'
+  - 'TOURNIQUETS DO NOT CAUSE INSTANT AMPUTATION: Modern tactical trauma data proves that properly manufactured tourniquets remain safely in place for up to two hours without permanent nerve or tissue loss. Never loosen or remove an applied tourniquet before hospital arrival.'
 immediate_action:
-  - 'Ensure scene safety and call 911 / 112 immediately.'
-  - 'DIRECT PRESSURE: Place a clean cloth, gauze, or clothing directly onto the bleeding point and press down with maximum body weight using both hands.'
-  - 'WOUND PACKING (Groin, Armpit, Neck): If pressure alone fails on deep cavity wounds, pack gauze tightly and deeply into the wound cavity until full, then apply heavy manual pressure for at least 3 minutes.'
-  - 'TOURNIQUET (Arms and Legs): For severe, pulsing, or spurting limb hemorrhage, place a commercial windlass tourniquet 5 to 7 cm (2 to 3 inches) above the bleeding site (between the wound and the heart). Do not place over a joint.'
-  - 'Tighten the tourniquet strap, twist the windlass rod until the bleeding stops completely and the distal pulse disappears, then lock the rod in the clip.'
-  - 'Note the exact application time on the tourniquet band.'
-  - 'Keep the patient warm with blankets to prevent trauma-induced coagulopathy.'
+  - '1. CALL 911 / 112 IMMEDIATELY: Tell the dispatcher: "Severe life-threatening bleeding."'
+  - '2. APPLY RELENTLESS DIRECT PRESSURE: Place a sterile dressing, clean cloth, or your bare gloved hands directly over the bleeding vessel and push down with your entire body weight.'
+  - '3. FOR LIFE-THREATENING LIMB BLEEDING (TOURNIQUET):'
+  - '   • Apply a commercial tourniquet (CAT, SAM-XT, SOFTT) 5 to 7 cm (2 to 3 inches) above the wound (never directly over a joint).'
+  - '   • If the wound location is unclear, place it "high and tight" at the top of the arm or thigh.'
+  - '   • Twist the windlass rod until bright red spurting and flowing bleeding stops completely.'
+  - '   • Secure the rod in the clip and write the exact application time on the band (e.g. "T 14:35").'
+  - '4. WOUND PACKING FOR JUNCTIONAL WOUNDS (GROIN/ARMPIT/NECK):'
+  - '   • Tightly pack plain or hemostatic gauze directly into the deep wound cavity until filled, then maintain continuous manual two-handed pressure for at least 3 minutes.'
+  - '5. KEEP THE CASUALTY WARM: Wrap them in a blanket or foil space blanket to prevent hypothermia-induced coagulopathy.'
 do_not:
-  - "Do not release pressure or loosen a tourniquet to 'check if bleeding has stopped' (this causes immediate re-bleeding and lethal clot disruption)."
-  - 'Do not place a tourniquet directly over a joint (elbow or knee; place it above the joint).'
-  - 'Do not use thin wires, shoelaces, or nylon cords as makeshift tourniquets (they cut through skin and muscle without occluding deep arterial vessels).'
+  - 'Do not remove blood-soaked dressings to "check if it stopped" (you rip away delicate fibrin clots; add more layers on top).'
+  - 'Do not loosen, release, or periodically untie an applied tourniquet to "let blood circulate" (this triggers sudden lethal hemorrhagic collapse and washes toxic metabolites into circulation).'
+  - 'Do not use thin wires, shoelaces, or nylon cords as makeshift tourniquets (they cut through skin and slice nerves without stopping deep arterial flow).'
+  - 'Do not allow the patient to become cold (hypothermia completely disables the blood’s enzymatic clotting cascade).'
 sources:
-  - name: 'American College of Surgeons (ACS) - Stop the Bleed'
-    url: 'https://www.stopthebleed.org/'
+  - name: 'American College of Surgeons / Committee on Trauma (ACS-COT)'
+    url: 'https://www.bleedingcontrol.org/'
     authoritative: true
-    guideline_version: 'Stop the Bleed Training Standard 2024'
+    guideline_version: 'Stop the Bleed National Training Curriculum'
     jurisdiction: 'US / Global'
-    notes: 'Primary evidence-based standard for direct pressure, wound packing, and commercial windlass tourniquets.'
+    notes: 'Direct pressure, wound packing, and commercial tourniquet protocols.'
   - name: 'European Resuscitation Council (ERC)'
     url: 'https://cprguidelines.eu/'
     authoritative: true
-    guideline_version: 'ERC Guidelines 2021: First Aid - Life-Threatening Bleeding'
+    guideline_version: 'ERC Guidelines 2021: First Aid - Bleeding'
     jurisdiction: 'EU / Global'
+    notes: 'Hemostatic dressings, tourniquet timing, and junctional hemorrhage management.'
 ---
 
-The human circulatory system operates as a pressurized closed-loop hydraulic circuit containing roughly five liters of blood. When a breach occurs in a major arterial conduit (e.g., femoral, brachial, carotid), a human can lose consciousness in under 60 seconds and suffer fatal exsanguination in three minutes.
+The adult human cardiovascular system contains roughly five liters of pressurized blood pumped at velocities exceeding thirty centimeters per second through the major arterial conduits. 
 
-Minor oozing requires a bandage. **Pulsing, spurting, or pooling blood** requires aggressive mechanical occlusion.
+When a high-energy trauma (deep laceration, machinery accident, explosive fragment, or vehicular puncture) severs an artery, hydraulic pressure shoots blood outward in pulsatile jets.
 
-### The Stop The Bleed Hierarchy
+### The Mathematics of Hemorrhagic Shock
 
-```text
-[ Identify Source of Bleeding ]
-               ↓
-    [ Direct Firm Manual Pressure ]
-     /                           \
-[ Deep Junctional Wound ]      [ Extremity Wound (Arm/Leg) ]
-         ↓                                    ↓
- [ Pack Cavity with Gauze ]            [ Apply Windlass Tourniquet ]
-         ↓                                    ↓
- [ 3 Min Heavy Pressure ]             [ Tighten until Bleed Halts ]
-```
+If the circulating blood volume drops by more than 30% to 40% (approximately 1.5 to 2.0 liters in an average adult), venous return to the right atrium collapses. The heart enters pulseless electrical activity (PEA) arrest from severe hypovolemic shock. Because an open femoral artery can lose two liters in under two minutes, immediate mechanical occlusion is the only intervention that prevents mortality.
 
-### 1. Direct Manual Pressure
+### Tourniquet Application Principles
 
-Do not hover tentatively with a single tissue. Place the heel of both hands directly onto the ruptured vessel, lock your elbows, and lean your entire upper body weight directly into the wound. Maintain unrelenting pressure.
-
-### 2. Wound Packing
-
-In areas where a tourniquet cannot be placed (groin creases, armpits, neck), continuous packing is required:
-
-- Take gauze, rolled bandages, or clean cloth.
-- Push the material tightly into the depths of the wound cavity directly against the bleeding bone or vessel.
-- Fill the cavity completely, then apply direct double-handed pressure on top.
-
-### 3. Tourniquet Application (Limbs Only)
-
-1. **Position**: 5 to 7 cm (2 to 3 inches) above the injury, proximal to the heart. Never place over an elbow or knee joint.
-2. **Pull Strap Tight**: Pull the Velcro strap as tight as physically possible before turning the windlass. A loose strap prevents the rod from generating sufficient arterial occlusion pressure.
-3. **Turn the Windlass**: Twist the rod until bright red spurting and dark bleeding stops completely.
-4. **Lock & Time**: Secure the windlass in the retention clip. Write the application time (e.g., `T=14:35`) on the forehead or tourniquet band so surgeons know the exact ischemia duration.
+1. **Placement**: Position the band 5 to 7 cm (2 to 3 inches) proximal to the bleeding wound. If clothing or smoke obscures the exact wound site, apply it immediately at the uppermost proximal portion of the limb ("high and tight").
+2. **Tightening the Windlass**: The mechanical advantage of the windlass compresses the underlying muscle against the long bone, occluding both venous and arterial conduits. The windlass must be rotated until all bright spurting ceases and the distal pulse is extinguished.
+3. **Time Recording**: Always write the exact minute of application on the time tag (e.g., `14:35`). Paramedics and trauma surgeons use this timestamp to monitor tissue ischemia windows safely.

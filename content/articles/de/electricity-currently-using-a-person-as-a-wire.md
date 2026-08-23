@@ -12,11 +12,14 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
+  - 'stromschlag'
+  - 'stromunfall'
+  - 'hochspannung'
   - 'stromschlag erste hilfe'
   - 'person unter strom'
   - 'stromunfall vorgehen'
   - 'stromschlag 10 meter abstand'
-  - 'strommarken verbrennung'
+  - 'loslass-schwelle'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Person niemals direkt berühren, zuerst Strom am Sicherungskasten abschalten, Notruf 112 wählen und bei Stillstand sofort reanimieren.'
+memorable_facts:
+  - 'DIE KRAMPFGRIFF-LOSLASS-SCHWELLE: Haushaltswechselstrom zwingt Muskeln zu 50 Kontraktionen pro Sekunde. Da die Beugemuskeln der Hand viel stärker sind als die Streckmuskeln, verkrampft die Hand um das stromführende Kabel zu einer unlösbaren Faust. Wer den Verunfallten mit bloßen Händen anfasst, wird sofort Teil des tödlichen Stromkreises.'
+  - 'SCHRITTSPANNUNGS-SCHLURFEN: Auf den Boden gefallene Hochspannungsleitungen bilden kreisförmige Spannungstrichter im Erdreich. Ein normaler Schritt überbrückt Tausende Volt Potenzialdifferenz zwischen beiden Beinen. Füße geschlossen halten und nur schlurfend ohne Abheben bewegen!'
 immediate_action:
   - '1. DIE BETROFFENE PERSON NIEMALS DIREKT ANFASSEN: Solange Kontakt zur Stromquelle besteht, steht der Körper unter Spannung. Wer die Person berührt, wird Teil des Stromkreises und erleidet denselben lebensgefährlichen Muskelkrampf.'
   - '2. STROMKREIS UNVERZÜGLICH UNTERBRECHEN (NIEDERSPANNUNG < 1.000 V / HAUSHALT):'

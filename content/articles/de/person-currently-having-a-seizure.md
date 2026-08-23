@@ -12,11 +12,14 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
+  - 'krampfanfall'
+  - 'epilepsie'
   - 'epileptischer anfall'
   - 'erste hilfe krampfanfall'
   - 'grand mal anfall'
   - 'zuckungen ganzer körper'
   - 'bewusstlos zucken'
+  - 'anfall kind'
 severity: 'critical'
 urgency: 'immediate'
 threat_level: 4
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Kopf weich polstern, Dauer stoppen, niemals Gegenstände in den Mund stecken und nach dem Anfall in die stabile Seitenlage bringen.'
+memorable_facts:
+  - 'DER MYTHOS DES ZUNGENVERSCHLUCKENS: Die menschliche Zunge ist über das Zungenbändchen fest am Mundboden verankert – ein anatomisches Verschlucken der eigenen Zunge ist unmöglich. Wer versucht, Löffel, Beißkeile oder Finger zwischen die Zähne zu hebeln, bricht Zähne ab und riskiert, dass der Patient Zahnsplitter in die Lunge aspiriert.'
+  - 'DIE 5-MINUTEN-STATUS-GRENZE: Über 90 % aller epileptischen Anfälle enden von selbst nach 60 bis 90 Sekunden. Dauern die Krämpfe länger als 5 Minuten, hat das hemmende System des Gehirns versagt: Es droht ein lebensgefährlicher Status Epilepticus, der sofort vom Notarzt medikamentös gestoppt werden muss.'
 immediate_action:
   - '1. KOPF UND KÖRPER VOR VERLETZUNGEN SCHÜTZEN: Den Kopf der Person mit einer zusammengefalteten Jacke, einem Kissen oder den eigenen Händen weich unterlagern, um Schädelverletzungen auf hartem Boden zu verhindern. Spitze, harte oder heiße Gegenstände aus dem Umkreis wegräumen.'
   - '2. DAUER DES ANFALLS STOPPEN: Sofort auf die Uhr oder das Smartphone schauen. Die genaue Anfallsdauer ist das wichtigste Kriterium für die medizinische Notfallentscheidung.'

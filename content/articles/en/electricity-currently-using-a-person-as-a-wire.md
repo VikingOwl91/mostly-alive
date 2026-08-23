@@ -12,11 +12,14 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'electric shock'
+  - 'electrocution'
   - 'electrocution first aid'
   - 'person shocked by electricity'
   - 'how to help electric shock victim'
   - 'electric shock safety distance'
   - 'electrical burn treatment'
+  - 'let go threshold'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Never touch an energized person; kill the power at the breaker first, call 911/112, start CPR if pulseless, and hospitalize for ECG.'
+memorable_facts:
+  - 'THE "CAN’T LET GO" TETANIC CLAMP: Household 50/60 Hz alternating current forces muscles to contract 50 to 60 times per second. Because the forearm muscles that close the fingers are much stronger than those that open them, contact with a live wire freezes the hand into an involuntary, unbreakable fist. Touching the victim clamps you into the exact same circuit.'
+  - 'STEP POTENTIAL SHUFFLE: High-voltage power lines touching the soil create concentric rings of diminishing voltage radiating outward. A normal walking stride places one foot in a higher voltage zone than the other, sending thousands of volts up one leg and down the other. Keep feet touching and shuffle without lifting them.'
 immediate_action:
   - '1. DO NOT TOUCH THE PERSON DIRECTLY: If the victim is still in contact with the live electrical source, touching them conducts current through your body, causing involuntary muscle lock and double electrocution.'
   - '2. SEVER THE ELECTRICAL CIRCUIT SAFELY (LOW VOLTAGE < 1,000V):'

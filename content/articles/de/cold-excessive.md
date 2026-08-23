@@ -1,18 +1,21 @@
 ---
 slug: 'cold-excessive'
 title: 'Kälte, exzessiv'
-subtitle: 'Unterkühlungsstadien (Schweizer Schema), sanfte Umlagerung und Kern-Erwärmung'
+subtitle: 'Akzidentelle Hypothermie, Bergungstod-Prophylaxe und schonende Rumpferwärmung'
 category: 'weather'
 tags:
-  - 'kaelte'
   - 'unterkuehlung'
-  - 'hypothermie'
-  - 'winter'
+  - 'kaelte'
+  - 'wetter'
+  - 'medizin'
   - 'erste-hilfe'
 aliases:
-  - 'unterkuehlung stadien'
+  - 'unterkühlung'
   - 'hypothermie behandlung'
-  - 'erfrierungen erste hilfe'
+  - 'bergungstod'
+  - 'afterdrop unterkühlung'
+  - 'erfrierungen'
+  - 'unterkühlte person aufwärmen'
 severity: 'critical'
 urgency: 'immediate'
 threat_level: 4
@@ -23,50 +26,47 @@ emergency_services: 'call_immediately'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Redaktioneller Medizinrat'
-memory_hook: 'Extrem sanft bewegen, nur den Rumpf wärmen, niemals Arme und Beine rubbeln.'
+reviewer: 'Editorial Medical Review Board'
+memory_hook: 'Patienten horizontal und extrem schonend bewegen, Rumpf isolieren und kalte Gliedmaßen niemals massieren.'
+memorable_facts:
+  - 'DER TÖDLICHE AFTERDROP (BERGUNGSTOD): Bei schwerer Unterkühlung sammelt sich eiskaltes, saures und kaliumreiches Blut in den verengten Gefäßen der Arme und Beine. Werden die Beine massiert oder der Patient aufgerichtet, strömt dieses Eisblut schlagartig ins Herz, senkt die Kerntemperatur weiter ab und löst sofortiges Kammerflimmern aus.'
+  - 'DER LEITSATZ DER NOTFALLMEDIZIN: „Niemand ist tot, bevor er nicht warm und tot ist.“ Bei tiefer Hypothermie verlangsamt sich der Hirnstoffwechsel extrem – Reanimationen müssen ohne Abbruch bis zur Wiedererwärmung in der Klinik fortgeführt werden.'
 immediate_action:
-  - 'GEBOT DER SANFTEN UMLAGERUNG: Bewege den unterkühlten Patienten extrem vorsichtig und erschütterungsfrei. Grobes Rütteln oder Aufrichten kann im kalten Herzmuskel sofortiges Kammerflimmern (Bergungstod) auslösen.'
-  - 'ISOLIERUNG & DAMPFSPERRE: Nasse Kleidung nur in windgeschützter, warmer Umgebung ausziehen; ansonsten den gesamten Körper samt Kopf in Rettungsdecken, Schlafsäcke oder Folien einpacken (Burrito-Verpackung).'
-  - 'NUR DEN KÖRPERKERN ERWÄRMEN: Wärmepackungen oder Wärmflaschen ausschließlich am RUMPF (Brust, Rücken, Achselhöhlen) anbringen, NIEMALS an Armen oder Beinen.'
-  - 'Ist der Patient voll ansprechbar und zittert kräftig (Leichte Hypothermie): Warme, stark gezuckerte Getränke reichen (kein Alkohol, kein Koffein).'
-  - 'Ist der Patient apathisch, verwirrt oder bewusstlos (Mäßige/Schwere Hypothermie): KEINE Flüssigkeiten einflößen, sofort Notruf 112 absetzen und Rettungshubschrauber anfordern.'
-  - 'Atmung und Puls mindestens 60 Sekunden lang prüfen, bevor ein Kreislaufstillstand angenommen wird.'
+  - '1. EXTREM SCHONEND BEWEGEN (VORRANG DER HERZRUHE): Den Patienten nur waagerecht und ohne ruckartige Erschütterungen umlagern (Kältezittern des Herzens droht!).'
+  - '2. WEITEREN WÄRMEVERLUST STOPPEN (DAMPFSPERRE / HIBLER-WÄRMEPACKUNG):'
+  - '   • Nasse Kleidung vorsichtig aufschneiden und entfernen, ohne den Patienten aufzusetzen.'
+  - '   • Den Körper in trockene Decken, Schlafsäcke und eine äußere winddichte Rettungsdecke oder Plastikplane einpacken.'
+  - '3. ZUERST DEN RUMPF WÄRMEN (AKTIVE KERNWÄRMUNG):'
+  - '   • Wärmflaschen oder Wärmepacks (in Tücher gewickelt) auf Brustkorb, Nacken und Leiste legen – niemals an bloße Arme oder Beine.'
+  - '4. NOTRUF 112 WÄHLEN: Der Leitstelle schwere Unterkühlung melden und Rettungsmittel mit Wärmeequipment anfordern.'
+  - '5. VERLÄNGERTE REANIMATION BEI HERZSTILLSTAND: Bei Pulslosigkeit sofort Herzdruckmassage (30:2) beginnen und bis zur Erwärmung im Krankenhaus fortführen.'
 do_not:
-  - 'Kalte Arme und Beine niemals massieren oder abreiben (zerstört Gewebe und drückt kaltes, saures Blut zurück ins Herz).'
-  - 'Kein heißes Vollbad anwenden (führt zur sofortigen Gefäßerweiterung und zum tödlichen Wiedererwärmungsschock / Afterdrop).'
-  - 'Niemals Alkohol verabreichen (Alkohol stellt die peripheren Blutgefäße weit und beschleunigt den Wärmeverlust massiv).'
+  - 'Arme und Beine niemals massieren, abreiben oder mit Schnee einreiben (schwemmt eiskaltes, saures Blut ins Herz und löst den Bergungstod aus).'
+  - 'Den Patienten nicht aufstehen oder laufen lassen (löst einen orthostatischen Kollaps aus).'
+  - 'Den Patienten niemals in ein heißes Vollbad setzen.'
+  - 'Keinen Alkohol oder Kaffee verabreichen (Alkohol erweitert die Hautgefäße und beschleunigt den Wärmeverlust massiv).'
 sources:
-  - name: 'Österreichische Gesellschaft für Alpin- und Höhenmedizin (ÖGAHM)'
-    url: 'https://www.oegahm.at/'
+  - name: 'European Resuscitation Council (ERC)'
+    url: 'https://cprguidelines.eu/'
     authoritative: true
-    guideline_version: 'Leitlinie Akzidentelle Hypothermie (Schweizer Stadiensystem)'
-    jurisdiction: 'DE / AT / CH'
-    notes: 'Primäre alpine Leitlinie zu Bergungstod, Afterdrop und schonender Erwärmung.'
-  - name: 'International Commission for Mountain Emergency Medicine (ICAR MEDCOM)'
-    url: 'https://www.alpine-rescue.org/'
+    guideline_version: 'ERC Guidelines 2021: Accidental Hypothermia'
+    jurisdiction: 'EU / Global'
+    notes: 'Swiss Staging System, Bergungstod-Prävention und Reanimationskriterien bei Unterkühlung.'
+  - name: 'Deutsche Gesellschaft für Berg- und Expeditionsmedizin (BExMed)'
+    url: 'https://www.bexmed.de/'
     authoritative: true
-    guideline_version: 'ICAR Hypothermia Recommendations'
-    jurisdiction: 'Global'
+    guideline_version: 'Empfehlungen zur Behandlung der akzidentellen Hypothermie'
+    jurisdiction: 'Deutschland / DACH'
+    notes: 'Wärmepackungen, schonende Umlagerung und Nachkühl-Phänomene.'
 ---
 
-Die Thermodynamik sorgt unerbittlich dafür, dass Wärme von warmen Körpern in kältere Umgebungen abfließt. Verliert der menschliche Organismus mehr Energie als er durch Muskelarbeit und Stoffwechsel erzeugen kann, sinkt die Kerntemperatur unter 35°C (Hypothermie).
+Eine akzidentelle Hypothermie liegt vor, wenn die Wärmeverluste an die Umgebung die körpereigene Wärmeproduktion übersteigen und die Körperkerntemperatur unter 35 °C absinkt.
 
-Unterkühlung trübt das Urteilsvermögen schleichend. Betroffene empfinden vor dem Zusammenbruch oft eine trügerische Wärme und beginnen paradoxerweise, sich im Schnee zu entkleiden.
+### Die Dynamik des Bergungstods (Afterdrop)
 
-### Die Schweizer Stadien der Unterkühlung
+Um lebenswichtige Organe im Körperkern (Gehirn, Herz, Nieren) zu schützen, zieht der Körper bei Kälte das Blut über eine maximale Gefäßverengung (Vasokonstriktion) aus den Gliedmaßen ab. In Armen und Beinen entsteht ein 10 °C bis 20 °C kaltes, saures und kaliumreiches Blutreservoir.
 
-| Stadium            | Kerntemperatur | Symptome                                        | Maßnahmen                                                    |
-| ------------------ | -------------- | ----------------------------------------------- | ------------------------------------------------------------ |
-| **I (Leicht)**     | 32°C – 35°C    | Ansprechbar, **starkes Muskelzittern**          | Warme gezuckerte Getränke, trockene Kleidung, Bewegung       |
-| **II (Mäßig)**     | 28°C – 32°C    | Verwirrt, schläfrig, **Muskelzittern hört auf** | **Sanfte Umlagerung**, flach lagern, Rumpf wärmen, 112 rufen |
-| **III (Schwer)**   | 24°C – 28°C    | **Bewusstlos**, Vitalzeichen kaum tastbar       | Immobilisation, Intubation, Notarzt/Hubschrauber             |
-| **IV (Scheintod)** | < 24°C         | Kein Puls, keine Spontanatmung                  | Reanimation (CPR), kontinuierliche Erwärmung                 |
-
-### Warum Arme und Beine kalt bleiben müssen (Afterdrop)
-
-Bei Kälte zieht der Körper das Blut aus den Armen und Beinen in die lebenswichtigen inneren Organe zurück (Zentralisation). Das Blut in den Gliedmaßen ist eiskalt, sauer und voller Kalium.
-
-Reibt man nun die Beine ab oder legt den Patienten in eine heiße Wanne, erweitern sich die Gefäße in den Beinen schlagartig. Dieses eisige Blut strömt zurück in den warmen Rumpf. Die Herztemperatur stürzt weiter ab (**Afterdrop**) und das Herz gerät sofort in tödliches Kammerflimmern (sogenannter **Bergungstod**).
-
-Wärme darf deshalb immer nur dem Rumpf zugeführt werden.
+Werden nun die Beine eines tief unterkühlten Patienten massiert, warm abgewaschen oder der Patient zum Aufstehen gezwungen:
+1. Weiten sich die peripheren Blutgefäße schlagartig.
+2. Das eiskalte, übersäuerte Blut strömt unkontrolliert in den Körperkern und das rechte Herz zurück.
+3. Die Kerntemperatur fällt innerhalb von Sekunden um weitere 1 °C bis 3 °C ab (*Afterdrop*), während der Schwall an Kalium und Kälte das ohnehin instabile Herz in ein fatales, irreversibles **Kammerflimmern (Bergungstod)** stürzt.

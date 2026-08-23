@@ -11,11 +11,14 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'burns'
+  - 'scalds'
   - 'boiling water scald'
   - 'how to treat a burn'
   - 'first aid burns'
   - 'thermal burn water cooling'
   - 'burn blister treatment'
+  - 'burn 20 minutes water'
 severity: 'critical'
 urgency: 'immediate'
 threat_level: 4
@@ -28,6 +31,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Cool with running tap water for 20 minutes, remove jewellery immediately, cover loosely with cling film, and never apply ice or butter.'
+memorable_facts:
+  - 'THE 20-MINUTE WATER RULE VS ICE: Cool running tap water (10°C to 20°C / 50°F to 68°F) applied for 20 minutes extracts deep latent heat from dermal layers (effective up to 3 hours post-burn). Applying ice or freezing water triggers severe vasoconstriction that cuts off remaining blood flow, turning salvageable skin into dead necrotic tissue.'
+  - 'BLISTERS ARE STERILE BIOLOGICAL BANDAGES: Intact burn blister roofs are sterile, airtight natural membranes filled with plasma and antimicrobial peptides. Popping blisters instantly exposes raw nerve endings and invites severe bacterial infection.'
 immediate_action:
   - '1. REMOVE FROM HEAT SOURCE: Extinguish flames (Stop, Drop, and Roll) or disconnect power/source without endangering yourself.'
   - '2. COOL WITH RUNNING TAP WATER FOR 20 MINUTES: Immediately hold the burned area under cool or lukewarm running tap water (approx. 10°C to 20°C / 50°F to 68°F) for a full 20 minutes. This halts residual thermal denaturation in deep dermal layers (effective if initiated within 3 hours).'

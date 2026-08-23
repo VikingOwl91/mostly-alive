@@ -1,66 +1,64 @@
 ---
 slug: 'sea-suspiciously-missing'
 title: 'Sea, Suspiciously Missing'
-subtitle: 'Rapid coastal recession as an acute tsunami precursor'
+subtitle: 'Tsunami trough recession, multi-wave dynamics, and 30-meter vertical evacuation'
 category: 'water'
 tags:
   - 'tsunami'
   - 'ocean'
+  - 'earthquake'
+  - 'coastal'
   - 'water'
-  - 'coast'
 aliases:
-  - 'ocean retreated'
-  - 'sea disappeared'
   - 'tsunami warning signs'
-  - 'water pulled back beach'
+  - 'ocean receding suddenly'
+  - 'sea retreating tsunami'
+  - 'tsunami survival guide'
+  - 'coastal water draining'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
 difficulty: 'easy'
 region_scope: 'global'
 medical: false
-emergency_services: 'call_immediately'
+emergency_services: 'context_dependent'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Safety Core'
-memory_hook: 'If the ocean abruptly leaves the room, do not investigate where it went.'
+memory_hook: 'If the sea vanishes exposing the sea floor, run inland and uphill immediately—do not explore the seabed.'
+memorable_facts:
+  - 'THE DRAWDOWN DRAW-IN TRAP: A tsunami often arrives as a trough first, rapidly draining the ocean hundreds of meters out and stranding flapping fish. Tourists who walk out onto the exposed seabed to collect shells or take photos have less than 5 to 10 minutes before the wall of water surges back at 50 km/h.'
+  - 'THE MULTI-WAVE TRAIN: A tsunami is not a single wave, but a series of surging water crests separated by 10 to 60 minutes. The second or third wave is frequently much larger and more destructive than the first.'
 immediate_action:
-  - 'Turn your back on the ocean and RUN inland and uphill immediately.'
-  - 'Aim for high ground at least 30 meters (100 feet) above sea level or at least 2 kilometers (1.2 miles) inland.'
-  - 'If trapped on flat coastal terrain with no high ground: seek vertical evacuation in the upper floors (3rd floor or higher) of a reinforced concrete building.'
-  - 'Do not wait for sirens, official warning broadcasts, or visual confirmation of a wave.'
-  - 'Stay on high ground for several hours. Tsunamis are a series of waves, and subsequent surges are frequently larger than the first.'
+  - '1. RUN INLAND AND UPHILL IMMEDIATELY: Reach at least 30 meters (100 feet) above sea level or 3 kilometers (2 miles) inland on foot.'
+  - '2. DO NOT WAIT FOR OFFICIAL SIRENS OR NOTIFICATIONS: The rapid drawback of the sea or ground shaking at the coast is nature’s definitive evacuation order.'
+  - '3. VERTICAL EVACUATION AS A LAST RESORT: If trapped and unable to run inland, climb to the 4th floor or higher of a reinforced concrete high-rise hotel or tsunami evacuation tower.'
+  - '4. STAY ELEVATED FOR HOURS: Do not return to the beach after the first wave recedes; tsunamis are multi-wave trains spanning several hours.'
 do_not:
-  - 'Do not walk onto the exposed seabed to collect stranded fish, shells, or take photos.'
-  - 'Do not remain on the beach to watch the incoming wave (by the time you see the wave face, outrunning it on foot is impossible).'
-  - 'Do not return to low-lying areas after the first wave recedes.'
+  - 'Never walk out onto the exposed sea floor to inspect stranded sea life, coral, or shipwrecks.'
+  - 'Do not stay to take photos or record videos.'
+  - 'Do not seek shelter inside cars, light wooden structures, or beachside bungalows (tsunamis crush low-rise structures and turn vehicles into lethal floating battering rams).'
+  - 'Do not return to the shoreline until emergency authorities officially give the all-clear.'
 sources:
-  - name: 'UNESCO Intergovernmental Oceanographic Commission (IOC)'
-    url: 'https://ioc.unesco.org/our-work/tsunami-warning-system'
+  - name: 'International Tsunami Information Center (ITIC / UNESCO)'
+    url: 'https://itic.ioc-unesco.org/'
     authoritative: true
-    guideline_version: 'Tsunami Early Warning and Evacuation Manual'
+    guideline_version: 'Tsunami Warning and Evacuation Protocol'
     jurisdiction: 'Global'
-    notes: 'International consensus on natural tsunami warning signs and vertical evacuation heights.'
-  - name: 'NOAA National Tsunami Warning Center'
+    notes: 'Natural warning signs, vertical evacuation elevations (30m), and wave train dynamics.'
+  - name: 'National Oceanic and Atmospheric Administration (NOAA)'
     url: 'https://www.tsunami.gov/'
     authoritative: true
-    guideline_version: 'Coastal Hazard Guidelines'
+    guideline_version: 'Tsunami Safety and Preparedness Guide'
     jurisdiction: 'US / Global'
+    notes: 'Coastal drawback mechanics and inland evacuation distance benchmarks.'
 ---
 
-The ocean is generally reliable about remaining in its designated basin. When hundreds of meters of seabed suddenly empty of water within minutes, exposing stranded fish, shipwrecks, and coral reefs, this is not an unexpected low-tide promotion.
+When a subsea megathrust earthquake displaces thousands of cubic kilometers of the ocean floor, the entire overlying water column is violently lifted or dropped.
 
-It is the trough of a massive sub-surface displacement wave.
+### The Drawdown Phenomenon
 
-### The Physics of the Drawdown
+If the leading edge of the tsunami wave packet is a trough (*drawdown*), the ocean surface drops sharply along the coastline. Seawater recedes at rapid speeds, exposing hundreds of meters of normally submerged seabed, reefs, and struggling marine life.
 
-When an undersea megathrust earthquake or submarine landslide displaces billions of cubic meters of water, it generates a series of long-period ocean waves. If the leading edge of the tsunami wave reaching the coastline is a wave trough (depression), water is rapidly drawn away from the coast toward the wave's center of mass.
-
-The water that pulled away will return within minutes. Because tsunami waves travel at the speed of a jet airliner in deep water and carry enormous momentum across the entire water column, the incoming surge does not resemble a normal surf wave; it behaves as an accelerating hydraulic battering ram of solid water filled with debris.
-
-### Evacuation Priorities
-
-1. **Recognize the Natural Signs**: Rapid ocean withdrawal, ground shaking near the coast, or a loud roaring sound resembling a freight train or jet engine.
-2. **Move Inward and Upward**: Move immediately to designated high ground. If high ground is inaccessible, evacuate vertically into substantial multi-story concrete structures.
-3. **The Multi-Wave Rule**: Tsunami energy delivers multiple surges separated by intervals of 10 minutes to over an hour. The first surge is rarely the largest. Remain elevated until authoritative coastal management issues a formal all-clear.
+This is not a picturesque low tide; it is the physical displacement trough of a hydrodynamic monster approaching at the speed of a jet airliner. Within five to fifteen minutes, the massive crest arrives as a non-breaking wall of black water packed with debris, crushing everything along the shoreline.

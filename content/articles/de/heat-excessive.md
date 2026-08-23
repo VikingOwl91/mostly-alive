@@ -1,71 +1,71 @@
 ---
 slug: 'heat-excessive'
 title: 'Hitze, exzessiv'
-subtitle: 'Unterscheidung zwischen Hitzeerschöpfung und Hitzschlag sowie das Kühlungsgebot'
+subtitle: 'Klassischer vs. Anstrengungs-Hitzschlag, Kaltwasser-Immersionskühlung und ZNS-Warnzeichen'
 category: 'weather'
 tags:
-  - 'hitze'
   - 'hitzschlag'
-  - 'sommer'
-  - 'erste-hilfe'
+  - 'hyperthermie'
   - 'wetter'
+  - 'medizin'
+  - 'erste-hilfe'
 aliases:
-  - 'hitzschlag anzeichen'
-  - 'hitzeerschoepfung hitzschlag unterschied'
-  - 'erste hilfe hitzschlag'
+  - 'hitzschlag'
+  - 'hitzschlag symptome'
+  - 'hitzschlag behandlung'
+  - 'sonnenstich unterschied hitzschlag'
+  - 'hyperthermie erste hilfe'
+  - 'kaltwasser eintauchen hitzschlag'
 severity: 'critical'
 urgency: 'immediate'
 threat_level: 4
-difficulty: 'easy'
+difficulty: 'moderate'
 region_scope: 'global'
 medical: true
 emergency_services: 'call_immediately'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Redaktioneller Medizinrat'
-memory_hook: 'Setzt bei extremer Hitze Verwirrung ein, ist es ein Hitzschlag: Zuerst kühlen, dann transportieren.'
+reviewer: 'Editorial Medical Review Board'
+memory_hook: 'Zuerst kühlen, dann transportieren: Sofort in kaltes Wasser tauchen, Notruf 112 wählen und keine Fiebermittel geben.'
+memorable_facts:
+  - 'DER GOLDSTANDARD „COOL FIRST, TRANSPORT SECOND“: Jede Minute, die die Körperkerntemperatur über 40,5 °C bleibt, zerstört lebenswichtige Proteine im Gehirn. Ein sofortiges Ganzkörper-Eintauchen in kaltes Wasser (1–15 °C) kühlt den Körper mit ca. 0,2 °C/min und senkt die Sterblichkeit fast auf null.'
+  - 'FIEBERSENKER WIRKEN NICHT: Ein Hitzschlag ist ein physikalisches Versagen der Wärmeabgabe, KEINE entzündliche Sollwertverstellung im Gehirn. Paracetamol oder Ibuprofen senken die Temperatur nicht, belasten aber Leber und Nieren zusätzlich extrem.'
 immediate_action:
-  - 'Sofort unterscheiden: Hitzeerschöpfung (ansprechbar, schwitzt stark, blass) vs. Hitzschlag (verwirrt, torkelt, apathisch, bewusstlos).'
-  - 'BEI VERDACHT AUF HITZSCHLAG: Sofort Notruf 112 wählen. Es besteht akute Lebensgefahr durch Organversagen.'
-  - 'SOFORTIGE AGGRESSIVE KÜHLUNG: Die Person in kaltes Wasser eintauchen (Kaltwasser-Immersionsbad bis zum Hals ist der Goldstandard).'
-  - 'Falls kein Wasserbecken vorhanden: Kleidung bis auf Unterwäsche entfernen, mit kaltem Wasser besprühen/übergießen, Luft zufächeln und Eisbeutel/feuchte Tücher in Nacken, Achselhöhlen und Leistengegend platzieren.'
-  - 'Bei Bewusstseinseintrübung oder Verwirrung KEINE Getränke einflößen (akute Erstickungsgefahr durch Aspiration).'
+  - '1. HITZSCHLAG ERKENNEN (KERNZEICHEN): Körperkerntemperatur > 40 °C kombiniert mit neurologischen Ausfällen (Verwirrtheit, Torkeln, Sprachstörungen, Delirium, Krampfanfall oder Bewusstlosigkeit).'
+  - '2. „COOL FIRST, TRANSPORT SECOND“ (SOFORTIGE MASSIVE KÜHLUNG):'
+  - '   • Kaltwasser-Immersion: Die Person bis zum Hals in eine Wanne oder ein Becken mit kaltem Wasser (1 °C bis 15 °C) setzen und das Wasser ständig umrühren.'
+  - '   • Alternative (Verdunstungskühlung): Den Körper ununterbrochen mit kaltem Wasser besprühen und intensiv mit Fächern/Ventilatoren anblasen; Eisbeutel in Nacken, Achseln und Leiste legen.'
+  - '3. NOTRUF 112 WÄHLEN: Der Leitstelle melden: „Akuter Hitzschlag mit Bewusstseinsstörung, aktive Kühlung eingeleitet.“'
+  - '4. KÜHLUNG BEI 38,6 °C STOPPEN: Die Kaltwasserkühlung beenden, sobald die Verwirrtheit nachlässt oder die Temperatur unter 38,6 °C sinkt (Unterkühlung vermeiden).'
 do_not:
-  - 'Keine fiebersenkenden Medikamente wie Paracetamol, Ibuprofen oder Aspirin geben (ein Hitzschlag ist kein infektiöses Fieber, sondern eine thermodynamische Überhitzung; Schmerzmittel schädigen Leber und Nieren zusätzlich).'
-  - 'Nicht mit der Kühlung warten, bis der Rettungswagen eintrifft (die Kühlung muss innerhalb von Minuten beginnen, um Eiweißgerinnung im Gehirn zu stoppen).'
-  - 'Keine alkoholischen oder stark zuckerhaltigen Getränke verabreichen.'
+  - 'Mit der Kühlung niemals auf den Rettungswagen warten (die Kühlung muss direkt vor Ort in den ersten Minuten beginnen).'
+  - 'Keine fiebersenkenden Medikamente (Aspirin, Paracetamol, Ibuprofen) geben (haben bei Überhitzung keinerlei Wirkung und verstärken Leber- und Nierenschäden).'
+  - 'Einer verwirrten oder erbrechenden Person keine Flüssigkeiten einflößen (akute Aspirationsgefahr).'
+  - 'Sich nicht auf einzelne feuchte Tücher auf der Stirn verlassen (die Kühlfläche ist viel zu klein).'
 sources:
-  - name: 'Robert Koch-Institut (RKI)'
-    url: 'https://www.rki.de/DE/Content/Gesundheitsmonitoring/Themen/Umwelt_Gesundheit/Klimawandel/Hitzebedingte_Mortalitaet.html'
+  - name: 'Wilderness Medical Society (WMS)'
+    url: 'https://wms.org/'
     authoritative: true
-    guideline_version: 'RKI Handlungsempfehlungen für Hitzewellen'
-    jurisdiction: 'DE'
-    notes: 'Primäre Richtlinie zur Erkennung hitzebedingter Notfälle und vulnerable Gruppen.'
-  - name: 'Deutsche Gesellschaft für Allgemeinmedizin und Familienmedizin (DEGAM)'
-    url: 'https://www.degam.de/'
+    guideline_version: 'Clinical Practice Guidelines for the Prevention and Treatment of Heat Illness (2024 Update)'
+    jurisdiction: 'US / Global'
+    notes: 'Cool-First-Transport-Second-Prinzip, Kaltwasser-Eintauchraten und Antipyretika-Kontraindikation.'
+  - name: 'European Resuscitation Council (ERC)'
+    url: 'https://cprguidelines.eu/'
     authoritative: true
-    guideline_version: 'S1-Handlungsempfehlung Hitzebedingte Gesundheitsstörungen'
-    jurisdiction: 'DE / EU'
+    guideline_version: 'ERC Guidelines 2021: First Aid - Hyperthermia'
+    jurisdiction: 'EU / Global'
+    notes: 'Abgrenzung Sonnenstich vs. Hitzschlag und präklinische Kühlverfahren.'
 ---
 
-Der menschliche Stoffwechsel funktioniert innerhalb eines streng eingestellten Temperaturfensters um 37°C. Wenn extreme Umgebungstemperaturen und Luftfeuchtigkeit die körpereigene Schweißkühlung überfordern, klettert die Kerntemperatur über 40°C.
+Steigen Umgebungstemperatur und Luftfeuchtigkeit drastisch an, versagt die wichtigste physiologische Kühlung des Menschen: die Verdunstung von Schweiß. Übersteigt die Wärmeproduktion die Wärmeabgabe, steigt die Körperkerntemperatur unkontrolliert über 40 °C an.
 
-Ab dieser Schwelle denaturieren lebenswichtige Proteine im Körper, die Blut-Hirn-Schranke wird durchlässig und ein systemisches Multiorganversagen droht.
+### Die zelluläre Zerstörung durch Hyperthermie
 
-### Diagnose-Triage: Erschöpfung oder Schlag?
+Ab einer Kerntemperatur von 40,5 °C denaturieren lebenswichtige Proteine und Enzyme im Gehirn, im Herzmuskel und in der Leber. 
 
-| Merkmal              | Hitzeerschöpfung                    | Hitzschlag (Akuter Notfall)                           |
-| -------------------- | ----------------------------------- | ----------------------------------------------------- |
-| **Bewusstsein**      | Klar, ansprechbar, müde             | **Verwirrt, lallend, unruhig, aggressiv, bewusstlos** |
-| **Körpertemperatur** | < 40°C                              | **> 40°C**                                            |
-| **Haut**             | Blass, feucht, starkes Schwitzen    | Heiß, gerötet (kann trocken ODER schweißnass sein)    |
-| **Maßnahme**         | Schatten, Ruhe, Elektrolyt-Getränke | **112 wählen, SOFORT aggressiv kühlen**               |
+Die Blut-Hirn-Schranke wird durchlässig, es kommt zum Hirnödem und neurologischem Kontrollverlust (Verwirrtheit, Torkeln, Krampfanfälle, Koma). Gleichzeitig wird die Darmschleimhaut undicht, sodass bakterielle Toxine in die Blutbahn geschwemmt werden: Es folgt ein systemisches Entzündungssyndrom (SIRS) und Multiorganversagen.
 
-Das Leitsymptom des **Hitzschlags** ist die **neurologische Fehlfunktion** (Verwirrtheit, Halluzinationen, Orientierungslosigkeit, Krampfanfälle).
+### Das „Cool First, Transport Second“-Prinzip
 
-### Die "Erst kühlen, dann fahren"-Regel
-
-1. **Ganzkörper-Wasserbad**: Wenn möglich, den Patienten bis zum Hals in kaltes Wasser tauchen.
-2. **Verdunstungskälte nutzen**: Ist keine Wanne verfügbar, den Körper mit Wasser befeuchten und kontinuierlich Luft zufächeln.
-3. **Große Gefäße kühlen**: Eisbeutel oder eiskalte nasse Handtücher direkt auf die Schlagadern legen: Nacken (Halsschlagader), Achselhöhlen und Leistengegend (Femoralarterie).
+Beim Anstrengungshitzschlag entscheidet jede Minute über das Überleben. Ein Abwarten bis zum Eintreffen des Rettungsdienstes ohne Kühlmaßnahmen ist fatal. Ein sofortiges Eintauchen in eiskaltes Wasser entzieht dem Körper mehr als **0,20 °C Wärme pro Minute** und stoppt den Entzündungssturm im Körper, bevor irreversible Organschäden eintreten.

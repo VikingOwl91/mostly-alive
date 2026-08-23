@@ -11,11 +11,14 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
+  - 'herzinfarkt'
+  - 'brustschmerz'
   - 'myokardinfarkt'
   - 'herzanfall'
   - 'angina pectoris'
   - 'herzinfarkt symptome'
   - 'stechender brustschmerz'
+  - 'engegefühl brust'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -28,6 +31,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Sofort Notruf 112 wählen, mit erhöhtem Oberkörper ruhig hinsetzen, jede Anstrengung stoppen und AED holen.'
+memorable_facts:
+  - 'DER PHYSIOLOGISCHE HOCHLAGERUNGS-EFFEKT: Das Sitzen im 45-Grad-Winkel mit leicht angewinkelten Beinen nutzt die Schwerkraft, um venöses Blut in den Beinen zu stauen. Dies senkt den Füllungsdruck (Vorlast) des überlasteten Herzens deutlich und verringert die Wandspannung des Herzmuskels.'
+  - 'DIE ATYPISCHE HOLLYWOOD-FALLE: Bis zu 30 % der Frauen, älteren Menschen und Diabetiker verspüren beim Herzinfarkt keinen typischen vernichtenden Brustschmerz. Ihre einzigen Symptome sind oft unerklärliche Atemnot, Übelkeit, Schmerzen zwischen den Schulterblättern oder plötzliche massive Erschöpfung.'
 immediate_action:
   - '1. SOFORT NOTRUF 112 WÄHLEN: Keine Minute zögern. Der Rettungsleitstelle klar mitteilen: „Verdacht auf akuten Herzinfarkt / schwere Brustschmerzen.“'
   - '2. OBERKÖRPERHOCHLAGERUNG: Die Person mit erhöhtem Oberkörper (ca. 45 Grad, abgestützter Rücken) und leicht gebeugten Knien bequem hinsetzen. Dies entlastet das Herz durch Verringerung des venösen Rückstroms und erleichtert die Atmung.'

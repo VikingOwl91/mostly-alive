@@ -93,7 +93,7 @@ describe('Cloudflare Production Content Loader (Build-Time Embedded)', () => {
 
 		const chokingDe = getArticle('person-currently-choking', 'de');
 		expect(chokingDe).not.toBeNull();
-		expect(chokingDe?.title).toBe('Person, derzeit erstickend');
+		expect(chokingDe?.title).toBe('Person verschluckt sich gerade lebensgefährlich');
 		expect(chokingDe?.html).toContain('Rückenschläge');
 
 		const hairEn = getArticle('hair-suddenly-vertical', 'en');

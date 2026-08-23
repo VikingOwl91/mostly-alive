@@ -13,6 +13,7 @@
 	import DraftWarningBanner from '$lib/components/DraftWarningBanner.svelte';
 	import DoNotCard from '$lib/components/DoNotCard.svelte';
 	import MemoryHook from '$lib/components/MemoryHook.svelte';
+	import MemorableFacts from '$lib/components/MemorableFacts.svelte';
 	import SourceInspector from '$lib/components/SourceInspector.svelte';
 	import EmergencyNumbersWidget from '$lib/components/EmergencyNumbersWidget.svelte';
 	import RegionalVariationNote from '$lib/components/RegionalVariationNote.svelte';
@@ -130,6 +131,11 @@
 			<MemoryHook hook={article.memory_hook} lang={data.lang} />
 		{/if}
 	</section>
+
+	<!-- OBVIOUS FACT, USEFULLY QUANTIFIED / MEMORABLE FACTS -->
+	{#if article.memorable_facts && article.memorable_facts.length > 0}
+		<MemorableFacts facts={article.memorable_facts} lang={data.lang} />
+	{/if}
 
 	<!-- GUIDE & EXPLANATION LAYER (BODY) -->
 	<section

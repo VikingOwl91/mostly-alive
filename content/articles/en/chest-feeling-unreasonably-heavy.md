@@ -11,6 +11,8 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'heart attack'
+  - 'chest pain'
   - 'myocardial infarction'
   - 'cardiac chest pain'
   - 'heart attack symptoms'
@@ -28,6 +30,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Call 911/112 immediately, sit upright with back supported, enforce absolute rest, and locate an AED.'
+memorable_facts:
+  - 'THE HALF-SITTING GRAVITY TRICK: Sitting at a 45-degree angle with knees slightly bent uses gravity to pool venous blood in the legs and abdomen. This significantly lowers venous return (preload) to the struggling heart, reducing myocardial wall tension and myocardial oxygen demand.'
+  - 'THE ATYPICAL HOLLYWOOD MYTH: Up to 30% of women, elderly patients, and diabetics do not experience crushing central chest pain during a myocardial infarction. Instead, their only symptoms may be unexplained severe shortness of breath, nausea, back pain between the shoulder blades, or sudden profound fatigue.'
 immediate_action:
   - '1. CALL EMERGENCY SERVICES IMMEDIATELY: Call 911 / 112 without delay. Tell the dispatcher clearly: "Suspected heart attack / severe acute chest pain."'
   - '2. POSITION IN A HALF-SITTING POSTURE: Seat the person comfortably with their back supported at approximately 45 degrees, head resting, and knees slightly bent. This reduces blood return to the heart and eases breathing.'

@@ -13,11 +13,14 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'drowning'
+  - 'water inhalation'
   - 'near drowning first aid'
   - 'drowning resuscitation'
   - 'water inhalation cpr'
   - '5 rescue breaths drowning'
   - 'secondary drowning signs'
+  - 'submersion injury'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -30,6 +33,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Call 911/112, start resuscitation with 5 initial rescue breaths, alternate 30 compressions with 2 breaths, and seek emergency evaluation for all submersions.'
+memorable_facts:
+  - 'PRIMARY HYPOXIC ARREST (5 INITIAL BREATHS): In standard dry-land cardiac arrest, lungs still contain oxygen, making chest compressions the top priority. In drowning, the heart stops because oxygen reserves are 100% depleted. Compression-only CPR merely circulates deoxygenated blood—you MUST give 5 initial rescue breaths to re-oxygenate alveolar spaces.'
+  - 'DELAYED SURFACTANT WASHOUT: Inhaled water dissolves and washes out pulmonary surfactant (the phospholipid film preventing lung collapse). Even if a rescued person feels fine on the beach, their lungs can undergo delayed alveolar collapse and life-threatening pulmonary edema hours later.'
 immediate_action:
   - '1. RESCUER SAFETY FIRST: Reach with a branch or pole, throw a buoyant object (life ring, rope), or row a boat. Never dive in unless trained, equipped with flotation gear, and safe from currents.'
   - '2. REMOVE THE PERSON TO DRY GROUND: Extract the person horizontally if possible to prevent sudden orthostatic vascular collapse from the removal of hydrostatic water pressure.'

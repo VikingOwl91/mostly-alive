@@ -12,6 +12,9 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
+  - 'vergiftung'
+  - 'giftnotruf'
+  - 'gift geschluckt'
   - 'giftnotrufzentrale anleitung'
   - 'gift geschluckt was tun'
   - 'erste hilfe vergiftung'
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Verpackung sichern, sofort den Giftnotruf oder Notruf 112 wählen, niemals Erbrechen auslösen und keine Milch verabreichen.'
+memorable_facts:
+  - 'DAS VERBOT DES ERBRECHENS: Das Heraufwürgen von ätzenden Säuren oder Rohrreinigern verätzt die Speiseröhre ein zweites Mal und führt zu Rissen. Das Erbrechen von schäumenden Spülmitteln oder Lampenölen fließt direkt in die Lunge und zerstört das Lungengewebe (tödliche chemische Pneumonie). Niemals Erbrechen auslösen!'
+  - 'MILCH IST KEIN GEGENGIFT: Die Fettemulsion der Milch wirkt im Dünndarm als Lösungsvermittler und beschleunigt die Aufnahme fettlöslicher Gifte (wie Pestizide und Lösungsmittel) in den Blutkreislauf dramatisch. Vergifteten Personen niemals Milch zu trinken geben!'
 immediate_action:
   - '1. SUBSTANZ UND VERPACKUNG SICHERN: Sofort die Chemikalienflasche, Medikamentenpackung, Pflanze oder den Pilz sicherstellen. Die Originalverpackung mit Inhaltsstoffangaben (EAN/PZN/Gefahrensymbole) bereithalten.'
   - '2. BEWUSSTSEIN UND ATMUNG PRÜFEN:'

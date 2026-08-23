@@ -90,6 +90,7 @@ export const ArticleFrontmatterSchema = z.object({
 	reviewer: z.string().optional(),
 	sources: z.array(SourceReferenceSchema).default([]),
 	memory_hook: z.string().min(1, 'Memory hook must be defined'),
+	memorable_facts: z.array(z.string()).optional(),
 	immediate_action: z.array(z.string()).min(1, 'At least one immediate action required'),
 	do_not: z.array(z.string()).default([]),
 	why_this_happens: z.string().optional(),

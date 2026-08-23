@@ -12,6 +12,9 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
+  - 'anaphylaxie'
+  - 'allergische reaktion'
+  - 'epipen'
   - 'anaphylaktischer schock'
   - 'epipen anwendung'
   - 'allergischer schock'
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Adrenalin-Autoinjektor sofort in den äußeren Oberschenkel injizieren, Notruf 112 wählen und die Person flach hinlegen.'
+memorable_facts:
+  - 'DAS EMPTY-VENTRICLE-SYNDROM: Durch massive Histaminausschüttung weiten sich alle Blutgefäße. Steht ein Anaphylaxie-Patient auf oder geht herum, versackt das Blut schwerkraftbedingt in den Beinen. Das Herz pumpt schlagartig ins Leere – sofortiger Herz-Kreislauf-Stillstand! Patient zwingend flach hinlegen und Beine anheben.'
+  - 'ADRENALIN VS. ANTIHISTAMINIKA: Die intramuskuläre Adrenalingabe in den Oberschenkel wirkt in 3 bis 5 Minuten. Antihistaminika-Tropfen und Kortison-Tabletten benötigen 30 bis 120 Minuten Wirkungseintritt – wer bei Zuschwellen des Halses nach Tabletten sucht, verliert wertvolle Überlebenszeit.'
 immediate_action:
   - '1. ADRENALIN-AUTOINJEKTOR SOFORT ANWENDEN: Bei den ersten Anzeichen von Atemnot, Zuschwellen des Rachens oder Schwindel unverzüglich den verordneten Autoinjektor (z. B. EpiPen, Jext, FastJekt) einsetzen:'
   - '   • Den Autoinjektor mit der Faust umfassen (Daumen niemals auf die Öffnung/Nadelspitze legen!) und die Sicherheitskappe abziehen.'

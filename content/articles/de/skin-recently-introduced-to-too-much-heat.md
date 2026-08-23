@@ -11,11 +11,14 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
+  - 'verbrennung'
+  - 'verbrühung'
   - 'verbrühung heisses wasser'
   - 'verbrennung kühlen'
   - 'brandblase erste hilfe'
   - 'verbrennung 20 minuten'
   - 'verbrennung frischhaltefolie'
+  - 'brandwunde'
 severity: 'critical'
 urgency: 'immediate'
 threat_level: 4
@@ -28,6 +31,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: '20 Minuten unter fließendem Leitungswasser kühlen, Schmuck sofort abnehmen, locker mit Frischhaltefolie abdecken und kein Eis verwenden.'
+memorable_facts:
+  - 'DIE 20-MINUTEN-WASSERREGEL VS. EIS: Fließendes, handwarmes bis kühles Leitungswasser (10 °C bis 20 °C) für 20 Minuten entzieht dem Gewebe die Resthitze (wirksam bis zu 3 Stunden nach dem Trauma). Eiswürfel führen zu einer krampfartigen Gefäßverengung, die die Durchblutung stoppt und heilbare Hautschichten unwiderruflich abtötet.'
+  - 'BLASEN SIND KÖRPEREIGENE STERILVERBÄNDE: Die Flüssigkeit in einer intakten Brandblase ist keimfrei und voll von antimikrobiellen Proteinen. Ein Aufstechen von Brandblasen öffnet Keimen die Pforte für gefährliche Wundinfektionen.'
 immediate_action:
   - '1. AUS DER GEFAHRENZONE BRINGEN: Brennende Kleidung löschen (Stoppen, Hinlegen, Rollen oder mit Löschdecke ersticken) oder die Hitzequelle abschalten.'
   - '2. 20 MINUTEN MIT LEITUNGSWASSER KÜHLEN: Die verbrannte Stelle unverzüglich unter kühlem bis handwarmem, fließendem Leitungswasser (ca. 10 °C bis 20 °C) für volle 20 Minuten kühlen. Dies stoppt das Nachbrennen in tiefere Hautschichten (wirksam innerhalb der ersten 3 Stunden).'

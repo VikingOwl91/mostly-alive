@@ -1,18 +1,20 @@
 ---
 slug: 'tree-suspiciously-alone-during-a-thunderstorm'
-title: 'Baum, verdächtig allein bei Gewitter'
-subtitle: 'Überschlagswirkung (Side-Flash), explosionsartige Dampfspaltung und Erdstromfelder'
+title: 'Baum steht bei Gewitter verdächtig allein'
+subtitle: 'Blitzentladung an solitären Spitzen, Überschlag-Physik (Side-Flash) und die 30-30-Regel'
 category: 'weather'
 tags:
+  - 'gewitter'
   - 'blitz'
   - 'baum'
-  - 'gewitter'
   - 'wetter'
-  - 'outdoor'
+  - 'sicherheit'
 aliases:
-  - 'unter baum stellen bei gewitter'
-  - 'buchen sollst du suchen eichen weichen'
-  - 'blitzschlag baum gefahr'
+  - 'einzelner baum gewitter'
+  - 'schutz unter baum blitz'
+  - 'buchen suchen eichen weichen mythos'
+  - 'blitzschlag baum'
+  - '30-30 regel gewitter'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -23,47 +25,42 @@ emergency_services: 'context_dependent'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Redaktionelle Prüfgruppe'
-memory_hook: 'Ein einzelner Baum im Gewitter ist kein Regenschirm, sondern ein Blitzableiter mit Splitterwirkung.'
+reviewer: 'Editorial Safety Core'
+memory_hook: 'Ein einzelner Baum ist ein Blitzableiter ohne Erdung mit tödlichem Seitenschlag; mindestens das Doppelte der Baumhöhe Abstand halten.'
+memorable_facts:
+  - 'DAMPFEXPLOSION & SEITENÜBERSCHLAG (SIDE-FLASH): Schlägt der Blitz in einen Baum, verdampft der Baumsaft in Millisekunden und sprengt die Rinde wie Splitterbomben ab. Da Holz schlechter leitet als der menschliche Körper, springt der Strom per Lichtbogen meterweit durch die Luft seitlich auf darunter stehende Menschen über.'
+  - 'DIE 30-30-REGEL: Vergehen zwischen Blitz und Donner weniger als 30 Sekunden, ist das Gewitter gefährlich nahe (unter 10 km). Nach dem letzten gehörten Donner noch volle 30 Minuten im geschützten Gebäude bleiben!'
 immediate_action:
-  - 'Entferne dich unverzüglich von einzelnen, frei stehenden oder markant hohen Bäumen. Halte einen Sicherheitsabstand von mindestens der doppelten Baumhöhe ein.'
-  - 'Im freien Gelände ohne Gebäude: Suche Schutz in einem dichten, gleichmäßig gewachsenen Bestand niedrigerer Bäume in einer Senke.'
-  - 'Suche Schutz in einem geschlossenen Ganzmetall-Fahrzeug mit geschlossenen Fenstern oder einem Gebäude mit Blitzschutzanlage.'
-  - 'Berühre bei Gewitterstimmung niemals Stamm, Äste oder Wurzeln von Bäumen.'
+  - '1. ABSTAND ZU FREISTEHENDEN BÄUMEN: Mindestens das Doppelte der Baumhöhe als Sicherheitsabstand einhalten (mindestens 10 Meter).'
+  - '2. FESTES GEBÄUDE ODER AUTO AUFSUCHEN: Sofort in ein festes Haus oder ein vollmetallisches Auto flüchten.'
+  - '3. IM WALD: Bereiche mit gleichmäßig dichtem, niedrigem Bewuchs aufsuchen; Waldränder und besonders hohe Einzelbäume meiden.'
+  - '4. 30-30-REGEL BEFOLGEN: Erst 30 Minuten nach dem letzten Donner ins Freie zurückkehren.'
 do_not:
-  - "Niemals unter einem einzelnen Baum Schutz vor Regen suchen ('Buchen sollst du suchen, Eichen sollst du weichen' ist ein lebensgefährlicher Volksirrglaube – der Blitz schlägt in jede Baumart ein)."
-  - 'Nicht an Baumstämme anlehnen oder unter hölzernen Wanderhütten am Waldrand stehen bleiben.'
-  - 'Keine Weidezäune oder Drahtseile in der Nähe von Bäumen berühren.'
+  - 'Niemals unter einzelnen Bäumen, kleinen Baumgruppen oder offenen Holzunterständen Schutz suchen.'
+  - 'Keinesfalls Baumstämme berühren oder sich anlehnen.'
+  - 'Alten Bauernregeln wie „Eichen sollst du weichen, Buchen sollst du suchen“ niemals glauben (der Blitz schlägt völlig wahllos in jede hohe Baumart ein).'
+  - 'Keine Regenschirme mit Metallspitzen unter Bäumen aufspannen.'
 sources:
   - name: 'VDE Ausschuss für Blitzschutz und Blitzforschung (ABB)'
     url: 'https://www.vde.com/de/blitzschutz'
     authoritative: true
-    guideline_version: 'VDE Schriftenreihe 44: Blitzschutz im Freien'
-    jurisdiction: 'DE / EU'
-    notes: 'Wissenschaftliche Widerlegung von Baumart-Mythen und Berechnung von Überschlagsdistanzen.'
+    guideline_version: 'VDE Merkblatt: Schutz bei Gewitter im Freien'
+    jurisdiction: 'Deutschland / EU'
+    notes: 'Abstand zu Bäumen (mind. 10m / 2x Baumhöhe) und Mythos-Widerlegung (Buchen suchen).'
   - name: 'Deutscher Wetterdienst (DWD)'
     url: 'https://www.dwd.de/'
     authoritative: true
-    guideline_version: 'DWD Ratgeber Gewittersicherheit'
-    jurisdiction: 'DE'
+    guideline_version: 'Verhalten bei Gewittern und Blitzschlaggefahren'
+    jurisdiction: 'Deutschland'
+    notes: '30-30-Regel und Wald-Verhaltensregeln.'
 ---
 
-Wenn im Hochsommer plötzlich wolkenbruchartiger Regen einsetzt, erscheint eine einsame Eiche mit weit ausladender Krone als willkommener, natürlicher Regenschirm.
+Einzeln stehende Bäume sind während eines Gewitters natürliche elektrostatische Blitzfänger. Sie ragen weit über das flache Umland hinaus und senden kräftige Fangentladungen in Richtung der Gewitterwolke.
 
-Für den herabfahrenden Leitstrahl einer 300 Millionen Volt starken Gewitterzelle stellt derselbe Baum jedoch einen hervorragenden, feuchten, hoch aufragenden Erdungskanal dar.
+### Warum das Unterstellen lebensgefährlich ist
 
-Das Unterstellen unter einzelnen Bäumen ist weltweit die häufigste Ursache für tödliche Blitzunfälle im Freien.
+Trifft der Blitzkanal auf den Baumstamm:
+1. **Dampfexplosion**: Der im Holz enthaltene Baumsaft verdampft schlagartig zu überhitztem Wasserdampf. Der enorme Innendruck sprengt die Rinde und massive Holzsplitter explosionsartig meterweit durch die Luft.
+2. **Der Seitenschlag (Side-Flash)**: Holz ist ein mäßiger elektrischer Leiter. Der menschliche Körper – bestehend aus elektrolytreichem Wasser – bietet dem Strom einen wesentlich geringeren elektrischen Widerstand. Der Blitzstrom springt deshalb durch die Luft seitlich vom Stamm auf den Menschen über (*Überschlag*), fährt durch den Körper und tritt über die Füße in den Boden aus.
 
-### Die drei tödlichen Gefahren bei einem Baum-Einschlag
-
-Trifft ein Blitz mit bis zu 100.000 Ampere in einen Baum, treten drei physikalische Effekte schlagartig auf:
-
-1. **Seitlicher Überschlag (Side Flash)**: Holz und Baumharz haben einen hohen elektrischen Widerstand. Staut sich der gewaltige Stromfluss im Stamm, springt ein Teil der Entladung seitlich durch die Luft (bis zu 3 bis 5 Meter weit) auf den menschlichen Körper über, weil der Mensch aus salzhaltigem Wasser besteht und besser leitet als die Rinde.
-2. **Schrittspannung am Boden**: Der Strom fließt über das Wurzelwerk in alle Richtungen ins Erdreich ab. Wer mit gegrätschten Beinen auf den Wurzeln steht, erleidet einen tödlichen Durchströmungsunfall.
-3. **Explosive Dampfspaltung**: Das im Holz enthaltene Wasser verdampft in Millisekunden und sprengt tonnenschwere Äste und Rindensplitter wie Handgranatensplitter durch die Luft.
-
-### Was wirklich hilft
-
-- **Verlasse den Baum**: Tausche nasse Kleidung nicht gegen einen Hochspannungskontakt ein.
-- **Gleichmäßiger Wald**: Im dichten Wald meide einzelne Überhänger und hocke dich in eine Geländemulde zwischen niedrigere Bäume.
-- **Vergiss den Spruch**: Weder Eichen noch Buchen bieten Schutz. Jeder Baum leitet den Blitz.
+Halten Sie immer einen Abstand ein, der mindestens der doppelten Höhe des Baumes entspricht.

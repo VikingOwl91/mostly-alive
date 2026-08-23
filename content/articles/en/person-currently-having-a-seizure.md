@@ -12,6 +12,9 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'seizure'
+  - 'epilepsy'
+  - 'convulsions'
   - 'epileptic fit'
   - 'convulsion first aid'
   - 'tonic clonic seizure'
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Protect the head, time the duration, never put anything in the mouth, and turn onto the side once shaking stops.'
+memorable_facts:
+  - 'THE TONGUE SWALLOWING MYTH: The human tongue is firmly anchored to the floor of the oral cavity by the lingual frenulum; it is anatomically impossible to swallow your own tongue. Forcing spoons, wallets, or fingers between clenched teeth during a seizure shatters enamel and creates jagged fragments that aspirate into the lungs.'
+  - 'THE 5-MINUTE STATUS EPILEPTICUS THRESHOLD: Most unprovoked seizures terminate spontaneously within 60 to 90 seconds. If generalized convulsions exceed 5 uninterrupted minutes, the brain’s endogenous inhibitory GABA mechanisms have failed, entering life-threatening status epilepticus that demands immediate intravenous medical termination.'
 immediate_action:
   - '1. PROTECT THE HEAD AND BODY: Place something soft (a folded jacket, blanket, or your hands) under their head to cushion against concrete or hard flooring. Move hard, sharp, or hot objects away from the area.'
   - '2. TIME THE SEIZURE: Note the exact start time on your watch or phone. Duration is the single most critical factor determining medical intervention.'

@@ -155,9 +155,9 @@
 			{#each data.featured as article}
 				<a
 					href="/{data.lang}/guide/{article.slug}"
-					class="group relative rounded-2xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900/90 p-6 flex flex-col justify-between transition-all hover:border-amber-500/50 hover:shadow-[0_0_20px_rgba(245,158,11,0.1)]"
+					class="group relative rounded-2xl border border-slate-800 bg-slate-900/50 hover:bg-slate-900/90 p-6 flex flex-col justify-between h-full transition-all hover:border-amber-500/50 hover:shadow-[0_0_20px_rgba(245,158,11,0.1)]"
 				>
-					<div class="space-y-4">
+					<div class="space-y-4 flex-1">
 						<div class="flex items-center justify-between gap-2">
 							<span
 								class="font-mono text-[11px] uppercase font-bold text-amber-400 px-2 py-0.5 rounded bg-amber-950/60 border border-amber-500/30"
@@ -168,26 +168,26 @@
 						</div>
 
 						<h3
-							class="text-xl font-mono font-bold text-white group-hover:text-amber-300 transition-colors"
+							class="text-xl font-mono font-bold text-white group-hover:text-amber-300 transition-colors leading-snug"
 						>
 							{article.title}
 						</h3>
 
 						{#if article.memory_hook}
 							<p
-								class="text-xs text-cyan-200/90 italic line-clamp-2 bg-cyan-950/30 p-2.5 rounded-lg border border-cyan-900/40"
+								class="text-xs text-cyan-200/90 italic bg-cyan-950/30 p-3 rounded-lg border border-cyan-900/40 leading-relaxed"
 							>
 								"{article.memory_hook}"
 							</p>
 						{/if}
 
-						<p class="text-xs text-slate-400 line-clamp-3 leading-relaxed">
+						<p class="text-xs text-slate-300 leading-relaxed font-sans">
 							{article.immediate_action[0]}
 						</p>
 					</div>
 
 					<div
-						class="pt-6 flex items-center justify-between text-xs font-mono text-slate-400 group-hover:text-amber-400"
+						class="pt-4 flex items-center justify-between text-xs font-mono text-slate-400 group-hover:text-amber-400 border-t border-slate-800/60 mt-5 shrink-0"
 					>
 						<span>{data.lang === 'de' ? 'Handbuch öffnen' : 'Read entry'}</span>
 						<ArrowRight class="w-4 h-4 group-hover:translate-x-1 transition-transform" />

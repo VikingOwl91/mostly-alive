@@ -11,11 +11,14 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'stroke'
+  - 'FAST'
+  - 'fast test'
   - 'stroke symptoms'
-  - 'FAST test'
   - 'facial droop'
   - 'cerebrovascular accident'
   - 'arm weakness stroke'
+  - 'slurred speech stroke'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -28,6 +31,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Check Face, Arms, and Speech; note the exact time, and call emergency dispatch immediately.'
+memorable_facts:
+  - '1.9 MILLION NEURONS PER MINUTE: During an acute ischemic stroke, approximately 1,900,000 neurons and 14 billion synapses die every single minute an intracranial artery remains blocked. This is why emergency medicine treats stroke with the urgency of a cardiac arrest.'
+  - 'THE ZERO-ORAL-INTAKE RULE: Acute strokes frequently paralyze the glossopharyngeal and vagal swallowing reflexes without the patient realizing it. Giving a stroke patient water or pills sends fluid directly into their lungs, triggering severe chemical aspiration pneumonia.'
 immediate_action:
   - '1. PERFORM THE FAST TEST IMMEDIATELY:'
   - '   • FACE: Ask the person to smile or show teeth. Look for asymmetry or a drooping mouth corner on one side.'

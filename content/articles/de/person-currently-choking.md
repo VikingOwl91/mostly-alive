@@ -1,84 +1,82 @@
 ---
 slug: 'person-currently-choking'
-title: 'Person, derzeit erstickend'
-subtitle: 'Fremdkörperaspiration und der 5-und-5-Rettungsablauf (Heimlich-Manöver)'
+title: 'Person verschluckt sich gerade lebensgefährlich'
+subtitle: 'Bolusaspiration, Schläge zwischen die Schulterblätter und der Heimlich-Handgriff'
 category: 'medical'
 tags:
   - 'ersticken'
-  - 'erste-hilfe'
-  - 'heimlich-manoeuver'
-  - 'notfall'
+  - 'verschluckt'
+  - 'heimlich'
   - 'atemwege'
+  - 'erste-hilfe'
+  - 'medizin'
+  - 'notfall'
 aliases:
-  - 'heimlich handgriff'
-  - 'person verschluckt ersticken'
-  - 'erste hilfe verschlucken'
+  - 'verschluckt'
+  - 'ersticken'
+  - 'heimlich griff'
+  - 'heimlich manöver'
+  - 'fremdkörper atemwege'
+  - 'ersticken erste hilfe'
+  - 'schläge auf den rücken'
+  - 'bolusaspiration'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
-difficulty: 'moderate'
+difficulty: 'easy'
 region_scope: 'global'
 medical: true
-emergency_services: 'call_immediately'
+emergency_services: 'context_dependent'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Redaktioneller Medizinrat'
-memory_hook: 'Husten lassen, wenn noch Ton da ist; wenn stumm, abwechselnd 5 Rückenschläge und 5 Bauchkompressionen.'
+reviewer: 'Editorial Medical Review Board'
+memory_hook: 'Kann die Person noch husten: Husten lassen! Kann sie nicht mehr atmen: 5 Schläge auf den Rücken, dann 5 Oberbauchkompressionen im Wechsel.'
+memorable_facts:
+  - 'DER 5:5-RETTUNGSZYKLUS: Leitlinien (ERC/GRC) schreiben den Wechsel von 5 kräftigen Schlägen zwischen die Schulterblätter und 5 ruckartigen Oberbauchkompressionen (Heimlich-Handgriff) vor. Das plötzliche Hochdrücken des Zwerchfells komprimiert die Restluft in den Lungen wie ein künstlicher Hustenstoß.'
+  - 'DIE REGEL DES EIGENEN HUSTENS: Solange die Person laut husten oder sprechen kann, ist der Atemweg nur teilweise verlegt. Ein natürlicher biologischer Hustenstoß erzeugt über 100 mmHg Druck – viel mehr als manuelle Handgriffe. Erst eingreifen, wenn der Husten stumm oder wirkungslos wird.'
 immediate_action:
-  - "Schweregrad prüfen: Frage 'Ersticken Sie?'"
-  - 'Kann die Person sprechen, kräftig husten oder atmen (Leichte Verlegung): NICHT EINGREIFEN. Zum kräftigen Weiterhusten ermutigen.'
-  - 'Kann die Person nicht sprechen, hustet nur tonlos oder greift sich an den Hals (Schwere Verlegung):'
-  - '1. RÜCKENSCHLÄGE: Seitlich leicht hinter die Person treten, den Brustkorb mit einer Hand stützen, den Oberkörper weit nach vorne beugen und mit dem Handballen der anderen Hand bis zu 5 kräftige Schläge zwischen die Schulterblätter abgeben.'
-  - '2. OBERBAUCHKOMPRESSIONEN (Heimlich-Handgriff): Bleibt dies erfolglos: Hinter die Person stellen, beide Arme um den Oberbauch legen, eine Faust bilden (Daumenseite zwischen Nabel und Rippenbogen) und mit der anderen Hand die Faust bis zu 5-mal ruckartig nach HINTEN-OBEN ziehen.'
-  - '3. ABWECHSELN: Wiederhole 5 Rückenschläge und 5 Bauchkompressionen abwechselnd, bis der Fremdkörper gelöst ist oder die Person bewusstlos wird.'
-  - '4. BEI BEWUSSTLOSIGKEIT: Vorsichtig auf den Boden legen, sofort Notruf 112 wählen und unverzüglich mit der Herz-Lungen-Wiederbelebung (30 Herzdruckmassagen) beginnen.'
+  - '1. SCHWEREGRADE PRÜFEN: Fragen: „Ersticken Sie?“'
+  - '   • LEICHTE VERLEGUNG (KANN HUSTEN/SPRECHEN): Zum kräftigen Weiterhusten auffordern. Nicht mit Schlägen stören, solange der Husten wirksam ist!'
+  - '   • SCHWERE VERLEGUNG (KANN NICHT MEHR ATMEN/SPRECHEN, GREIFT AN DEN HALS): Sofort handeln.'
+  - '2. 5 KRÄFTIGE SCHLÄGE AUF DEN RÜCKEN:'
+  - '   • Seitlich hinter die Person stellen, ihren Brustkorb mit einer Hand abstützen und den Oberkörper weit nach vorne beugen.'
+  - '   • Bis zu 5 kräftige Schläge mit dem Handballen mittig zwischen die Schulterblätter geben.'
+  - '3. 5 OBERBAUCHKOMPRESSIONEN (HEIMLICH-HANDGRIFF):'
+  - '   • Haben die Rückenschläge keinen Erfolg: Hinter die Person treten und beide Arme um ihren Oberbauch schlingen.'
+  - '   • Eine Hand zur Faust ballen und die Daumenseite mittig zwischen Bauchnabel und Brustbeinende platzieren.'
+  - '   • Die Faust mit der anderen Hand greifen und kräftig ruckartig nach hinten-oben ziehen.'
+  - '4. WECHSEL 5 RÜCKENSCHLÄGE : 5 BAUCHKOMPRESSIONEN fortführen, bis der Fremdkörper herausspringt oder die Person das Bewusstsein verliert.'
+  - '5. BEI BEWUSSTLOSIGKEIT: Die Person vorsichtig auf den Boden legen, sofort Notruf 112 wählen und unverzüglich mit der Herzdruckmassage (30 Kompressionen) beginnen.'
 do_not:
-  - 'Niemals einer aufrecht stehenden Person auf den Rücken schlagen (der Fremdkörper kann durch die Schwerkraft tiefer in die Luftröhre rutschen; immer nach vorne beugen).'
-  - 'Keine blind tastenden Fingerwischer im Mundraum durchführen (Gefahr, den Fremdkörper tiefer hineinzuschieben).'
-  - 'Keine Bauchkompressionen bei Säuglingen unter 1 Jahr (stattdessen 5 Rückenschläge und 5 Brustkorbkompressionen in Kopftieflage).'
+  - 'Niemals auf den Rücken schlagen, während die Person aufrecht steht (die Schwerkraft zieht den Fremdkörper sonst noch tiefer in die Luftröhre).'
+  - 'Keine blinden Fingerwischversuche im Mund durchführen (Gefahr, den Fremdkörper noch tiefer hinter die Stimmritze zu rammen).'
+  - 'Den Heimlich-Handgriff niemals bei Säuglingen unter 1 Jahr anwenden (stattdessen abwechselnd Rückenschläge in Kopftieflage und 2-Finger-Brustkompressionen).'
+  - 'Nach erfolgreichem Heimlich-Handgriff niemals auf eine ärztliche Untersuchung verzichten (Bauchkompressionen können innere Organverletzungen an Milz oder Magen verursachen).'
 sources:
+  - name: 'German Resuscitation Council (GRC / Deutscher Rat für Wiederbelebung)'
+    url: 'https://www.grc-org.de/'
+    authoritative: true
+    guideline_version: 'Leitlinien zur Wiederbelebung 2021: Fremdkörperaspiration'
+    jurisdiction: 'Deutschland / DACH'
+    notes: '5 Rückenschläge und 5 Oberbauchkompressionen im Wechsel, Indikationen und Warnhinweise.'
   - name: 'European Resuscitation Council (ERC)'
     url: 'https://cprguidelines.eu/'
     authoritative: true
-    guideline_version: 'ERC Leitlinien 2021: Basismaßnahmen zur Wiederbelebung Erwachsener'
+    guideline_version: 'ERC Guidelines 2021: Basic Life Support - Foreign Body Airway Obstruction'
     jurisdiction: 'EU / Global'
-    notes: 'Verbindlicher Standard zur Behandlung der akuten Fremdkörperverlegung der Atemwege.'
-  - name: 'Deutsches Rotes Kreuz (DRK)'
-    url: 'https://www.drk.de/hilfe-in-deutschland/erste-hilfe/der-kleine-lebensretter/ersticken/'
-    authoritative: true
-    guideline_version: 'DRK Leitfaden Erste Hilfe bei Ersticken'
-    jurisdiction: 'DE'
+    notes: 'Standardprotokoll zur Bolusentfernung bei Erwachsenen und Kindern.'
 ---
 
-Die menschliche Anatomie leitet feste Nahrung und lebensnotwendige Atemgase durch denselben engen Rachenraum. Gelegentlich interpretiert ein Stück Nahrung den Wegweiser falsch und verkeilt sich quer über den Stimmlippen.
+Der menschliche Rachen (Pharynx) ist eine anatomische Kreuzung für Verdauungs- und Atemwege. Beim normalen Schluckvorgang klappt der Kehldeckel (Epiglottis) wie eine Falltür über den Kehlkopfeingang und leitet feste Nahrung und Flüssigkeiten sicher in die Speiseröhre.
 
-Eine vollständige Atemwegsverlegung führt innerhalb von 3 bis 4 Minuten zu irreversiblen Hirnschäden und Herzstillstand.
+Bei einer Bolusaspiration geraten Speisebrocken oder Gegenstände durch unvollständigen Kehldeckelschluss direkt in die Luftröhre (Trachea).
 
-### Schritt 1: Leichte vs. schwere Verlegung unterscheiden
+### Die Mechanik von 5 Rückenschlägen und 5 Oberbauchkompressionen
 
-- **Leichte Verlegung**: Die Person hustet kräftig, spricht oder gibt Laute von sich. Ein eigener Hustenstoß erzeugt einen höheren Druck als jeder Schlag von außen. **Nicht schlagen**, sondern zum Weiterhusten anfeuern.
-- **Schwere Verlegung**: Die Person kann keinen Ton mehr hervorbringen, greift sich panisch an die Kehle, läuft blau an (Zyanose) oder ringt lautlos nach Luft. Jetzt sofort handeln.
+1. **Vorbeugen und Rückenschläge**: Durch das weite Vorbeugen des Oberkörpers sorgt die Schwerkraft dafür, dass der gelöste Fremdkörper nach außen aus dem Mund fällt und nicht tiefer in die Hauptbronchien rutscht. Ein gezielter Handballenschlag zwischen die Schulterblätter erzeugt eine abrupte Druckwelle im Brustkorb.
+2. **Oberbauchkompressionen (Heimlich-Handgriff)**: Der ruckartige Zug nach hinten-oben hebt das Zwerchfell schlagartig an. Dadurch wird das Restluftvolumen in den unteren Lungenflügeln schlagartig komprimiert – es entsteht ein künstlicher, explosionsartiger Überdruckstoß, der den Fremdkörper durch die Stimmritze nach draußen katapultiert.
 
-### Schritt 2: Der 5-und-5-Ablauf
+### Wann man nicht eingreifen darf
 
-```text
-[ Seitlich stellen & nach vorne beugen ]
-                  ↓
-       5 Rückenschläge (zwischen Schulterblätter)
-                  ↓ (Fremdkörper noch da?)
-       5 Bauchkompressionen (nach hinten-oben)
-                  ↓ (Zyklus wiederholen)
-```
-
-1. **Erst nach vorne beugen**: Stütze den Brustkorb mit einer Hand ab und neige den Oberkörper der Person weit nach vorne unten. So fällt der gelöste Fremdkörper durch die Schwerkraft aus dem Mund, statt tiefer in die Lunge zu rutschen.
-2. **5 Schläge zwischen die Schulterblätter**: Mit dem harten Handballen kräftig treffen.
-3. **5 Bauchkompressionen (Heimlich)**: Faust zwischen Nabel und Brustbeinansatz platzieren, mit der zweiten Hand umgreifen und ruckartig nach hinten-oben ziehen.
-
-### Bei Bewusstlosigkeit: Sofort CPR
-
-Wird die Person schlaff und bewusstlos:
-
-1. Flach auf den Rücken auf den Boden legen.
-2. Notruf 112 rufen.
-3. Sofort mit Herzdruckmassage (30 Kompressionen, 2 Beatmungen) beginnen. Beim Öffnen der Atemwege in den Mund schauen – Fremdkörper nur herausnehmen, wenn er direkt greifbar vorne liegt.
+Solange der Betroffene noch kräftig husten, keuchen oder in ganzen Sätzen sprechen kann, ist die Luftröhre nur teilweise verlegt. Ein natürlicher, kräftiger menschlicher Hustenstoß erzeugt subglottische Druckspitzen von über **100 mmHg**. Wer einem aktiv hustenden Menschen unüberlegt auf den Rücken schlägt, riskiert, dass der Fremdkörper sich verkeilt und den Atemweg erst recht vollständig verschließt.

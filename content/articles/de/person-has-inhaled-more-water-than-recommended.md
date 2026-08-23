@@ -12,11 +12,14 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
-  - 'ertrinkungsunfall erste hilfe'
+  - 'ertrinken'
+  - 'ertrinkungsunfall'
+  - 'wasserunfall'
   - '5 initialbeatmungen ertrinken'
   - 'sekundäres ertrinken symptome'
   - 'reanimation wasserunfall'
   - 'beinahe ertrinken'
+  - 'wasser geschluckt lunge'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Notruf 112 wählen, Reanimation zwingend mit 5 Initialbeatmungen starten, im Rhythmus 30:2 drücken und jede gerettete Person in die Klinik bringen.'
+memorable_facts:
+  - 'PRIMÄR HYPOXISCHER HERZSTILLSTAND (5 INITIALBEATMUNGEN): Bei normalem Herzstillstand an Land enthalten Lunge und Blut noch Restsauerstoff, weshalb die Herzdruckmassage Vorrang hat. Beim Ertrinken steht das Herz still, weil alle Sauerstoffreserven restlos verbraucht sind. Reine Herzdruckmassage pumpt nur sauerstofffreies Blut – daher MUSS die Reanimation mit 5 Initialbeatmungen starten.'
+  - 'SURFACTANT-AUSWASCHUNG: Inhaliertes Wasser wäscht das Surfactant (den schützenden Schutzfilm der Lungenbläschen) aus. Selbst wenn ein Ertrinkungsopfer am Strand wach und ansprechbar wirkt, können die Lungenbläschen noch 24 bis 72 Stunden später zusammenfallen und ein tödliches Lungenödem auslösen.'
 immediate_action:
   - '1. EIGENSCHUTZ DES RETTERS HAT VORRANG: Reichen (Ast, Stange), Werfen (Rettungsring, Leine) oder Fahren (Boot). Niemals ohne Schwimmhilfen oder bei gefährlicher Strömung selbst ins Wasser springen.'
   - '2. MÖGLICHST WAAGERECHT AN LAND BRINGEN: Den Ertrinkenden nach Möglichkeit in horizontaler Körperlage aus dem Wasser retten, um einen plötzlichen Blutdruckabfall durch den Wegfall des hydrostatischen Wasserdrucks zu vermeiden.'

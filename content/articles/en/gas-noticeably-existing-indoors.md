@@ -1,18 +1,21 @@
 ---
 slug: 'gas-noticeably-existing-indoors'
 title: 'Gas, Noticeably Existing Indoors'
-subtitle: 'Mercaptan odor, explosive limits, and the danger of electrical micro-sparks'
+subtitle: 'Odorized fuel gas leaks, lower explosive limits, and non-electrical evacuation'
 category: 'home'
 tags:
   - 'gas'
-  - 'leak'
   - 'explosion'
+  - 'fire'
   - 'home'
-  - 'methane'
+  - 'hazard'
 aliases:
-  - 'gas leak inside'
-  - 'smell rotten eggs home'
-  - 'natural gas leak'
+  - 'gas smell'
+  - 'gas leak indoors'
+  - 'smell of rotten eggs'
+  - 'rotten eggs gas'
+  - 'natural gas odor'
+  - 'methane leak house'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -24,52 +27,46 @@ status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Safety Core'
-memory_hook: 'If you smell rotten eggs, do not touch a single light switch; step outside first.'
+memory_hook: 'If your house smells like rotten eggs, operate zero switches, leave doors open behind you, and call dispatch from outside.'
+memorable_facts:
+  - 'THE INTENTIONAL ROTTEN EGG ODOR: Pure methane and natural gas are 100% odorless and invisible. Gas utility companies intentionally inject trace thiol odorants (such as tert-butyl mercaptan) so the human nose detects a leak at just 1% air concentration—well below the 5% Lower Explosive Limit (LEL).'
+  - 'MICROSCOPIC SWITCH ARCS: Toggling a normal household wall switch or plugging in a phone charger produces a tiny microscopic electrical arc. In a fuel-saturated room, that sub-millimeter spark has more than enough ignition energy to detonate the entire building.'
 immediate_action:
-  - 'DO NOT operate any light switches, electrical outlets, thermostats, or doorbells.'
-  - 'DO NOT use landline phones or mobile smartphones inside the structure.'
-  - 'Open doors and accessible windows along your exit path to facilitate ventilation, but DO NOT delay evacuation.'
-  - 'Evacuate every person and pet from the building immediately on foot.'
-  - 'Extinguish all open flames (candles, smoking materials) immediately.'
-  - 'Call the emergency gas hotline and 911 / 112 only once you are at a safe distance outdoors (at least 50 meters away).'
+  - '1. OPERATE ZERO ELECTRICAL DEVICES: Do not flip light switches, do not unplug appliances, do not ring doorbells, and do not use landline or mobile phones inside the structure.'
+  - '2. ELIMINATE ALL OPEN FLAMES: Do not light matches, lighters, or candles.'
+  - '3. OPEN WINDOWS AND DOORS: If you can do so immediately along your exit path without lingering, throw open windows and doors to dilute the fuel-air mixture.'
+  - '4. EVACUATE THE PREMISES IMMEDIATELY: Leave the building on foot immediately with all occupants. Leave doors open behind you to facilitate venting.'
+  - '5. CALL 911 / 112 FROM OUTSIDE: Only use your phone once you are at a safe distance (at least 50 meters / 160 feet) upwind from the building.'
 do_not:
-  - 'Do not flip a light switch on OR off (both operations generate an internal contact spark).'
-  - 'Do not start a vehicle parked in an attached garage or nearby driveway.'
-  - 'Do not use lighters or matches to inspect pipes.'
-  - "Do not ring the neighbors' electric doorbells (knock manually with your knuckles)."
+  - 'Do not touch light switches (turning a light OFF creates an electrical arc just like turning it ON).'
+  - 'Do not search for the source of the leak yourself.'
+  - 'Do not use elevators during an evacuation.'
+  - 'Do not re-enter the building until emergency services and the gas utility declare it safe.'
 sources:
-  - name: 'National Fire Protection Association (NFPA) 54'
-    url: 'https://www.nfpa.org/codes-and-standards/nfpa-54-standard-development/54'
+  - name: 'National Fire Protection Association (NFPA)'
+    url: 'https://www.nfpa.org/'
     authoritative: true
-    guideline_version: 'National Fuel Gas Code'
+    guideline_version: 'NFPA 54: National Fuel Gas Code'
     jurisdiction: 'US / Global'
-    notes: 'Standards on flammable limits (LEL/UEL) of methane and electrical spark ignition prevention.'
+    notes: 'Fuel-air mixture thresholds, non-electrical evacuation standards, and mercaptan odorization.'
   - name: 'Deutscher Verein des Gas- und Wasserfaches (DVGW)'
     url: 'https://www.dvgw.de/'
     authoritative: true
-    guideline_version: 'DVGW-Arbeitsblatt G 600 (TRGI)'
-    jurisdiction: 'DE / EU'
-    notes: 'Offizielle Verhaltensregeln bei Gasgeruch im Gebäude.'
+    guideline_version: 'DVGW-Arbeitsblatt G 280: Odorierung von Gasen'
+    jurisdiction: 'Germany / EU'
+    notes: 'Odorierungsvorschriften (THT/Mercaptane), UEG-Grenzwerte und Sicherheitsabstände.'
 ---
 
-Natural gas (predominantly methane) is odorless, which utility companies find unacceptable. To ensure humans notice when their living room is filling with fuel, distributors inject an odorant—typically tetrahydrothiophene or tert-butyl mercaptan—giving it the unmistakable stench of rotten eggs or sulfur.
+Natural gas (predominantly methane, $CH_4$) and liquefied petroleum gas (propane/butane) are exceptional fuels precisely because they release tremendous thermal energy upon oxidation. When mixed with atmospheric oxygen between their Lower Explosive Limit (~5%) and Upper Explosive Limit (~15%), they form a stoichiometric aerosol bomb waiting for a microscopic spark.
 
-If you smell this odor, the atmosphere in your room is approaching its **Lower Explosive Limit (LEL)** of approximately 4% to 5% gas concentration in air.
+### The Mercaptan Warning Layer
+
+In its unrefined natural state, methane is completely odorless, colorless, and tasteless. Following the catastrophic 1937 New London School explosion (where an undetected natural gas leak killed nearly 300 students and teachers), modern regulations mandated that all commercial distribution gas must be odorized with organic sulfur compounds—typically *tert-butyl mercaptan* or *tetrahydrothiophene*. 
+
+These chemical odorants produce the distinctive, unmistakable stench of rotting eggs, calibrated so that healthy humans detect the hazard when concentration reaches less than one-fifth of the minimum explosive threshold.
 
 ### The Physics of Micro-Sparks
 
-Flipping an ordinary household rocker light switch generates a microscopic electrical arc between copper contacts inside the wall switch box. In ambient air, this spark is harmless. In an explosive gas-air mixture, that single micro-joule spark is sufficient to detonate the room.
+A common fatal mistake during a gas leak is attempting to "turn off the lights" or answer a ringing phone before fleeing. 
 
-The same ignition risk applies to:
-
-- Mobile phones transmitting RF signals or vibrating.
-- Refrigerators cycling their compressor relays.
-- Electric doorbells.
-- Static discharge from synthetic clothing.
-
-### Evacuation Protocol
-
-1. **Zero Electrical Action**: Do not turn lights on. Do not turn lights off. Do not pull plugs from outlets.
-2. **Move on Foot**: Walk out through the front door, leaving doors open behind you to dilute the gas.
-3. **Warn Neighbors by Knocking**: If alerting adjacent units, knock firmly with your hand. Never press electric intercoms or doorbells.
-4. **Call From the Street**: Make all emergency calls from your mobile phone only after you are at least 50 meters away from the structure.
+Household mechanical toggle switches function via spring-loaded copper contacts. As the contacts separate, a microscopic electrical arc jumps across the microscopic air gap for a few milliseconds. In a room containing a 5% to 15% gas-air mixture, this sub-millimeter arc releases vastly more energy than the minimum ignition threshold (approx. 0.28 millijoules), triggering immediate deflagration that blows out exterior walls.

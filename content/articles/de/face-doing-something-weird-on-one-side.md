@@ -11,11 +11,14 @@ tags:
   - 'medizin'
   - 'notfall'
 aliases:
+  - 'schlaganfall'
   - 'fast test'
   - 'schlaganfall anzeichen'
   - 'gesichtslähmung'
   - 'apoplex'
   - 'lähmung arm'
+  - 'sprachstörung schlaganfall'
+  - 'stroke'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -28,6 +31,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Gesicht, Arme und Sprache prüfen (FAST); genaue Uhrzeit notieren und sofort den Notruf 112 wählen.'
+memorable_facts:
+  - '1,9 MILLIONEN NEURONEN PRO MINUTE: Bei einem ischämischen Schlaganfall sterben pro Minute, in der ein Hirngefäß verschlossen bleibt, rund 1.900.000 Nervenzellen und 14 Milliarden Synapsen unwiederbringlich ab. Jede Minute zählt für die Lysetherapie im Krankenhaus.'
+  - 'STRIKTES ESSENS- UND TRINKVERBOT: Ein Schlaganfall lähmt häufig unbemerkt die Schluckmuskulatur (Dysphagie). Wer dem Patienten Wasser oder Tabletten reicht, riskiert, dass die Flüssigkeit ungehindert in die Lunge fließt und eine lebensgefährliche Aspirationspneumonie auslöst.'
 immediate_action:
   - '1. FAST-TEST UNVERZÜGLICH DURCHFÜHREN:'
   - '   • FACE (Gesicht): Die Person bitten zu lächeln oder die Zähne zu zeigen. Auf Asymmetrie, ein herabhängendes Augenlid oder einen schlaffen Mundwinkel achten.'

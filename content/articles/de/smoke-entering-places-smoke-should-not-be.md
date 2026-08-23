@@ -1,18 +1,20 @@
 ---
 slug: 'smoke-entering-places-smoke-should-not-be'
-title: 'Rauch, in unpassenden Räumen auftauchend'
-subtitle: 'Thermisches Schichtungsgefälle bei Wohnungsbränden und die Kriech-Flucht'
+title: 'Rauch dringt an unpassende Orte ein'
+subtitle: 'Brandgas-Schichtung, bodennahe Flucht und Raumabschottung durch geschlossene Türen'
 category: 'fire'
 tags:
-  - 'rauch'
   - 'feuer'
-  - 'flucht'
-  - 'wohnungsbrand'
-  - 'rauchvergiftung'
+  - 'rauch'
+  - 'evakuierung'
+  - 'haushalt'
+  - 'giftig'
 aliases:
-  - 'rauch im flur'
-  - 'brandrauch boden kriechen'
-  - 'flucht bei feuer'
+  - 'rauch in der wohnung'
+  - 'wohnungsbrand flucht'
+  - 'unter dem rauch kriechen'
+  - 'rauchvergiftung vermeiden'
+  - 'brandflucht'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -23,46 +25,45 @@ emergency_services: 'call_immediately'
 status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
-reviewer: 'Redaktionelle Prüfgruppe'
-memory_hook: 'Krieche auf Händen und Knien unter der Rauchschicht; die Atemluft am Boden rettet dich.'
+reviewer: 'Editorial Safety Core'
+memory_hook: 'Am Boden unter der heißen Rauchschicht kriechen, Türen hinter sich schließen und heiße Türen niemals öffnen.'
+memorable_facts:
+  - 'RAUCH TÖTET VOR DEM FEUER: Über 80 % aller Brandopfer sterben an toxischen Brandgasen (Kohlenmonoxid und Blausäure aus Kunststoffen), nicht durch Flammen. Bereits zwei Atemzüge dichter, giftiger Rauchgase können zur sofortigen Ohnmacht führen.'
+  - 'DIE THERMISCHE SCHICHTUNG: Heißer Brandrauch steigt an die Decke (über 600 °C heiß). Die untersten 30 bis 50 cm über dem Fußboden enthalten die kühlste und sauerstoffreichste Atemluft.'
 immediate_action:
-  - 'Gehe sofort auf Hände und Knie nach unten. Halte den Kopf in der frischeren Luftschicht 30 bis 50 cm über dem Boden.'
-  - 'Krieche zügig in Richtung Notausgang oder Wohnungstür.'
-  - 'Prüfe geschlossene Zimmertüren vor dem Öffnen mit dem HANDRÜCKEN an Türklinke und Türblatt. Ist die Klinke heiß: TÜR GESCHLOSSEN HALTEN und alternativen Fluchtweg/Fenster nutzen.'
-  - 'Schließe Türen hinter dir, um dem Feuer die Sauerstoffzufuhr abzuschneiden und die Rauchausbreitung zu verlangsamen.'
-  - 'Einmal draußen: DRAUSSEN BLEIBEN. Niemals in ein verrauchtes Gebäude zurückkehren.'
-  - 'Notruf 112 von draußen wählen.'
+  - '1. SOFORT AUF DEN BODEN GEHEN (KRIECHEN): Auf Hände und Knie fallen. Den Kopf 30 bis 50 cm über dem Fußboden halten, wo atembare Luft existiert.'
+  - '2. TÜREN MIT DEM HANDRÜCKEN PRÜFEN: Türklinken und Türspalte vor dem Öffnen vorsichtig mit dem Handrücken abtasten. Ist die Tür heiß: Niemals öffnen!'
+  - '3. TÜREN HINTER SICH SCHLIESSEN: Jede geschlossene Zimmertür bremst die Brandausbreitung und hält giftigen Rauch für bis zu 20 Minuten auf.'
+  - '4. GEBÄUDE SOFORT ZU FUSS VERLASSEN: Keine Haustiere, Wertsachen oder Kleidung suchen.'
+  - '5. BEI BLOCKIERTEM FLUCHTWEG: Türspalte mit feuchten Tüchern abdichten, ans offene Fenster stellen, winken und Notruf 112 die genaue Zimmernummer mitteilen.'
 do_not:
-  - 'Niemals aufrecht durch sichtbaren Brandrauch gehen (zwei bis drei Atemzüge mit heißem Giftrauch führen zur sofortigen Bewusstlosigkeit).'
-  - 'Türklinken nicht mit der Handinnenfläche prüfen (Verbrennungen an der Handfläche behindern das Weiterkriechen und Öffnen von Riegeln).'
-  - 'Keine Aufzüge benutzen (Kamineffekt im Schacht und Stromausfall).'
+  - 'Niemals aufrecht durch verrauchte Räume gehen (in der oberen Schicht herrschen Hunderte Grad und tödliche Blausäurekonzentrationen).'
+  - 'Im Brandfall niemals den Aufzug benutzen.'
+  - 'Eine heiße Tür niemals öffnen (Frischluftzufuhr löst einen verheerenden Backdraft aus).'
+  - 'Niemals in ein brennendes Gebäude zurückkehren.'
 sources:
   - name: 'Deutscher Feuerwehrverband (DFV)'
     url: 'https://www.feuerwehrverband.de/'
     authoritative: true
-    guideline_version: 'Fachempfehlung Verhalten bei Wohnungsbränden'
-    jurisdiction: 'DE / EU'
-    notes: 'Offizielle Standards zu thermischer Schichtung, Kriechtechnik und Handrücken-Temperaturprüfung.'
-  - name: 'Vereinigung zur Förderung des Deutschen Brandschutzes (vfdb)'
-    url: 'https://www.vfdb.de/'
+    guideline_version: 'Brandschutz-Ratgeber: Verhalten im Brandfall'
+    jurisdiction: 'Deutschland'
+    notes: 'Rauchvergiftung, geschlossene Türen und Fluchtwegregeln.'
+  - name: 'National Fire Protection Association (NFPA)'
+    url: 'https://www.nfpa.org/'
     authoritative: true
-    guideline_version: 'vfdb Richtlinie Rauch- und Brandschutz'
-    jurisdiction: 'DE'
+    guideline_version: 'NFPA 101: Life Safety Code'
+    jurisdiction: 'US / Global'
+    notes: 'Thermische Rauchschichtung und Selbstrettung.'
 ---
 
-In Spielfilmen kündigt sich ein Brand durch malerische, gelb-orange Flammen an. In der Realität sterben rund 80% aller Brandopfer nicht durch Hitze, sondern durch **Rauchgasinhalation**.
+In modernen Wohnungen bestehen Möbel und Textilien fast vollständig aus synthetischen Erdölpolymeren (Polyurethanschaum in Matratzen, Polyesterstoffe, Kunststoffgehäuse). 
 
-Moderne Wohnungen sind voll von synthetischen Kunststoffen (Polyurethanschaum in Sofas, PVC in Fußböden, Kunstfasern). Bei deren Verbrennung entsteht ein hochgiftiges, pechschwarzes Gemisch aus Kohlenmonoxid, Blausäure (Cyanwasserstoff) und ätzenden Rußpartikeln.
+Beim Brand zersetzen sich diese Materialien in dichten, pechschwarzen Rauch voller Kohlenmonoxid ($CO$), Cyanwasserstoff (Blausäure, $HCN$) und Reizgase.
 
-### Die Thermische Schichtung
+### Die Thermik der Rauchschichtung
 
-Heiße Gase steigen nach oben. In einem verrauchten Raum sammelt sich der giftige, bis zu 500°C heiße Brandrauch an der Decke und drückt schichtweise nach unten.
+Heiße Gase besitzen eine geringere Dichte und steigen mit hoher Geschwindigkeit zur Decke auf. Es bildet sich eine scharfe Zweiteilung im Raum:
+- **Obere Heißgasschicht**: 300 °C bis 800 °C heiß, null Sicht, voll tödlicher Blausäure.
+- **Bodennahe Pufferzone**: Die untersten 30 bis 50 cm über dem Fußboden bieten Restsauerstoff und deutlich kühlere Luft.
 
-In den untersten **30 bis 50 Zentimetern über dem Fußboden** bleibt für mehrere Minuten eine Schicht mit kühlerer, atembarer Luft und wesentlich höherem Sauerstoffgehalt erhalten.
-
-### Die Kriech-Flucht-Regeln
-
-1. **Sofort auf Hände und Knie**: Krieche auf allen Vieren. Nicht flach auf dem Bauch robben (das verlangsamt dich unnötig), sondern zügig auf Händen und Knien vorwärtsbewegen.
-2. **Klinken-Check mit dem Handrücken**: Metallklinken leiten Hitze hervorragend. Berühre die Klinke mit dem _Handrücken_. Verbrennst du dir dabei die Handinnenfläche, verkrampft die Hand und du kannst dich weder abstützen noch Schlüssel drehen.
-3. **Türen hinter sich schließen**: Das Schließen von Zimmertüren unterbricht den Luftzug und hält das Feuer in einzelnen Brandabschnitten gefangen.
-4. **Draußen bleiben**: Die Feuerwehr rückt mit Atemschutzgeräten an. Wer ohne Gerät zurückgeht, kommt selten wieder heraus.
+Wer auf allen vieren kriecht, schützt seine Lungen vor lebensgefährlichen thermischen Verbrennungen und giftigen Gasen.

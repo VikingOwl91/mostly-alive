@@ -1,18 +1,21 @@
 ---
 slug: 'smoke-entering-places-smoke-should-not-be'
-title: 'Smoke, Entering Places Smoke Should Not Be'
-subtitle: 'Thermal stratification in structure fires and the low-crawl evacuation technique'
+title: 'Smoke Entering Places Smoke Should Not Be'
+subtitle: 'Structure fire toxic gas stratification, crawl-low mechanics, and closed-door compartmentalization'
 category: 'fire'
 tags:
-  - 'smoke'
   - 'fire'
+  - 'smoke'
   - 'evacuation'
-  - 'building'
-  - 'inhalation'
+  - 'home'
+  - 'toxic'
 aliases:
-  - 'smoke in hallway'
-  - 'house fire crawl low'
-  - 'smoke inhalation escape'
+  - 'smoke in house'
+  - 'fire smoke evacuation'
+  - 'crawl low under smoke'
+  - 'structure fire escape'
+  - 'smoke inhalation danger'
+  - 'closed door fire survival'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -24,45 +27,44 @@ status: 'reviewed'
 reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Safety Core'
-memory_hook: 'Crawl on hands and knees under the thermal smoke layer; the air at the floor is your lifeline.'
+memory_hook: 'Crawl low on hands and knees under the thermal smoke layer, close doors behind you to compartmentalize, and never open hot doors.'
+memorable_facts:
+  - 'SMOKE KILLS BEFORE FLAMES: Over 80% of structure fire deaths are caused by toxic gas inhalation (carbon monoxide and hydrogen cyanide from synthetic polymers), not burns. Two breaths of superheated, oxygen-depleted toxic smoke can induce instantaneous loss of consciousness.'
+  - 'THERMAL STRATIFICATION: Superheated smoke, toxic gases, and unburned fuel rise to the ceiling (temperatures exceeding 600°C / 1,100°F). The bottom 30 to 50 cm (1 to 2 feet) above the floor contains the coolest, most oxygen-rich breathable air.'
 immediate_action:
-  - 'Drop to your hands and knees immediately. Keep your head in the clean air zone 30 to 60 cm (1 to 2 feet) above the floor.'
-  - 'Crawl rapidly toward your primary emergency exit.'
-  - 'Before opening any closed interior door: feel the doorknob and the cracks around the door with the BACK of your hand. If hot, DO NOT OPEN IT (use an alternate exit or window).'
-  - 'Close interior doors behind you as you exit to starve the fire of fresh oxygen and slow smoke spread.'
-  - 'Once outside: STAY OUT. Never re-enter a burning or smoke-filled building for any reason.'
-  - 'Call 911 / 112 from outside.'
+  - '1. CRAWL LOW IMMEDIATELY: Drop to your hands and knees. Keep your head 30 to 50 cm (1 to 2 feet) above the floor where cooler, breathable air remains.'
+  - '2. TEST DOORS WITH THE BACK OF YOUR HAND: Feel the metal doorknob and the cracks around the door with the back of your hand before opening. If hot to the touch, do NOT open.'
+  - '3. CLOSE DOORS BEHIND YOU: Closing internal doors starves the fire of oxygen and buys up to 20 minutes of structural compartmentalization.'
+  - '4. EVACUATE IMMEDIATELY: Get out of the building on foot. Never stop to gather valuables, pets, or clothing.'
+  - '5. IF TRAPPED: Seal door gaps with wet towels/sheets, open a window slightly for air, wave a bright cloth, and call 911 / 112 with your exact room location.'
 do_not:
-  - 'Do not walk upright through visible smoke (superheated smoke can sear lung tissue and induce instantaneous unconsciousness in 2 to 3 breaths).'
-  - 'Do not touch hot metal doorknobs with your palm (if you burn your palm, you cannot crawl or turn keys).'
-  - 'Do not use elevators during a fire (electrical failure or shaft chimneystack effect can trap cars on burning floors).'
+  - 'Do not walk upright through a smoke-filled room (the upper thermal layer contains lethal cyanide, carbon monoxide, and 500°C temperatures).'
+  - 'Do not use elevators during a fire evacuation.'
+  - 'Do not open a hot door (opening introduces fresh oxygen, triggering a fatal explosive backdraft).'
+  - 'Never re-enter a burning building once outside.'
 sources:
-  - name: 'United States Fire Administration (USFA) / FEMA'
-    url: 'https://www.usfa.fema.gov/prevention/home-fires/escape-planning/'
+  - name: 'National Fire Protection Association (NFPA)'
+    url: 'https://www.nfpa.org/'
     authoritative: true
-    guideline_version: 'Fire Escape Planning and Smoke Stratification Guidelines'
+    guideline_version: 'NFPA 101: Life Safety Code'
     jurisdiction: 'US / Global'
-    notes: 'Official standards on crawl-low techniques, back-of-hand temperature checks, and door closures.'
+    notes: 'Thermal stratification, crawl-low escape doctrine, and door-closure compartmentalization.'
   - name: 'Deutscher Feuerwehrverband (DFV)'
     url: 'https://www.feuerwehrverband.de/'
     authoritative: true
-    guideline_version: 'Brandschutzerziehung und Fluchtverhalten'
-    jurisdiction: 'DE / EU'
+    guideline_version: 'Brandschutz-Ratgeber: Verhalten im Brandfall'
+    jurisdiction: 'Deutschland'
+    notes: 'Rauchvergiftung, geschlossene Türen und Fluchtwegregeln.'
 ---
 
-Fire in movies is represented by charismatic orange flames. In actual structure fires, the entity that kills approximately 80% of human victims is not heat or flame, but **smoke**.
+In modern residential architecture, interior furnishings are composed predominantly of synthetic petrochemical polymers (polyurethane foam mattresses, PVC conduits, synthetic polyester upholstery). 
 
-Modern interior furnishings are manufactured almost entirely from synthetic petroleum-derived polymers (polyurethane foam, PVC, synthetic textiles). When burned, they release a blinding, pitch-black cocktail of carbon monoxide, hydrogen cyanide, phosgene, and superheated aerosolized soot particles.
+When these materials ignite, they decompose into dense, black, superheated plumes containing lethal concentrations of carbon monoxide ($CO$), hydrogen cyanide ($HCN$), and phosgene.
 
 ### The Physics of Thermal Stratification
 
-Hot gases are less dense than cold ambient air. In a burning room, toxic smoke and superheated air (often exceeding 300°C to 500°C) rise rapidly and mushroom across the ceiling, gradually descending in a distinct **thermal layer**.
+Heat decreases gas density. As combustion gases heat up, they expand and rise violently toward the ceiling, creating a distinct two-zone atmospheric stratification:
+- **Upper Zone**: Superheated toxic gas layer (temperatures from 300°C to 800°C) with near-zero visibility and lethal cyanide levels.
+- **Lower Zone**: A 30 to 50 cm buffer layer along the floor containing residual oxygen and significantly lower thermal loads.
 
-Near the floor—specifically in the lowest **30 to 60 centimeters (1 to 2 feet)**—a layer of cooler, breathable air with significantly higher oxygen levels and lower toxicity persists for several minutes.
-
-### The Low Crawl Protocol
-
-1. **Drop Low**: Get down on your hands and knees. Do not crawl flat on your stomach (it slows your movement significantly); crawl on your palms and kneecaps.
-2. **Back-of-the-Hand Door Check**: Metal doorknobs conduct heat. Check the knob and upper door cracks with the _back_ of your hand. If you use your palm and encounter a scorching surface, involuntary reflex causes severe palm burns, rendering your hands useless for crawling or turning keys.
-3. **Compartmentalize**: Closing doors behind you isolates rooms, cutting off the draft of fresh air that feeds flame spread.
-4. **Once Out, Stay Out**: Firefighters with self-contained breathing apparatus (SCBA) will perform rescue. Untrained humans re-entering smoke-filled buildings rarely make a second exit.
+By dropping to your hands and knees and crawling low, you keep your respiratory tract inside this cooler, oxygen-bearing layer, preventing thermal airway burns and rapid hypoxic unconsciousness.

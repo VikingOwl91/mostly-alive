@@ -12,11 +12,14 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
+  - 'cpr'
   - 'chest compressions'
   - 'how to do cpr'
   - 'defibrillator guide'
   - 'unresponsive not breathing'
   - 'cardiopulmonary resuscitation'
+  - 'stayin alive cpr'
+  - 'agonal breathing'
 severity: 'immediate'
 urgency: 'immediate'
 threat_level: 5
@@ -29,6 +32,10 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Call 911/112, push hard and fast in the center of the chest (100–120 bpm, 5–6 cm deep), and use an AED immediately.'
+memorable_facts:
+  - 'RHYTHM MNEMONIC (100–120 COMPRESSIONS/MIN): The disco tempo of "Stayin’ Alive" by the Bee Gees (approx. 103 bpm) matches the recommended clinical compression rate. However, tempo alone does not save lives—you must also achieve a full 5 to 6 cm depth, allow complete chest recoil between strokes, and minimize interruptions to under 10 seconds.'
+  - 'THE AGONAL GASP TRAP: About 50% of sudden cardiac arrest victims produce sporadic, snoring, or gasping sounds (agonal respiration) during the first minutes. This is NOT normal breathing; it is the death rattle of a starving brainstem and mandates immediate CPR.'
+  - 'PERFUSION MATHEMATICS: Manual chest compressions generate only 20% to 30% of normal baseline cerebral blood flow. Every pause longer than 10 seconds causes coronary perfusion pressure to drop to zero, requiring repeated compressions just to rebuild pressure.'
 immediate_action:
   - '1. CHECK RESPONSIVENESS AND BREATHING (10 SECONDS MAX):'
   - '   • Shake the shoulders firmly and shout: "Are you okay?"'

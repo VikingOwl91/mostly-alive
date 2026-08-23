@@ -12,11 +12,14 @@ tags:
   - 'medical'
   - 'emergency'
 aliases:
-  - 'poison control first aid'
-  - 'swallowed chemical what to do'
-  - 'accidental poisoning response'
-  - 'toxic ingestion symptoms'
+  - 'poisoning'
+  - 'poison control'
+  - 'poison'
+  - 'swallowed chemical'
+  - 'toxic ingestion'
+  - 'overdose first aid'
   - 'do not induce vomiting poison'
+  - 'accidental poisoning response'
 severity: 'critical'
 urgency: 'immediate'
 threat_level: 4
@@ -29,6 +32,9 @@ reviewed_at: '2026-08-23'
 review_due: '2027-08-23'
 reviewer: 'Editorial Medical Review Board'
 memory_hook: 'Secure the container, call Poison Control or 911/112 immediately, and never induce vomiting or give milk.'
+memorable_facts:
+  - 'THE DOUBLE-BURN & FOAM ASPIRATION DISASTERS: Forcing vomiting after swallowing corrosive acids or drain cleaners inflicts a second chemical burn on the esophagus on the way back up, risking rupture. Forcing vomiting after swallowing foaming detergents or lamp oils aerosolizes volatile hydrocarbons directly into the lungs, causing fatal chemical pneumonia.'
+  - 'MILK IS NOT AN ANTIDOTE: The lipid emulsion in milk acts as a lipophilic solvent in the gut, accelerating the rapid intestinal absorption of fat-soluble toxins (like organic pesticides and solvents). Never give milk to a poisoned person!'
 immediate_action:
   - '1. SECURE THE SUBSTANCE AND PACKAGING: Immediately take away the chemical container, medication blister pack, plant, or mushroom sample. Keep the original packaging and label intact to identify the exact chemical compound.'
   - '2. ASSESS CONSCIOUSNESS AND BREATHING:'
