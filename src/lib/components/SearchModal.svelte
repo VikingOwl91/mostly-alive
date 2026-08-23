@@ -1,5 +1,17 @@
 <script lang="ts">
-	import { Search, X, ShieldAlert, ArrowRight, CornerDownLeft, Sparkles } from '@lucide/svelte';
+	import {
+		Search,
+		X,
+		ShieldAlert,
+		ArrowRight,
+		CornerDownLeft,
+		Sparkles,
+		HeartPulse,
+		AlertTriangle,
+		Crosshair,
+		Activity,
+		Flame
+	} from '@lucide/svelte';
 	import MiniSearch from 'minisearch';
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
@@ -35,6 +47,107 @@
 			memorable_facts: 2,
 			body: 1
 		}
+	};
+
+	// Curated Emergency Quick Launcher items for zero-query state
+	const emergencyQuickPicks: Record<
+		'en' | 'de',
+		Array<{
+			title: string;
+			slug: string;
+			subtitle: string;
+			category: string;
+			threat_level: number;
+		}>
+	> = {
+		en: [
+			{
+				title: 'Person No Longer Breathing (CPR)',
+				slug: 'person-no-longer-breathing-for-some-reason',
+				subtitle: 'Cardiopulmonary resuscitation (CPR 30:2) and AED',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Person Currently Choking',
+				slug: 'person-currently-choking',
+				subtitle: '5 back blows and 5 abdominal thrusts (Heimlich)',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Life-Threatening Bleeding',
+				slug: 'bleeding-more-than-is-generally-recommended',
+				subtitle: 'Direct pressure, wound packing, and tourniquets',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Allergy Escalating Rather Quickly (Anaphylaxis)',
+				slug: 'allergy-escalating-rather-quickly',
+				subtitle: 'Immediate epinephrine auto-injector protocol',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Face Doing Something Weird on One Side (Stroke)',
+				slug: 'face-doing-something-weird-on-one-side',
+				subtitle: 'FAST stroke recognition and emergency activation',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Chest Feeling Unreasonably Heavy (Heart Attack)',
+				slug: 'chest-feeling-unreasonably-heavy',
+				subtitle: 'Acute coronary syndrome recognition and positioning',
+				category: 'medical',
+				threat_level: 5
+			}
+		],
+		de: [
+			{
+				title: 'Herz-Lungen-Wiederbelebung (CPR)',
+				slug: 'person-no-longer-breathing-for-some-reason',
+				subtitle: 'Reanimation 30:2 und AED-Einsatz bei Atemstillstand',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Person erstickt (Verschlucken)',
+				slug: 'person-currently-choking',
+				subtitle: '5 Rückenschläge und 5 Oberbauchkompressionen (Heimlich)',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Kritische Blutung',
+				slug: 'bleeding-more-than-is-generally-recommended',
+				subtitle: 'Direkter Druck, Wundtamponade und Tourniquet',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Allergischer Schock (Anaphylaxie)',
+				slug: 'allergy-escalating-rather-quickly',
+				subtitle: 'Sofortige Adrenalin-Autoinjektor-Gabe',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Schlaganfall (FAST-Schema)',
+				slug: 'face-doing-something-weird-on-one-side',
+				subtitle: 'FAST-Test zur schnellen Schlaganfallerkennung',
+				category: 'medical',
+				threat_level: 5
+			},
+			{
+				title: 'Herzinfarkt (Brustenge)',
+				slug: 'chest-feeling-unreasonably-heavy',
+				subtitle: 'Erkennung von akutem Koronarsyndrom und Ruhelagerung',
+				category: 'medical',
+				threat_level: 5
+			}
+		]
 	};
 
 	async function ensureIndexLoaded(targetLang: 'en' | 'de') {
@@ -88,7 +201,7 @@
 		const trimmed = query.trim();
 
 		if (!trimmed) {
-			searchResults = rawData.slice(0, 6);
+			searchResults = emergencyQuickPicks[lang];
 			selectedIndex = 0;
 			return;
 		}
@@ -114,31 +227,17 @@
 	});
 
 	$effect(() => {
-		// Reactive search execution when query changes
 		if (isOpen) {
 			executeSearch(searchQuery);
 		}
 	});
 
 	function handleKeyDown(e: KeyboardEvent) {
-		if (!isOpen) {
-			if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-				e.preventDefault();
-				isOpen = true;
-			} else if (
-				e.key === '/' &&
-				document.activeElement?.tagName !== 'INPUT' &&
-				document.activeElement?.tagName !== 'TEXTAREA'
-			) {
-				e.preventDefault();
-				isOpen = true;
-			}
-			return;
-		}
+		if (!isOpen) return;
 
 		if (e.key === 'Escape') {
 			e.preventDefault();
-			close();
+			closeModal();
 		} else if (e.key === 'ArrowDown') {
 			e.preventDefault();
 			if (searchResults.length > 0) {
@@ -151,215 +250,186 @@
 			}
 		} else if (e.key === 'Enter') {
 			e.preventDefault();
-			if (searchResults.length > 0 && searchResults[selectedIndex]) {
-				navigateToItem(searchResults[selectedIndex]);
+			if (searchResults[selectedIndex]) {
+				selectResult(searchResults[selectedIndex]);
 			}
 		}
 	}
 
-	function getItemUrl(item: any) {
-		if (item.is_page || item.category === 'editorial' || item.category === 'system') {
-			return `/${lang}/${item.slug}`;
-		}
-		return `/${lang}/guide/${item.slug}`;
-	}
-
-	function navigateToItem(item: any) {
-		const targetUrl = getItemUrl(item);
-		close();
+	function selectResult(item: any) {
+		closeModal();
+		// If item is a static page / editorial page, route to /{lang}/{slug}
+		const isPage = item.is_page || item.category === 'editorial' || item.category === 'system';
+		const targetUrl = isPage ? `/${lang}/${item.slug}` : `/${lang}/guide/${item.slug}`;
 		goto(targetUrl);
 	}
 
-	function close() {
+	function closeModal() {
 		isOpen = false;
 		if (onClose) onClose();
 	}
 
 	onMount(() => {
-		window.addEventListener('keydown', handleKeyDown);
-		return () => {
-			window.removeEventListener('keydown', handleKeyDown);
-		};
+		function onGlobalKeyDown(e: KeyboardEvent) {
+			// Cmd+K or Ctrl+K or /
+			if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+				e.preventDefault();
+				isOpen = !isOpen;
+			} else if (
+				e.key === '/' &&
+				!isOpen &&
+				document.activeElement?.tagName !== 'INPUT' &&
+				document.activeElement?.tagName !== 'TEXTAREA'
+			) {
+				e.preventDefault();
+				isOpen = true;
+			}
+		}
+
+		window.addEventListener('keydown', onGlobalKeyDown);
+		return () => window.removeEventListener('keydown', onGlobalKeyDown);
 	});
 </script>
 
-{#if isOpen}
-	<div
-		class="fixed inset-0 z-50 flex items-start justify-center pt-16 sm:pt-24 px-4 bg-black/80 backdrop-blur-md transition-opacity"
-		role="dialog"
-		aria-modal="true"
-		aria-label={lang === 'de' ? 'Suchfenster' : 'Search Dialog'}
-	>
-		<!-- Backdrop button -->
-		<button
-			type="button"
-			class="fixed inset-0 w-full h-full cursor-default bg-transparent"
-			onclick={close}
-			tabindex="-1"
-			aria-label="Close search"
-		></button>
+<svelte:window onkeydown={handleKeyDown} />
 
+{#if isOpen}
+	<!-- Backdrop -->
+	<div
+		class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-start justify-center p-4 sm:p-6 md:p-20 overflow-y-auto"
+		onclick={(e) => {
+			if (e.target === e.currentTarget) closeModal();
+		}}
+		onkeydown={(e) => {
+			if (e.target === e.currentTarget && (e.key === 'Escape' || e.key === 'Enter')) closeModal();
+		}}
+		role="dialog"
+		tabindex="-1"
+		aria-modal="true"
+		aria-label={lang === 'de' ? 'Notfall- und Wissenssuche' : 'Emergency & Knowledge Search'}
+	>
+		<!-- Modal Box -->
 		<div
-			class="relative w-full max-w-2xl overflow-hidden rounded-2xl bg-slate-900 border border-slate-700 shadow-2xl terminal-border-amber z-10 flex flex-col max-h-[80vh]"
+			class="w-full max-w-2xl rounded-2xl bg-slate-900 border border-slate-700/80 shadow-2xl overflow-hidden terminal-border flex flex-col my-auto sm:my-0"
 		>
 			<!-- Input Header -->
-			<div class="flex items-center px-4 py-3.5 border-b border-slate-800 bg-slate-950/90 shrink-0">
-				<Search class="w-5 h-5 text-amber-400 shrink-0 mr-3" />
+			<div class="relative flex items-center px-4 py-3.5 border-b border-slate-800 bg-slate-950/60">
+				<Search class="w-5 h-5 text-amber-400 shrink-0 ml-1" />
 				<input
 					bind:this={inputElement}
 					bind:value={searchQuery}
 					type="text"
 					placeholder={lang === 'de'
-						? 'Suche nach Gefahren, Symptomen oder Alltagsworten (z.B. Herzinfarkt, Haare stehen zu Berge, Gasgeruch)...'
-						: 'Search hazards, symptoms or colloquial phrases (e.g. heart attack, hair standing up, gas smell)...'}
-					class="w-full bg-transparent text-slate-100 placeholder:text-slate-500 focus:outline-none text-base font-sans"
-					autocomplete="off"
-					autocorrect="off"
-					spellcheck="false"
+						? 'Suche: Herzinfarkt, Blutung, Strom, Tsunami, Blitz...'
+						: 'Search: heart attack, bleeding, power line, tsunami, lightning...'}
+					class="w-full bg-transparent px-3.5 text-sm sm:text-base text-white placeholder-slate-500 focus:outline-none font-mono"
 				/>
 				{#if searchQuery}
 					<button
 						type="button"
 						onclick={() => (searchQuery = '')}
-						class="p-1 mr-1 text-slate-400 hover:text-slate-200"
-						aria-label="Clear query"
+						class="p-1 rounded-md text-slate-400 hover:text-white"
 					>
 						<X class="w-4 h-4" />
 					</button>
 				{/if}
 				<button
 					type="button"
-					onclick={close}
-					class="p-1 rounded-lg text-slate-400 hover:text-slate-200 hover:bg-slate-800"
-					aria-label="Close dialog"
+					onclick={closeModal}
+					class="ml-2 px-2 py-1 rounded bg-slate-800 text-[11px] font-mono text-slate-400 hover:text-white border border-slate-700"
 				>
-					<X class="w-5 h-5" />
+					ESC
 				</button>
 			</div>
 
-			<!-- Results list -->
-			<div class="overflow-y-auto p-2 divide-y divide-slate-800/60 flex-1">
+			<!-- Search Results / Initial Emergency Launcher -->
+			<div class="max-h-[60vh] overflow-y-auto p-2 divide-y divide-slate-800/40">
 				{#if isLoading}
-					<div class="p-8 text-center text-slate-400 font-mono text-xs">
-						{lang === 'de' ? 'Suchindex wird initialisiert...' : 'Initializing survival index...'}
+					<div class="py-12 text-center text-slate-400 font-mono text-xs">
+						{lang === 'de' ? 'Lade Suchindex...' : 'Loading search index...'}
 					</div>
-				{:else if searchResults.length === 0 && searchQuery.trim()}
-					<div class="p-8 text-center text-slate-400 space-y-2">
-						<div class="font-mono text-sm font-semibold text-slate-300">
-							{lang === 'de'
-								? 'Keine passenden Einträge gefunden'
-								: 'No matching survival entries found'}
-						</div>
-						<p class="text-xs text-slate-500 max-w-sm mx-auto">
-							{lang === 'de'
-								? 'Versuche es mit Begriffen wie „Brustschmerz“, „Verschluckt“, „Stromschlag“ oder „Gewitter“.'
-								: 'Try common terms such as "chest pain", "choking", "seizure", or "lightning".'}
-						</p>
-					</div>
-				{:else}
+				{:else if searchResults.length > 0}
+					<!-- Zero-query Emergency Launcher Banner -->
 					{#if !searchQuery.trim()}
 						<div
-							class="px-3 py-1.5 text-[11px] font-mono font-bold uppercase text-slate-500 flex items-center gap-1.5"
+							class="px-3 py-2 flex items-center gap-2 font-mono text-[10px] uppercase font-bold text-red-400"
 						>
-							<Sparkles class="w-3.5 h-3.5 text-amber-400" />
-							<span
-								>{lang === 'de'
-									? 'Empfohlene Notfall-Einträge'
-									: 'Suggested Emergency Guides'}</span
-							>
+							<ShieldAlert class="w-3.5 h-3.5 animate-pulse" />
+							<span>{lang === 'de' ? '// HÄUFIGE NOTFALL-SUCHEN' : '// COMMON URGENT LOOKUPS'}</span>
 						</div>
 					{/if}
 
-					{#each searchResults as item, index}
-						<a
-							href={getItemUrl(item)}
-							class="flex items-center justify-between p-3.5 rounded-xl transition-all {index ===
-							selectedIndex
-								? 'bg-amber-500/15 border border-amber-500/40 text-amber-100'
-								: 'hover:bg-slate-800/60 text-slate-200 border border-transparent'}"
-							onclick={(e) => {
-								e.preventDefault();
-								navigateToItem(item);
-							}}
-							onmouseenter={() => (selectedIndex = index)}
+					{#each searchResults as item, idx}
+						<button
+							type="button"
+							class="w-full text-left p-3 rounded-xl transition-all flex items-center justify-between gap-3 group {selectedIndex ===
+							idx
+								? 'bg-amber-500/15 border border-amber-500/40'
+								: 'hover:bg-slate-800/50 border border-transparent'}"
+							onclick={() => selectResult(item)}
+							onmouseenter={() => (selectedIndex = idx)}
 						>
-							<div class="space-y-1 pr-3 flex-1">
-								<div class="flex items-center gap-2">
+							<div class="space-y-1 min-w-0">
+								<div class="flex items-center gap-2 flex-wrap">
 									<span
-										class="font-mono text-[11px] font-bold uppercase {item.category === 'editorial'
-											? 'text-cyan-400'
-											: 'text-amber-400'}"
+										class="font-mono text-[10px] uppercase font-bold px-2 py-0.5 rounded {item.threat_level >=
+										4
+											? 'bg-red-950 text-red-300 border border-red-500/30'
+											: 'bg-amber-950 text-amber-300 border border-amber-500/30'}"
 									>
 										{item.category}
 									</span>
 									{#if item.threat_level > 0}
-										<span
-											class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-300"
-										>
+										<span class="font-mono text-[10px] text-slate-400">
 											L{item.threat_level}
-										</span>
-									{:else}
-										<span
-											class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400"
-										>
-											INFO
 										</span>
 									{/if}
 								</div>
-								<div class="text-base font-semibold text-white">
+
+								<div
+									class="text-sm font-mono font-bold text-white group-hover:text-amber-300 transition-colors truncate"
+								>
 									{item.title}
 								</div>
-								{#if item.memory_hook}
-									<p class="text-xs text-cyan-300/80 italic leading-relaxed">
-										"{item.memory_hook}"
+
+								{#if item.subtitle || item.memory_hook}
+									<p class="text-xs text-slate-400 truncate font-sans">
+										{item.subtitle || item.memory_hook}
 									</p>
 								{/if}
 							</div>
 
-							<div class="shrink-0 text-slate-500 flex items-center gap-1.5">
-								{#if index === selectedIndex}
-									<CornerDownLeft class="w-3.5 h-3.5 text-amber-400" />
-								{:else}
-									<ArrowRight class="w-4 h-4" />
-								{/if}
+							<div class="shrink-0 text-slate-500 group-hover:text-amber-400">
+								<CornerDownLeft class="w-4 h-4" />
 							</div>
-						</a>
+						</button>
 					{/each}
+				{:else}
+					<div class="py-12 text-center space-y-2">
+						<p class="font-mono text-sm text-slate-300">
+							{lang === 'de'
+								? `Keine Treffer für "${searchQuery}"`
+								: `No survival guide found for "${searchQuery}"`}
+						</p>
+						<p class="text-xs text-slate-500">
+							{lang === 'de'
+								? 'Versuche es mit Synonymen oder schau in die Notfall-Kategorien.'
+								: 'Try broad keywords like "burns", "cpr", or check emergency categories.'}
+						</p>
+					</div>
 				{/if}
 			</div>
 
-			<!-- Footer hints -->
+			<!-- Keyboard Footer Shortcuts -->
 			<div
-				class="px-4 py-2.5 bg-slate-950/90 border-t border-slate-800/80 flex items-center justify-between text-[11px] font-mono text-slate-400 shrink-0"
+				class="px-4 py-2.5 bg-slate-950 border-t border-slate-800 flex items-center justify-between text-[11px] font-mono text-slate-500"
 			>
 				<div class="flex items-center gap-3">
-					<span
-						><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300"
-							>↑↓</kbd
-						>
-						{lang === 'de' ? 'navigieren' : 'navigate'}</span
-					>
-					<span
-						><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300"
-							>↵</kbd
-						>
-						{lang === 'de' ? 'öffnen' : 'select'}</span
-					>
-					<span
-						><kbd class="px-1.5 py-0.5 rounded bg-slate-800 border border-slate-700 text-slate-300"
-							>esc</kbd
-						>
-						{lang === 'de' ? 'schließen' : 'close'}</span
-					>
+					<span><strong class="text-slate-400">↑↓</strong> {lang === 'de' ? 'Navigieren' : 'Navigate'}</span>
+					<span><strong class="text-slate-400">↵</strong> {lang === 'de' ? 'Öffnen' : 'Select'}</span>
+					<span><strong class="text-slate-400">ESC</strong> {lang === 'de' ? 'Schließen' : 'Close'}</span>
 				</div>
-				<a
-					href="/{lang}/emergency"
-					onclick={close}
-					class="text-red-400 hover:text-red-300 font-semibold flex items-center gap-1"
-				>
-					<ShieldAlert class="w-3.5 h-3.5" />
-					<span>{lang === 'de' ? 'Notfall-Schnellhilfe' : 'Emergency Basics'}</span>
-				</a>
+				<span class="hidden sm:inline text-amber-500/80">Mostly Alive Search</span>
 			</div>
 		</div>
 	</div>

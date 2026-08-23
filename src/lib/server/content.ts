@@ -140,7 +140,19 @@ export function getSearchIndex(lang: 'en' | 'de') {
 		aliases: a.aliases.join(' '),
 		memory_hook: a.memory_hook,
 		memorable_facts: (a.memorable_facts || []).join(' '),
-		immediate_action: a.immediate_action.join(' '),
+		immediate_action: a.immediate_action
+			.map((item) =>
+				typeof item === 'string'
+					? item
+					: [
+							item.title,
+							item.instruction,
+							...(item.substeps || []),
+							...(item.variants?.map((v) => `${v.condition}: ${v.action}`) || []),
+							item.note || ''
+						].join(' ')
+			)
+			.join(' '),
 		body: a.body,
 		severity: a.severity,
 		urgency: a.urgency,

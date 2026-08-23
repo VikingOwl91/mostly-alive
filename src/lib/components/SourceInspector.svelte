@@ -36,8 +36,10 @@
 	<!-- Summary bar / Clickable trigger -->
 	<button
 		type="button"
-		class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-slate-800/40 transition-colors"
+		class="w-full px-5 py-4 flex items-center justify-between text-left hover:bg-slate-800/40 transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500/50"
 		onclick={() => (isOpen = !isOpen)}
+		aria-expanded={isOpen}
+		aria-controls="provenance-details"
 	>
 		<div class="flex items-center gap-3">
 			<div class="p-1.5 rounded bg-emerald-500/10 text-emerald-400">
@@ -81,7 +83,7 @@
 
 	<!-- Expandable detail body -->
 	{#if isOpen}
-		<div class="px-5 pb-5 pt-2 border-t border-slate-800 space-y-4 text-xs">
+		<div id="provenance-details" class="px-5 pb-5 pt-2 border-t border-slate-800 space-y-4 text-xs">
 			<!-- Review metadata -->
 			<div
 				class="grid grid-cols-1 sm:grid-cols-3 gap-3 p-3 rounded-lg bg-slate-950/60 font-mono text-slate-300"

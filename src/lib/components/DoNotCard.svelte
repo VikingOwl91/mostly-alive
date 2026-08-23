@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { XCircle } from '@lucide/svelte';
+	import { XCircle, AlertOctagon } from '@lucide/svelte';
 
 	interface Props {
 		items: string[];
@@ -7,23 +7,75 @@
 	}
 
 	let { items = [], lang = 'en' }: Props = $props();
+
+	interface ParsedMistake {
+		prohibition: string;
+		why?: string;
+	}
+
+	function parseMistake(item: string): ParsedMistake {
+		// Matches: "Do not do X (Because Y)." or "Niemals X tun (Weil Y)."
+		const parenMatch = item.match(/^(.*?)\s*\((.*?)\)\.?$/s);
+		if (parenMatch) {
+			return {
+				prohibition: parenMatch[1].trim(),
+				why: parenMatch[2].trim()
+			};
+		}
+
+		// Matches: "Prohibition: Reason"
+		const colonMatch = item.match(/^([^:]+):\s+(.+)$/s);
+		if (colonMatch && colonMatch[1].length < 60) {
+			return {
+				prohibition: colonMatch[1].trim(),
+				why: colonMatch[2].trim()
+			};
+		}
+
+		return {
+			prohibition: item.trim()
+		};
+	}
+
+	let parsedItems = $derived(items.map(parseMistake));
 </script>
 
 {#if items.length > 0}
-	<div class="my-6 rounded-xl border border-red-500/30 bg-red-950/15 p-5">
+	<section
+		class="my-6 rounded-2xl border border-red-500/30 bg-red-950/15 p-5 sm:p-6"
+		aria-labelledby="donot-heading"
+	>
+		<!-- Header -->
 		<div class="flex items-center gap-2.5 pb-3 border-b border-red-500/20 text-red-400">
-			<XCircle class="w-5 h-5" />
-			<h3 class="font-mono text-xs font-bold uppercase tracking-wider">
-				{lang === 'de' ? 'UNBEDINGT VERMEIDEN (GEFÄHRLICHE FEHLER)' : 'DO NOT (CRITICAL MISTAKES)'}
-			</h3>
+			<AlertOctagon class="w-5 h-5 shrink-0" />
+			<h2 id="donot-heading" class="font-mono text-xs font-black uppercase tracking-wider">
+				{lang === 'de'
+					? '// KRITISCHE FEHLER (UNBEDINGT VERMEIDEN)'
+					: '// CRITICAL MISTAKES (DO NOT)'}
+			</h2>
 		</div>
-		<ul class="mt-3.5 space-y-2.5">
-			{#each items as item}
-				<li class="flex items-start gap-2.5 text-sm text-slate-200">
-					<span class="text-red-400 font-bold shrink-0 mt-0.5">✕</span>
-					<span class="leading-relaxed">{item}</span>
+
+		<!-- List of prohibited actions with short explanations -->
+		<ul class="mt-4 space-y-3.5">
+			{#each parsedItems as mistake}
+				<li class="space-y-1">
+					<!-- Primary Prohibition (High-Contrast Red Anchor) -->
+					<div class="flex items-start gap-2.5 text-sm sm:text-base font-semibold text-red-200">
+						<span class="text-red-400 font-bold shrink-0 mt-0.5 select-none">✕</span>
+						<span class="leading-snug">{mistake.prohibition}</span>
+					</div>
+
+					<!-- Secondary Explanation (Visually quieter, indented) -->
+					{#if mistake.why}
+						<div class="pl-5 text-xs sm:text-sm text-slate-300 font-normal leading-relaxed">
+							<span class="font-mono text-[10px] uppercase font-bold text-red-400/80 mr-1"
+								>{lang === 'de' ? 'WARUM:' : 'WHY:'}</span
+							>
+							{mistake.why}
+						</div>
+					{/if}
 				</li>
 			{/each}
 		</ul>
-	</div>
+	</section>
 {/if}

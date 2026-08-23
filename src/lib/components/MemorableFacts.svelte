@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Sparkles, Brain, Lightbulb } from '@lucide/svelte';
+	import { Brain, Sparkles } from '@lucide/svelte';
 
 	interface Props {
 		facts?: string[];
@@ -7,41 +7,71 @@
 	}
 
 	let { facts = [], lang = 'en' }: Props = $props();
+
+	interface ParsedFact {
+		badge: string;
+		explanation: string;
+	}
+
+	function parseFact(fact: string): ParsedFact {
+		const match = fact.match(/^([^:]+):\s+(.+)$/s);
+		if (match && match[1].length < 80) {
+			return {
+				badge: match[1].trim(),
+				explanation: match[2].trim()
+			};
+		}
+		return {
+			badge: '',
+			explanation: fact.trim()
+		};
+	}
+
+	let parsedFacts = $derived(facts.map(parseFact));
 </script>
 
 {#if facts && facts.length > 0}
 	<aside
-		class="my-8 rounded-2xl border border-cyan-500/30 bg-slate-950/90 p-5 sm:p-6 shadow-[0_0_25px_rgba(6,182,212,0.06)] space-y-4"
+		class="my-8 rounded-2xl border border-slate-800 bg-slate-950/70 p-5 sm:p-6 space-y-4"
 		aria-label={lang === 'de'
 			? 'Wissenswerte Fakten und Eselsbrücken'
 			: 'Memorable facts and mnemonics'}
 	>
+		<!-- Neutral Secondary Learning Header -->
 		<div class="flex items-center justify-between gap-2 border-b border-slate-800/80 pb-3">
 			<div
-				class="flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-wider text-cyan-400"
+				class="flex items-center gap-2 font-mono text-xs font-bold uppercase tracking-wider text-slate-400"
 			>
-				<Brain class="w-4 h-4 text-cyan-400" />
+				<Brain class="w-4 h-4 text-slate-400" />
 				<span>
 					{lang === 'de'
-						? '// OFFENSICHTLICH, ABER LEBENSWICHTIG QUANTIFIZIERT'
-						: '// OBVIOUS FACT, USEFULLY QUANTIFIED'}
+						? '// WISSENSWERTE FAKTEN & HINTERGRÜNDE'
+						: '// MEMORABLE RETENTION FACTS'}
 				</span>
 			</div>
 			<span
-				class="font-mono text-[10px] uppercase px-2 py-0.5 rounded bg-cyan-950 border border-cyan-800/50 text-cyan-300"
+				class="font-mono text-[10px] uppercase px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-slate-400"
 			>
-				{lang === 'de' ? 'Gedächtnisstütze' : 'Memory Retention'}
+				{lang === 'de' ? 'Hintergrundwissen' : 'Context'}
 			</span>
 		</div>
 
-		<div class="space-y-3 text-sm text-slate-300 leading-relaxed font-sans">
-			{#each facts as fact}
-				<div class="flex items-start gap-3">
-					<div class="shrink-0 mt-1">
-						<Sparkles class="w-4 h-4 text-amber-400" />
-					</div>
-					<p class="text-slate-300 font-medium">
-						{fact}
+		<!-- Facts list with prominent key badges -->
+		<div class="space-y-4 text-xs sm:text-sm font-sans">
+			{#each parsedFacts as item}
+				<div class="space-y-1.5">
+					{#if item.badge}
+						<div class="flex items-center gap-2">
+							<Sparkles class="w-3.5 h-3.5 text-amber-400/80 shrink-0" />
+							<span
+								class="font-mono text-[11px] font-bold uppercase px-2 py-0.5 rounded bg-slate-900 border border-slate-800 text-amber-300 tracking-wide"
+							>
+								{item.badge}
+							</span>
+						</div>
+					{/if}
+					<p class="text-slate-300 leading-relaxed font-medium pl-5.5">
+						{item.explanation}
 					</p>
 				</div>
 			{/each}

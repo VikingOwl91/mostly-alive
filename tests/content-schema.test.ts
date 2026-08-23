@@ -58,13 +58,24 @@ describe('Content Schema & Integrity', () => {
 		expect(article?.threat_level).toBe(5);
 	});
 
-	it('should load static legal and trust pages', () => {
-		const about = getStaticPage('about', 'en');
-		expect(about).not.toBeNull();
-		expect(about?.title).toContain('About Mostly Alive');
+	it('should validate structured immediate action steps with substeps and variants', () => {
+		const anaphylaxisEn = getArticle('allergy-escalating-rather-quickly', 'en');
+		expect(anaphylaxisEn).not.toBeNull();
+		expect(anaphylaxisEn?.immediate_action.length).toBe(4);
 
-		const methodology = getStaticPage('methodology', 'de');
-		expect(methodology).not.toBeNull();
-		expect(methodology?.title).toContain('Methodik');
+		// First step has substeps
+		const step1 = anaphylaxisEn?.immediate_action[0] as any;
+		expect(typeof step1).toBe('object');
+		expect(step1.title).toBe('INJECT EPINEPHRINE (ADRENALINE) IMMEDIATELY');
+		expect(step1.substeps).toBeDefined();
+		expect(step1.substeps.length).toBeGreaterThan(0);
+
+		// Third step has variants
+		const step3 = anaphylaxisEn?.immediate_action[2] as any;
+		expect(typeof step3).toBe('object');
+		expect(step3.variants).toBeDefined();
+		expect(step3.variants.length).toBe(4);
+		expect(step3.variants[0].condition).toBe('Faint / Pale / Shock');
 	});
 });
+

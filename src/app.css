@@ -14,6 +14,12 @@
 	--color-obsidian-750: #151d2f;
 	--color-obsidian-700: #1b263c;
 
+	/* Mostly Alive Semantic Design Tokens:
+	 * RED   = Danger / Immediate Life-Threatening Action / Prohibitions / Threat Level 5
+	 * AMBER = Navigation / Taxonomy / Attention / Caution / Threat Levels 3-4
+	 * CYAN  = Learning / Memory Retention / Discovery / Memory Hooks
+	 * GREEN = Trust / Clinical Verification / Validated Provenance / Success
+	 */
 	--color-hazard-amber: #f59e0b;
 	--color-hazard-amber-glow: #fbbf24;
 	--color-hazard-red: #ef4444;

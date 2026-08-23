@@ -66,6 +66,24 @@ export const RegionalVariationSchema = z.object({
 });
 export type RegionalVariation = z.infer<typeof RegionalVariationSchema>;
 
+export const ImmediateActionVariantSchema = z.object({
+	condition: z.string().min(1, 'Variant condition is required'),
+	action: z.string().min(1, 'Variant action is required')
+});
+export type ImmediateActionVariant = z.infer<typeof ImmediateActionVariantSchema>;
+
+export const ImmediateActionStepSchema = z.object({
+	title: z.string().min(1, 'Step title is required'),
+	instruction: z.string().min(1, 'Step instruction is required'),
+	substeps: z.array(z.string()).optional(),
+	variants: z.array(ImmediateActionVariantSchema).optional(),
+	note: z.string().optional()
+});
+export type ImmediateActionStep = z.infer<typeof ImmediateActionStepSchema>;
+
+export const ImmediateActionItemSchema = z.union([z.string(), ImmediateActionStepSchema]);
+export type ImmediateActionItem = z.infer<typeof ImmediateActionItemSchema>;
+
 export const ArticleFrontmatterSchema = z.object({
 	slug: z
 		.string()
@@ -91,7 +109,9 @@ export const ArticleFrontmatterSchema = z.object({
 	sources: z.array(SourceReferenceSchema).default([]),
 	memory_hook: z.string().min(1, 'Memory hook must be defined'),
 	memorable_facts: z.array(z.string()).optional(),
-	immediate_action: z.array(z.string()).min(1, 'At least one immediate action required'),
+	immediate_action: z
+		.array(ImmediateActionItemSchema)
+		.min(1, 'At least one immediate action required'),
 	do_not: z.array(z.string()).default([]),
 	why_this_happens: z.string().optional(),
 	what_happens_next: z.string().optional(),
