@@ -4,6 +4,7 @@
 	import Breadcrumbs from '$lib/components/Breadcrumbs.svelte';
 	import SeoHead from '$lib/components/SeoHead.svelte';
 	import { buildCategorySeo } from '$lib/seo';
+	import { getImmediateActionPreview } from '$lib/types/content';
 
 	let { data } = $props();
 
@@ -73,9 +74,17 @@
 							</p>
 						{/if}
 
-						<p class="text-xs text-slate-300 leading-relaxed font-sans">
-							{article.immediate_action[0]}
-						</p>
+						{#if article.immediate_action && article.immediate_action.length > 0}
+							{@const actionPreview = getImmediateActionPreview(article.immediate_action[0])}
+							{#if actionPreview.instruction || actionPreview.title}
+								<p class="text-xs text-slate-300 leading-relaxed font-sans line-clamp-2">
+									{#if actionPreview.title}
+										<strong class="font-mono text-cyan-400 font-bold uppercase text-[11px] tracking-wide mr-1.5">{actionPreview.title}:</strong>
+									{/if}
+									<span>{actionPreview.instruction}</span>
+								</p>
+							{/if}
+						{/if}
 					</div>
 
 					<div

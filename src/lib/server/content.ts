@@ -3,6 +3,7 @@ import { marked } from 'marked';
 import {
 	ArticleFrontmatterSchema,
 	PageFrontmatterSchema,
+	flattenImmediateActionForSearch,
 	type Article,
 	type Category,
 	type StaticPage
@@ -205,19 +206,7 @@ export function getSearchIndex(lang: 'en' | 'de') {
 		aliases: a.aliases.join(' '),
 		memory_hook: a.memory_hook,
 		memorable_facts: (a.memorable_facts || []).join(' '),
-		immediate_action: a.immediate_action
-			.map((item) =>
-				typeof item === 'string'
-					? item
-					: [
-							item.title,
-							item.instruction,
-							...(item.substeps || []),
-							...(item.variants?.map((v) => `${v.condition}: ${v.action}`) || []),
-							item.note || ''
-						].join(' ')
-			)
-			.join(' '),
+		immediate_action: a.immediate_action.map(flattenImmediateActionForSearch).join(' '),
 		body: a.body,
 		severity: a.severity,
 		urgency: a.urgency,

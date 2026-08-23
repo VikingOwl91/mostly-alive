@@ -4,6 +4,7 @@
 	import MemoryHook from '$lib/components/MemoryHook.svelte';
 	import SeoHead from '$lib/components/SeoHead.svelte';
 	import { buildRandomSeo } from '$lib/seo';
+	import { getImmediateActionPreview } from '$lib/types/content';
 	import { invalidateAll } from '$app/navigation';
 
 	let { data } = $props();
@@ -96,15 +97,29 @@
 				</div>
 			{/if}
 
-			<div class="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
-				<div class="font-mono text-xs font-bold uppercase text-amber-400 flex items-center gap-1.5">
-					<ShieldAlert class="w-3.5 h-3.5 text-amber-400" />
-					<span>{data.lang === 'de' ? 'Wichtigste Sofortmaßnahme:' : 'Key Immediate Action:'}</span>
-				</div>
-				<p class="text-sm text-slate-200 leading-relaxed font-medium font-sans">
-					{data.article.immediate_action[0]}
-				</p>
-			</div>
+			{#if data.article.immediate_action && data.article.immediate_action.length > 0}
+				{@const primaryAction = getImmediateActionPreview(data.article.immediate_action[0])}
+				{#if primaryAction.instruction || primaryAction.title}
+					<div class="p-4 rounded-xl bg-slate-950 border border-slate-800 space-y-2">
+						<div
+							class="font-mono text-xs font-bold uppercase text-amber-400 flex items-center gap-1.5"
+						>
+							<ShieldAlert class="w-3.5 h-3.5 text-amber-400" />
+							<span>{data.lang === 'de' ? 'Wichtigste Sofortmaßnahme:' : 'Key Immediate Action:'}</span>
+						</div>
+						{#if primaryAction.title}
+							<div class="font-mono text-xs font-black uppercase text-amber-300 tracking-wider">
+								{primaryAction.title}
+							</div>
+						{/if}
+						{#if primaryAction.instruction}
+							<p class="text-sm text-slate-200 leading-relaxed font-medium font-sans">
+								{primaryAction.instruction}
+							</p>
+						{/if}
+					</div>
+				{/if}
+			{/if}
 
 			<!-- Actions -->
 			<div class="pt-4 flex flex-wrap items-center justify-between gap-4 border-t border-slate-800">

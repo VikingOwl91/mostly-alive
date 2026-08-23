@@ -1,6 +1,10 @@
 <script lang="ts">
 	import { AlertTriangle, ShieldAlert, CornerDownRight, ArrowRight, Info } from '@lucide/svelte';
-	import type { ImmediateActionItem, ImmediateActionStep } from '$lib/types/content';
+	import {
+		type ImmediateActionItem,
+		type NormalizedImmediateActionStep,
+		normalizeImmediateAction
+	} from '$lib/types/content';
 
 	interface Props {
 		actions: ImmediateActionItem[];
@@ -11,45 +15,7 @@
 	let { actions = [], lang = 'en', urgency = 'high' }: Props = $props();
 
 	const isImmediate = $derived(urgency === 'immediate');
-
-	interface NormalizedStep {
-		title: string;
-		instruction: string;
-		substeps?: string[];
-		variants?: Array<{ condition: string; action: string }>;
-		note?: string;
-	}
-
-	function normalizeAction(item: ImmediateActionItem): NormalizedStep {
-		if (typeof item !== 'string') {
-			return item;
-		}
-
-		// Parse legacy string format: "1. TITLE: Instruction text."
-		const numberedMatch = item.match(/^(?:\d+[\.\)]\s*)?([A-ZÄÖÜ\s\-\/\(\)]{3,}?):?\s+(.*)$/s);
-		if (numberedMatch) {
-			return {
-				title: numberedMatch[1].trim().replace(/^[\d\.\s]+/, ''),
-				instruction: numberedMatch[2].trim()
-			};
-		}
-
-		// Fallback for simple strings
-		const parts = item.split(': ');
-		if (parts.length > 1 && parts[0].length < 40) {
-			return {
-				title: parts[0].replace(/^\d+[\.\)]\s*/, '').trim(),
-				instruction: parts.slice(1).join(': ').trim()
-			};
-		}
-
-		return {
-			title: '',
-			instruction: item.replace(/^\d+[\.\)]\s*/, '').trim()
-		};
-	}
-
-	let normalizedActions = $derived(actions.map(normalizeAction));
+	let normalizedActions = $derived(actions.map(normalizeImmediateAction));
 </script>
 
 <section

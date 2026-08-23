@@ -84,6 +84,115 @@ export type ImmediateActionStep = z.infer<typeof ImmediateActionStepSchema>;
 export const ImmediateActionItemSchema = z.union([z.string(), ImmediateActionStepSchema]);
 export type ImmediateActionItem = z.infer<typeof ImmediateActionItemSchema>;
 
+export interface NormalizedImmediateActionStep {
+	title: string;
+	instruction: string;
+	substeps?: string[];
+	variants?: Array<{ condition: string; action: string }>;
+	note?: string;
+}
+
+/**
+ * Normalizes an immediate action item (legacy string or structured step)
+ * into a canonical structured step.
+ */
+export function normalizeImmediateAction(item: ImmediateActionItem | undefined | null): NormalizedImmediateActionStep {
+	if (!item) {
+		return { title: '', instruction: '' };
+	}
+	if (typeof item !== 'string') {
+		return {
+			title: (item.title || '').trim(),
+			instruction: (item.instruction || '').trim(),
+			substeps: item.substeps,
+			variants: item.variants,
+			note: item.note
+		};
+	}
+
+	const str = item.trim();
+
+	// Parse legacy string format with colon: "1. TITLE: Instruction text."
+	const colonIndex = str.indexOf(':');
+	if (colonIndex > 0 && colonIndex < 80) {
+		const rawTitle = str.slice(0, colonIndex).replace(/^\d+[\.\)]\s*/, '').trim();
+		const rawInstruction = str.slice(colonIndex + 1).trim();
+		if (rawTitle && rawInstruction) {
+			return {
+				title: rawTitle,
+				instruction: rawInstruction
+			};
+		}
+	}
+
+	// Parse legacy uppercase title format without colon: "1. TITLE Instruction text."
+	const numberedMatch = str.match(/^(?:\d+[\.\)]\s*)?([A-ZÄÖÜ\s\-\/\(\)]{3,})\s+(.*)$/s);
+	if (numberedMatch) {
+		return {
+			title: numberedMatch[1].trim().replace(/^[\d\.\s]+/, ''),
+			instruction: numberedMatch[2].trim()
+		};
+	}
+
+	return {
+		title: '',
+		instruction: str.replace(/^\d+[\.\)]\s*/, '').trim()
+	};
+}
+
+/**
+ * Extracts a concise, human-readable preview from the primary immediate action.
+ * Returns title, instruction, and a combined formatted string.
+ */
+export function getImmediateActionPreview(item: ImmediateActionItem | undefined | null): {
+	title: string;
+	instruction: string;
+	formatted: string;
+} {
+	if (!item) {
+		return { title: '', instruction: '', formatted: '' };
+	}
+	const normalized = normalizeImmediateAction(item);
+	const title = normalized.title;
+	const instruction = normalized.instruction;
+
+	let formatted = '';
+	if (title && instruction) {
+		formatted = `${title}: ${instruction}`;
+	} else if (instruction) {
+		formatted = instruction;
+	} else if (title) {
+		formatted = title;
+	}
+
+	return { title, instruction, formatted };
+}
+
+/**
+ * Extracts all searchable text from an immediate action item (deep flattening for search).
+ */
+export function flattenImmediateActionForSearch(item: ImmediateActionItem | undefined | null): string {
+	if (!item) return '';
+	if (typeof item === 'string') {
+		return item.trim();
+	}
+	const parts: string[] = [];
+	if (item.title) parts.push(item.title.trim());
+	if (item.instruction) parts.push(item.instruction.trim());
+	if (item.substeps && item.substeps.length > 0) {
+		for (const s of item.substeps) {
+			if (s && s.trim()) parts.push(s.trim());
+		}
+	}
+	if (item.variants && item.variants.length > 0) {
+		for (const v of item.variants) {
+			if (v.condition && v.action) parts.push(`${v.condition.trim()}: ${v.action.trim()}`);
+		}
+	}
+	if (item.note && item.note.trim()) parts.push(item.note.trim());
+	return parts.join(' ');
+}
+
 export const ArticleFrontmatterSchema = z.object({
 	slug: z
 		.string()
