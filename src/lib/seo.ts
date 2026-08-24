@@ -11,7 +11,7 @@ import { CATEGORIES, type Article, type Category, type StaticPage } from './type
  * All canonical URLs, hreflang links, OpenGraph URLs, JSON-LD identifiers,
  * sitemap entries, and social image assets MUST derive from this value.
  */
-export const SITE_URL = 'https://mostly-alive.christian-d81.workers.dev';
+export const SITE_URL = 'https://mostly-alive.nachtigall.dev';
 export const SITE_NAME = 'Mostly Alive';
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/social-card.png`;
 export const DEFAULT_OG_IMAGE_WIDTH = 1200;

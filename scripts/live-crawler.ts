@@ -2,7 +2,7 @@
  * Mostly Alive — Comprehensive Live Production Crawler & Full Site Audit
  */
 
-const BASE_URL = 'https://mostly-alive.christian-d81.workers.dev';
+const BASE_URL = 'https://mostly-alive.nachtigall.dev';
 
 interface CheckResult {
 	url: string;

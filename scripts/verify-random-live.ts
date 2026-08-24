@@ -2,7 +2,7 @@
  * Live Verification Script for Structured Immediate Action Regression Fix
  */
 
-const BASE_URL = 'https://mostly-alive.christian-d81.workers.dev';
+const BASE_URL = 'https://mostly-alive.nachtigall.dev';
 
 async function testRandomRolls(lang: 'en' | 'de', sampleCount = 20) {
 	console.log(`🎲 Sampling ${sampleCount} live random rolls on /${lang}/random...`);

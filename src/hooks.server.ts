@@ -2,6 +2,22 @@ import type { Handle } from '@sveltejs/kit';
 import { verifySession, isUserAuthorized, getSecret } from '$lib/server/auth';
 
 export const handle: Handle = async ({ event, resolve }) => {
+	const host = event.url.hostname || event.request.headers.get('host')?.split(':')[0] || '';
+
+	// Permanent 301 Redirect from legacy Cloudflare Workers hostname to authoritative production domain
+	if (
+		host === 'mostly-alive.christian-d81.workers.dev' ||
+		event.request.headers.get('host')?.startsWith('mostly-alive.christian-d81.workers.dev')
+	) {
+		const targetUrl = `https://mostly-alive.nachtigall.dev${event.url.pathname}${event.url.search}`;
+		return new Response(null, {
+			status: 301,
+			headers: {
+				Location: targetUrl
+			}
+		});
+	}
+
 	const pathname = event.url.pathname;
 	const lang = pathname.startsWith('/de') ? 'de' : 'en';
 

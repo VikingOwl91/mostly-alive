@@ -4,4 +4,4 @@ Disallow: /editor/
 Disallow: /api/
 Disallow: /*/random$
 
-Sitemap: https://mostly-alive.christian-d81.workers.dev/sitemap.xml
+Sitemap: https://mostly-alive.nachtigall.dev/sitemap.xml
